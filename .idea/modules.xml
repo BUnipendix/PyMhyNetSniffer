@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/MihoyoNetSniffer.iml" filepath="$PROJECT_DIR$/.idea/MihoyoNetSniffer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/PyMhyNetSniffer.iml" filepath="$PROJECT_DIR$/.idea/PyMhyNetSniffer.iml" />
     </modules>
   </component>
 </project>
