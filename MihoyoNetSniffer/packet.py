@@ -1,7 +1,6 @@
 import traceback
 from dataclasses import dataclass
 from enum import IntEnum
-from os import PathLike
 from queue import SimpleQueue
 from threading import Thread
 
