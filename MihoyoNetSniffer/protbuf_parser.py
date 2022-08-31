@@ -1,7 +1,7 @@
 import os.path
 import sys
 from importlib.util import spec_from_file_location, module_from_spec
-
+from concurrent.futures import ThreadPoolExecutor
 from .packet import RawPacket
 
 parser_code_path = os.path.dirname(os.path.abspath(__file__)) + os.sep + 'generated_python_code'
@@ -20,14 +20,24 @@ def module_import_helper(cmd_name):
 
 
 def load_parsers(file):
+	def load_core(name, packet_id):
+		cmd_id_map[packet_id] = module_import_helper(name)
+		cmd_name_map[name] = packet_id
+
+	thread_pool = ThreadPoolExecutor()
 	cmd_id_map = {}
 	cmd_name_map = {}
+	tasks = []
 	for line in file.readlines():
 		cmd_name, cmd_id = line.split(',')
 		cmd_id = int(cmd_id[:-1])
-		cmd_id_map[cmd_id] = module_import_helper(cmd_name)
-		cmd_name_map[cmd_name] = cmd_id
-	return cmd_id_map, cmd_name_map, module_import_helper('PacketHead')
+		tasks.append(thread_pool.submit(load_core, cmd_name, cmd_id))
+	head_load = thread_pool.submit(module_import_helper, 'PacketHead')
+	for task in tasks:
+		task.result()
+	head_load = head_load.result()
+	thread_pool.shutdown()
+	return cmd_id_map, cmd_name_map, head_load
 
 
 class ProtobufParser:

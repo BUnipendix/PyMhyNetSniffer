@@ -33,7 +33,7 @@ class RawPacket:
 
 
 class GameNetwork:
-	def __init__(self, name, dump_file: PathLike = None):
+	def __init__(self, name, dump_file: str = None):
 		self._pipe = CreateNamedPipe(
 			'\\\\.\\pipe\\' + name,
 			PIPE_ACCESS_DUPLEX, PIPE_TYPE_BYTE | PIPE_READMODE_BYTE | PIPE_WAIT,

@@ -16,7 +16,7 @@ class ParsedPacket:
 
 
 class Sniffer:
-	def __init__(self, cmdid_path, pipe_name='genshin_packet_pipe', dump_file: PathLike = None):
+	def __init__(self, cmdid_path, pipe_name='genshin_packet_pipe', dump_file: str = None):
 		self.socket_client = GameNetwork(pipe_name, dump_file)
 		self.protobuf_parser = ProtobufParser(cmdid_path)
 		self.handle = {}
@@ -50,9 +50,9 @@ class Sniffer:
 
 	def _packet_process_loop(self, override_func=None):
 		if override_func:
-			get_packet = override_func()
+			get_packet = override_func
 		else:
-			get_packet = self.socket_client.get_packet()
+			get_packet = self.socket_client.get_packet
 		while True:
 			raw_packet = get_packet()
 			if raw_packet is None:
