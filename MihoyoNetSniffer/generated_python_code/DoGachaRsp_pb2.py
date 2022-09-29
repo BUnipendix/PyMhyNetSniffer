@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import GachaItem_pb2 as GachaItem__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10\x44oGachaRsp.proto\x1a\x0fGachaItem.proto\"\xbb\x03\n\nDoGachaRsp\x12\x1c\n\x13Unk2700_LEEPELHDING\x18\x9b\x0b \x01(\x08\x12\x19\n\x11gacha_schedule_id\x18\x05 \x01(\r\x12\x14\n\x0cwish_item_id\x18\x08 \x01(\r\x12\x0f\n\x07retcode\x18\r \x01(\x05\x12\x15\n\rcost_item_num\x18\n \x01(\r\x12\x19\n\x11gacha_times_limit\x18\x01 \x01(\r\x12\x14\n\x0c\x63ost_item_id\x18\x0e \x01(\r\x12\x12\n\ngacha_type\x18\x0c \x01(\r\x12\x18\n\x10ten_cost_item_id\x18\x07 \x01(\r\x12\x19\n\x11wish_max_progress\x18\t \x01(\r\x12\x1c\n\x13Unk2700_OJKKHDLEDCI\x18\xd8\t \x01(\r\x12\x19\n\x11ten_cost_item_num\x18\x03 \x01(\r\x12\x18\n\x10left_gacha_times\x18\x06 \x01(\r\x12\x15\n\rwish_progress\x18\x02 \x01(\r\x12\x13\n\x0bgacha_times\x18\x04 \x01(\r\x12#\n\x0fgacha_item_list\x18\x0f \x03(\x0b\x32\n.GachaItem\x12\x18\n\x10new_gacha_random\x18\x0b \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10\x44oGachaRsp.proto\x1a\x0fGachaItem.proto\"\xf7\x03\n\nDoGachaRsp\x12\x1c\n\x13Unk3100_JKILPCKLNPI\x18\x9b\x01 \x01(\r\x12\x15\n\rcost_item_num\x18\n \x01(\r\x12\x19\n\x11wish_max_progress\x18\t \x01(\r\x12\x14\n\x0cwish_item_id\x18\x08 \x01(\r\x12\x0f\n\x07retcode\x18\r \x01(\x05\x12\x19\n\x11ten_cost_item_num\x18\x03 \x01(\r\x12\x15\n\rwish_progress\x18\x02 \x01(\r\x12#\n\x0fgacha_item_list\x18\x0f \x03(\x0b\x32\n.GachaItem\x12\x18\n\x10ten_cost_item_id\x18\x07 \x01(\r\x12\x13\n\x0bgacha_times\x18\x04 \x01(\r\x12\x1c\n\x13Unk2700_LEEPELHDING\x18\x9b\x0b \x01(\x08\x12\x1c\n\x13Unk3100_IDBLFJDHHPI\x18\xcc\x0e \x01(\x08\x12\x12\n\ngacha_type\x18\x0c \x01(\r\x12\x19\n\x11gacha_times_limit\x18\x01 \x01(\r\x12\x14\n\x0c\x63ost_item_id\x18\x0e \x01(\r\x12\x1c\n\x13Unk2700_OJKKHDLEDCI\x18\xd8\t \x01(\r\x12\x18\n\x10left_gacha_times\x18\x06 \x01(\r\x12\x18\n\x10new_gacha_random\x18\x0b \x01(\r\x12\x19\n\x11gacha_schedule_id\x18\x05 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DoGachaRsp_pb2', globals())
@@ -22,5 +22,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _DOGACHARSP._serialized_start=38
-  _DOGACHARSP._serialized_end=481
+  _DOGACHARSP._serialized_end=541
 # @@protoc_insertion_point(module_scope)

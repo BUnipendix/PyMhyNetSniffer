@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15HomeTransferReq.proto\"\x1f\n\x0fHomeTransferReq\x12\x0c\n\x04guid\x18\x01 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15HomeTransferReq.proto\"<\n\x0fHomeTransferReq\x12\x0c\n\x04guid\x18\x01 \x01(\r\x12\x1b\n\x13Unk3100_KEMFDDMEBIG\x18\x0c \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeTransferReq_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _HOMETRANSFERREQ._serialized_start=25
-  _HOMETRANSFERREQ._serialized_end=56
+  _HOMETRANSFERREQ._serialized_end=85
 # @@protoc_insertion_point(module_scope)

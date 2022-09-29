@@ -57,7 +57,7 @@ class Sniffer:
 			raw_packet = get_packet()
 			if raw_packet is None:
 				return
-			print(f'有消息:{self.protobuf_parser.get_packet_name(raw_packet.message_id)}')
+			# print(f'有消息:{self.protobuf_parser.get_packet_name(raw_packet.message_id)}')
 			packet = ParsedPacket(
 				raw_packet.time_stamp, raw_packet.direction,
 				*self.protobuf_parser.parse_raw_packet(raw_packet)

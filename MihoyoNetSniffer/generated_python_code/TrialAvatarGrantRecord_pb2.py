@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cTrialAvatarGrantRecord.proto\"\x9b\x04\n\x16TrialAvatarGrantRecord\x12\x14\n\x0cgrant_reason\x18\x01 \x01(\r\x12\x1c\n\x14\x66rom_parent_quest_id\x18\x02 \x01(\r\"\xcc\x03\n\x0bGrantReason\x12\x18\n\x14GRANT_REASON_INVALID\x10\x00\x12\x19\n\x15GRANT_REASON_BY_QUEST\x10\x01\x12)\n%GRANT_REASON_BY_TRIAL_AVATAR_ACTIVITY\x10\x02\x12-\n)GRANT_REASON_BY_DUNGEON_ELEMENT_CHALLENGE\x10\x03\x12\'\n#GRANT_REASON_BY_MIST_TRIAL_ACTIVITY\x10\x04\x12!\n\x1dGRANT_REASON_BY_SUMO_ACTIVITY\x10\x05\x12$\n GRANT_REASON_Unk2700_ELPMDIEIOHP\x10\x06\x12$\n GRANT_REASON_Unk2700_FALPDBLGHJB\x10\x07\x12$\n GRANT_REASON_Unk2700_GAMADMGGMBC\x10\x08\x12$\n GRANT_REASON_Unk2800_FIIDJHAKMOI\x10\t\x12$\n GRANT_REASON_Unk3000_ANPCNHCADHG\x10\n\x12$\n GRANT_REASON_Unk3000_AJIFFOLFKLO\x10\x0b\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cTrialAvatarGrantRecord.proto\"\xc1\x04\n\x16TrialAvatarGrantRecord\x12\x14\n\x0cgrant_reason\x18\x01 \x01(\r\x12\x1c\n\x14\x66rom_parent_quest_id\x18\x02 \x01(\r\"\xf2\x03\n\x0bGrantReason\x12\x18\n\x14GRANT_REASON_INVALID\x10\x00\x12\x19\n\x15GRANT_REASON_BY_QUEST\x10\x01\x12)\n%GRANT_REASON_BY_TRIAL_AVATAR_ACTIVITY\x10\x02\x12-\n)GRANT_REASON_BY_DUNGEON_ELEMENT_CHALLENGE\x10\x03\x12\'\n#GRANT_REASON_BY_MIST_TRIAL_ACTIVITY\x10\x04\x12!\n\x1dGRANT_REASON_BY_SUMO_ACTIVITY\x10\x05\x12$\n GRANT_REASON_Unk2700_ELPMDIEIOHP\x10\x06\x12$\n GRANT_REASON_Unk2700_FALPDBLGHJB\x10\x07\x12$\n GRANT_REASON_Unk2700_GAMADMGGMBC\x10\x08\x12$\n GRANT_REASON_Unk2800_FIIDJHAKMOI\x10\t\x12$\n GRANT_REASON_Unk3000_ANPCNHCADHG\x10\n\x12$\n GRANT_REASON_Unk3000_AJIFFOLFKLO\x10\x0b\x12$\n GRANT_REASON_Unk3100_CKJJFGCFGEE\x10\x0c\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TrialAvatarGrantRecord_pb2', globals())
@@ -21,7 +21,7 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _TRIALAVATARGRANTRECORD._serialized_start=33
-  _TRIALAVATARGRANTRECORD._serialized_end=572
+  _TRIALAVATARGRANTRECORD._serialized_end=610
   _TRIALAVATARGRANTRECORD_GRANTREASON._serialized_start=112
-  _TRIALAVATARGRANTRECORD_GRANTREASON._serialized_end=572
+  _TRIALAVATARGRANTRECORD_GRANTREASON._serialized_end=610
 # @@protoc_insertion_point(module_scope)

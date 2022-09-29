@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15TryEnterHomeReq.proto\";\n\x0fTryEnterHomeReq\x12\x12\n\ntarget_uid\x18\x03 \x01(\r\x12\x14\n\x0ctarget_point\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15TryEnterHomeReq.proto\"X\n\x0fTryEnterHomeReq\x12\x12\n\ntarget_uid\x18\x03 \x01(\r\x12\x1b\n\x13Unk3100_KEMFDDMEBIG\x18\n \x01(\x08\x12\x14\n\x0ctarget_point\x18\t \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TryEnterHomeReq_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _TRYENTERHOMEREQ._serialized_start=25
-  _TRYENTERHOMEREQ._serialized_end=84
+  _TRYENTERHOMEREQ._serialized_end=113
 # @@protoc_insertion_point(module_scope)

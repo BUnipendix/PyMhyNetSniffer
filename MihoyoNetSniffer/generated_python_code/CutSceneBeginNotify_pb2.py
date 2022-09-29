@@ -11,15 +11,16 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
+import Unk3100_LFIMJOCPILC_pb2 as Unk3100__LFIMJOCPILC__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x43utSceneBeginNotify.proto\"B\n\x13\x43utSceneBeginNotify\x12\x13\n\x0b\x63utscene_id\x18\x0e \x01(\r\x12\x16\n\x0eis_wait_others\x18\t \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x43utSceneBeginNotify.proto\x1a\x19Unk3100_LFIMJOCPILC.proto\"r\n\x13\x43utSceneBeginNotify\x12\x16\n\x0eis_wait_others\x18\t \x01(\x08\x12\x13\n\x0b\x63utscene_id\x18\x0e \x01(\r\x12.\n\x10\x65xtra_param_list\x18\x03 \x03(\x0b\x32\x14.Unk3100_LFIMJOCPILCb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CutSceneBeginNotify_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _CUTSCENEBEGINNOTIFY._serialized_start=29
-  _CUTSCENEBEGINNOTIFY._serialized_end=95
+  _CUTSCENEBEGINNOTIFY._serialized_start=56
+  _CUTSCENEBEGINNOTIFY._serialized_end=170
 # @@protoc_insertion_point(module_scope)
