@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x43ompoundUnlockNotify.proto\"+\n\x14\x43ompoundUnlockNotify\x12\x13\n\x0b\x63ompound_id\x18\x03 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x43ompoundUnlockNotify.proto\"+\n\x14\x43ompoundUnlockNotify\x12\x13\n\x0b\x63ompound_id\x18\x07 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CompoundUnlockNotify_pb2', globals())

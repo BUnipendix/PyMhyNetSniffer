@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import TrialAvatarActivityRewardDetailInfo_pb2 as TrialAvatarActivityRewardDetailInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#TrialAvatarActivityDetailInfo.proto\x1a)TrialAvatarActivityRewardDetailInfo.proto\"_\n\x1dTrialAvatarActivityDetailInfo\x12>\n\x10reward_info_list\x18\r \x03(\x0b\x32$.TrialAvatarActivityRewardDetailInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#TrialAvatarActivityDetailInfo.proto\x1a)TrialAvatarActivityRewardDetailInfo.proto\"_\n\x1dTrialAvatarActivityDetailInfo\x12>\n\x10reward_info_list\x18\x0b \x03(\x0b\x32$.TrialAvatarActivityRewardDetailInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TrialAvatarActivityDetailInfo_pb2', globals())

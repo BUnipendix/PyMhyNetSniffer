@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x42\x61rgainSnapshot.proto\"h\n\x0f\x42\x61rgainSnapshot\x12\x16\n\x0e\x65xpected_price\x18\x03 \x01(\r\x12\x10\n\x08\x63ur_mood\x18\x0e \x01(\x05\x12\x17\n\x0fprice_low_limit\x18\x02 \x01(\r\x12\x12\n\nbargain_id\x18\x05 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x42\x61rgainSnapshot.proto\"q\n\x0f\x42\x61rgainSnapshot\x12\x1b\n\x13Unk3300_KOCJELACJLM\x18\x0b \x01(\r\x12\x1b\n\x13Unk3300_MHFDEBOBFNE\x18\x0e \x01(\r\x12\x12\n\nbargain_id\x18\x03 \x01(\r\x12\x10\n\x08\x63ur_mood\x18\x08 \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BargainSnapshot_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _BARGAINSNAPSHOT._serialized_start=25
-  _BARGAINSNAPSHOT._serialized_end=129
+  _BARGAINSNAPSHOT._serialized_end=138
 # @@protoc_insertion_point(module_scope)

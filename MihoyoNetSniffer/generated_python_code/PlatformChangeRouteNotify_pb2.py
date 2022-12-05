@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import PlatformInfo_pb2 as PlatformInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fPlatformChangeRouteNotify.proto\x1a\x12PlatformInfo.proto\"c\n\x19PlatformChangeRouteNotify\x12\x11\n\tentity_id\x18\x02 \x01(\r\x12\x1f\n\x08platform\x18\x01 \x01(\x0b\x32\r.PlatformInfo\x12\x12\n\nscene_time\x18\x08 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fPlatformChangeRouteNotify.proto\x1a\x12PlatformInfo.proto\"c\n\x19PlatformChangeRouteNotify\x12\x12\n\nscene_time\x18\r \x01(\r\x12\x1f\n\x08platform\x18\x0e \x01(\x0b\x32\r.PlatformInfo\x12\x11\n\tentity_id\x18\x08 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlatformChangeRouteNotify_pb2', globals())

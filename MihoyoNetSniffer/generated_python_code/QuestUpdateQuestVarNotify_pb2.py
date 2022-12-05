@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fQuestUpdateQuestVarNotify.proto\"e\n\x19QuestUpdateQuestVarNotify\x12\x11\n\tquest_var\x18\x01 \x03(\x05\x12\x17\n\x0fparent_quest_id\x18\x0c \x01(\r\x12\x1c\n\x14parent_quest_var_seq\x18\x08 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fQuestUpdateQuestVarNotify.proto\"e\n\x19QuestUpdateQuestVarNotify\x12\x1c\n\x14parent_quest_var_seq\x18\t \x01(\r\x12\x11\n\tquest_var\x18\x03 \x03(\x05\x12\x17\n\x0fparent_quest_id\x18\x07 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'QuestUpdateQuestVarNotify_pb2', globals())

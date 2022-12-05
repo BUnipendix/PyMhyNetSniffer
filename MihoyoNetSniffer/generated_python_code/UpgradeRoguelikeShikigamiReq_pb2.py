@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"UpgradeRoguelikeShikigamiReq.proto\"Q\n\x1cUpgradeRoguelikeShikigamiReq\x12\x15\n\rupgrade_level\x18\x06 \x01(\r\x12\x1a\n\x12shikigami_group_id\x18\x0f \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"UpgradeRoguelikeShikigamiReq.proto\"Q\n\x1cUpgradeRoguelikeShikigamiReq\x12\x1a\n\x12shikigami_group_id\x18\x0f \x01(\r\x12\x15\n\rupgrade_level\x18\n \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'UpgradeRoguelikeShikigamiReq_pb2', globals())

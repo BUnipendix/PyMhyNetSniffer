@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x41\x64justWorldLevelReq.proto\"J\n\x13\x41\x64justWorldLevelReq\x12\x1a\n\x12\x65xpect_world_level\x18\x08 \x01(\r\x12\x17\n\x0f\x63ur_world_level\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x41\x64justWorldLevelReq.proto\"O\n\x13\x41\x64justWorldLevelReq\x12\x1b\n\x13Unk3300_DNLKIMGLBLP\x18\x0e \x01(\r\x12\x1b\n\x13Unk3300_DJBKBPDCBFH\x18\x03 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AdjustWorldLevelReq_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _ADJUSTWORLDLEVELREQ._serialized_start=29
-  _ADJUSTWORLDLEVELREQ._serialized_end=103
+  _ADJUSTWORLDLEVELREQ._serialized_end=108
 # @@protoc_insertion_point(module_scope)

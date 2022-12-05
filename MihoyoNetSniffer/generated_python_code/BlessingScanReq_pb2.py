@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x42lessingScanReq.proto\"$\n\x0f\x42lessingScanReq\x12\x11\n\tentity_id\x18\x0b \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x42lessingScanReq.proto\"$\n\x0f\x42lessingScanReq\x12\x11\n\tentity_id\x18\x0c \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BlessingScanReq_pb2', globals())

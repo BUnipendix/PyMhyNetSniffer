@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dStartEffigyChallengeRsp.proto\"\x84\x01\n\x17StartEffigyChallengeRsp\x12\x19\n\x11\x63ondition_id_list\x18\x02 \x03(\r\x12\x0f\n\x07retcode\x18\x08 \x01(\x05\x12\x14\n\x0c\x63hallenge_id\x18\x0f \x01(\r\x12\x15\n\rdifficulty_id\x18\n \x01(\r\x12\x10\n\x08point_id\x18\x0c \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dStartEffigyChallengeRsp.proto\"\x84\x01\n\x17StartEffigyChallengeRsp\x12\x10\n\x08point_id\x18\x04 \x01(\r\x12\x19\n\x11\x63ondition_id_list\x18\t \x03(\r\x12\x15\n\rdifficulty_id\x18\x0c \x01(\r\x12\x0f\n\x07retcode\x18\x05 \x01(\x05\x12\x14\n\x0c\x63hallenge_id\x18\n \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'StartEffigyChallengeRsp_pb2', globals())

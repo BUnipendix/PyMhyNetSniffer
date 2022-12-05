@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ItemParam_pb2 as ItemParam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eSeaLampContributeItemReq.proto\x1a\x0fItemParam.proto\"N\n\x18SeaLampContributeItemReq\x12\x13\n\x0b\x61\x63tivity_id\x18\x08 \x01(\r\x12\x1d\n\titem_list\x18\x01 \x03(\x0b\x32\n.ItemParamb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eSeaLampContributeItemReq.proto\x1a\x0fItemParam.proto\"N\n\x18SeaLampContributeItemReq\x12\x1d\n\titem_list\x18\x0b \x03(\x0b\x32\n.ItemParam\x12\x13\n\x0b\x61\x63tivity_id\x18\x02 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SeaLampContributeItemReq_pb2', globals())

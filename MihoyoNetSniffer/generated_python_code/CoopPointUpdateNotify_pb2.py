@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import CoopPoint_pb2 as CoopPoint__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x43oopPointUpdateNotify.proto\x1a\x0f\x43oopPoint.proto\"7\n\x15\x43oopPointUpdateNotify\x12\x1e\n\ncoop_point\x18\r \x01(\x0b\x32\n.CoopPointb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x43oopPointUpdateNotify.proto\x1a\x0f\x43oopPoint.proto\"7\n\x15\x43oopPointUpdateNotify\x12\x1e\n\ncoop_point\x18\x08 \x01(\x0b\x32\n.CoopPointb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CoopPointUpdateNotify_pb2', globals())

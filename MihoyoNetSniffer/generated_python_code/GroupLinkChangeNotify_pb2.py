@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import GroupLinkBundle_pb2 as GroupLinkBundle__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bGroupLinkChangeNotify.proto\x1a\x15GroupLinkBundle.proto\"9\n\x15GroupLinkChangeNotify\x12 \n\x06\x62undle\x18\x08 \x01(\x0b\x32\x10.GroupLinkBundleb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bGroupLinkChangeNotify.proto\x1a\x15GroupLinkBundle.proto\"9\n\x15GroupLinkChangeNotify\x12 \n\x06\x62undle\x18\x05 \x01(\x0b\x32\x10.GroupLinkBundleb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GroupLinkChangeNotify_pb2', globals())

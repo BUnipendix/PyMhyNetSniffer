@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x41\x62ilityMixinElementShield.proto\"\x9f\x01\n\x19\x41\x62ilityMixinElementShield\x12\x12\n\nsub_shield\x18\n \x01(\x02\x12\x0e\n\x06shield\x18\x08 \x01(\x02\x12\x13\n\x0b\x61\x62sorb_type\x18\x01 \x01(\r\x12\x1b\n\x13Unk2700_PBKBDDLNBEA\x18\x04 \x01(\r\x12\x18\n\x10is_shield_broken\x18\t \x01(\x08\x12\x12\n\nmax_shield\x18\x0c \x01(\x02\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x41\x62ilityMixinElementShield.proto\"\x96\x01\n\x19\x41\x62ilityMixinElementShield\x12\x12\n\nplayer_num\x18\t \x01(\r\x12\x0e\n\x06shield\x18\x05 \x01(\x02\x12\x18\n\x10is_shield_broken\x18\x08 \x01(\x08\x12\x12\n\nsub_shield\x18\x04 \x01(\x02\x12\x12\n\nmax_shield\x18\r \x01(\x02\x12\x13\n\x0b\x61\x62sorb_type\x18\n \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AbilityMixinElementShield_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _ABILITYMIXINELEMENTSHIELD._serialized_start=36
-  _ABILITYMIXINELEMENTSHIELD._serialized_end=195
+  _ABILITYMIXINELEMENTSHIELD._serialized_end=186
 # @@protoc_insertion_point(module_scope)

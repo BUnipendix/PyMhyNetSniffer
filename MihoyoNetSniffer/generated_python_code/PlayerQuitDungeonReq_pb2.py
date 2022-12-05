@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aPlayerQuitDungeonReq.proto\"E\n\x14PlayerQuitDungeonReq\x12\x1b\n\x13is_quit_immediately\x18\n \x01(\x08\x12\x10\n\x08point_id\x18\x07 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aPlayerQuitDungeonReq.proto\"E\n\x14PlayerQuitDungeonReq\x12\x1b\n\x13is_quit_immediately\x18\x03 \x01(\x08\x12\x10\n\x08point_id\x18\x08 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerQuitDungeonReq_pb2', globals())

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"ServerDisconnectClientNotify.proto\",\n\x1cServerDisconnectClientNotify\x12\x0c\n\x04\x64\x61ta\x18\n \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"ServerDisconnectClientNotify.proto\",\n\x1cServerDisconnectClientNotify\x12\x0c\n\x04\x64\x61ta\x18\x04 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ServerDisconnectClientNotify_pb2', globals())

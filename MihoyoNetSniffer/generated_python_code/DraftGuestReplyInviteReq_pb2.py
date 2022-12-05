@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x44raftGuestReplyInviteReq.proto\">\n\x18\x44raftGuestReplyInviteReq\x12\x10\n\x08\x64raft_id\x18\n \x01(\r\x12\x10\n\x08is_agree\x18\x03 \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x44raftGuestReplyInviteReq.proto\">\n\x18\x44raftGuestReplyInviteReq\x12\x10\n\x08is_agree\x18\x04 \x01(\x08\x12\x10\n\x08\x64raft_id\x18\n \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DraftGuestReplyInviteReq_pb2', globals())

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Shop_pb2 as Shop__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10GetShopRsp.proto\x1a\nShop.proto\"2\n\nGetShopRsp\x12\x13\n\x04shop\x18\x0b \x01(\x0b\x32\x05.Shop\x12\x0f\n\x07retcode\x18\x02 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10GetShopRsp.proto\x1a\nShop.proto\"2\n\nGetShopRsp\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x12\x13\n\x04shop\x18\x08 \x01(\x0b\x32\x05.Shopb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetShopRsp_pb2', globals())

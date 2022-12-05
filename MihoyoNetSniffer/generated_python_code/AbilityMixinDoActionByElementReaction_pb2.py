@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n+AbilityMixinDoActionByElementReaction.proto\"A\n%AbilityMixinDoActionByElementReaction\x12\x18\n\x10target_entity_id\x18\x01 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n+AbilityMixinDoActionByElementReaction.proto\"A\n%AbilityMixinDoActionByElementReaction\x12\x18\n\x10target_entity_id\x18\x05 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AbilityMixinDoActionByElementReaction_pb2', globals())

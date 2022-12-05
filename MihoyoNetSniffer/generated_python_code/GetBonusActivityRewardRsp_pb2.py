@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import BonusActivityInfo_pb2 as BonusActivityInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fGetBonusActivityRewardRsp.proto\x1a\x17\x42onusActivityInfo.proto\"b\n\x19GetBonusActivityRewardRsp\x12\x34\n\x18\x62onus_activity_info_list\x18\x04 \x01(\x0b\x32\x12.BonusActivityInfo\x12\x0f\n\x07retcode\x18\r \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fGetBonusActivityRewardRsp.proto\x1a\x17\x42onusActivityInfo.proto\"b\n\x19GetBonusActivityRewardRsp\x12\x0f\n\x07retcode\x18\x0b \x01(\x05\x12\x34\n\x18\x62onus_activity_info_list\x18\x03 \x01(\x0b\x32\x12.BonusActivityInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetBonusActivityRewardRsp_pb2', globals())

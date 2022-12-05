@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dJoinHomeWorldFailNotify.proto\">\n\x17JoinHomeWorldFailNotify\x12\x12\n\ntarget_uid\x18\x06 \x01(\r\x12\x0f\n\x07retcode\x18\r \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dJoinHomeWorldFailNotify.proto\">\n\x17JoinHomeWorldFailNotify\x12\x0f\n\x07retcode\x18\x06 \x01(\x05\x12\x12\n\ntarget_uid\x18\x02 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'JoinHomeWorldFailNotify_pb2', globals())

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import MatchType_pb2 as MatchType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bPlayerMatchInfoNotify.proto\x1a\x0fMatchType.proto\"\xe3\x01\n\x15PlayerMatchInfoNotify\x12\"\n\x1amechanicus_difficult_level\x18\x0c \x01(\r\x12 \n\x18\x65stimate_match_cost_time\x18\x03 \x01(\r\x12\x1e\n\nmatch_type\x18\x0b \x01(\x0e\x32\n.MatchType\x12\x12\n\nmp_play_id\x18\x05 \x01(\r\x12\x10\n\x08match_id\x18\x08 \x01(\r\x12\x18\n\x10match_begin_time\x18\x04 \x01(\r\x12\x12\n\ndungeon_id\x18\n \x01(\r\x12\x10\n\x08host_uid\x18\r \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bPlayerMatchInfoNotify.proto\x1a\x0fMatchType.proto\"\xfb\x01\n\x15PlayerMatchInfoNotify\x12\x12\n\ndungeon_id\x18\x04 \x01(\r\x12\x1b\n\x13Unk3300_BNEIANJBLBL\x18\x05 \x01(\r\x12\x1b\n\x13Unk3300_OCILKHJPJED\x18\n \x01(\r\x12\x10\n\x08host_uid\x18\x0c \x01(\r\x12\x1e\n\nmatch_type\x18\r \x01(\x0e\x32\n.MatchType\x12\"\n\x1amechanicus_difficult_level\x18\x0f \x01(\r\x12\x12\n\nmp_play_id\x18\x02 \x01(\r\x12\x10\n\x08match_id\x18\x07 \x01(\r\x12\x18\n\x10match_param_list\x18\x0b \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerMatchInfoNotify_pb2', globals())
@@ -22,5 +22,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _PLAYERMATCHINFONOTIFY._serialized_start=49
-  _PLAYERMATCHINFONOTIFY._serialized_end=276
+  _PLAYERMATCHINFONOTIFY._serialized_end=300
 # @@protoc_insertion_point(module_scope)

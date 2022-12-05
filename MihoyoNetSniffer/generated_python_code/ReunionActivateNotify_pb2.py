@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ReunionBriefInfo_pb2 as ReunionBriefInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bReunionActivateNotify.proto\x1a\x16ReunionBriefInfo.proto\"[\n\x15ReunionActivateNotify\x12\x13\n\x0bis_activate\x18\t \x01(\x08\x12-\n\x12reunion_brief_info\x18\r \x01(\x0b\x32\x11.ReunionBriefInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bReunionActivateNotify.proto\x1a\x16ReunionBriefInfo.proto\"[\n\x15ReunionActivateNotify\x12\x13\n\x0bis_activate\x18\x07 \x01(\x08\x12-\n\x12reunion_brief_info\x18\t \x01(\x0b\x32\x11.ReunionBriefInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ReunionActivateNotify_pb2', globals())

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import SegmentCRCInfo_pb2 as SegmentCRCInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x43heckSegmentCRCReq.proto\x1a\x14SegmentCRCInfo.proto\"8\n\x12\x43heckSegmentCRCReq\x12\"\n\tinfo_list\x18\x01 \x03(\x0b\x32\x0f.SegmentCRCInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x43heckSegmentCRCReq.proto\x1a\x14SegmentCRCInfo.proto\"8\n\x12\x43heckSegmentCRCReq\x12\"\n\tinfo_list\x18\x04 \x03(\x0b\x32\x0f.SegmentCRCInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CheckSegmentCRCReq_pb2', globals())

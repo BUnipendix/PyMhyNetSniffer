@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x42uyBattlePassLevelReq.proto\"*\n\x15\x42uyBattlePassLevelReq\x12\x11\n\tbuy_level\x18\x08 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x42uyBattlePassLevelReq.proto\"*\n\x15\x42uyBattlePassLevelReq\x12\x11\n\tbuy_level\x18\x0f \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BuyBattlePassLevelReq_pb2', globals())

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import RedPointData_pb2 as RedPointData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aUpdateRedPointNotify.proto\x1a\x12RedPointData.proto\"=\n\x14UpdateRedPointNotify\x12%\n\x0ered_point_list\x18\x0c \x03(\x0b\x32\r.RedPointDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aUpdateRedPointNotify.proto\x1a\x12RedPointData.proto\"=\n\x14UpdateRedPointNotify\x12%\n\x0ered_point_list\x18\n \x03(\x0b\x32\r.RedPointDatab\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'UpdateRedPointNotify_pb2', globals())

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n0ChannelerSlabLoopDungeonSelectConditionReq.proto\"u\n*ChannelerSlabLoopDungeonSelectConditionReq\x12\x15\n\rdungeon_index\x18\x04 \x01(\r\x12\x19\n\x11\x63ondition_id_list\x18\x03 \x03(\r\x12\x15\n\rdifficulty_id\x18\x08 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n0ChannelerSlabLoopDungeonSelectConditionReq.proto\"u\n*ChannelerSlabLoopDungeonSelectConditionReq\x12\x15\n\rdungeon_index\x18\x07 \x01(\r\x12\x19\n\x11\x63ondition_id_list\x18\x0f \x03(\r\x12\x15\n\rdifficulty_id\x18\x0b \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChannelerSlabLoopDungeonSelectConditionReq_pb2', globals())

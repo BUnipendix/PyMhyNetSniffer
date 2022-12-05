@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x45ntityConfigHashEntry.proto\"N\n\x15\x45ntityConfigHashEntry\x12\x0e\n\x06job_id\x18\r \x01(\r\x12\x12\n\nhash_value\x18\x06 \x01(\x05\x12\x11\n\tentity_id\x18\x0b \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x45ntityConfigHashEntry.proto\"N\n\x15\x45ntityConfigHashEntry\x12\x11\n\tentity_id\x18\x04 \x01(\r\x12\x12\n\nhash_value\x18\x01 \x01(\x05\x12\x0e\n\x06job_id\x18\x06 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EntityConfigHashEntry_pb2', globals())

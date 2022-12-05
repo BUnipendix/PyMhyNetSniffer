@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import InBattleMechanicusCardInfo_pb2 as InBattleMechanicusCardInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n(InBattleMechanicusCardResultNotify.proto\x1a InBattleMechanicusCardInfo.proto\"\xcf\x02\n\"InBattleMechanicusCardResultNotify\x12\x14\n\x0cwait_seconds\x18\x06 \x01(\r\x12\x10\n\x08group_id\x18\x02 \x01(\r\x12.\n\tcard_list\x18\t \x03(\x0b\x32\x1b.InBattleMechanicusCardInfo\x12\x1a\n\x12wait_begin_time_us\x18\x07 \x01(\x04\x12\x62\n\x19player_confirmed_card_map\x18\x0c \x03(\x0b\x32?.InBattleMechanicusCardResultNotify.PlayerConfirmedCardMapEntry\x12\x12\n\nplay_index\x18\x08 \x01(\r\x1a=\n\x1bPlayerConfirmedCardMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n(InBattleMechanicusCardResultNotify.proto\x1a InBattleMechanicusCardInfo.proto\"\xcf\x02\n\"InBattleMechanicusCardResultNotify\x12\x10\n\x08group_id\x18\n \x01(\r\x12.\n\tcard_list\x18\x08 \x03(\x0b\x32\x1b.InBattleMechanicusCardInfo\x12\x12\n\nplay_index\x18\x0e \x01(\r\x12\x62\n\x19player_confirmed_card_map\x18\t \x03(\x0b\x32?.InBattleMechanicusCardResultNotify.PlayerConfirmedCardMapEntry\x12\x1a\n\x12wait_begin_time_us\x18\x02 \x01(\x04\x12\x14\n\x0cwait_seconds\x18\x05 \x01(\r\x1a=\n\x1bPlayerConfirmedCardMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'InBattleMechanicusCardResultNotify_pb2', globals())

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cGetSceneNpcPositionReq.proto\"?\n\x16GetSceneNpcPositionReq\x12\x13\n\x0bnpc_id_list\x18\x06 \x03(\r\x12\x10\n\x08scene_id\x18\x08 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cGetSceneNpcPositionReq.proto\"?\n\x16GetSceneNpcPositionReq\x12\x10\n\x08scene_id\x18\x07 \x01(\r\x12\x13\n\x0bnpc_id_list\x18\r \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetSceneNpcPositionReq_pb2', globals())

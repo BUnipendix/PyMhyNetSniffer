@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import CustomGadgetTreeInfo_pb2 as CustomGadgetTreeInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n GadgetCustomTreeInfoNotify.proto\x1a\x1a\x43ustomGadgetTreeInfo.proto\"n\n\x1aGadgetCustomTreeInfoNotify\x12\x36\n\x17\x63ustom_gadget_tree_info\x18\x05 \x01(\x0b\x32\x15.CustomGadgetTreeInfo\x12\x18\n\x10gadget_entity_id\x18\x0c \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n GadgetCustomTreeInfoNotify.proto\x1a\x1a\x43ustomGadgetTreeInfo.proto\"n\n\x1aGadgetCustomTreeInfoNotify\x12\x36\n\x17\x63ustom_gadget_tree_info\x18\x08 \x01(\x0b\x32\x15.CustomGadgetTreeInfo\x12\x18\n\x10gadget_entity_id\x18\x07 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GadgetCustomTreeInfoNotify_pb2', globals())

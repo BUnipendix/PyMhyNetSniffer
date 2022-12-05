@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import AbilityInvokeEntry_pb2 as AbilityInvokeEntry__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x45ntityAbilityInvokeEntry.proto\x1a\x18\x41\x62ilityInvokeEntry.proto\"S\n\x18\x45ntityAbilityInvokeEntry\x12\x11\n\tentity_id\x18\x08 \x01(\r\x12$\n\x07invokes\x18\x01 \x03(\x0b\x32\x13.AbilityInvokeEntryb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x45ntityAbilityInvokeEntry.proto\x1a\x18\x41\x62ilityInvokeEntry.proto\"S\n\x18\x45ntityAbilityInvokeEntry\x12$\n\x07invokes\x18\x0e \x03(\x0b\x32\x13.AbilityInvokeEntry\x12\x11\n\tentity_id\x18\x07 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EntityAbilityInvokeEntry_pb2', globals())

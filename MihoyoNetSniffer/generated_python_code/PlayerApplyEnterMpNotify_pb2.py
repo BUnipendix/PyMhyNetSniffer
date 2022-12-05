@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import OnlinePlayerInfo_pb2 as OnlinePlayerInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1ePlayerApplyEnterMpNotify.proto\x1a\x16OnlinePlayerInfo.proto\"t\n\x18PlayerApplyEnterMpNotify\x12\x18\n\x10src_thread_index\x18\x05 \x01(\r\x12\x12\n\nsrc_app_id\x18\x06 \x01(\r\x12*\n\x0fsrc_player_info\x18\x02 \x01(\x0b\x32\x11.OnlinePlayerInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1ePlayerApplyEnterMpNotify.proto\x1a\x16OnlinePlayerInfo.proto\"t\n\x18PlayerApplyEnterMpNotify\x12*\n\x0fsrc_player_info\x18\x0c \x01(\x0b\x32\x11.OnlinePlayerInfo\x12\x18\n\x10src_thread_index\x18\t \x01(\r\x12\x12\n\nsrc_app_id\x18\r \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerApplyEnterMpNotify_pb2', globals())

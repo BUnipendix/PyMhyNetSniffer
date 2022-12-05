@@ -15,7 +15,7 @@ import SummerTimeSprintBoatInfo_pb2 as SummerTimeSprintBoatInfo__pb2
 import SummerTimeStageInfo_pb2 as SummerTimeStageInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aSummerTimeDetailInfo.proto\x1a\x1eSummerTimeSprintBoatInfo.proto\x1a\x19SummerTimeStageInfo.proto\"\x81\x02\n\x14SummerTimeDetailInfo\x12\x36\n\tstage_map\x18\x03 \x03(\x0b\x32#.SummerTimeDetailInfo.StageMapEntry\x12\x1a\n\x12\x63ontent_close_time\x18\x0b \x01(\r\x12\x19\n\x11is_content_closed\x18\r \x01(\x08\x12\x33\n\x10sprint_boat_info\x18\x04 \x01(\x0b\x32\x19.SummerTimeSprintBoatInfo\x1a\x45\n\rStageMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12#\n\x05value\x18\x02 \x01(\x0b\x32\x14.SummerTimeStageInfo:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aSummerTimeDetailInfo.proto\x1a\x1eSummerTimeSprintBoatInfo.proto\x1a\x19SummerTimeStageInfo.proto\"\x81\x02\n\x14SummerTimeDetailInfo\x12\x36\n\tstage_map\x18\t \x03(\x0b\x32#.SummerTimeDetailInfo.StageMapEntry\x12\x33\n\x10sprint_boat_info\x18\x01 \x01(\x0b\x32\x19.SummerTimeSprintBoatInfo\x12\x19\n\x11is_content_closed\x18\r \x01(\x08\x12\x1a\n\x12\x63ontent_close_time\x18\x0c \x01(\r\x1a\x45\n\rStageMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12#\n\x05value\x18\x02 \x01(\x0b\x32\x14.SummerTimeStageInfo:\x02\x38\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SummerTimeDetailInfo_pb2', globals())

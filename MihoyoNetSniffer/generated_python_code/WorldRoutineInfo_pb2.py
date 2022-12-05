@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16WorldRoutineInfo.proto\"f\n\x10WorldRoutineInfo\x12\x10\n\x08progress\x18\x04 \x01(\r\x12\x13\n\x0bis_finished\x18\x0e \x01(\x08\x12\x17\n\x0f\x66inish_progress\x18\x03 \x01(\r\x12\x12\n\nroutine_id\x18\x0b \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16WorldRoutineInfo.proto\"f\n\x10WorldRoutineInfo\x12\x17\n\x0f\x66inish_progress\x18\x01 \x01(\r\x12\x12\n\nroutine_id\x18\n \x01(\r\x12\x10\n\x08progress\x18\x07 \x01(\r\x12\x13\n\x0bis_finished\x18\x0f \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WorldRoutineInfo_pb2', globals())

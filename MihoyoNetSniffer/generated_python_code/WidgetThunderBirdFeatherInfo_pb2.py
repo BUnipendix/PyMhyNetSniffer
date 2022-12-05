@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"WidgetThunderBirdFeatherInfo.proto\"6\n\x1cWidgetThunderBirdFeatherInfo\x12\x16\n\x0e\x65ntity_id_list\x18\x04 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"WidgetThunderBirdFeatherInfo.proto\"6\n\x1cWidgetThunderBirdFeatherInfo\x12\x16\n\x0e\x65ntity_id_list\x18\t \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WidgetThunderBirdFeatherInfo_pb2', globals())

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18WatcherEventNotify.proto\">\n\x12WatcherEventNotify\x12\x14\n\x0c\x61\x64\x64_progress\x18\x06 \x01(\r\x12\x12\n\nwatcher_id\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18WatcherEventNotify.proto\">\n\x12WatcherEventNotify\x12\x14\n\x0c\x61\x64\x64_progress\x18\x02 \x01(\r\x12\x12\n\nwatcher_id\x18\x0e \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WatcherEventNotify_pb2', globals())

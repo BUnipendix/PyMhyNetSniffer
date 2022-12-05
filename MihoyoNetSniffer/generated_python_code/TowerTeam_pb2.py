@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0fTowerTeam.proto\"<\n\tTowerTeam\x12\x15\n\rtower_team_id\x18\x03 \x01(\r\x12\x18\n\x10\x61vatar_guid_list\x18\x0e \x03(\x04\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0fTowerTeam.proto\"<\n\tTowerTeam\x12\x18\n\x10\x61vatar_guid_list\x18\x05 \x03(\x04\x12\x15\n\rtower_team_id\x18\x0e \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TowerTeam_pb2', globals())

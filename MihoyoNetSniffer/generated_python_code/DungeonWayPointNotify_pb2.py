@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x44ungeonWayPointNotify.proto\"F\n\x15\x44ungeonWayPointNotify\x12\x0e\n\x06is_add\x18\t \x01(\x08\x12\x1d\n\x15\x61\x63tive_way_point_list\x18\x04 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x44ungeonWayPointNotify.proto\"F\n\x15\x44ungeonWayPointNotify\x12\x0e\n\x06is_add\x18\x0c \x01(\x08\x12\x1d\n\x15\x61\x63tive_way_point_list\x18\x02 \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DungeonWayPointNotify_pb2', globals())

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16SceneAudioNotify.proto\"d\n\x10SceneAudioNotify\x12\x0e\n\x06param2\x18\x0e \x03(\x02\x12\x0c\n\x04type\x18\x03 \x01(\x05\x12\x0e\n\x06param3\x18\x0b \x03(\t\x12\x12\n\nsource_uid\x18\x06 \x01(\r\x12\x0e\n\x06param1\x18\x04 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16SceneAudioNotify.proto\"d\n\x10SceneAudioNotify\x12\x12\n\nsource_uid\x18\x06 \x01(\r\x12\x0e\n\x06param2\x18\x0b \x03(\x02\x12\x0e\n\x06param3\x18\r \x03(\t\x12\x0c\n\x04type\x18\x0f \x01(\x05\x12\x0e\n\x06param1\x18\x0e \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneAudioNotify_pb2', globals())

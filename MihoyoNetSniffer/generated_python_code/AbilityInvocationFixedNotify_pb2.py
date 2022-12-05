@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import AbilityInvokeEntry_pb2 as AbilityInvokeEntry__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"AbilityInvocationFixedNotify.proto\x1a\x18\x41\x62ilityInvokeEntry.proto\"\x8e\x02\n\x1c\x41\x62ilityInvocationFixedNotify\x12&\n\tinvoke6th\x18\x0e \x01(\x0b\x32\x13.AbilityInvokeEntry\x12&\n\tinvoke5th\x18\x08 \x01(\x0b\x32\x13.AbilityInvokeEntry\x12&\n\tinvoke4th\x18\x01 \x01(\x0b\x32\x13.AbilityInvokeEntry\x12&\n\tinvoke2nd\x18\x05 \x01(\x0b\x32\x13.AbilityInvokeEntry\x12&\n\tinvoke1st\x18\n \x01(\x0b\x32\x13.AbilityInvokeEntry\x12&\n\tinvoke3rd\x18\x0c \x01(\x0b\x32\x13.AbilityInvokeEntryb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"AbilityInvocationFixedNotify.proto\x1a\x18\x41\x62ilityInvokeEntry.proto\"\xca\x02\n\x1c\x41\x62ilityInvocationFixedNotify\x12\x30\n\x13Unk3300_LDIAOMFIBPL\x18\x07 \x01(\x0b\x32\x13.AbilityInvokeEntry\x12\x30\n\x13Unk3300_ONGNOHLIIBO\x18\x03 \x01(\x0b\x32\x13.AbilityInvokeEntry\x12\x30\n\x13Unk3300_AHDFHHFHEFM\x18\n \x01(\x0b\x32\x13.AbilityInvokeEntry\x12\x30\n\x13Unk3300_GAFFBFFKDIC\x18\x01 \x01(\x0b\x32\x13.AbilityInvokeEntry\x12\x30\n\x13Unk3300_EMGKKHKLIEG\x18\x04 \x01(\x0b\x32\x13.AbilityInvokeEntry\x12\x30\n\x13Unk3300_KFMHLLHECCJ\x18\t \x01(\x0b\x32\x13.AbilityInvokeEntryb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AbilityInvocationFixedNotify_pb2', globals())
@@ -22,5 +22,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _ABILITYINVOCATIONFIXEDNOTIFY._serialized_start=65
-  _ABILITYINVOCATIONFIXEDNOTIFY._serialized_end=335
+  _ABILITYINVOCATIONFIXEDNOTIFY._serialized_end=395
 # @@protoc_insertion_point(module_scope)

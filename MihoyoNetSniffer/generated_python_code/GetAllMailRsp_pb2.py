@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import MailData_pb2 as MailData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13GetAllMailRsp.proto\x1a\x0eMailData.proto\"q\n\rGetAllMailRsp\x12\x0f\n\x07retcode\x18\x08 \x01(\x05\x12\x1c\n\tmail_list\x18\x0e \x03(\x0b\x32\t.MailData\x12\x1b\n\x13Unk2700_OPEHLDAGICF\x18\x01 \x01(\x08\x12\x14\n\x0cis_truncated\x18\x02 \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13GetAllMailRsp.proto\x1a\x0eMailData.proto\"j\n\rGetAllMailRsp\x12\x1c\n\tmail_list\x18\x0f \x03(\x0b\x32\t.MailData\x12\x14\n\x0cis_collected\x18\x0c \x01(\x08\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x12\x14\n\x0cis_truncated\x18\x08 \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetAllMailRsp_pb2', globals())
@@ -22,5 +22,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _GETALLMAILRSP._serialized_start=39
-  _GETALLMAILRSP._serialized_end=152
+  _GETALLMAILRSP._serialized_end=145
 # @@protoc_insertion_point(module_scope)

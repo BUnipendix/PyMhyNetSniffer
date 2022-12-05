@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x43hessLeftMonstersNotify.proto\"0\n\x17\x43hessLeftMonstersNotify\x12\x15\n\rleft_monsters\x18\x06 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x43hessLeftMonstersNotify.proto\"0\n\x17\x43hessLeftMonstersNotify\x12\x15\n\rleft_monsters\x18\x05 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChessLeftMonstersNotify_pb2', globals())

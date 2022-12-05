@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import RogueCellInfo_pb2 as RogueCellInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bRogueCellUpdateNotify.proto\x1a\x13RogueCellInfo.proto\":\n\x15RogueCellUpdateNotify\x12!\n\tcell_info\x18\x07 \x01(\x0b\x32\x0e.RogueCellInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bRogueCellUpdateNotify.proto\x1a\x13RogueCellInfo.proto\":\n\x15RogueCellUpdateNotify\x12!\n\tcell_info\x18\x05 \x01(\x0b\x32\x0e.RogueCellInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RogueCellUpdateNotify_pb2', globals())

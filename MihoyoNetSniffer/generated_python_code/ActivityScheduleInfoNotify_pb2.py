@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ActivityScheduleInfo_pb2 as ActivityScheduleInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n ActivityScheduleInfoNotify.proto\x1a\x1a\x41\x63tivityScheduleInfo.proto\"t\n\x1a\x41\x63tivityScheduleInfoNotify\x12\x35\n\x16\x61\x63tivity_schedule_list\x18\x0c \x03(\x0b\x32\x15.ActivityScheduleInfo\x12\x1f\n\x17remain_fly_sea_lamp_num\x18\x06 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n ActivityScheduleInfoNotify.proto\x1a\x1a\x41\x63tivityScheduleInfo.proto\"t\n\x1a\x41\x63tivityScheduleInfoNotify\x12\x35\n\x16\x61\x63tivity_schedule_list\x18\x01 \x03(\x0b\x32\x15.ActivityScheduleInfo\x12\x1f\n\x17remain_fly_sea_lamp_num\x18\r \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ActivityScheduleInfoNotify_pb2', globals())

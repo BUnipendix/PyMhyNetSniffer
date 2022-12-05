@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19HomeVerifyBlockData.proto\";\n\x13HomeVerifyBlockData\x12\x10\n\x08\x62lock_id\x18\n \x01(\r\x12\x12\n\nfurnitures\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19HomeVerifyBlockData.proto\"@\n\x13HomeVerifyBlockData\x12\x10\n\x08\x62lock_id\x18\x0b \x01(\r\x12\x17\n\x0f\x66urniture_count\x18\r \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeVerifyBlockData_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _HOMEVERIFYBLOCKDATA._serialized_start=29
-  _HOMEVERIFYBLOCKDATA._serialized_end=88
+  _HOMEVERIFYBLOCKDATA._serialized_end=93
 # @@protoc_insertion_point(module_scope)

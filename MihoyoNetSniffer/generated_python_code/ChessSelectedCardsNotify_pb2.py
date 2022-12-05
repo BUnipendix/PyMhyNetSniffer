@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ChessCardInfo_pb2 as ChessCardInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x43hessSelectedCardsNotify.proto\x1a\x13\x43hessCardInfo.proto\"K\n\x18\x43hessSelectedCardsNotify\x12/\n\x17selected_card_info_list\x18\x04 \x03(\x0b\x32\x0e.ChessCardInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x43hessSelectedCardsNotify.proto\x1a\x13\x43hessCardInfo.proto\"K\n\x18\x43hessSelectedCardsNotify\x12/\n\x17selected_card_info_list\x18\t \x03(\x0b\x32\x0e.ChessCardInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChessSelectedCardsNotify_pb2', globals())

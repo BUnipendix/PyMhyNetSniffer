@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ArenaChallengeMonsterLevel_pb2 as ArenaChallengeMonsterLevel__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&ArenaChallengeActivityDetailInfo.proto\x1a ArenaChallengeMonsterLevel.proto\"\x94\x02\n ArenaChallengeActivityDetailInfo\x12\x1b\n\x13Unk2800_GNKHCICOIMC\x18\x0e \x01(\x08\x12T\n\x13level_open_time_map\x18\x03 \x03(\x0b\x32\x37.ArenaChallengeActivityDetailInfo.LevelOpenTimeMapEntry\x12\x13\n\x0bworld_level\x18\x0f \x01(\r\x12/\n\nlevel_list\x18\t \x03(\x0b\x32\x1b.ArenaChallengeMonsterLevel\x1a\x37\n\x15LevelOpenTimeMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&ArenaChallengeActivityDetailInfo.proto\x1a ArenaChallengeMonsterLevel.proto\"\x94\x02\n ArenaChallengeActivityDetailInfo\x12/\n\nlevel_list\x18\x0f \x03(\x0b\x32\x1b.ArenaChallengeMonsterLevel\x12T\n\x13level_open_time_map\x18\x01 \x03(\x0b\x32\x37.ArenaChallengeActivityDetailInfo.LevelOpenTimeMapEntry\x12\x1b\n\x13is_finish_any_level\x18\x04 \x01(\x08\x12\x13\n\x0bworld_level\x18\x07 \x01(\r\x1a\x37\n\x15LevelOpenTimeMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ArenaChallengeActivityDetailInfo_pb2', globals())

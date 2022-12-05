@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x43hooseCurAvatarTeamRsp.proto\">\n\x16\x43hooseCurAvatarTeamRsp\x12\x13\n\x0b\x63ur_team_id\x18\x01 \x01(\r\x12\x0f\n\x07retcode\x18\x0e \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x43hooseCurAvatarTeamRsp.proto\">\n\x16\x43hooseCurAvatarTeamRsp\x12\x0f\n\x07retcode\x18\x0f \x01(\x05\x12\x13\n\x0b\x63ur_team_id\x18\x0b \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChooseCurAvatarTeamRsp_pb2', globals())

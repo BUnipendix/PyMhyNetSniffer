@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x43hannelerSlabWearBuffRsp.proto\"\\\n\x18\x43hannelerSlabWearBuffRsp\x12\x0f\n\x07\x62uff_id\x18\x0f \x01(\r\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x12\r\n\x05is_mp\x18\t \x01(\x08\x12\x0f\n\x07slot_id\x18\x08 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x43hannelerSlabWearBuffRsp.proto\"\\\n\x18\x43hannelerSlabWearBuffRsp\x12\r\n\x05is_mp\x18\x07 \x01(\x08\x12\x0f\n\x07\x62uff_id\x18\x08 \x01(\r\x12\x0f\n\x07slot_id\x18\x0b \x01(\r\x12\x0f\n\x07retcode\x18\r \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChannelerSlabWearBuffRsp_pb2', globals())

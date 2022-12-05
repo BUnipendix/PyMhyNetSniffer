@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x46urnitureMakeData.proto\"\x85\x01\n\x11\x46urnitureMakeData\x12\r\n\x05index\x18\x0f \x01(\r\x12\x10\n\x08\x64ur_time\x18\x01 \x01(\r\x12\x12\n\nbegin_time\x18\x0b \x01(\x07\x12\x17\n\x0f\x61\x63\x63\x65lerate_time\x18\x06 \x01(\x07\x12\x11\n\tavatar_id\x18\x02 \x01(\r\x12\x0f\n\x07make_id\x18\x05 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x46urnitureMakeData.proto\"\x94\x01\n\x11\x46urnitureMakeData\x12\x12\n\nbegin_time\x18\x01 \x01(\x07\x12\x11\n\tavatar_id\x18\x05 \x01(\r\x12\x0f\n\x07make_id\x18\n \x01(\r\x12\r\n\x05index\x18\x06 \x01(\r\x12\x1b\n\x13Unk3300_GDIBLADMJIC\x18\x08 \x01(\r\x12\x1b\n\x13Unk3300_GBDHFLEFJLG\x18\x07 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FurnitureMakeData_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _FURNITUREMAKEDATA._serialized_start=28
-  _FURNITUREMAKEDATA._serialized_end=161
+  _FURNITUREMAKEDATA._serialized_end=176
 # @@protoc_insertion_point(module_scope)

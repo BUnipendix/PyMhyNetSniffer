@@ -11,16 +11,16 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import PotionStage_pb2 as PotionStage__pb2
+import PotionStageData_pb2 as PotionStageData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1ePotionActivityDetailInfo.proto\x1a\x11PotionStage.proto\"<\n\x18PotionActivityDetailInfo\x12 \n\nstage_list\x18\n \x03(\x0b\x32\x0c.PotionStageb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1ePotionActivityDetailInfo.proto\x1a\x15PotionStageData.proto\"@\n\x18PotionActivityDetailInfo\x12$\n\nstage_list\x18\x04 \x03(\x0b\x32\x10.PotionStageDatab\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PotionActivityDetailInfo_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _POTIONACTIVITYDETAILINFO._serialized_start=53
-  _POTIONACTIVITYDETAILINFO._serialized_end=113
+  _POTIONACTIVITYDETAILINFO._serialized_start=57
+  _POTIONACTIVITYDETAILINFO._serialized_end=121
 # @@protoc_insertion_point(module_scope)

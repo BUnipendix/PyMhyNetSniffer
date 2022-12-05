@@ -15,7 +15,7 @@ import ChannelerSlabChallenge_pb2 as ChannelerSlabChallenge__pb2
 import ChannelerSlabOneofDungeon_pb2 as ChannelerSlabOneofDungeon__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!ChannelerSlabChallengeStage.proto\x1a\x1c\x43hannelerSlabChallenge.proto\x1a\x1f\x43hannelerSlabOneofDungeon.proto\"\xb6\x01\n\x1b\x43hannelerSlabChallengeStage\x12\x11\n\topen_time\x18\x03 \x01(\r\x12/\n\x0e\x63hallenge_list\x18\x0e \x03(\x0b\x32\x17.ChannelerSlabChallenge\x12\x0f\n\x07is_open\x18\x07 \x01(\x08\x12\x10\n\x08stage_id\x18\t \x01(\r\x12\x30\n\x0c\x64ungeon_info\x18\r \x01(\x0b\x32\x1a.ChannelerSlabOneofDungeonb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!ChannelerSlabChallengeStage.proto\x1a\x1c\x43hannelerSlabChallenge.proto\x1a\x1f\x43hannelerSlabOneofDungeon.proto\"\xb6\x01\n\x1b\x43hannelerSlabChallengeStage\x12\x0f\n\x07is_open\x18\x04 \x01(\x08\x12\x30\n\x0c\x64ungeon_info\x18\x0c \x01(\x0b\x32\x1a.ChannelerSlabOneofDungeon\x12\x11\n\topen_time\x18\r \x01(\r\x12\x10\n\x08stage_id\x18\x01 \x01(\r\x12/\n\x0e\x63hallenge_list\x18\x02 \x03(\x0b\x32\x17.ChannelerSlabChallengeb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChannelerSlabChallengeStage_pb2', globals())

@@ -11,16 +11,16 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import Unk2800_CEAECGGBOKL_pb2 as Unk2800__CEAECGGBOKL__pb2
+import SummerTimeDungeonInfo_pb2 as SummerTimeDungeonInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x45\x63hoShellDetailInfo.proto\x1a\x19Unk2800_CEAECGGBOKL.proto\"\x94\x01\n\x13\x45\x63hoShellDetailInfo\x12\x31\n\x13Unk2800_KEMCFBCAMMM\x18\x08 \x03(\x0b\x32\x14.Unk2800_CEAECGGBOKL\x12\x12\n\nshell_list\x18\r \x03(\r\x12\x1b\n\x13Unk2800_BFONDMJGNKL\x18\x04 \x03(\r\x12\x19\n\x11taken_reward_list\x18\x02 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x45\x63hoShellDetailInfo.proto\x1a\x1bSummerTimeDungeonInfo.proto\"\xa4\x01\n\x13\x45\x63hoShellDetailInfo\x12\x1b\n\x13Unk3300_OOCDFANFFDG\x18\x06 \x03(\r\x12\x19\n\x11taken_reward_list\x18\x05 \x03(\r\x12\x38\n\x18summer_time_dungeon_list\x18\x03 \x03(\x0b\x32\x16.SummerTimeDungeonInfo\x12\x1b\n\x13Unk3300_NEFBJPKBEHF\x18\n \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EchoShellDetailInfo_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ECHOSHELLDETAILINFO._serialized_start=57
-  _ECHOSHELLDETAILINFO._serialized_end=205
+  _ECHOSHELLDETAILINFO._serialized_start=59
+  _ECHOSHELLDETAILINFO._serialized_end=223
 # @@protoc_insertion_point(module_scope)

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cLockedPersonallineData.proto\"\xd7\x01\n\x16LockedPersonallineData\x12\x37\n\x0block_reason\x18\x02 \x01(\x0e\x32\".LockedPersonallineData.LockReason\x12\x18\n\x10personal_line_id\x18\r \x01(\r\x12\x14\n\nchapter_id\x18\x03 \x01(\rH\x00\x12\x0f\n\x05level\x18\x01 \x01(\rH\x00\":\n\nLockReason\x12\x15\n\x11LOCK_REASON_LEVEL\x10\x00\x12\x15\n\x11LOCK_REASON_QUEST\x10\x01\x42\x07\n\x05paramb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cLockedPersonallineData.proto\"\xd7\x01\n\x16LockedPersonallineData\x12\x37\n\x0block_reason\x18\r \x01(\x0e\x32\".LockedPersonallineData.LockReason\x12\x18\n\x10personal_line_id\x18\x03 \x01(\r\x12\x14\n\nchapter_id\x18\x04 \x01(\rH\x00\x12\x0f\n\x05level\x18\x0f \x01(\rH\x00\":\n\nLockReason\x12\x15\n\x11LOCK_REASON_LEVEL\x10\x00\x12\x15\n\x11LOCK_REASON_QUEST\x10\x01\x42\x07\n\x05paramb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LockedPersonallineData_pb2', globals())

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import CityReputationInfo_pb2 as CityReputationInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eGetCityReputationInfoRsp.proto\x1a\x18\x43ityReputationInfo.proto\"o\n\x18GetCityReputationInfoRsp\x12\x0f\n\x07\x63ity_id\x18\x01 \x01(\r\x12\x0f\n\x07retcode\x18\x04 \x01(\x05\x12\x31\n\x14\x63ity_reputation_info\x18\t \x01(\x0b\x32\x13.CityReputationInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eGetCityReputationInfoRsp.proto\x1a\x18\x43ityReputationInfo.proto\"o\n\x18GetCityReputationInfoRsp\x12\x31\n\x14\x63ity_reputation_info\x18\x0b \x01(\x0b\x32\x13.CityReputationInfo\x12\x0f\n\x07\x63ity_id\x18\x07 \x01(\r\x12\x0f\n\x07retcode\x18\x02 \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetCityReputationInfoRsp_pb2', globals())

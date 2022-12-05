@@ -14,21 +14,21 @@ _sym_db = _symbol_database.Default()
 import HomeAnimalData_pb2 as HomeAnimalData__pb2
 import HomeBlockDotPattern_pb2 as HomeBlockDotPattern__pb2
 import HomeBlockFieldData_pb2 as HomeBlockFieldData__pb2
+import HomeFurnitureCustomSuiteData_pb2 as HomeFurnitureCustomSuiteData__pb2
 import HomeFurnitureData_pb2 as HomeFurnitureData__pb2
+import HomeFurnitureGroupData_pb2 as HomeFurnitureGroupData__pb2
 import HomeFurnitureSuiteData_pb2 as HomeFurnitureSuiteData__pb2
 import HomeNpcData_pb2 as HomeNpcData__pb2
-import Unk2700_BIEMCDLIFOD_pb2 as Unk2700__BIEMCDLIFOD__pb2
-import Unk2700_GOHMLAFNBGF_pb2 as Unk2700__GOHMLAFNBGF__pb2
 import WeekendDjinnInfo_pb2 as WeekendDjinnInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eHomeBlockArrangementInfo.proto\x1a\x14HomeAnimalData.proto\x1a\x19HomeBlockDotPattern.proto\x1a\x18HomeBlockFieldData.proto\x1a\x17HomeFurnitureData.proto\x1a\x1cHomeFurnitureSuiteData.proto\x1a\x11HomeNpcData.proto\x1a\x19Unk2700_BIEMCDLIFOD.proto\x1a\x19Unk2700_GOHMLAFNBGF.proto\x1a\x16WeekendDjinnInfo.proto\"\xbf\x04\n\x18HomeBlockArrangementInfo\x12\x13\n\x0bis_unlocked\x18\x01 \x01(\x08\x12\x15\n\rcomfort_value\x18\x02 \x01(\r\x12+\n\x12\x64\x65ploy_animal_list\x18\x04 \x03(\x0b\x32\x0f.HomeAnimalData\x12\x31\n\x13Unk2700_HGIECHILOJL\x18\x05 \x03(\x0b\x32\x14.Unk2700_GOHMLAFNBGF\x12\x32\n\x17weekend_djinn_info_list\x18\r \x03(\x0b\x32\x11.WeekendDjinnInfo\x12\x35\n\x14\x66urniture_suite_list\x18\x0f \x03(\x0b\x32\x17.HomeFurnitureSuiteData\x12\'\n\nfield_list\x18\x03 \x03(\x0b\x32\x13.HomeBlockFieldData\x12%\n\x0f\x64\x65ploy_npc_list\x18\x0b \x03(\x0b\x32\x0c.HomeNpcData\x12.\n\x10\x64ot_pattern_list\x18\x07 \x03(\x0b\x32\x14.HomeBlockDotPattern\x12\x35\n\x19persistent_furniture_list\x18\t \x03(\x0b\x32\x12.HomeFurnitureData\x12\x30\n\x14\x64\x65ploy_furniure_list\x18\x0c \x03(\x0b\x32\x12.HomeFurnitureData\x12\x10\n\x08\x62lock_id\x18\x06 \x01(\r\x12\x31\n\x13Unk2700_KJGLLEEHBPF\x18\x0e \x03(\x0b\x32\x14.Unk2700_BIEMCDLIFODb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eHomeBlockArrangementInfo.proto\x1a\x14HomeAnimalData.proto\x1a\x19HomeBlockDotPattern.proto\x1a\x18HomeBlockFieldData.proto\x1a\"HomeFurnitureCustomSuiteData.proto\x1a\x17HomeFurnitureData.proto\x1a\x1cHomeFurnitureGroupData.proto\x1a\x1cHomeFurnitureSuiteData.proto\x1a\x11HomeNpcData.proto\x1a\x16WeekendDjinnInfo.proto\"\xcd\x04\n\x18HomeBlockArrangementInfo\x12/\n\x13Unk3300_GMMAIDIJOJM\x18\n \x03(\x0b\x32\x12.HomeFurnitureData\x12+\n\x12\x64\x65ploy_animal_list\x18\x07 \x03(\x0b\x32\x0f.HomeAnimalData\x12\x35\n\x14\x66urniture_suite_list\x18\x03 \x03(\x0b\x32\x17.HomeFurnitureSuiteData\x12\x32\n\x17weekend_djinn_info_list\x18\x05 \x03(\x0b\x32\x11.WeekendDjinnInfo\x12\x10\n\x08\x62lock_id\x18\x0e \x01(\r\x12.\n\x10\x64ot_pattern_list\x18\x06 \x03(\x0b\x32\x14.HomeBlockDotPattern\x12\x13\n\x0bis_unlocked\x18\x0f \x01(\x08\x12%\n\x0f\x64\x65ploy_npc_list\x18\x01 \x03(\x0b\x32\x0c.HomeNpcData\x12\x35\n\x14\x66urniture_group_list\x18\x08 \x03(\x0b\x32\x17.HomeFurnitureGroupData\x12\'\n\nfield_list\x18\r \x03(\x0b\x32\x13.HomeBlockFieldData\x12\x15\n\rcomfort_value\x18\t \x01(\r\x12/\n\x13Unk3300_DEIECJCAFLN\x18\x0c \x03(\x0b\x32\x12.HomeFurnitureData\x12\x42\n\x1b\x66urniture_custom_suite_list\x18\x04 \x03(\x0b\x32\x1d.HomeFurnitureCustomSuiteDatab\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeBlockArrangementInfo_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _HOMEBLOCKARRANGEMENTINFO._serialized_start=262
-  _HOMEBLOCKARRANGEMENTINFO._serialized_end=837
+  _HOMEBLOCKARRANGEMENTINFO._serialized_start=274
+  _HOMEBLOCKARRANGEMENTINFO._serialized_end=863
 # @@protoc_insertion_point(module_scope)

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ProductPriceTier_pb2 as ProductPriceTier__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1ePlayerRechargeDataNotify.proto\x1a\x16ProductPriceTier.proto\"p\n\x18PlayerRechargeDataNotify\x12 \n\x18\x63\x61rd_product_remain_days\x18\x0c \x01(\r\x12\x32\n\x17product_price_tier_list\x18\x0b \x03(\x0b\x32\x11.ProductPriceTierb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1ePlayerRechargeDataNotify.proto\x1a\x16ProductPriceTier.proto\"p\n\x18PlayerRechargeDataNotify\x12\x32\n\x17product_price_tier_list\x18\x07 \x03(\x0b\x32\x11.ProductPriceTier\x12 \n\x18\x63\x61rd_product_remain_days\x18\x06 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerRechargeDataNotify_pb2', globals())

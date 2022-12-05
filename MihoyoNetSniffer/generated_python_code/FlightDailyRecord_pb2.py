@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x46lightDailyRecord.proto\"z\n\x11\x46lightDailyRecord\x12\x10\n\x08group_id\x18\x04 \x01(\r\x12\x12\n\nis_touched\x18\x01 \x01(\x08\x12\x17\n\x0fwatcher_id_list\x18\x0b \x03(\r\x12\x12\n\nbest_score\x18\x07 \x01(\r\x12\x12\n\nstart_time\x18\x03 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x46lightDailyRecord.proto\"z\n\x11\x46lightDailyRecord\x12\x12\n\nbest_score\x18\x0f \x01(\r\x12\x10\n\x08group_id\x18\r \x01(\r\x12\x12\n\nis_touched\x18\x05 \x01(\x08\x12\x12\n\nstart_time\x18\x06 \x01(\r\x12\x17\n\x0fwatcher_id_list\x18\x07 \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FlightDailyRecord_pb2', globals())

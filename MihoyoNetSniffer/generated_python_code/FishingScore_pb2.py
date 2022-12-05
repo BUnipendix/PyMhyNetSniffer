@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12\x46ishingScore.proto\"=\n\x0c\x46ishingScore\x12\x16\n\x0e\x66ishing_score_\x18\x02 \x01(\r\x12\x15\n\ris_new_record\x18\x04 \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12\x46ishingScore.proto\"<\n\x0c\x46ishingScore\x12\x15\n\rfishing_score\x18\x0b \x01(\r\x12\x15\n\ris_new_record\x18\n \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FishingScore_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _FISHINGSCORE._serialized_start=22
-  _FISHINGSCORE._serialized_end=83
+  _FISHINGSCORE._serialized_end=82
 # @@protoc_insertion_point(module_scope)

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x43ityReputationRequestInfo.proto\"\xbd\x01\n\x19\x43ityReputationRequestInfo\x12\x0f\n\x07is_open\x18\x02 \x01(\x08\x12\x41\n\x11request_info_list\x18\x01 \x03(\x0b\x32&.CityReputationRequestInfo.RequestInfo\x1aL\n\x0bRequestInfo\x12\x12\n\nrequest_id\x18\x03 \x01(\r\x12\x10\n\x08quest_id\x18\t \x01(\r\x12\x17\n\x0fis_taken_reward\x18\x06 \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x43ityReputationRequestInfo.proto\"\xbd\x01\n\x19\x43ityReputationRequestInfo\x12\x41\n\x11request_info_list\x18\x04 \x03(\x0b\x32&.CityReputationRequestInfo.RequestInfo\x12\x0f\n\x07is_open\x18\x0e \x01(\x08\x1aL\n\x0bRequestInfo\x12\x17\n\x0fis_taken_reward\x18\x04 \x01(\x08\x12\x12\n\nrequest_id\x18\x08 \x01(\r\x12\x10\n\x08quest_id\x18\x0b \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CityReputationRequestInfo_pb2', globals())

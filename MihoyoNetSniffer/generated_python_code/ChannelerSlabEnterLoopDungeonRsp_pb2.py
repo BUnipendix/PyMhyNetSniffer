@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&ChannelerSlabEnterLoopDungeonRsp.proto\"\x8e\x01\n ChannelerSlabEnterLoopDungeonRsp\x12\x0f\n\x07retcode\x18\t \x01(\x05\x12\x10\n\x08point_id\x18\x0c \x01(\r\x12\x19\n\x11\x63ondition_id_list\x18\x06 \x03(\r\x12\x15\n\rdungeon_index\x18\x0f \x01(\r\x12\x15\n\rdifficulty_id\x18\x03 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&ChannelerSlabEnterLoopDungeonRsp.proto\"\x8e\x01\n ChannelerSlabEnterLoopDungeonRsp\x12\x10\n\x08point_id\x18\x0e \x01(\r\x12\x0f\n\x07retcode\x18\t \x01(\x05\x12\x15\n\rdifficulty_id\x18\x08 \x01(\r\x12\x15\n\rdungeon_index\x18\r \x01(\r\x12\x19\n\x11\x63ondition_id_list\x18\x07 \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChannelerSlabEnterLoopDungeonRsp_pb2', globals())

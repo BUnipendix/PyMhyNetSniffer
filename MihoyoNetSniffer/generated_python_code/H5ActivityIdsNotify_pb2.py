@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19H5ActivityIdsNotify.proto\"\xaf\x01\n\x13H5ActivityIdsNotify\x12 \n\x18\x63lient_red_dot_timestamp\x18\x01 \x01(\r\x12@\n\x0fh5_activity_map\x18\x0c \x03(\x0b\x32\'.H5ActivityIdsNotify.H5ActivityMapEntry\x1a\x34\n\x12H5ActivityMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19H5ActivityIdsNotify.proto\"\xaf\x01\n\x13H5ActivityIdsNotify\x12 \n\x18\x63lient_red_dot_timestamp\x18\x05 \x01(\r\x12@\n\x0fh5_activity_map\x18\x0c \x03(\x0b\x32\'.H5ActivityIdsNotify.H5ActivityMapEntry\x1a\x34\n\x12H5ActivityMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'H5ActivityIdsNotify_pb2', globals())

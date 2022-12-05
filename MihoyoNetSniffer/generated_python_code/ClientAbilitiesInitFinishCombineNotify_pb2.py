@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import EntityAbilityInvokeEntry_pb2 as EntityAbilityInvokeEntry__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n,ClientAbilitiesInitFinishCombineNotify.proto\x1a\x1e\x45ntityAbilityInvokeEntry.proto\"_\n&ClientAbilitiesInitFinishCombineNotify\x12\x35\n\x12\x65ntity_invoke_list\x18\x01 \x03(\x0b\x32\x19.EntityAbilityInvokeEntryb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n,ClientAbilitiesInitFinishCombineNotify.proto\x1a\x1e\x45ntityAbilityInvokeEntry.proto\"_\n&ClientAbilitiesInitFinishCombineNotify\x12\x35\n\x12\x65ntity_invoke_list\x18\n \x03(\x0b\x32\x19.EntityAbilityInvokeEntryb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ClientAbilitiesInitFinishCombineNotify_pb2', globals())

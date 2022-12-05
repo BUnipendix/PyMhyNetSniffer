@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import AsterMidCampInfo_pb2 as AsterMidCampInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x41sterMidCampInfoNotify.proto\x1a\x16\x41sterMidCampInfo.proto\">\n\x16\x41sterMidCampInfoNotify\x12$\n\tcamp_list\x18\x05 \x03(\x0b\x32\x11.AsterMidCampInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x41sterMidCampInfoNotify.proto\x1a\x16\x41sterMidCampInfo.proto\">\n\x16\x41sterMidCampInfoNotify\x12$\n\tcamp_list\x18\x0b \x03(\x0b\x32\x11.AsterMidCampInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AsterMidCampInfoNotify_pb2', globals())

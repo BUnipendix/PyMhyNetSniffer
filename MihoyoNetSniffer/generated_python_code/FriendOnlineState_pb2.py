@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x46riendOnlineState.proto*_\n\x11\x46riendOnlineState\x12*\n&FRIEND_ONLINE_STATE_FREIEND_DISCONNECT\x10\x00\x12\x1e\n\x1a\x46RIEND_ONLINE_STATE_ONLINE\x10\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x46riendOnlineState.proto*W\n\x11\x46riendOnlineState\x12\"\n\x1e\x46RIEND_ONLINE_STATE_DISCONNECT\x10\x00\x12\x1e\n\x1a\x46RIEND_ONLINE_STATE_ONLINE\x10\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FriendOnlineState_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _FRIENDONLINESTATE._serialized_start=27
-  _FRIENDONLINESTATE._serialized_end=122
+  _FRIENDONLINESTATE._serialized_end=114
 # @@protoc_insertion_point(module_scope)

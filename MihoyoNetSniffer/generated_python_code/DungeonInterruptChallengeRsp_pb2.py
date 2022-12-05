@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"DungeonInterruptChallengeRsp.proto\"p\n\x1c\x44ungeonInterruptChallengeRsp\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x12\x17\n\x0f\x63hallenge_index\x18\x02 \x01(\r\x12\x10\n\x08group_id\x18\x0f \x01(\r\x12\x14\n\x0c\x63hallenge_id\x18\x0b \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"DungeonInterruptChallengeRsp.proto\"p\n\x1c\x44ungeonInterruptChallengeRsp\x12\x10\n\x08group_id\x18\n \x01(\r\x12\x14\n\x0c\x63hallenge_id\x18\x05 \x01(\r\x12\x0f\n\x07retcode\x18\x0c \x01(\x05\x12\x17\n\x0f\x63hallenge_index\x18\x0e \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DungeonInterruptChallengeRsp_pb2', globals())

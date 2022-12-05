@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n FleurFairReplayMiniGameReq.proto\"1\n\x1a\x46leurFairReplayMiniGameReq\x12\x13\n\x0bminigame_id\x18\x05 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n FleurFairReplayMiniGameReq.proto\"1\n\x1a\x46leurFairReplayMiniGameReq\x12\x13\n\x0bminigame_id\x18\x03 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FleurFairReplayMiniGameReq_pb2', globals())

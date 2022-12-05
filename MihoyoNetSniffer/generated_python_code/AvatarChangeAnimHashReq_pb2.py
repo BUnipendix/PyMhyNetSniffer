@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x41vatarChangeAnimHashReq.proto\"A\n\x17\x41vatarChangeAnimHashReq\x12\x11\n\tanim_hash\x18\x06 \x01(\r\x12\x13\n\x0b\x61vatar_guid\x18\x03 \x01(\x04\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x41vatarChangeAnimHashReq.proto\"A\n\x17\x41vatarChangeAnimHashReq\x12\x11\n\tanim_hash\x18\x0b \x01(\r\x12\x13\n\x0b\x61vatar_guid\x18\x0c \x01(\x04\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarChangeAnimHashReq_pb2', globals())

@@ -15,7 +15,7 @@ import MsgParam_pb2 as MsgParam__pb2
 import SvrMsgId_pb2 as SvrMsgId__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17ShowMessageNotify.proto\x1a\x0eMsgParam.proto\x1a\x0eSvrMsgId.proto\"I\n\x11ShowMessageNotify\x12\x19\n\x06msg_id\x18\x0e \x01(\x0e\x32\t.SvrMsgId\x12\x19\n\x06params\x18\r \x03(\x0b\x32\t.MsgParamb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17ShowMessageNotify.proto\x1a\x0eMsgParam.proto\x1a\x0eSvrMsgId.proto\"I\n\x11ShowMessageNotify\x12\x19\n\x06msg_id\x18\t \x01(\x0e\x32\t.SvrMsgId\x12\x19\n\x06params\x18\n \x03(\x0b\x32\t.MsgParamb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ShowMessageNotify_pb2', globals())

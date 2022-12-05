@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import FlightDailyRecord_pb2 as FlightDailyRecord__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x46lightActivityDetailInfo.proto\x1a\x17\x46lightDailyRecord.proto\"\x83\x01\n\x18\x46lightActivityDetailInfo\x12\x19\n\x11preview_reward_id\x18\x0f \x01(\r\x12\x1d\n\x15min_open_player_level\x18\x0b \x01(\r\x12-\n\x11\x64\x61ily_record_list\x18\x01 \x03(\x0b\x32\x12.FlightDailyRecordb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x46lightActivityDetailInfo.proto\x1a\x17\x46lightDailyRecord.proto\"\x83\x01\n\x18\x46lightActivityDetailInfo\x12-\n\x11\x64\x61ily_record_list\x18\x0c \x03(\x0b\x32\x12.FlightDailyRecord\x12\x19\n\x11preview_reward_id\x18\x01 \x01(\r\x12\x1d\n\x15min_open_player_level\x18\x04 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FlightActivityDetailInfo_pb2', globals())

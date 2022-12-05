@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dMpPlayOwnerInviteNotify.proto\"S\n\x17MpPlayOwnerInviteNotify\x12\n\n\x02\x63\x64\x18\x0c \x01(\r\x12\x12\n\nmp_play_id\x18\r \x01(\r\x12\x18\n\x10is_remain_reward\x18\n \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dMpPlayOwnerInviteNotify.proto\"S\n\x17MpPlayOwnerInviteNotify\x12\x12\n\nmp_play_id\x18\x0b \x01(\r\x12\x18\n\x10is_remain_reward\x18\x04 \x01(\x08\x12\n\n\x02\x63\x64\x18\x07 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MpPlayOwnerInviteNotify_pb2', globals())

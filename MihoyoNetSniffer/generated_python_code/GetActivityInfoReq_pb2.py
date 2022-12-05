@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18GetActivityInfoReq.proto\".\n\x12GetActivityInfoReq\x12\x18\n\x10\x61\x63tivity_id_list\x18\x04 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18GetActivityInfoReq.proto\".\n\x12GetActivityInfoReq\x12\x18\n\x10\x61\x63tivity_id_list\x18\x01 \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetActivityInfoReq_pb2', globals())

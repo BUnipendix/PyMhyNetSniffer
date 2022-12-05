@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15SceneTimeNotify.proto\"J\n\x0fSceneTimeNotify\x12\x12\n\nscene_time\x18\x0e \x01(\x04\x12\x11\n\tis_paused\x18\x01 \x01(\x08\x12\x10\n\x08scene_id\x18\x07 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15SceneTimeNotify.proto\"J\n\x0fSceneTimeNotify\x12\x12\n\nscene_time\x18\n \x01(\x04\x12\x10\n\x08scene_id\x18\x0e \x01(\r\x12\x11\n\tis_paused\x18\x05 \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneTimeNotify_pb2', globals())

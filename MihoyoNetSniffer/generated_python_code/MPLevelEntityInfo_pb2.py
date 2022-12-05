@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import AbilitySyncStateInfo_pb2 as AbilitySyncStateInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17MPLevelEntityInfo.proto\x1a\x1a\x41\x62ilitySyncStateInfo.proto\"n\n\x11MPLevelEntityInfo\x12+\n\x0c\x61\x62ility_info\x18\x02 \x01(\x0b\x32\x15.AbilitySyncStateInfo\x12\x11\n\tentity_id\x18\x0b \x01(\r\x12\x19\n\x11\x61uthority_peer_id\x18\x03 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17MPLevelEntityInfo.proto\x1a\x1a\x41\x62ilitySyncStateInfo.proto\"n\n\x11MPLevelEntityInfo\x12+\n\x0c\x61\x62ility_info\x18\x0f \x01(\x0b\x32\x15.AbilitySyncStateInfo\x12\x11\n\tentity_id\x18\n \x01(\r\x12\x19\n\x11\x61uthority_peer_id\x18\x05 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MPLevelEntityInfo_pb2', globals())

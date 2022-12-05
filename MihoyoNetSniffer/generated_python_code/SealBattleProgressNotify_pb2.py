@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eSealBattleProgressNotify.proto\"\x81\x01\n\x18SealBattleProgressNotify\x12\x16\n\x0eseal_entity_id\x18\t \x01(\r\x12\x14\n\x0cmax_progress\x18\n \x01(\r\x12\x13\n\x0bseal_radius\x18\x04 \x01(\r\x12\x10\n\x08progress\x18\x05 \x01(\r\x12\x10\n\x08\x65nd_time\x18\x02 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eSealBattleProgressNotify.proto\"\x81\x01\n\x18SealBattleProgressNotify\x12\x10\n\x08\x65nd_time\x18\x05 \x01(\r\x12\x13\n\x0bseal_radius\x18\x01 \x01(\r\x12\x14\n\x0cmax_progress\x18\t \x01(\r\x12\x16\n\x0eseal_entity_id\x18\x06 \x01(\r\x12\x10\n\x08progress\x18\x04 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SealBattleProgressNotify_pb2', globals())

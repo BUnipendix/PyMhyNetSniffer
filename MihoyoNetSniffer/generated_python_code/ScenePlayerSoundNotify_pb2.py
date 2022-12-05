@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cScenePlayerSoundNotify.proto\x1a\x0cVector.proto\"\xe1\x01\n\x16ScenePlayerSoundNotify\x12\x12\n\nsound_name\x18\x04 \x01(\t\x12\x38\n\tplay_type\x18\x08 \x01(\x0e\x32%.ScenePlayerSoundNotify.PlaySoundType\x12\x19\n\x08play_pos\x18\x03 \x01(\x0b\x32\x07.Vector\"^\n\rPlaySoundType\x12\x18\n\x14PLAY_SOUND_TYPE_NONE\x10\x00\x12\x19\n\x15PLAY_SOUND_TYPE_START\x10\x01\x12\x18\n\x14PLAY_SOUND_TYPE_STOP\x10\x02\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cScenePlayerSoundNotify.proto\x1a\x0cVector.proto\"\xe1\x01\n\x16ScenePlayerSoundNotify\x12\x19\n\x08play_pos\x18\x06 \x01(\x0b\x32\x07.Vector\x12\x38\n\tplay_type\x18\x0f \x01(\x0e\x32%.ScenePlayerSoundNotify.PlaySoundType\x12\x12\n\nsound_name\x18\x0e \x01(\t\"^\n\rPlaySoundType\x12\x18\n\x14PLAY_SOUND_TYPE_NONE\x10\x00\x12\x19\n\x15PLAY_SOUND_TYPE_START\x10\x01\x12\x18\n\x14PLAY_SOUND_TYPE_STOP\x10\x02\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ScenePlayerSoundNotify_pb2', globals())

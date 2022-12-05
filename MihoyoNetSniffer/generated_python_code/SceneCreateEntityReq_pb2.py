@@ -15,7 +15,7 @@ import CreateEntityInfo_pb2 as CreateEntityInfo__pb2
 import CreateReason_pb2 as CreateReason__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aSceneCreateEntityReq.proto\x1a\x16\x43reateEntityInfo.proto\x1a\x12\x43reateReason.proto\"|\n\x14SceneCreateEntityReq\x12!\n\x06\x65ntity\x18\x01 \x01(\x0b\x32\x11.CreateEntityInfo\x12\"\n\x1ais_destroy_when_disconnect\x18\n \x01(\x08\x12\x1d\n\x06reason\x18\x03 \x01(\x0e\x32\r.CreateReasonb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aSceneCreateEntityReq.proto\x1a\x16\x43reateEntityInfo.proto\x1a\x12\x43reateReason.proto\"|\n\x14SceneCreateEntityReq\x12\x1d\n\x06reason\x18\x04 \x01(\x0e\x32\r.CreateReason\x12!\n\x06\x65ntity\x18\x08 \x01(\x0b\x32\x11.CreateEntityInfo\x12\"\n\x1ais_destroy_when_disconnect\x18\x0f \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneCreateEntityReq_pb2', globals())

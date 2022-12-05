@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import SumoDungeonAvatar_pb2 as SumoDungeonAvatar__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15SumoDungeonTeam.proto\x1a\x17SumoDungeonAvatar.proto\"B\n\x0fSumoDungeonTeam\x12/\n\x13\x64ungeon_avatar_list\x18\x0f \x03(\x0b\x32\x12.SumoDungeonAvatarb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15SumoDungeonTeam.proto\x1a\x17SumoDungeonAvatar.proto\"B\n\x0fSumoDungeonTeam\x12/\n\x13\x64ungeon_avatar_list\x18\x0b \x03(\x0b\x32\x12.SumoDungeonAvatarb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SumoDungeonTeam_pb2', globals())

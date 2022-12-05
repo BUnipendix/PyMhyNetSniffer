@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n.DungeonCandidateTeamSetChangingAvatarReq.proto\"F\n(DungeonCandidateTeamSetChangingAvatarReq\x12\x1a\n\x12is_changing_avatar\x18\x0c \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n.DungeonCandidateTeamSetChangingAvatarReq.proto\"F\n(DungeonCandidateTeamSetChangingAvatarReq\x12\x1a\n\x12is_changing_avatar\x18\x0b \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DungeonCandidateTeamSetChangingAvatarReq_pb2', globals())

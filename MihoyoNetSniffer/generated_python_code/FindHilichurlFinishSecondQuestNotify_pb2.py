@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n*FindHilichurlFinishSecondQuestNotify.proto\"9\n$FindHilichurlFinishSecondQuestNotify\x12\x11\n\tday_index\x18\x0b \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n*FindHilichurlFinishSecondQuestNotify.proto\"9\n$FindHilichurlFinishSecondQuestNotify\x12\x11\n\tday_index\x18\x04 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FindHilichurlFinishSecondQuestNotify_pb2', globals())

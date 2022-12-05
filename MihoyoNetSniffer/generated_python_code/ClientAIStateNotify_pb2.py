@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x43lientAIStateNotify.proto\"<\n\x13\x43lientAIStateNotify\x12\x11\n\tentity_id\x18\t \x01(\r\x12\x12\n\ncur_tactic\x18\x0f \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x43lientAIStateNotify.proto\"<\n\x13\x43lientAIStateNotify\x12\x11\n\tentity_id\x18\r \x01(\r\x12\x12\n\ncur_tactic\x18\x03 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ClientAIStateNotify_pb2', globals())

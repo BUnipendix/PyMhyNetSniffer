@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ChatInfo_pb2 as ChatInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13PlayerChatReq.proto\x1a\x0e\x43hatInfo.proto\"A\n\rPlayerChatReq\x12\x12\n\nchannel_id\x18\r \x01(\r\x12\x1c\n\tchat_info\x18\x0f \x01(\x0b\x32\t.ChatInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13PlayerChatReq.proto\x1a\x0e\x43hatInfo.proto\"A\n\rPlayerChatReq\x12\x12\n\nchannel_id\x18\x03 \x01(\r\x12\x1c\n\tchat_info\x18\t \x01(\x0b\x32\t.ChatInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerChatReq_pb2', globals())

@@ -15,7 +15,7 @@ import CookRecipeData_pb2 as CookRecipeData__pb2
 import ItemParam_pb2 as ItemParam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13PlayerCookRsp.proto\x1a\x14\x43ookRecipeData.proto\x1a\x0fItemParam.proto\"\xb4\x01\n\rPlayerCookRsp\x12$\n\x10\x65xtral_item_list\x18\x0f \x03(\x0b\x32\n.ItemParam\x12\x12\n\ncook_count\x18\x0c \x01(\r\x12\x1d\n\titem_list\x18\x0b \x03(\x0b\x32\n.ItemParam\x12\x0f\n\x07retcode\x18\x03 \x01(\x05\x12\x13\n\x0bqte_quality\x18\x05 \x01(\r\x12$\n\x0brecipe_data\x18\x07 \x01(\x0b\x32\x0f.CookRecipeDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13PlayerCookRsp.proto\x1a\x14\x43ookRecipeData.proto\x1a\x0fItemParam.proto\"\xc4\x01\n\rPlayerCookRsp\x12\x0f\n\x07retcode\x18\x04 \x01(\x05\x12$\n\x0brecipe_data\x18\x0c \x01(\x0b\x32\x0f.CookRecipeData\x12\x1d\n\titem_list\x18\x05 \x03(\x0b\x32\n.ItemParam\x12\x1b\n\x13Unk3300_NDPHNNOFEBL\x18\x01 \x01(\r\x12#\n\x0f\x65xtra_item_list\x18\x03 \x03(\x0b\x32\n.ItemParam\x12\x1b\n\x13Unk3300_JPICLIDLIEC\x18\x0b \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerCookRsp_pb2', globals())
@@ -23,5 +23,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _PLAYERCOOKRSP._serialized_start=63
-  _PLAYERCOOKRSP._serialized_end=243
+  _PLAYERCOOKRSP._serialized_end=259
 # @@protoc_insertion_point(module_scope)

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n BeginCameraSceneLookNotify.proto\x1a\x0cVector.proto\"\xbc\x05\n\x1a\x42\x65ginCameraSceneLookNotify\x12\x1c\n\x13Unk3000_MNLLCJMPMNH\x18\x82\t \x01(\r\x12\x1b\n\x13Unk2700_DHAHEKOGHBJ\x18\x07 \x01(\x02\x12\x18\n\x10is_set_screen_xy\x18\x05 \x01(\x08\x12\x19\n\x08look_pos\x18\x04 \x01(\x0b\x32\x07.Vector\x12\x1f\n\x17is_recover_keep_current\x18\x0b \x01(\x08\x12\x1c\n\x13Unk3000_GOPIFPMFEPB\x18\xdf\n \x01(\x08\x12L\n\x13Unk2700_HIAKNNCKHJB\x18\x06 \x01(\x0e\x32/.BeginCameraSceneLookNotify.Unk2700_LNCHDDOOECD\x12\x1b\n\x13is_change_play_mode\x18\t \x01(\x08\x12\x1c\n\x13Unk3000_IEFIKMHCKDH\x18\xcf\x08 \x01(\r\x12\x10\n\x08screen_y\x18\x0f \x01(\x02\x12\x19\n\x11is_set_follow_pos\x18\r \x01(\x08\x12\x10\n\x08is_force\x18\x0c \x01(\x08\x12\x1c\n\x13Unk3000_OGCLMFFADBD\x18\xde\r \x01(\x02\x12\x12\n\tentity_id\x18\xaf\n \x01(\r\x12\x10\n\x08screen_x\x18\x03 \x01(\x02\x12\x15\n\ris_force_walk\x18\n \x01(\x08\x12\x14\n\x0cother_params\x18\x01 \x03(\t\x12\x1b\n\nfollow_pos\x18\x08 \x01(\x0b\x32\x07.Vector\x12\x16\n\x0eis_allow_input\x18\x02 \x01(\x08\x12\x10\n\x08\x64uration\x18\x0e \x01(\x02\"o\n\x13Unk2700_LNCHDDOOECD\x12+\n\'Unk2700_LNCHDDOOECD_Unk2700_ACOENBMDFBP\x10\x00\x12+\n\'Unk2700_LNCHDDOOECD_Unk2700_FKBLCDFLCOM\x10\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n BeginCameraSceneLookNotify.proto\x1a\x0cVector.proto\"\xb8\x05\n\x1a\x42\x65ginCameraSceneLookNotify\x12\x1c\n\x13Unk3300_HKKCHCEMJIE\x18\xb4\r \x01(\x02\x12\x1b\n\x13Unk3300_DFPCMOFONNK\x18\x0f \x01(\x08\x12\x1b\n\x13Unk3300_EELNOAICHOJ\x18\x04 \x01(\x08\x12\x1b\n\x13Unk3300_ODADMBBFPAP\x18\x07 \x01(\x08\x12\x10\n\x08\x64uration\x18\x02 \x01(\x02\x12\x1c\n\x13Unk3300_KCHKKBODNCJ\x18\xd2\r \x01(\r\x12\x1b\n\x13Unk3300_FIOLGCIKFLH\x18\n \x01(\x02\x12\x14\n\x0cother_params\x18\t \x03(\t\x12\x1b\n\x13Unk3300_NJLBIMJDFHJ\x18\x03 \x01(\x08\x12\x1c\n\x13Unk3300_AAOGBCCNJAF\x18\xc8\t \x01(\x08\x12\x12\n\tentity_id\x18\xfb\n \x01(\r\x12>\n\rkeep_rot_type\x18\x0b \x01(\x0e\x32\'.BeginCameraSceneLookNotify.KeepRotType\x12$\n\x13Unk3300_PPCIDICMIEN\x18\x08 \x01(\x0b\x32\x07.Vector\x12\x1c\n\x13Unk3300_AJEENEOCFON\x18\xc5\x07 \x01(\r\x12\x1b\n\x13Unk3300_ONBDMCHFPDL\x18\x05 \x01(\x08\x12\x1b\n\x13Unk3300_PIEFLAEGGBI\x18\x06 \x01(\x08\x12$\n\x13Unk3300_FJDFGLNLMBN\x18\r \x01(\x0b\x32\x07.Vector\x12\x1b\n\x13Unk3300_ILMHDLHLKGJ\x18\x01 \x01(\x08\x12\x1b\n\x13Unk3300_HCLPGGAOIAC\x18\x0c \x01(\x02\x12\x1b\n\x13Unk3300_HFPCHFNFJKP\x18\x0e \x01(\x02\"8\n\x0bKeepRotType\x12\x13\n\x0fKEEP_ROT_TYPE_X\x10\x00\x12\x14\n\x10KEEP_ROT_TYPE_XY\x10\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BeginCameraSceneLookNotify_pb2', globals())
@@ -22,7 +22,7 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _BEGINCAMERASCENELOOKNOTIFY._serialized_start=51
-  _BEGINCAMERASCENELOOKNOTIFY._serialized_end=751
-  _BEGINCAMERASCENELOOKNOTIFY_UNK2700_LNCHDDOOECD._serialized_start=640
-  _BEGINCAMERASCENELOOKNOTIFY_UNK2700_LNCHDDOOECD._serialized_end=751
+  _BEGINCAMERASCENELOOKNOTIFY._serialized_end=747
+  _BEGINCAMERASCENELOOKNOTIFY_KEEPROTTYPE._serialized_start=691
+  _BEGINCAMERASCENELOOKNOTIFY_KEEPROTTYPE._serialized_end=747
 # @@protoc_insertion_point(module_scope)

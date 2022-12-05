@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x45nterChessDungeonRsp.proto\"7\n\x14\x45nterChessDungeonRsp\x12\x0f\n\x07retcode\x18\x08 \x01(\x05\x12\x0e\n\x06map_id\x18\r \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x45nterChessDungeonRsp.proto\"7\n\x14\x45nterChessDungeonRsp\x12\x0f\n\x07retcode\x18\x08 \x01(\x05\x12\x0e\n\x06map_id\x18\x0c \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EnterChessDungeonRsp_pb2', globals())

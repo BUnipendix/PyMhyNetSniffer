@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x41vatarCardChangeRsp.proto\"&\n\x13\x41vatarCardChangeRsp\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x41vatarCardChangeRsp.proto\"&\n\x13\x41vatarCardChangeRsp\x12\x0f\n\x07retcode\x18\x03 \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarCardChangeRsp_pb2', globals())

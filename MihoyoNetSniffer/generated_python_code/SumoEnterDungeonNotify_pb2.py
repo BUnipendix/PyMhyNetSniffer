@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import SumoDungeonTeam_pb2 as SumoDungeonTeam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cSumoEnterDungeonNotify.proto\x1a\x15SumoDungeonTeam.proto\"\xc3\x01\n\x16SumoEnterDungeonNotify\x12\x13\n\x0b\x61\x63tivity_id\x18\x0f \x01(\r\x12+\n\x11\x64ungeon_team_list\x18\x0b \x03(\x0b\x32\x10.SumoDungeonTeam\x12\x1d\n\x15no_switch_punish_time\x18\n \x01(\r\x12\x1e\n\x16next_valid_switch_time\x18\r \x01(\r\x12\x10\n\x08stage_id\x18\x07 \x01(\r\x12\x16\n\x0e\x63ur_team_index\x18\x05 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cSumoEnterDungeonNotify.proto\x1a\x15SumoDungeonTeam.proto\"\xc3\x01\n\x16SumoEnterDungeonNotify\x12\x1b\n\x13Unk3300_DJBJACGHGDM\x18\x0f \x01(\r\x12\x1b\n\x13Unk3300_CBAMLHDMKJF\x18\x07 \x01(\r\x12+\n\x11\x64ungeon_team_list\x18\x0e \x03(\x0b\x32\x10.SumoDungeonTeam\x12\x1b\n\x13Unk3300_BNJBIGHIJOC\x18\x05 \x01(\r\x12\x13\n\x0b\x61\x63tivity_id\x18\x03 \x01(\r\x12\x10\n\x08stage_id\x18\x0b \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SumoEnterDungeonNotify_pb2', globals())

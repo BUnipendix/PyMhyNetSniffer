@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dTriggerRoguelikeRuneRsp.proto\"T\n\x17TriggerRoguelikeRuneRsp\x12\x17\n\x0f\x61vailable_count\x18\x04 \x01(\r\x12\x0f\n\x07rune_id\x18\x0e \x01(\r\x12\x0f\n\x07retcode\x18\x08 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dTriggerRoguelikeRuneRsp.proto\"T\n\x17TriggerRoguelikeRuneRsp\x12\x17\n\x0f\x61vailable_count\x18\x0f \x01(\r\x12\x0f\n\x07rune_id\x18\n \x01(\r\x12\x0f\n\x07retcode\x18\x04 \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TriggerRoguelikeRuneRsp_pb2', globals())

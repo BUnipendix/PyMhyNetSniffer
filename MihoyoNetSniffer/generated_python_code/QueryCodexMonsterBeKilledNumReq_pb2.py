@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%QueryCodexMonsterBeKilledNumReq.proto\"8\n\x1fQueryCodexMonsterBeKilledNumReq\x12\x15\n\rcodex_id_list\x18\x0e \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%QueryCodexMonsterBeKilledNumReq.proto\"8\n\x1fQueryCodexMonsterBeKilledNumReq\x12\x15\n\rcodex_id_list\x18\x03 \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'QueryCodexMonsterBeKilledNumReq_pb2', globals())

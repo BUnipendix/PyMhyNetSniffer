@@ -11,17 +11,17 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import RogueDiaryStage_pb2 as RogueDiaryStage__pb2
-import Unk2700_PILILDPMNNA_pb2 as Unk2700__PILILDPMNNA__pb2
+import RogueDiaryProgress_pb2 as RogueDiaryProgress__pb2
+import RogueDiaryStageInfo_pb2 as RogueDiaryStageInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"RogueDiaryActivityDetailInfo.proto\x1a\x15RogueDiaryStage.proto\x1a\x19Unk2700_PILILDPMNNA.proto\"\xa5\x01\n\x1cRogueDiaryActivityDetailInfo\x12$\n\nstage_list\x18\x0b \x03(\x0b\x32\x10.RogueDiaryStage\x12\x18\n\x10is_have_progress\x18\n \x01(\x08\x12\x19\n\x11is_content_closed\x18\x02 \x01(\x08\x12*\n\x0c\x63ur_progress\x18\x07 \x01(\x0b\x32\x14.Unk2700_PILILDPMNNAb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"RogueDiaryActivityDetailInfo.proto\x1a\x18RogueDiaryProgress.proto\x1a\x19RogueDiaryStageInfo.proto\"\xa8\x01\n\x1cRogueDiaryActivityDetailInfo\x12\x19\n\x11is_content_closed\x18\x03 \x01(\x08\x12(\n\nstage_list\x18\x0b \x03(\x0b\x32\x14.RogueDiaryStageInfo\x12\x18\n\x10is_have_progress\x18\x05 \x01(\x08\x12)\n\x0c\x63ur_progress\x18\n \x01(\x0b\x32\x13.RogueDiaryProgressb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RogueDiaryActivityDetailInfo_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ROGUEDIARYACTIVITYDETAILINFO._serialized_start=89
-  _ROGUEDIARYACTIVITYDETAILINFO._serialized_end=254
+  _ROGUEDIARYACTIVITYDETAILINFO._serialized_start=92
+  _ROGUEDIARYACTIVITYDETAILINFO._serialized_end=260
 # @@protoc_insertion_point(module_scope)

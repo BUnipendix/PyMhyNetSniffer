@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17GetWorldMpInfoRsp.proto\"W\n\x11GetWorldMpInfoRsp\x12\x0f\n\x07retcode\x18\x0c \x01(\x05\x12\x15\n\ris_in_mp_mode\x18\x01 \x01(\x08\x12\x1a\n\x12quit_mp_valid_time\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17GetWorldMpInfoRsp.proto\"W\n\x11GetWorldMpInfoRsp\x12\x1a\n\x12quit_mp_valid_time\x18\x0f \x01(\r\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x12\x15\n\ris_in_mp_mode\x18\x0e \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetWorldMpInfoRsp_pb2', globals())

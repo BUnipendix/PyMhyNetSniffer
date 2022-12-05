@@ -11,17 +11,17 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import Unk2800_BPOJIIDEADD_pb2 as Unk2800__BPOJIIDEADD__pb2
-import Unk2800_JIPMJPAKIKE_pb2 as Unk2800__JIPMJPAKIKE__pb2
+import GearLevelData_pb2 as GearLevelData__pb2
+import JigsawPictureData_pb2 as JigsawPictureData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cGearActivityDetailInfo.proto\x1a\x19Unk2800_BPOJIIDEADD.proto\x1a\x19Unk2800_JIPMJPAKIKE.proto\"~\n\x16GearActivityDetailInfo\x12\x31\n\x13Unk2800_GBAPCBPMHNJ\x18\x0e \x03(\x0b\x32\x14.Unk2800_BPOJIIDEADD\x12\x31\n\x13Unk2800_IHEHGOBCINC\x18\x08 \x01(\x0b\x32\x14.Unk2800_JIPMJPAKIKEb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cGearActivityDetailInfo.proto\x1a\x13GearLevelData.proto\x1a\x17JigsawPictureData.proto\"w\n\x16GearActivityDetailInfo\x12,\n\x14gear_level_data_list\x18\x02 \x03(\x0b\x32\x0e.GearLevelData\x12/\n\x13jigsaw_picture_data\x18\x08 \x01(\x0b\x32\x12.JigsawPictureDatab\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GearActivityDetailInfo_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GEARACTIVITYDETAILINFO._serialized_start=86
-  _GEARACTIVITYDETAILINFO._serialized_end=212
+  _GEARACTIVITYDETAILINFO._serialized_start=78
+  _GEARACTIVITYDETAILINFO._serialized_end=197
 # @@protoc_insertion_point(module_scope)

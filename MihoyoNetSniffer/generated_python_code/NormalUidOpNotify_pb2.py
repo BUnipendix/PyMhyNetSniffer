@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17NormalUidOpNotify.proto\"f\n\x11NormalUidOpNotify\x12\x10\n\x08\x64uration\x18\x06 \x01(\r\x12\x12\n\nparam_list\x18\x04 \x03(\r\x12\x16\n\x0eparam_uid_list\x18\x05 \x03(\r\x12\x13\n\x0bparam_index\x18\x08 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17NormalUidOpNotify.proto\"f\n\x11NormalUidOpNotify\x12\x13\n\x0bparam_index\x18\x02 \x01(\r\x12\x16\n\x0eparam_uid_list\x18\x01 \x03(\r\x12\x10\n\x08\x64uration\x18\x08 \x01(\r\x12\x12\n\nparam_list\x18\x0b \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'NormalUidOpNotify_pb2', globals())

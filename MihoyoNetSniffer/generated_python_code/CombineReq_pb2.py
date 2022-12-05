@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10\x43ombineReq.proto\"L\n\nCombineReq\x12\x15\n\rcombine_count\x18\x0c \x01(\r\x12\x12\n\ncombine_id\x18\t \x01(\r\x12\x13\n\x0b\x61vatar_guid\x18\x0e \x01(\x04\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10\x43ombineReq.proto\"L\n\nCombineReq\x12\x13\n\x0b\x61vatar_guid\x18\x06 \x01(\x04\x12\x12\n\ncombine_id\x18\x05 \x01(\r\x12\x15\n\rcombine_count\x18\x0f \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CombineReq_pb2', globals())

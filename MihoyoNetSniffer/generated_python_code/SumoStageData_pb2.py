@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import SumoTeamData_pb2 as SumoTeamData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13SumoStageData.proto\x1a\x12SumoTeamData.proto\"z\n\rSumoStageData\x12\x11\n\tmax_score\x18\x01 \x01(\r\x12\x11\n\topen_time\x18\x05 \x01(\r\x12\x10\n\x08stage_id\x18\x03 \x01(\r\x12 \n\tteam_list\x18\x07 \x03(\x0b\x32\r.SumoTeamData\x12\x0f\n\x07is_open\x18\x0b \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13SumoStageData.proto\x1a\x12SumoTeamData.proto\"z\n\rSumoStageData\x12\x10\n\x08stage_id\x18\x02 \x01(\r\x12\x11\n\topen_time\x18\x0f \x01(\r\x12 \n\tteam_list\x18\x01 \x03(\x0b\x32\r.SumoTeamData\x12\x11\n\tmax_score\x18\x07 \x01(\r\x12\x0f\n\x07is_open\x18\x08 \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SumoStageData_pb2', globals())

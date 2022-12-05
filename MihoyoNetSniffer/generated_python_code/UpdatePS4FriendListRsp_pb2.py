@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cUpdatePS4FriendListRsp.proto\">\n\x16UpdatePS4FriendListRsp\x12\x0f\n\x07retcode\x18\x05 \x01(\x05\x12\x13\n\x0bpsn_id_list\x18\x02 \x03(\tb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cUpdatePS4FriendListRsp.proto\">\n\x16UpdatePS4FriendListRsp\x12\x13\n\x0bpsn_id_list\x18\x0e \x03(\t\x12\x0f\n\x07retcode\x18\x03 \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'UpdatePS4FriendListRsp_pb2', globals())

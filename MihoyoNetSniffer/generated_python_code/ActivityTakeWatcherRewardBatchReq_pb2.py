@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'ActivityTakeWatcherRewardBatchReq.proto\"Q\n!ActivityTakeWatcherRewardBatchReq\x12\x17\n\x0fwatcher_id_list\x18\x0b \x03(\r\x12\x13\n\x0b\x61\x63tivity_id\x18\x03 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'ActivityTakeWatcherRewardBatchReq.proto\"Q\n!ActivityTakeWatcherRewardBatchReq\x12\x17\n\x0fwatcher_id_list\x18\x07 \x03(\r\x12\x13\n\x0b\x61\x63tivity_id\x18\x0b \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ActivityTakeWatcherRewardBatchReq_pb2', globals())

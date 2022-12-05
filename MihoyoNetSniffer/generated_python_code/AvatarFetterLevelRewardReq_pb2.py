@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n AvatarFetterLevelRewardReq.proto\"G\n\x1a\x41vatarFetterLevelRewardReq\x12\x13\n\x0b\x61vatar_guid\x18\x01 \x01(\x04\x12\x14\n\x0c\x66\x65tter_level\x18\x06 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n AvatarFetterLevelRewardReq.proto\"G\n\x1a\x41vatarFetterLevelRewardReq\x12\x13\n\x0b\x61vatar_guid\x18\x02 \x01(\x04\x12\x14\n\x0c\x66\x65tter_level\x18\x05 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarFetterLevelRewardReq_pb2', globals())

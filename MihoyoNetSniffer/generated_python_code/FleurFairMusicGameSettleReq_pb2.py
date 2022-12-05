@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!FleurFairMusicGameSettleReq.proto\"h\n\x1b\x46leurFairMusicGameSettleReq\x12\r\n\x05score\x18\x03 \x01(\r\x12\r\n\x05\x63ombo\x18\x06 \x01(\r\x12\x13\n\x0b\x63orrect_hit\x18\n \x01(\r\x12\x16\n\x0emusic_basic_id\x18\x0b \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!FleurFairMusicGameSettleReq.proto\"h\n\x1b\x46leurFairMusicGameSettleReq\x12\r\n\x05score\x18\x01 \x01(\r\x12\x13\n\x0b\x63orrect_hit\x18\n \x01(\r\x12\r\n\x05\x63ombo\x18\x03 \x01(\r\x12\x16\n\x0emusic_basic_id\x18\x0e \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FleurFairMusicGameSettleReq_pb2', globals())

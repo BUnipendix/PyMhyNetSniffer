@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x45\x63hoShellUpdateNotify.proto\")\n\x15\x45\x63hoShellUpdateNotify\x12\x10\n\x08shell_id\x18\x01 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x45\x63hoShellUpdateNotify.proto\")\n\x15\x45\x63hoShellUpdateNotify\x12\x10\n\x08shell_id\x18\n \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EchoShellUpdateNotify_pb2', globals())

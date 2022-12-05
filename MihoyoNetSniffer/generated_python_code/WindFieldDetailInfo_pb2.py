@@ -11,16 +11,16 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import Unk3100_OCAPENGJILJ_pb2 as Unk3100__OCAPENGJILJ__pb2
+import WindFieldStageInfo_pb2 as WindFieldStageInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19WindFieldDetailInfo.proto\x1a\x19Unk3100_OCAPENGJILJ.proto\"H\n\x13WindFieldDetailInfo\x12\x31\n\x13Unk2700_PHKHIPLDOOA\x18\x0b \x03(\x0b\x32\x14.Unk3100_OCAPENGJILJb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19WindFieldDetailInfo.proto\x1a\x18WindFieldStageInfo.proto\"C\n\x13WindFieldDetailInfo\x12,\n\x0fstage_info_list\x18\x02 \x03(\x0b\x32\x13.WindFieldStageInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WindFieldDetailInfo_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _WINDFIELDDETAILINFO._serialized_start=56
-  _WINDFIELDDETAILINFO._serialized_end=128
+  _WINDFIELDDETAILINFO._serialized_start=55
+  _WINDFIELDDETAILINFO._serialized_end=122
 # @@protoc_insertion_point(module_scope)

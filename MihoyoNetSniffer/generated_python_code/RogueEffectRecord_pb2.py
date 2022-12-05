@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17RogueEffectRecord.proto\"_\n\x11RogueEffectRecord\x12\x11\n\tsource_id\x18\x06 \x01(\r\x12\x18\n\x10\x65xtra_param_list\x18\t \x03(\r\x12\r\n\x05\x63ount\x18\n \x01(\r\x12\x0e\n\x06is_new\x18\x05 \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17RogueEffectRecord.proto\"_\n\x11RogueEffectRecord\x12\x11\n\tsource_id\x18\t \x01(\r\x12\x0e\n\x06is_new\x18\x08 \x01(\x08\x12\r\n\x05\x63ount\x18\x03 \x01(\r\x12\x18\n\x10\x65xtra_param_list\x18\x0f \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RogueEffectRecord_pb2', globals())

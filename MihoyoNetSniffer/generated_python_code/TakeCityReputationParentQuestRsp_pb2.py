@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ItemParam_pb2 as ItemParam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&TakeCityReputationParentQuestRsp.proto\x1a\x0fItemParam.proto\"~\n TakeCityReputationParentQuestRsp\x12\x0f\n\x07retcode\x18\x07 \x01(\x05\x12\x0f\n\x07\x63ity_id\x18\x0e \x01(\r\x12\x19\n\x11parent_quest_list\x18\t \x03(\r\x12\x1d\n\titem_list\x18\r \x03(\x0b\x32\n.ItemParamb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&TakeCityReputationParentQuestRsp.proto\x1a\x0fItemParam.proto\"~\n TakeCityReputationParentQuestRsp\x12\x0f\n\x07retcode\x18\x03 \x01(\x05\x12\x19\n\x11parent_quest_list\x18\x02 \x03(\r\x12\x0f\n\x07\x63ity_id\x18\x0e \x01(\r\x12\x1d\n\titem_list\x18\x07 \x03(\x0b\x32\n.ItemParamb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TakeCityReputationParentQuestRsp_pb2', globals())

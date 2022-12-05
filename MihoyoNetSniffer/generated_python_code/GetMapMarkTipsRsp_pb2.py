@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import MapMarkTipsInfo_pb2 as MapMarkTipsInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17GetMapMarkTipsRsp.proto\x1a\x15MapMarkTipsInfo.proto\"N\n\x11GetMapMarkTipsRsp\x12\x0f\n\x07retcode\x18\x07 \x01(\x05\x12(\n\x0emark_tips_list\x18\x0b \x03(\x0b\x32\x10.MapMarkTipsInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17GetMapMarkTipsRsp.proto\x1a\x15MapMarkTipsInfo.proto\"N\n\x11GetMapMarkTipsRsp\x12(\n\x0emark_tips_list\x18\x08 \x03(\x0b\x32\x10.MapMarkTipsInfo\x12\x0f\n\x07retcode\x18\x0b \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetMapMarkTipsRsp_pb2', globals())

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import AvatarSatiationData_pb2 as AvatarSatiationData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x41vatarSatiationDataNotify.proto\x1a\x19\x41vatarSatiationData.proto\"N\n\x19\x41vatarSatiationDataNotify\x12\x31\n\x13satiation_data_list\x18\x06 \x03(\x0b\x32\x14.AvatarSatiationDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x41vatarSatiationDataNotify.proto\x1a\x19\x41vatarSatiationData.proto\"N\n\x19\x41vatarSatiationDataNotify\x12\x31\n\x13satiation_data_list\x18\r \x03(\x0b\x32\x14.AvatarSatiationDatab\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarSatiationDataNotify_pb2', globals())

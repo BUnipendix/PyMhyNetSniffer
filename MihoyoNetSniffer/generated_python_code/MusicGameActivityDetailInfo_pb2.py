@@ -11,11 +11,11 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import MusicBriefInfo_pb2 as MusicBriefInfo__pb2
 import MusicGameRecord_pb2 as MusicGameRecord__pb2
+import UgcMusicBriefInfo_pb2 as UgcMusicBriefInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!MusicGameActivityDetailInfo.proto\x1a\x14MusicBriefInfo.proto\x1a\x15MusicGameRecord.proto\"\x9b\x02\n\x1bMusicGameActivityDetailInfo\x12,\n\x13Unk2700_HMNHCPMFDCP\x18\x04 \x03(\x0b\x32\x0f.MusicBriefInfo\x12,\n\x13Unk2700_FOFAFGKAEJM\x18\x07 \x03(\x0b\x32\x0f.MusicBriefInfo\x12S\n\x15music_game_record_map\x18\x08 \x03(\x0b\x32\x34.MusicGameActivityDetailInfo.MusicGameRecordMapEntry\x1aK\n\x17MusicGameRecordMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x1f\n\x05value\x18\x02 \x01(\x0b\x32\x10.MusicGameRecord:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!MusicGameActivityDetailInfo.proto\x1a\x15MusicGameRecord.proto\x1a\x17UgcMusicBriefInfo.proto\"\xa1\x02\n\x1bMusicGameActivityDetailInfo\x12/\n\x13Unk3300_AAGCDCOIPJM\x18\x02 \x03(\x0b\x32\x12.UgcMusicBriefInfo\x12/\n\x13Unk3300_OKHAACGHMAP\x18\x0c \x03(\x0b\x32\x12.UgcMusicBriefInfo\x12S\n\x15music_game_record_map\x18\t \x03(\x0b\x32\x34.MusicGameActivityDetailInfo.MusicGameRecordMapEntry\x1aK\n\x17MusicGameRecordMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x1f\n\x05value\x18\x02 \x01(\x0b\x32\x10.MusicGameRecord:\x02\x38\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MusicGameActivityDetailInfo_pb2', globals())
@@ -24,8 +24,8 @@ if _descriptor._USE_C_DESCRIPTORS == False:
   DESCRIPTOR._options = None
   _MUSICGAMEACTIVITYDETAILINFO_MUSICGAMERECORDMAPENTRY._options = None
   _MUSICGAMEACTIVITYDETAILINFO_MUSICGAMERECORDMAPENTRY._serialized_options = b'8\001'
-  _MUSICGAMEACTIVITYDETAILINFO._serialized_start=83
-  _MUSICGAMEACTIVITYDETAILINFO._serialized_end=366
-  _MUSICGAMEACTIVITYDETAILINFO_MUSICGAMERECORDMAPENTRY._serialized_start=291
-  _MUSICGAMEACTIVITYDETAILINFO_MUSICGAMERECORDMAPENTRY._serialized_end=366
+  _MUSICGAMEACTIVITYDETAILINFO._serialized_start=86
+  _MUSICGAMEACTIVITYDETAILINFO._serialized_end=375
+  _MUSICGAMEACTIVITYDETAILINFO_MUSICGAMERECORDMAPENTRY._serialized_start=300
+  _MUSICGAMEACTIVITYDETAILINFO_MUSICGAMERECORDMAPENTRY._serialized_end=375
 # @@protoc_insertion_point(module_scope)

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"HideAndSeekPlayerReadyNotify.proto\"0\n\x1cHideAndSeekPlayerReadyNotify\x12\x10\n\x08uid_list\x18\x05 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"HideAndSeekPlayerReadyNotify.proto\"0\n\x1cHideAndSeekPlayerReadyNotify\x12\x10\n\x08uid_list\x18\x02 \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HideAndSeekPlayerReadyNotify_pb2', globals())

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x43lientCollectorData.proto\"S\n\x13\x43lientCollectorData\x12\x13\n\x0bmaterial_id\x18\n \x01(\r\x12\x12\n\nmax_points\x18\x08 \x01(\r\x12\x13\n\x0b\x63urr_points\x18\r \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x43lientCollectorData.proto\"d\n\x13\x43lientCollectorData\x12\x1b\n\x13Unk3300_PPAOJCGAAEA\x18\x02 \x01(\r\x12\x1b\n\x13Unk3300_MFCHJHPJALD\x18\x03 \x01(\r\x12\x13\n\x0bmaterial_id\x18\t \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ClientCollectorData_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _CLIENTCOLLECTORDATA._serialized_start=29
-  _CLIENTCOLLECTORDATA._serialized_end=112
+  _CLIENTCOLLECTORDATA._serialized_end=129
 # @@protoc_insertion_point(module_scope)

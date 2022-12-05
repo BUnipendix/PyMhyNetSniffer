@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n)InBattleMechanicusLeftMonsterNotify.proto\";\n#InBattleMechanicusLeftMonsterNotify\x12\x14\n\x0cleft_monster\x18\x0e \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n)InBattleMechanicusLeftMonsterNotify.proto\"?\n#InBattleMechanicusLeftMonsterNotify\x12\x18\n\x10left_monster_num\x18\x05 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'InBattleMechanicusLeftMonsterNotify_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _INBATTLEMECHANICUSLEFTMONSTERNOTIFY._serialized_start=45
-  _INBATTLEMECHANICUSLEFTMONSTERNOTIFY._serialized_end=104
+  _INBATTLEMECHANICUSLEFTMONSTERNOTIFY._serialized_end=108
 # @@protoc_insertion_point(module_scope)

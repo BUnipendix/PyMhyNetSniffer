@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import BargainResultType_pb2 as BargainResultType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x42\x61rgainOfferPriceRsp.proto\x1a\x17\x42\x61rgainResultType.proto\"{\n\x14\x42\x61rgainOfferPriceRsp\x12\x0f\n\x07retcode\x18\x05 \x01(\x05\x12\x14\n\x0cresult_param\x18\r \x01(\r\x12*\n\x0e\x62\x61rgain_result\x18\x0e \x01(\x0e\x32\x12.BargainResultType\x12\x10\n\x08\x63ur_mood\x18\x06 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x42\x61rgainOfferPriceRsp.proto\x1a\x17\x42\x61rgainResultType.proto\"{\n\x14\x42\x61rgainOfferPriceRsp\x12\x14\n\x0cresult_param\x18\x0c \x01(\r\x12*\n\x0e\x62\x61rgain_result\x18\n \x01(\x0e\x32\x12.BargainResultType\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x12\x10\n\x08\x63ur_mood\x18\x07 \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BargainOfferPriceRsp_pb2', globals())

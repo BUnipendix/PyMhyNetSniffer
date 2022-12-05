@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import MatchReason_pb2 as MatchReason__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bPlayerMatchStopNotify.proto\x1a\x11MatchReason.proto\"G\n\x15PlayerMatchStopNotify\x12\x1c\n\x06reason\x18\x01 \x01(\x0e\x32\x0c.MatchReason\x12\x10\n\x08host_uid\x18\x0c \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bPlayerMatchStopNotify.proto\x1a\x11MatchReason.proto\"G\n\x15PlayerMatchStopNotify\x12\x1c\n\x06reason\x18\n \x01(\x0e\x32\x0c.MatchReason\x12\x10\n\x08host_uid\x18\x08 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerMatchStopNotify_pb2', globals())

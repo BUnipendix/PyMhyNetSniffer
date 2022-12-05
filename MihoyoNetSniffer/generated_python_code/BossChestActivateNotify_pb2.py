@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x42ossChestActivateNotify.proto\"F\n\x17\x42ossChestActivateNotify\x12\x18\n\x10qualify_uid_list\x18\x01 \x03(\r\x12\x11\n\tentity_id\x18\x0c \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x42ossChestActivateNotify.proto\"F\n\x17\x42ossChestActivateNotify\x12\x11\n\tentity_id\x18\x0f \x01(\r\x12\x18\n\x10qualify_uid_list\x18\x07 \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BossChestActivateNotify_pb2', globals())

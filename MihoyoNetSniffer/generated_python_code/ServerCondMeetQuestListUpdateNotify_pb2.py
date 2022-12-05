@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n)ServerCondMeetQuestListUpdateNotify.proto\"[\n#ServerCondMeetQuestListUpdateNotify\x12\x19\n\x11\x64\x65l_quest_id_list\x18\x01 \x03(\r\x12\x19\n\x11\x61\x64\x64_quest_id_list\x18\x0c \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n)ServerCondMeetQuestListUpdateNotify.proto\"_\n#ServerCondMeetQuestListUpdateNotify\x12\x1b\n\x13Unk3300_MGBDKFMBGBO\x18\n \x03(\r\x12\x1b\n\x13Unk3300_HIEMKEJOFPO\x18\x04 \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ServerCondMeetQuestListUpdateNotify_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _SERVERCONDMEETQUESTLISTUPDATENOTIFY._serialized_start=45
-  _SERVERCONDMEETQUESTLISTUPDATENOTIFY._serialized_end=136
+  _SERVERCONDMEETQUESTLISTUPDATENOTIFY._serialized_end=140
 # @@protoc_insertion_point(module_scope)

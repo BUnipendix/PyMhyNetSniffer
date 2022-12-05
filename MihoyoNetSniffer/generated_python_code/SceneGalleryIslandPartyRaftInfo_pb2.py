@@ -11,16 +11,16 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import Unk2800_FMAOEPEBKHB_pb2 as Unk2800__FMAOEPEBKHB__pb2
+import GalleryStartSource_pb2 as GalleryStartSource__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%SceneGalleryIslandPartyRaftInfo.proto\x1a\x19Unk2800_FMAOEPEBKHB.proto\"\xcb\x01\n\x1fSceneGalleryIslandPartyRaftInfo\x12\x0c\n\x04\x63oin\x18\x06 \x01(\r\x12\x31\n\x13Unk2800_ENJGEFBCLOL\x18\x07 \x01(\x0e\x32\x14.Unk2800_FMAOEPEBKHB\x12\x1b\n\x13Unk2800_BAEEDEAADIA\x18\x01 \x01(\r\x12\x1b\n\x13Unk2800_EOFOECJJMLJ\x18\x0f \x01(\r\x12\x10\n\x08point_id\x18\x0c \x01(\r\x12\x1b\n\x13Unk2800_MKNGANDAJFJ\x18\x04 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%SceneGalleryIslandPartyRaftInfo.proto\x1a\x18GalleryStartSource.proto\"\xc3\x01\n\x1fSceneGalleryIslandPartyRaftInfo\x12\x0c\n\x04\x63oin\x18\x0c \x01(\r\x12\x1b\n\x13Unk3300_FBACMOFGPGJ\x18\x06 \x01(\r\x12\x10\n\x08point_id\x18\n \x01(\r\x12\x1b\n\x13Unk3300_HHEKIPECDAK\x18\x0e \x01(\r\x12)\n\x0cstart_source\x18\x07 \x01(\x0e\x32\x13.GalleryStartSource\x12\x1b\n\x13Unk3300_HNECEGNMKNK\x18\r \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGalleryIslandPartyRaftInfo_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SCENEGALLERYISLANDPARTYRAFTINFO._serialized_start=69
-  _SCENEGALLERYISLANDPARTYRAFTINFO._serialized_end=272
+  _SCENEGALLERYISLANDPARTYRAFTINFO._serialized_start=68
+  _SCENEGALLERYISLANDPARTYRAFTINFO._serialized_end=263
 # @@protoc_insertion_point(module_scope)

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16SocialDataNotify.proto\"/\n\x10SocialDataNotify\x12\x1b\n\x13is_have_first_share\x18\x0b \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16SocialDataNotify.proto\"/\n\x10SocialDataNotify\x12\x1b\n\x13is_have_first_share\x18\r \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SocialDataNotify_pb2', globals())

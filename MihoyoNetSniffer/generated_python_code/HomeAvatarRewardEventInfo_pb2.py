@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fHomeAvatarRewardEventInfo.proto\"y\n\x19HomeAvatarRewardEventInfo\x12\x11\n\tavatar_id\x18\x01 \x01(\r\x12\x0c\n\x04guid\x18\x0c \x01(\r\x12\x10\n\x08\x65vent_id\x18\x02 \x01(\r\x12\x10\n\x08suite_id\x18\x0e \x01(\r\x12\x17\n\x0frandom_position\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fHomeAvatarRewardEventInfo.proto\"y\n\x19HomeAvatarRewardEventInfo\x12\x17\n\x0frandom_position\x18\t \x01(\r\x12\x10\n\x08suite_id\x18\x0b \x01(\r\x12\x0c\n\x04guid\x18\x06 \x01(\r\x12\x10\n\x08\x65vent_id\x18\x05 \x01(\r\x12\x11\n\tavatar_id\x18\x07 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeAvatarRewardEventInfo_pb2', globals())

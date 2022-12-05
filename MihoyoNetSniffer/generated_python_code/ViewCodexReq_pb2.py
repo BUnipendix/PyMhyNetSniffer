@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import CodexTypeData_pb2 as CodexTypeData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12ViewCodexReq.proto\x1a\x13\x43odexTypeData.proto\"6\n\x0cViewCodexReq\x12&\n\x0etype_data_list\x18\n \x03(\x0b\x32\x0e.CodexTypeDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12ViewCodexReq.proto\x1a\x13\x43odexTypeData.proto\"6\n\x0cViewCodexReq\x12&\n\x0etype_data_list\x18\x0c \x03(\x0b\x32\x0e.CodexTypeDatab\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ViewCodexReq_pb2', globals())

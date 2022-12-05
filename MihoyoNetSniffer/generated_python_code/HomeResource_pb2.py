@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12HomeResource.proto\"S\n\x0cHomeResource\x12\x19\n\x11next_refresh_time\x18\x0f \x01(\x07\x12\x13\n\x0bstore_limit\x18\x03 \x01(\r\x12\x13\n\x0bstore_value\x18\x0c \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12HomeResource.proto\"c\n\x0cHomeResource\x12\x1b\n\x13Unk3300_LJCAIDECBND\x18\x06 \x01(\r\x12\x19\n\x11next_refresh_time\x18\r \x01(\x07\x12\x1b\n\x13Unk3300_LINAPIIPNOB\x18\x01 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeResource_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _HOMERESOURCE._serialized_start=22
-  _HOMERESOURCE._serialized_end=105
+  _HOMERESOURCE._serialized_end=121
 # @@protoc_insertion_point(module_scope)

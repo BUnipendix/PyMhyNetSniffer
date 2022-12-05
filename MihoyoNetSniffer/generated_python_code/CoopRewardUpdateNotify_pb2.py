@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import CoopReward_pb2 as CoopReward__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x43oopRewardUpdateNotify.proto\x1a\x10\x43oopReward.proto\":\n\x16\x43oopRewardUpdateNotify\x12 \n\x0breward_list\x18\x07 \x03(\x0b\x32\x0b.CoopRewardb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x43oopRewardUpdateNotify.proto\x1a\x10\x43oopReward.proto\":\n\x16\x43oopRewardUpdateNotify\x12 \n\x0breward_list\x18\x0e \x03(\x0b\x32\x0b.CoopRewardb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CoopRewardUpdateNotify_pb2', globals())

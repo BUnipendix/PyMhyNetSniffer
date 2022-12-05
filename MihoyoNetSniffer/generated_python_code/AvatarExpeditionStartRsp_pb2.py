@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import AvatarExpeditionInfo_pb2 as AvatarExpeditionInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x41vatarExpeditionStartRsp.proto\x1a\x1a\x41vatarExpeditionInfo.proto\"\xcb\x01\n\x18\x41vatarExpeditionStartRsp\x12M\n\x13\x65xpedition_info_map\x18\x02 \x03(\x0b\x32\x30.AvatarExpeditionStartRsp.ExpeditionInfoMapEntry\x12\x0f\n\x07retcode\x18\x05 \x01(\x05\x1aO\n\x16\x45xpeditionInfoMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\x04\x12$\n\x05value\x18\x02 \x01(\x0b\x32\x15.AvatarExpeditionInfo:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x41vatarExpeditionStartRsp.proto\x1a\x1a\x41vatarExpeditionInfo.proto\"\xcb\x01\n\x18\x41vatarExpeditionStartRsp\x12\x0f\n\x07retcode\x18\x04 \x01(\x05\x12M\n\x13\x65xpedition_info_map\x18\x08 \x03(\x0b\x32\x30.AvatarExpeditionStartRsp.ExpeditionInfoMapEntry\x1aO\n\x16\x45xpeditionInfoMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\x04\x12$\n\x05value\x18\x02 \x01(\x0b\x32\x15.AvatarExpeditionInfo:\x02\x38\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarExpeditionStartRsp_pb2', globals())

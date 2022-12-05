@@ -11,16 +11,16 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import Unk3000_ICLKJJNGOHN_pb2 as Unk3000__ICLKJJNGOHN__pb2
+import InstableSprayStageInfo_pb2 as InstableSprayStageInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dInstableSprayDetailInfo.proto\x1a\x19Unk3000_ICLKJJNGOHN.proto\"L\n\x17InstableSprayDetailInfo\x12\x31\n\x13Unk2700_PHKHIPLDOOA\x18\t \x03(\x0b\x32\x14.Unk3000_ICLKJJNGOHNb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dInstableSprayDetailInfo.proto\x1a\x1cInstableSprayStageInfo.proto\"K\n\x17InstableSprayDetailInfo\x12\x30\n\x0fstage_info_list\x18\x02 \x03(\x0b\x32\x17.InstableSprayStageInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'InstableSprayDetailInfo_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _INSTABLESPRAYDETAILINFO._serialized_start=60
-  _INSTABLESPRAYDETAILINFO._serialized_end=136
+  _INSTABLESPRAYDETAILINFO._serialized_start=63
+  _INSTABLESPRAYDETAILINFO._serialized_end=138
 # @@protoc_insertion_point(module_scope)

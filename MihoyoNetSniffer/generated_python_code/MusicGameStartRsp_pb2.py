@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17MusicGameStartRsp.proto\"Y\n\x11MusicGameStartRsp\x12\x16\n\x0emusic_basic_id\x18\x04 \x01(\r\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x12\x1b\n\x13Unk2700_CEPGMKAHHCD\x18\x0f \x01(\x04\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17MusicGameStartRsp.proto\"N\n\x11MusicGameStartRsp\x12\x0f\n\x07retcode\x18\x0c \x01(\x05\x12\x16\n\x0emusic_basic_id\x18\r \x01(\r\x12\x10\n\x08ugc_guid\x18\x05 \x01(\x04\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MusicGameStartRsp_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _MUSICGAMESTARTRSP._serialized_start=27
-  _MUSICGAMESTARTRSP._serialized_end=116
+  _MUSICGAMESTARTRSP._serialized_end=105
 # @@protoc_insertion_point(module_scope)

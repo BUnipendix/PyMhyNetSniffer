@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Route_pb2 as Route__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x41vatarFollowRouteNotify.proto\x1a\x0bRoute.proto\"\x8c\x01\n\x17\x41vatarFollowRouteNotify\x12\x11\n\tentity_id\x18\x04 \x01(\r\x12\x13\n\x0btemplate_id\x18\x06 \x01(\r\x12\x1b\n\x13start_scene_time_ms\x18\x08 \x01(\r\x12\x15\n\x05route\x18\x02 \x01(\x0b\x32\x06.Route\x12\x15\n\rclient_params\x18\r \x01(\tb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x41vatarFollowRouteNotify.proto\x1a\x0bRoute.proto\"\x8c\x01\n\x17\x41vatarFollowRouteNotify\x12\x15\n\rclient_params\x18\x05 \x01(\t\x12\x15\n\x05route\x18\x01 \x01(\x0b\x32\x06.Route\x12\x11\n\tentity_id\x18\n \x01(\r\x12\x13\n\x0btemplate_id\x18\x04 \x01(\r\x12\x1b\n\x13start_scene_time_ms\x18\x03 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarFollowRouteNotify_pb2', globals())

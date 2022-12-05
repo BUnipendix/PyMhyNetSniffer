@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import AbilityString_pb2 as AbilityString__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16ModifierProperty.proto\x1a\x13\x41\x62ilityString.proto\">\n\x10ModifierProperty\x12\x1b\n\x03key\x18\x0f \x01(\x0b\x32\x0e.AbilityString\x12\r\n\x05value\x18\x05 \x01(\x02\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16ModifierProperty.proto\x1a\x13\x41\x62ilityString.proto\">\n\x10ModifierProperty\x12\x1b\n\x03key\x18\x07 \x01(\x0b\x32\x0e.AbilityString\x12\r\n\x05value\x18\x05 \x01(\x02\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ModifierProperty_pb2', globals())

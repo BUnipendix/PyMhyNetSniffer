@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0fGmTalkRsp.proto\"9\n\tGmTalkRsp\x12\x0f\n\x07retcode\x18\x0f \x01(\x05\x12\x0e\n\x06retmsg\x18\x03 \x01(\t\x12\x0b\n\x03msg\x18\r \x01(\tb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0fGmTalkRsp.proto\"9\n\tGmTalkRsp\x12\x0e\n\x06retmsg\x18\x0b \x01(\t\x12\x0f\n\x07retcode\x18\x04 \x01(\x05\x12\x0b\n\x03msg\x18\t \x01(\tb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GmTalkRsp_pb2', globals())

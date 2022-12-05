@@ -17,7 +17,7 @@ import ShopConcertProduct_pb2 as ShopConcertProduct__pb2
 import ShopMcoinProduct_pb2 as ShopMcoinProduct__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11RechargeReq.proto\x1a\x11PlayProduct.proto\x1a\x15ShopCardProduct.proto\x1a\x18ShopConcertProduct.proto\x1a\x16ShopMcoinProduct.proto\"\xb1\x01\n\x0bRechargeReq\x12\"\n\x0cplay_product\x18\n \x01(\x0b\x32\x0c.PlayProduct\x12&\n\x0c\x63\x61rd_product\x18\x08 \x01(\x0b\x32\x10.ShopCardProduct\x12(\n\rmcoin_product\x18\x0e \x01(\x0b\x32\x11.ShopMcoinProduct\x12,\n\x0f\x63oncert_product\x18\x07 \x01(\x0b\x32\x13.ShopConcertProductb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11RechargeReq.proto\x1a\x11PlayProduct.proto\x1a\x15ShopCardProduct.proto\x1a\x18ShopConcertProduct.proto\x1a\x16ShopMcoinProduct.proto\"\xb1\x01\n\x0bRechargeReq\x12(\n\rmcoin_product\x18\n \x01(\x0b\x32\x11.ShopMcoinProduct\x12&\n\x0c\x63\x61rd_product\x18\x04 \x01(\x0b\x32\x10.ShopCardProduct\x12\"\n\x0cplay_product\x18\x03 \x01(\x0b\x32\x0c.PlayProduct\x12,\n\x0f\x63oncert_product\x18\x0b \x01(\x0b\x32\x13.ShopConcertProductb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RechargeReq_pb2', globals())

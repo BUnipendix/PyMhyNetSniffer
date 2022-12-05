@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18SceneKickPlayerRsp.proto\"9\n\x12SceneKickPlayerRsp\x12\x0f\n\x07retcode\x18\r \x01(\x05\x12\x12\n\ntarget_uid\x18\n \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18SceneKickPlayerRsp.proto\"9\n\x12SceneKickPlayerRsp\x12\x0f\n\x07retcode\x18\x08 \x01(\x05\x12\x12\n\ntarget_uid\x18\x0b \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneKickPlayerRsp_pb2', globals())

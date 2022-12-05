@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import MainCoop_pb2 as MainCoop__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aMainCoopUpdateNotify.proto\x1a\x0eMainCoop.proto\"9\n\x14MainCoopUpdateNotify\x12!\n\x0emain_coop_list\x18\x05 \x03(\x0b\x32\t.MainCoopb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aMainCoopUpdateNotify.proto\x1a\x0eMainCoop.proto\"9\n\x14MainCoopUpdateNotify\x12!\n\x0emain_coop_list\x18\n \x03(\x0b\x32\t.MainCoopb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MainCoopUpdateNotify_pb2', globals())

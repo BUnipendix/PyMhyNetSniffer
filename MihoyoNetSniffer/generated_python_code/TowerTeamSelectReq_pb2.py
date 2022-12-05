@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import TowerTeam_pb2 as TowerTeam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18TowerTeamSelectReq.proto\x1a\x0fTowerTeam.proto\"K\n\x12TowerTeamSelectReq\x12#\n\x0ftower_team_list\x18\x0b \x03(\x0b\x32\n.TowerTeam\x12\x10\n\x08\x66loor_id\x18\n \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18TowerTeamSelectReq.proto\x1a\x0fTowerTeam.proto\"K\n\x12TowerTeamSelectReq\x12#\n\x0ftower_team_list\x18\x05 \x03(\x0b\x32\n.TowerTeam\x12\x10\n\x08\x66loor_id\x18\n \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TowerTeamSelectReq_pb2', globals())

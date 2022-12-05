@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import MotionInfo_pb2 as MotionInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bSceneEntityMoveNotify.proto\x1a\x10MotionInfo.proto\"v\n\x15SceneEntityMoveNotify\x12 \n\x0bmotion_info\x18\x06 \x01(\x0b\x32\x0b.MotionInfo\x12\x11\n\tentity_id\x18\x08 \x01(\r\x12\x12\n\nscene_time\x18\x0f \x01(\r\x12\x14\n\x0creliable_seq\x18\x02 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bSceneEntityMoveNotify.proto\x1a\x10MotionInfo.proto\"v\n\x15SceneEntityMoveNotify\x12\x14\n\x0creliable_seq\x18\x03 \x01(\r\x12\x12\n\nscene_time\x18\x0f \x01(\r\x12\x11\n\tentity_id\x18\x0b \x01(\r\x12 \n\x0bmotion_info\x18\x0e \x01(\x0b\x32\x0b.MotionInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneEntityMoveNotify_pb2', globals())

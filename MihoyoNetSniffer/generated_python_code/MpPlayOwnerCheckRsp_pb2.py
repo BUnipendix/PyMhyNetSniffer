@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19MpPlayOwnerCheckRsp.proto\"d\n\x13MpPlayOwnerCheckRsp\x12\x11\n\twrong_uid\x18\x04 \x01(\r\x12\x15\n\ris_skip_match\x18\x0f \x01(\x08\x12\x12\n\nmp_play_id\x18\n \x01(\r\x12\x0f\n\x07retcode\x18\x0c \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19MpPlayOwnerCheckRsp.proto\"d\n\x13MpPlayOwnerCheckRsp\x12\x11\n\twrong_uid\x18\x04 \x01(\r\x12\x12\n\nmp_play_id\x18\t \x01(\r\x12\x15\n\ris_skip_match\x18\x0f \x01(\x08\x12\x0f\n\x07retcode\x18\x06 \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MpPlayOwnerCheckRsp_pb2', globals())

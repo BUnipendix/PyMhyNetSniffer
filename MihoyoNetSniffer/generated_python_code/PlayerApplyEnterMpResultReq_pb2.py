@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!PlayerApplyEnterMpResultReq.proto\"C\n\x1bPlayerApplyEnterMpResultReq\x12\x11\n\tapply_uid\x18\x02 \x01(\r\x12\x11\n\tis_agreed\x18\x0c \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!PlayerApplyEnterMpResultReq.proto\"C\n\x1bPlayerApplyEnterMpResultReq\x12\x11\n\tapply_uid\x18\x07 \x01(\r\x12\x11\n\tis_agreed\x18\x0c \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerApplyEnterMpResultReq_pb2', globals())

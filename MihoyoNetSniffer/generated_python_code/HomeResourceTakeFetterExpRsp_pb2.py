@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import HomeResource_pb2 as HomeResource__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"HomeResourceTakeFetterExpRsp.proto\x1a\x12HomeResource.proto\"R\n\x1cHomeResourceTakeFetterExpRsp\x12!\n\nfetter_exp\x18\x04 \x01(\x0b\x32\r.HomeResource\x12\x0f\n\x07retcode\x18\x0f \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"HomeResourceTakeFetterExpRsp.proto\x1a\x12HomeResource.proto\"R\n\x1cHomeResourceTakeFetterExpRsp\x12!\n\nfetter_exp\x18\x04 \x01(\x0b\x32\r.HomeResource\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeResourceTakeFetterExpRsp_pb2', globals())

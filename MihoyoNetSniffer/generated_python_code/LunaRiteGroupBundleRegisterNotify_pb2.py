@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'LunaRiteGroupBundleRegisterNotify.proto\"A\n!LunaRiteGroupBundleRegisterNotify\x12\x1c\n\x14group_link_bundle_id\x18\x0b \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'LunaRiteGroupBundleRegisterNotify.proto\"A\n!LunaRiteGroupBundleRegisterNotify\x12\x1c\n\x14group_link_bundle_id\x18\x07 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LunaRiteGroupBundleRegisterNotify_pb2', globals())

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import TreasureMapRegionInfo_pb2 as TreasureMapRegionInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!TreasureMapRegionInfoNotify.proto\x1a\x1bTreasureMapRegionInfo.proto\"J\n\x1bTreasureMapRegionInfoNotify\x12+\n\x0bregion_info\x18\x0e \x01(\x0b\x32\x16.TreasureMapRegionInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!TreasureMapRegionInfoNotify.proto\x1a\x1bTreasureMapRegionInfo.proto\"J\n\x1bTreasureMapRegionInfoNotify\x12+\n\x0bregion_info\x18\x07 \x01(\x0b\x32\x16.TreasureMapRegionInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TreasureMapRegionInfoNotify_pb2', globals())

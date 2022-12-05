@@ -15,7 +15,7 @@ import BattlePassRewardTakeOption_pb2 as BattlePassRewardTakeOption__pb2
 import ItemParam_pb2 as ItemParam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dTakeBattlePassRewardRsp.proto\x1a BattlePassRewardTakeOption.proto\x1a\x0fItemParam.proto\"\x80\x01\n\x17TakeBattlePassRewardRsp\x12\x1d\n\titem_list\x18\x07 \x03(\x0b\x32\n.ItemParam\x12\x0f\n\x07retcode\x18\r \x01(\x05\x12\x35\n\x10take_option_list\x18\t \x03(\x0b\x32\x1b.BattlePassRewardTakeOptionb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dTakeBattlePassRewardRsp.proto\x1a BattlePassRewardTakeOption.proto\x1a\x0fItemParam.proto\"\x80\x01\n\x17TakeBattlePassRewardRsp\x12\x0f\n\x07retcode\x18\x06 \x01(\x05\x12\x35\n\x10take_option_list\x18\x07 \x03(\x0b\x32\x1b.BattlePassRewardTakeOption\x12\x1d\n\titem_list\x18\x04 \x03(\x0b\x32\n.ItemParamb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TakeBattlePassRewardRsp_pb2', globals())

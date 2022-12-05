@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cHomeFurnitureSuiteData.proto\x1a\x0cVector.proto\"\x94\x01\n\x16HomeFurnitureSuiteData\x12\x17\n\x0fis_allow_summon\x18\n \x01(\x08\x12\x10\n\x08suite_id\x18\x06 \x01(\r\x12\x1a\n\tspawn_pos\x18\x08 \x01(\x0b\x32\x07.Vector\x12\x0c\n\x04guid\x18\r \x01(\r\x12%\n\x1dincluded_furniture_index_list\x18\x01 \x03(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cHomeFurnitureSuiteData.proto\x1a\x0cVector.proto\"\x94\x01\n\x16HomeFurnitureSuiteData\x12\x17\n\x0fis_allow_summon\x18\x04 \x01(\x08\x12\x10\n\x08suite_id\x18\x03 \x01(\r\x12\x0c\n\x04guid\x18\x05 \x01(\r\x12\x1a\n\tspawn_pos\x18\t \x01(\x0b\x32\x07.Vector\x12%\n\x1dincluded_furniture_index_list\x18\x0b \x03(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeFurnitureSuiteData_pb2', globals())

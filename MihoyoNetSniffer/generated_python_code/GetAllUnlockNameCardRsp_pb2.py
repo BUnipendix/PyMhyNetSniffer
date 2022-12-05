@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dGetAllUnlockNameCardRsp.proto\"B\n\x17GetAllUnlockNameCardRsp\x12\x0f\n\x07retcode\x18\x04 \x01(\x05\x12\x16\n\x0ename_card_list\x18\x0e \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dGetAllUnlockNameCardRsp.proto\"B\n\x17GetAllUnlockNameCardRsp\x12\x16\n\x0ename_card_list\x18\x0b \x03(\r\x12\x0f\n\x07retcode\x18\x0e \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetAllUnlockNameCardRsp_pb2', globals())

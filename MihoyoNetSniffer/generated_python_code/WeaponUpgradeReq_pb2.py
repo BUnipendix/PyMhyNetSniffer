@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ItemParam_pb2 as ItemParam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16WeaponUpgradeReq.proto\x1a\x0fItemParam.proto\"r\n\x10WeaponUpgradeReq\x12\x1d\n\x15\x66ood_weapon_guid_list\x18\x01 \x03(\x04\x12#\n\x0fitem_param_list\x18\x0f \x03(\x0b\x32\n.ItemParam\x12\x1a\n\x12target_weapon_guid\x18\x04 \x01(\x04\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16WeaponUpgradeReq.proto\x1a\x0fItemParam.proto\"r\n\x10WeaponUpgradeReq\x12#\n\x0fitem_param_list\x18\x02 \x03(\x0b\x32\n.ItemParam\x12\x1d\n\x15\x66ood_weapon_guid_list\x18\x0e \x03(\x04\x12\x1a\n\x12target_weapon_guid\x18\x03 \x01(\x04\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WeaponUpgradeReq_pb2', globals())

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import UnionCmd_pb2 as UnionCmd__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14UnionCmdNotify.proto\x1a\x0eUnionCmd.proto\"-\n\x0eUnionCmdNotify\x12\x1b\n\x08\x63md_list\x18\x01 \x03(\x0b\x32\t.UnionCmdb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14UnionCmdNotify.proto\x1a\x0eUnionCmd.proto\"-\n\x0eUnionCmdNotify\x12\x1b\n\x08\x63md_list\x18\x07 \x03(\x0b\x32\t.UnionCmdb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'UnionCmdNotify_pb2', globals())

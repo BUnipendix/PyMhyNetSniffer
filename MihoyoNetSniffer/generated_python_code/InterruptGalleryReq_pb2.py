@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19InterruptGalleryReq.proto\")\n\x13InterruptGalleryReq\x12\x12\n\ngallery_id\x18\r \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19InterruptGalleryReq.proto\")\n\x13InterruptGalleryReq\x12\x12\n\ngallery_id\x18\x04 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'InterruptGalleryReq_pb2', globals())

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x41\x64justWorldLevelRsp.proto\"W\n\x13\x41\x64justWorldLevelRsp\x12\x0f\n\x07retcode\x18\r \x01(\x05\x12\x14\n\x0c\x63\x64_over_time\x18\x0f \x01(\r\x12\x19\n\x11\x61\x66ter_world_level\x18\x0e \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x41\x64justWorldLevelRsp.proto\"W\n\x13\x41\x64justWorldLevelRsp\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x12\x19\n\x11\x61\x66ter_world_level\x18\x0b \x01(\r\x12\x14\n\x0c\x63\x64_over_time\x18\x05 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AdjustWorldLevelRsp_pb2', globals())

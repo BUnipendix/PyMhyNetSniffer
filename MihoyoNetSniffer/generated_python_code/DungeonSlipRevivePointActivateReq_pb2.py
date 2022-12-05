@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'DungeonSlipRevivePointActivateReq.proto\"A\n!DungeonSlipRevivePointActivateReq\x12\x1c\n\x14slip_revive_point_id\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'DungeonSlipRevivePointActivateReq.proto\"A\n!DungeonSlipRevivePointActivateReq\x12\x1c\n\x14slip_revive_point_id\x18\x08 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DungeonSlipRevivePointActivateReq_pb2', globals())

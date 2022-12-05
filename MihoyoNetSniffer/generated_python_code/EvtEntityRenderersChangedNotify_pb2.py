@@ -15,7 +15,7 @@ import EntityRendererChangedInfo_pb2 as EntityRendererChangedInfo__pb2
 import ForwardType_pb2 as ForwardType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%EvtEntityRenderersChangedNotify.proto\x1a\x1f\x45ntityRendererChangedInfo.proto\x1a\x11\x46orwardType.proto\"\xac\x01\n\x1f\x45vtEntityRenderersChangedNotify\x12\"\n\x0c\x66orward_type\x18\x08 \x01(\x0e\x32\x0c.ForwardType\x12\x17\n\x0fis_server_cache\x18\x03 \x01(\x08\x12\x39\n\x15renderer_changed_info\x18\x05 \x01(\x0b\x32\x1a.EntityRendererChangedInfo\x12\x11\n\tentity_id\x18\x0f \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%EvtEntityRenderersChangedNotify.proto\x1a\x1f\x45ntityRendererChangedInfo.proto\x1a\x11\x46orwardType.proto\"\xac\x01\n\x1f\x45vtEntityRenderersChangedNotify\x12\"\n\x0c\x66orward_type\x18\x05 \x01(\x0e\x32\x0c.ForwardType\x12\x11\n\tentity_id\x18\x01 \x01(\r\x12\x17\n\x0fis_server_cache\x18\x03 \x01(\x08\x12\x39\n\x15renderer_changed_info\x18\x0f \x01(\x0b\x32\x1a.EntityRendererChangedInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EvtEntityRenderersChangedNotify_pb2', globals())

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n(GetDungeonEntryExploreConditionReq.proto\"}\n\"GetDungeonEntryExploreConditionReq\x12\x10\n\x08scene_id\x18\x06 \x01(\r\x12\x1f\n\x17\x64ungeon_entry_config_id\x18\x02 \x01(\r\x12$\n\x1c\x64ungeon_entry_scene_point_id\x18\x04 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n(GetDungeonEntryExploreConditionReq.proto\"}\n\"GetDungeonEntryExploreConditionReq\x12\x1f\n\x17\x64ungeon_entry_config_id\x18\x02 \x01(\r\x12\x10\n\x08scene_id\x18\t \x01(\r\x12$\n\x1c\x64ungeon_entry_scene_point_id\x18\x0e \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetDungeonEntryExploreConditionReq_pb2', globals())

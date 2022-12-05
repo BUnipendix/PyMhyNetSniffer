@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import OnlinePlayerInfo_pb2 as OnlinePlayerInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15ScenePlayerInfo.proto\x1a\x16OnlinePlayerInfo.proto\"\x94\x01\n\x0fScenePlayerInfo\x12\x10\n\x08scene_id\x18\n \x01(\r\x12\x0f\n\x07peer_id\x18\x06 \x01(\r\x12-\n\x12online_player_info\x18\r \x01(\x0b\x32\x11.OnlinePlayerInfo\x12\x14\n\x0cis_connected\x18\x02 \x01(\x08\x12\x0c\n\x04name\x18\x0f \x01(\t\x12\x0b\n\x03uid\x18\x08 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15ScenePlayerInfo.proto\x1a\x16OnlinePlayerInfo.proto\"\x94\x01\n\x0fScenePlayerInfo\x12\x0b\n\x03uid\x18\x02 \x01(\r\x12\x10\n\x08scene_id\x18\x07 \x01(\r\x12\x0f\n\x07peer_id\x18\x0f \x01(\r\x12-\n\x12online_player_info\x18\t \x01(\x0b\x32\x11.OnlinePlayerInfo\x12\x14\n\x0cis_connected\x18\x03 \x01(\x08\x12\x0c\n\x04name\x18\x01 \x01(\tb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ScenePlayerInfo_pb2', globals())

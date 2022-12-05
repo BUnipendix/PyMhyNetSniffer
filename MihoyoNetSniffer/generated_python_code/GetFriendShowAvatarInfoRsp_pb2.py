@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ShowAvatarInfo_pb2 as ShowAvatarInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n GetFriendShowAvatarInfoRsp.proto\x1a\x14ShowAvatarInfo.proto\"j\n\x1aGetFriendShowAvatarInfoRsp\x12\x0b\n\x03uid\x18\x06 \x01(\r\x12\x0f\n\x07retcode\x18\x03 \x01(\x05\x12.\n\x15show_avatar_info_list\x18\t \x03(\x0b\x32\x0f.ShowAvatarInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n GetFriendShowAvatarInfoRsp.proto\x1a\x14ShowAvatarInfo.proto\"j\n\x1aGetFriendShowAvatarInfoRsp\x12.\n\x15show_avatar_info_list\x18\x05 \x03(\x0b\x32\x0f.ShowAvatarInfo\x12\x0b\n\x03uid\x18\t \x01(\r\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetFriendShowAvatarInfoRsp_pb2', globals())

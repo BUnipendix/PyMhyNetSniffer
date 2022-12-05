@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import BlossomBriefInfo_pb2 as BlossomBriefInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x42lossomBriefInfoNotify.proto\x1a\x16\x42lossomBriefInfo.proto\"D\n\x16\x42lossomBriefInfoNotify\x12*\n\x0f\x62rief_info_list\x18\x04 \x03(\x0b\x32\x11.BlossomBriefInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x42lossomBriefInfoNotify.proto\x1a\x16\x42lossomBriefInfo.proto\"D\n\x16\x42lossomBriefInfoNotify\x12*\n\x0f\x62rief_info_list\x18\x08 \x03(\x0b\x32\x11.BlossomBriefInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BlossomBriefInfoNotify_pb2', globals())

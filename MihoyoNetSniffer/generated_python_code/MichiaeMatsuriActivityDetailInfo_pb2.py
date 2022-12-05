@@ -11,18 +11,18 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
+import MichiaeMatsuriChallengePositionInfo_pb2 as MichiaeMatsuriChallengePositionInfo__pb2
+import MichiaeMatsuriChestPositionInfo_pb2 as MichiaeMatsuriChestPositionInfo__pb2
 import MichiaeMatsuriStage_pb2 as MichiaeMatsuriStage__pb2
-import Unk2700_HGFFGMCODNC_pb2 as Unk2700__HGFFGMCODNC__pb2
-import Unk2700_NAFAIMHFEFG_pb2 as Unk2700__NAFAIMHFEFG__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&MichiaeMatsuriActivityDetailInfo.proto\x1a\x19MichiaeMatsuriStage.proto\x1a\x19Unk2700_HGFFGMCODNC.proto\x1a\x19Unk2700_NAFAIMHFEFG.proto\"\xec\x01\n MichiaeMatsuriActivityDetailInfo\x12\x31\n\x13Unk2700_MPNNMCPOLAM\x18\x06 \x03(\x0b\x32\x14.Unk2700_HGFFGMCODNC\x12\x1b\n\x13Unk2700_MAOAHHBCKIA\x18\r \x01(\r\x12\x1b\n\x13Unk2700_BEHAAHHGCLK\x18\x02 \x03(\r\x12\x31\n\x13Unk2700_LEKHKNKHIPO\x18\n \x03(\x0b\x32\x14.Unk2700_NAFAIMHFEFG\x12(\n\nstage_list\x18\x0e \x03(\x0b\x32\x14.MichiaeMatsuriStageb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&MichiaeMatsuriActivityDetailInfo.proto\x1a)MichiaeMatsuriChallengePositionInfo.proto\x1a%MichiaeMatsuriChestPositionInfo.proto\x1a\x19MichiaeMatsuriStage.proto\"\x87\x02\n MichiaeMatsuriActivityDetailInfo\x12\x18\n\x10gain_crystal_exp\x18\x0b \x01(\r\x12(\n\nstage_list\x18\x0e \x03(\x0b\x32\x14.MichiaeMatsuriStage\x12#\n\x1bunlocked_crystal_skill_list\x18\x05 \x03(\r\x12@\n\x12\x63hallenge_pos_list\x18\x03 \x03(\x0b\x32$.MichiaeMatsuriChallengePositionInfo\x12\x38\n\x0e\x63hest_pos_list\x18\x0c \x03(\x0b\x32 .MichiaeMatsuriChestPositionInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MichiaeMatsuriActivityDetailInfo_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _MICHIAEMATSURIACTIVITYDETAILINFO._serialized_start=124
-  _MICHIAEMATSURIACTIVITYDETAILINFO._serialized_end=360
+  _MICHIAEMATSURIACTIVITYDETAILINFO._serialized_start=152
+  _MICHIAEMATSURIACTIVITYDETAILINFO._serialized_end=415
 # @@protoc_insertion_point(module_scope)

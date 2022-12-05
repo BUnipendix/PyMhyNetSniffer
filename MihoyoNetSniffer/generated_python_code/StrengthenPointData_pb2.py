@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19StrengthenPointData.proto\"<\n\x13StrengthenPointData\x12\x12\n\nbase_point\x18\n \x01(\r\x12\x11\n\tcur_point\x18\x0b \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19StrengthenPointData.proto\"O\n\x13StrengthenPointData\x12\x1b\n\x13Unk3300_HIKDEKIPCPB\x18\x01 \x01(\r\x12\x1b\n\x13Unk3300_NNKPOLLBLDO\x18\n \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'StrengthenPointData_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _STRENGTHENPOINTDATA._serialized_start=29
-  _STRENGTHENPOINTDATA._serialized_end=89
+  _STRENGTHENPOINTDATA._serialized_end=108
 # @@protoc_insertion_point(module_scope)

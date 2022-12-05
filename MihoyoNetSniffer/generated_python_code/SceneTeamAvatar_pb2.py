@@ -19,7 +19,7 @@ import SceneEntityInfo_pb2 as SceneEntityInfo__pb2
 import ServerBuff_pb2 as ServerBuff__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15SceneTeamAvatar.proto\x1a\x19\x41\x62ilityControlBlock.proto\x1a\x1a\x41\x62ilitySyncStateInfo.proto\x1a\x10\x41vatarInfo.proto\x1a\x15SceneAvatarInfo.proto\x1a\x15SceneEntityInfo.proto\x1a\x10ServerBuff.proto\"\x98\x04\n\x0fSceneTeamAvatar\x12\x32\n\x13\x61vatar_ability_info\x18\x05 \x01(\x0b\x32\x15.AbilitySyncStateInfo\x12 \n\x0b\x61vatar_info\x18\x08 \x01(\x0b\x32\x0b.AvatarInfo\x12\x14\n\x0bis_on_scene\x18\x98\x01 \x01(\x08\x12\x11\n\tentity_id\x18\t \x01(\r\x12\x13\n\x0b\x61vatar_guid\x18\x0f \x01(\x04\x12\x10\n\x08scene_id\x18\x01 \x01(\r\x12\x18\n\x10weapon_entity_id\x18\x07 \x01(\r\x12+\n\x11scene_avatar_info\x18\x03 \x01(\x0b\x32\x10.SceneAvatarInfo\x12\x13\n\x0bweapon_guid\x18\x04 \x01(\x04\x12\x32\n\x13weapon_ability_info\x18\x0b \x01(\x0b\x32\x15.AbilitySyncStateInfo\x12+\n\x11scene_entity_info\x18\x0c \x01(\x0b\x32\x10.SceneEntityInfo\x12\x12\n\nplayer_uid\x18\x0e \x01(\r\x12\x14\n\x0cis_reconnect\x18\x06 \x01(\x08\x12\x33\n\x15\x61\x62ility_control_block\x18\x02 \x01(\x0b\x32\x14.AbilityControlBlock\x12\x1c\n\x14is_player_cur_avatar\x18\r \x01(\x08\x12%\n\x10server_buff_list\x18\n \x03(\x0b\x32\x0b.ServerBuffb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15SceneTeamAvatar.proto\x1a\x19\x41\x62ilityControlBlock.proto\x1a\x1a\x41\x62ilitySyncStateInfo.proto\x1a\x10\x41vatarInfo.proto\x1a\x15SceneAvatarInfo.proto\x1a\x15SceneEntityInfo.proto\x1a\x10ServerBuff.proto\"\xa6\x04\n\x0fSceneTeamAvatar\x12+\n\x11scene_avatar_info\x18\x0e \x01(\x0b\x32\x10.SceneAvatarInfo\x12 \n\x0b\x61vatar_info\x18\x0f \x01(\x0b\x32\x0b.AvatarInfo\x12\x11\n\tentity_id\x18\n \x01(\r\x12\x32\n\x13Unk3300_EMAGOKCPPKN\x18\x06 \x01(\x0b\x32\x15.AbilitySyncStateInfo\x12\x33\n\x15\x61\x62ility_control_block\x18\x02 \x01(\x0b\x32\x14.AbilityControlBlock\x12\x1b\n\x13Unk3300_ONCNAJBJGKM\x18\x08 \x01(\x08\x12\x32\n\x13Unk3300_FCDDPFADNAI\x18\x04 \x01(\x0b\x32\x15.AbilitySyncStateInfo\x12\x13\n\x0bweapon_guid\x18\x0c \x01(\x04\x12\x12\n\nplayer_uid\x18\x01 \x01(\r\x12+\n\x11scene_entity_info\x18\x0b \x01(\x0b\x32\x10.SceneEntityInfo\x12\x18\n\x10weapon_entity_id\x18\x05 \x01(\r\x12\x10\n\x08scene_id\x18\t \x01(\r\x12\x1c\n\x13Unk3300_ILECHHKDIEM\x18\xf1\x04 \x01(\x08\x12\x13\n\x0b\x61vatar_guid\x18\x03 \x01(\x04\x12\x1b\n\x13Unk3300_GENGJLPJCCN\x18\r \x01(\x08\x12%\n\x10server_buff_list\x18\x07 \x03(\x0b\x32\x0b.ServerBuffb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneTeamAvatar_pb2', globals())
@@ -27,5 +27,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _SCENETEAMAVATAR._serialized_start=163
-  _SCENETEAMAVATAR._serialized_end=699
+  _SCENETEAMAVATAR._serialized_end=713
 # @@protoc_insertion_point(module_scope)

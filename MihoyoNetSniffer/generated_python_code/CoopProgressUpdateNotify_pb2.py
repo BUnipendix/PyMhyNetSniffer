@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x43oopProgressUpdateNotify.proto\"L\n\x18\x43oopProgressUpdateNotify\x12\x16\n\x0e\x63ur_coop_point\x18\x0b \x01(\r\x12\x18\n\x10is_have_progress\x18\x0c \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x43oopProgressUpdateNotify.proto\"L\n\x18\x43oopProgressUpdateNotify\x12\x16\n\x0e\x63ur_coop_point\x18\x04 \x01(\r\x12\x18\n\x10is_have_progress\x18\x08 \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CoopProgressUpdateNotify_pb2', globals())

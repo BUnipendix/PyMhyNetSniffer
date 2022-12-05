@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dTreasureMapDetectorData.proto\x1a\x0cVector.proto\"\x91\x01\n\x17TreasureMapDetectorData\x12\x11\n\tregion_id\x18\x04 \x01(\r\x12\x1b\n\ncenter_pos\x18\x07 \x01(\x0b\x32\x07.Vector\x12\x1a\n\x12is_region_detected\x18\x06 \x01(\x08\x12\x1a\n\tspot_list\x18\n \x03(\x0b\x32\x07.Vector\x12\x0e\n\x06radius\x18\x0e \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dTreasureMapDetectorData.proto\x1a\x0cVector.proto\"\x91\x01\n\x17TreasureMapDetectorData\x12\x11\n\tregion_id\x18\x01 \x01(\r\x12\x1a\n\x12is_region_detected\x18\x0b \x01(\x08\x12\x0e\n\x06radius\x18\x02 \x01(\r\x12\x1a\n\tspot_list\x18\x07 \x03(\x0b\x32\x07.Vector\x12\x1b\n\ncenter_pos\x18\x0c \x01(\x0b\x32\x07.Vectorb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TreasureMapDetectorData_pb2', globals())

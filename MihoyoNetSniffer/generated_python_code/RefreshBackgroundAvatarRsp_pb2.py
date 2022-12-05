@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n RefreshBackgroundAvatarRsp.proto\"\xad\x01\n\x1aRefreshBackgroundAvatarRsp\x12H\n\x10hp_full_time_map\x18\x0f \x03(\x0b\x32..RefreshBackgroundAvatarRsp.HpFullTimeMapEntry\x12\x0f\n\x07retcode\x18\x03 \x01(\x05\x1a\x34\n\x12HpFullTimeMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\x04\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n RefreshBackgroundAvatarRsp.proto\"\xad\x01\n\x1aRefreshBackgroundAvatarRsp\x12H\n\x10hp_full_time_map\x18\x04 \x03(\x0b\x32..RefreshBackgroundAvatarRsp.HpFullTimeMapEntry\x12\x0f\n\x07retcode\x18\x0b \x01(\x05\x1a\x34\n\x12HpFullTimeMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\x04\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RefreshBackgroundAvatarRsp_pb2', globals())

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x41\x64\x64RandTaskInfoNotify.proto\x1a\x0cVector.proto\"C\n\x15\x41\x64\x64RandTaskInfoNotify\x12\x14\n\x0crand_task_id\x18\x05 \x01(\r\x12\x14\n\x03pos\x18\r \x01(\x0b\x32\x07.Vectorb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x41\x64\x64RandTaskInfoNotify.proto\x1a\x0cVector.proto\"C\n\x15\x41\x64\x64RandTaskInfoNotify\x12\x14\n\x0crand_task_id\x18\x07 \x01(\r\x12\x14\n\x03pos\x18\x02 \x01(\x0b\x32\x07.Vectorb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AddRandTaskInfoNotify_pb2', globals())

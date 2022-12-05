@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import CityInfo_pb2 as CityInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15GetSceneAreaRsp.proto\x1a\x0e\x43ityInfo.proto\"m\n\x0fGetSceneAreaRsp\x12\x0f\n\x07retcode\x18\x07 \x01(\x05\x12!\n\x0e\x63ity_info_list\x18\r \x03(\x0b\x32\t.CityInfo\x12\x10\n\x08scene_id\x18\x0f \x01(\r\x12\x14\n\x0c\x61rea_id_list\x18\t \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15GetSceneAreaRsp.proto\x1a\x0e\x43ityInfo.proto\"m\n\x0fGetSceneAreaRsp\x12\x10\n\x08scene_id\x18\x08 \x01(\r\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x12\x14\n\x0c\x61rea_id_list\x18\x0f \x03(\r\x12!\n\x0e\x63ity_info_list\x18\t \x03(\x0b\x32\t.CityInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetSceneAreaRsp_pb2', globals())

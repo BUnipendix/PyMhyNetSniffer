@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import OnlinePlayerInfo_pb2 as OnlinePlayerInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cHomeGetOnlineStatusRsp.proto\x1a\x16OnlinePlayerInfo.proto\"V\n\x16HomeGetOnlineStatusRsp\x12+\n\x10player_info_list\x18\r \x03(\x0b\x32\x11.OnlinePlayerInfo\x12\x0f\n\x07retcode\x18\x07 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cHomeGetOnlineStatusRsp.proto\x1a\x16OnlinePlayerInfo.proto\"V\n\x16HomeGetOnlineStatusRsp\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x12+\n\x10player_info_list\x18\x02 \x03(\x0b\x32\x11.OnlinePlayerInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeGetOnlineStatusRsp_pb2', globals())

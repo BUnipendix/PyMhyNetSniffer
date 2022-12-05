@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#InBattleMechanicusMonsterInfo.proto\"Q\n\x1dInBattleMechanicusMonsterInfo\x12\x12\n\nmonster_id\x18\x01 \x01(\r\x12\r\n\x05level\x18\x0e \x01(\r\x12\r\n\x05\x63ount\x18\r \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#InBattleMechanicusMonsterInfo.proto\"Q\n\x1dInBattleMechanicusMonsterInfo\x12\r\n\x05level\x18\n \x01(\r\x12\x12\n\nmonster_id\x18\x08 \x01(\r\x12\r\n\x05\x63ount\x18\t \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'InBattleMechanicusMonsterInfo_pb2', globals())

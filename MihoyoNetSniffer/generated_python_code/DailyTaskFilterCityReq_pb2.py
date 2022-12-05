@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x44\x61ilyTaskFilterCityReq.proto\")\n\x16\x44\x61ilyTaskFilterCityReq\x12\x0f\n\x07\x63ity_id\x18\x08 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x44\x61ilyTaskFilterCityReq.proto\")\n\x16\x44\x61ilyTaskFilterCityReq\x12\x0f\n\x07\x63ity_id\x18\x07 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DailyTaskFilterCityReq_pb2', globals())

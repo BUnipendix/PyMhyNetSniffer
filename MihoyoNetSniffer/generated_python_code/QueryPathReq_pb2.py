@@ -16,7 +16,7 @@ import Vector_pb2 as Vector__pb2
 import Vector3Int_pb2 as Vector3Int__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12QueryPathReq.proto\x1a\x11QueryFilter.proto\x1a\x0cVector.proto\x1a\x10Vector3Int.proto\"\xe4\x02\n\x0cQueryPathReq\x12,\n\nquery_type\x18\r \x01(\x0e\x32\x18.QueryPathReq.OptionType\x12\"\n\rsource_extend\x18\x06 \x01(\x0b\x32\x0b.Vector3Int\x12\x1b\n\nsource_pos\x18\x02 \x01(\x0b\x32\x07.Vector\x12\x1c\n\x06\x66ilter\x18\x0c \x01(\x0b\x32\x0c.QueryFilter\x12\x10\n\x08query_id\x18\x0f \x01(\x05\x12\'\n\x12\x64\x65stination_extend\x18\x04 \x01(\x0b\x32\x0b.Vector3Int\x12 \n\x0f\x64\x65stination_pos\x18\n \x03(\x0b\x32\x07.Vector\x12\x10\n\x08scene_id\x18\x0b \x01(\r\"X\n\nOptionType\x12\x14\n\x10OPTION_TYPE_NONE\x10\x00\x12\x16\n\x12OPTION_TYPE_NORMAL\x10\x01\x12\x1c\n\x18OPTION_TYPE_FIRST_CAN_GO\x10\x02\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12QueryPathReq.proto\x1a\x11QueryFilter.proto\x1a\x0cVector.proto\x1a\x10Vector3Int.proto\"\xeb\x02\n\x0cQueryPathReq\x12\x1c\n\x06\x66ilter\x18\x07 \x01(\x0b\x32\x0c.QueryFilter\x12\x10\n\x08query_id\x18\x03 \x01(\x05\x12 \n\x0f\x64\x65stination_pos\x18\x06 \x03(\x0b\x32\x07.Vector\x12,\n\nquery_type\x18\x0b \x01(\x0e\x32\x18.QueryPathReq.OptionType\x12(\n\x13Unk3300_LHNGPJFOMIK\x18\x04 \x01(\x0b\x32\x0b.Vector3Int\x12\x10\n\x08scene_id\x18\x02 \x01(\r\x12\x1b\n\nsource_pos\x18\x08 \x01(\x0b\x32\x07.Vector\x12(\n\x13Unk3300_CLGJBBJDOLN\x18\x05 \x01(\x0b\x32\x0b.Vector3Int\"X\n\nOptionType\x12\x14\n\x10OPTION_TYPE_NONE\x10\x00\x12\x16\n\x12OPTION_TYPE_NORMAL\x10\x01\x12\x1c\n\x18OPTION_TYPE_FIRST_CAN_GO\x10\x02\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'QueryPathReq_pb2', globals())
@@ -24,7 +24,7 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _QUERYPATHREQ._serialized_start=74
-  _QUERYPATHREQ._serialized_end=430
-  _QUERYPATHREQ_OPTIONTYPE._serialized_start=342
-  _QUERYPATHREQ_OPTIONTYPE._serialized_end=430
+  _QUERYPATHREQ._serialized_end=437
+  _QUERYPATHREQ_OPTIONTYPE._serialized_start=349
+  _QUERYPATHREQ_OPTIONTYPE._serialized_end=437
 # @@protoc_insertion_point(module_scope)

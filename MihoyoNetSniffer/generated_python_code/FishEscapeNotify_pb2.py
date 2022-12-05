@@ -15,7 +15,7 @@ import FishEscapeReason_pb2 as FishEscapeReason__pb2
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x46ishEscapeNotify.proto\x1a\x16\x46ishEscapeReason.proto\x1a\x0cVector.proto\"n\n\x10\x46ishEscapeNotify\x12!\n\x06reason\x18\x04 \x01(\x0e\x32\x11.FishEscapeReason\x12\x14\n\x03pos\x18\x07 \x01(\x0b\x32\x07.Vector\x12\x0b\n\x03uid\x18\x0e \x01(\r\x12\x14\n\x0c\x66ish_id_list\x18\x06 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x46ishEscapeNotify.proto\x1a\x16\x46ishEscapeReason.proto\x1a\x0cVector.proto\"n\n\x10\x46ishEscapeNotify\x12\x0b\n\x03uid\x18\x02 \x01(\r\x12\x14\n\x03pos\x18\x0b \x01(\x0b\x32\x07.Vector\x12\x14\n\x0c\x66ish_id_list\x18\t \x03(\r\x12!\n\x06reason\x18\x0c \x01(\x0e\x32\x11.FishEscapeReasonb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FishEscapeNotify_pb2', globals())

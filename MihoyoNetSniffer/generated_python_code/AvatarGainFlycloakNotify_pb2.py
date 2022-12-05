@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x41vatarGainFlycloakNotify.proto\"/\n\x18\x41vatarGainFlycloakNotify\x12\x13\n\x0b\x66lycloak_id\x18\x03 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x41vatarGainFlycloakNotify.proto\"/\n\x18\x41vatarGainFlycloakNotify\x12\x13\n\x0b\x66lycloak_id\x18\x04 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarGainFlycloakNotify_pb2', globals())

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n SummerTimeSprintBoatRecord.proto\"\x83\x01\n\x1aSummerTimeSprintBoatRecord\x12\x12\n\nbest_score\x18\x03 \x01(\r\x12\x12\n\nstart_time\x18\r \x01(\r\x12\x12\n\nis_touched\x18\x07 \x01(\x08\x12\x17\n\x0fwatcher_id_list\x18\n \x03(\r\x12\x10\n\x08group_id\x18\x02 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n SummerTimeSprintBoatRecord.proto\"\x83\x01\n\x1aSummerTimeSprintBoatRecord\x12\x12\n\nstart_time\x18\x0c \x01(\r\x12\x10\n\x08group_id\x18\x05 \x01(\r\x12\x17\n\x0fwatcher_id_list\x18\x02 \x03(\r\x12\x12\n\nbest_score\x18\r \x01(\r\x12\x12\n\nis_touched\x18\x06 \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SummerTimeSprintBoatRecord_pb2', globals())

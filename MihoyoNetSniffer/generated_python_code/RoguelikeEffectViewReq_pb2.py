@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cRoguelikeEffectViewReq.proto\"I\n\x16RoguelikeEffectViewReq\x12\x17\n\x0fview_curse_list\x18\n \x03(\r\x12\x16\n\x0eview_card_list\x18\x02 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cRoguelikeEffectViewReq.proto\"R\n\x16RoguelikeEffectViewReq\x12\x1b\n\x13Unk3300_FKGJGIJHKJI\x18\n \x03(\r\x12\x1b\n\x13Unk3300_LMIIAEPBKNB\x18\x0f \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RoguelikeEffectViewReq_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _ROGUELIKEEFFECTVIEWREQ._serialized_start=32
-  _ROGUELIKEEFFECTVIEWREQ._serialized_end=105
+  _ROGUELIKEEFFECTVIEWREQ._serialized_end=114
 # @@protoc_insertion_point(module_scope)

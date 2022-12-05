@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x42lessingAcceptGivePicReq.proto\"6\n\x18\x42lessingAcceptGivePicReq\x12\r\n\x05index\x18\t \x01(\r\x12\x0b\n\x03uid\x18\x01 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x42lessingAcceptGivePicReq.proto\"6\n\x18\x42lessingAcceptGivePicReq\x12\x0b\n\x03uid\x18\x03 \x01(\r\x12\r\n\x05index\x18\t \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BlessingAcceptGivePicReq_pb2', globals())

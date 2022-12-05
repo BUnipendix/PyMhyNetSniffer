@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x41\x63tivityWatcherInfo.proto\"p\n\x13\x41\x63tivityWatcherInfo\x12\x17\n\x0fis_taken_reward\x18\x08 \x01(\x08\x12\x14\n\x0c\x63ur_progress\x18\x02 \x01(\r\x12\x16\n\x0etotal_progress\x18\x04 \x01(\r\x12\x12\n\nwatcher_id\x18\x05 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x41\x63tivityWatcherInfo.proto\"p\n\x13\x41\x63tivityWatcherInfo\x12\x17\n\x0fis_taken_reward\x18\x02 \x01(\x08\x12\x16\n\x0etotal_progress\x18\x01 \x01(\r\x12\x14\n\x0c\x63ur_progress\x18\x08 \x01(\r\x12\x12\n\nwatcher_id\x18\x0e \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ActivityWatcherInfo_pb2', globals())

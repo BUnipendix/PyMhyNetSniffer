@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import DigMarkPoint_pb2 as DigMarkPoint__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x44igActivityDetailInfo.proto\x1a\x12\x44igMarkPoint.proto\"l\n\x15\x44igActivityDetailInfo\x12\x15\n\rstage_id_list\x18\x0f \x03(\r\x12*\n\x13\x64ig_mark_point_list\x18\x0b \x03(\x0b\x32\r.DigMarkPoint\x12\x10\n\x08stage_id\x18\x08 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x44igActivityDetailInfo.proto\x1a\x12\x44igMarkPoint.proto\"l\n\x15\x44igActivityDetailInfo\x12\x10\n\x08stage_id\x18\x03 \x01(\r\x12*\n\x13\x64ig_mark_point_list\x18\x0c \x03(\x0b\x32\r.DigMarkPoint\x12\x15\n\rstage_id_list\x18\x05 \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DigActivityDetailInfo_pb2', globals())

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x46riendInfoChangeNotify.proto\"8\n\x16\x46riendInfoChangeNotify\x12\x0b\n\x03uid\x18\x01 \x01(\r\x12\x11\n\tonline_id\x18\t \x01(\tb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x46riendInfoChangeNotify.proto\"8\n\x16\x46riendInfoChangeNotify\x12\x0b\n\x03uid\x18\x06 \x01(\r\x12\x11\n\tonline_id\x18\x03 \x01(\tb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FriendInfoChangeNotify_pb2', globals())

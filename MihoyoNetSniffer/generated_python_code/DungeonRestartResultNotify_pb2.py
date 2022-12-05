@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n DungeonRestartResultNotify.proto\"3\n\x1a\x44ungeonRestartResultNotify\x12\x15\n\ris_add_accpet\x18\t \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n DungeonRestartResultNotify.proto\"3\n\x1a\x44ungeonRestartResultNotify\x12\x15\n\ris_add_accept\x18\t \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DungeonRestartResultNotify_pb2', globals())

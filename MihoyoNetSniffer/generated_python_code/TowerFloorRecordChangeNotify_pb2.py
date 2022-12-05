@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import TowerFloorRecord_pb2 as TowerFloorRecord__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"TowerFloorRecordChangeNotify.proto\x1a\x16TowerFloorRecord.proto\"v\n\x1cTowerFloorRecordChangeNotify\x12\"\n\x1ais_finished_entrance_floor\x18\x0b \x01(\x08\x12\x32\n\x17tower_floor_record_list\x18\x08 \x03(\x0b\x32\x11.TowerFloorRecordb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"TowerFloorRecordChangeNotify.proto\x1a\x16TowerFloorRecord.proto\"v\n\x1cTowerFloorRecordChangeNotify\x12\"\n\x1ais_finished_entrance_floor\x18\x04 \x01(\x08\x12\x32\n\x17tower_floor_record_list\x18\x0f \x03(\x0b\x32\x11.TowerFloorRecordb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TowerFloorRecordChangeNotify_pb2', globals())

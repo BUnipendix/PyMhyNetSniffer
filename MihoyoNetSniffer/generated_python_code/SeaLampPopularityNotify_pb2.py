@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dSeaLampPopularityNotify.proto\"-\n\x17SeaLampPopularityNotify\x12\x12\n\npopularity\x18\x04 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dSeaLampPopularityNotify.proto\"-\n\x17SeaLampPopularityNotify\x12\x12\n\npopularity\x18\x06 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SeaLampPopularityNotify_pb2', globals())

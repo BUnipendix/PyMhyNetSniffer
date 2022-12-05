@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%AbilityMixinAvatarSteerByCamera.proto\x1a\x0cVector.proto\"[\n\x1f\x41\x62ilityMixinAvatarSteerByCamera\x12\x1b\n\ntarget_dir\x18\x07 \x01(\x0b\x32\x07.Vector\x12\x1b\n\ntarget_pos\x18\x06 \x01(\x0b\x32\x07.Vectorb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%AbilityMixinAvatarSteerByCamera.proto\x1a\x0cVector.proto\"[\n\x1f\x41\x62ilityMixinAvatarSteerByCamera\x12\x1b\n\ntarget_dir\x18\x07 \x01(\x0b\x32\x07.Vector\x12\x1b\n\ntarget_pos\x18\x02 \x01(\x0b\x32\x07.Vectorb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AbilityMixinAvatarSteerByCamera_pb2', globals())

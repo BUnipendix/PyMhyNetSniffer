@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x41\x62ilityActionBlink.proto\x1a\x0cVector.proto\"@\n\x12\x41\x62ilityActionBlink\x12\x14\n\x03rot\x18\x0b \x01(\x0b\x32\x07.Vector\x12\x14\n\x03pos\x18\n \x01(\x0b\x32\x07.Vectorb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x41\x62ilityActionBlink.proto\x1a\x0cVector.proto\"@\n\x12\x41\x62ilityActionBlink\x12\x14\n\x03rot\x18\x08 \x01(\x0b\x32\x07.Vector\x12\x14\n\x03pos\x18\x03 \x01(\x0b\x32\x07.Vectorb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AbilityActionBlink_pb2', globals())

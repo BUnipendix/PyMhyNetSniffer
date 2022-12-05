@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x46leurFairFallInfo.proto\"\'\n\x11\x46leurFairFallInfo\x12\x12\n\nbest_score\x18\n \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x46leurFairFallInfo.proto\"\'\n\x11\x46leurFairFallInfo\x12\x12\n\nbest_score\x18\x0b \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FleurFairFallInfo_pb2', globals())

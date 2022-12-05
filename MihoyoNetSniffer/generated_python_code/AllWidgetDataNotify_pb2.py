@@ -15,18 +15,19 @@ import AnchorPointData_pb2 as AnchorPointData__pb2
 import ClientCollectorData_pb2 as ClientCollectorData__pb2
 import LunchBoxData_pb2 as LunchBoxData__pb2
 import OneofGatherPointDetectorData_pb2 as OneofGatherPointDetectorData__pb2
-import Unk2700_CCEOEOHLAPK_pb2 as Unk2700__CCEOEOHLAPK__pb2
+import SkyCrystalDetectorData_pb2 as SkyCrystalDetectorData__pb2
+import WeatherWizardData_pb2 as WeatherWizardData__pb2
 import WidgetCoolDownData_pb2 as WidgetCoolDownData__pb2
 import WidgetSlotData_pb2 as WidgetSlotData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x41llWidgetDataNotify.proto\x1a\x15\x41nchorPointData.proto\x1a\x19\x43lientCollectorData.proto\x1a\x12LunchBoxData.proto\x1a\"OneofGatherPointDetectorData.proto\x1a\x19Unk2700_CCEOEOHLAPK.proto\x1a\x18WidgetCoolDownData.proto\x1a\x14WidgetSlotData.proto\"\xfd\x03\n\x13\x41llWidgetDataNotify\x12\x1b\n\x13Unk3000_CNNFGFBBBFP\x18\x0b \x03(\r\x12%\n\x0elunch_box_data\x18\x01 \x01(\x0b\x32\r.LunchBoxData\x12\x36\n\x19\x63ool_down_group_data_list\x18\r \x03(\x0b\x32\x13.WidgetCoolDownData\x12+\n\x11\x61nchor_point_list\x18\x03 \x03(\x0b\x32\x10.AnchorPointData\x12\"\n\tslot_list\x18\x06 \x03(\x0b\x32\x0f.WidgetSlotData\x12%\n\x1dnext_anchor_point_usable_time\x18\n \x01(\r\x12\x38\n\x1a\x63lient_collector_data_list\x18\x04 \x03(\x0b\x32\x14.ClientCollectorData\x12L\n%oneof_gather_point_detector_data_list\x18\x0f \x03(\x0b\x32\x1d.OneofGatherPointDetectorData\x12\x37\n\x1anormal_cool_down_data_list\x18\t \x03(\x0b\x32\x13.WidgetCoolDownData\x12\x31\n\x13Unk2700_COIELIGEACL\x18\x0c \x01(\x0b\x32\x14.Unk2700_CCEOEOHLAPKb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x41llWidgetDataNotify.proto\x1a\x15\x41nchorPointData.proto\x1a\x19\x43lientCollectorData.proto\x1a\x12LunchBoxData.proto\x1a\"OneofGatherPointDetectorData.proto\x1a\x1cSkyCrystalDetectorData.proto\x1a\x17WeatherWizardData.proto\x1a\x18WidgetCoolDownData.proto\x1a\x14WidgetSlotData.proto\"\xc1\x04\n\x13\x41llWidgetDataNotify\x12%\n\x1dnext_anchor_point_usable_time\x18\x05 \x01(\r\x12%\n\x0elunch_box_data\x18\x01 \x01(\x0b\x32\r.LunchBoxData\x12L\n%oneof_gather_point_detector_data_list\x18\x0e \x03(\x0b\x32\x1d.OneofGatherPointDetectorData\x12\"\n\tslot_list\x18\x06 \x03(\x0b\x32\x0f.WidgetSlotData\x12%\n\x1d\x62\x61\x63kground_active_widget_list\x18\t \x03(\r\x12\x36\n\x19\x63ool_down_group_data_list\x18\x03 \x03(\x0b\x32\x13.WidgetCoolDownData\x12:\n\x19sky_crystal_detector_data\x18\x04 \x01(\x0b\x32\x17.SkyCrystalDetectorData\x12\x38\n\x1a\x63lient_collector_data_list\x18\x07 \x03(\x0b\x32\x14.ClientCollectorData\x12/\n\x13weather_wizard_data\x18\x0f \x01(\x0b\x32\x12.WeatherWizardData\x12\x37\n\x1anormal_cool_down_data_list\x18\n \x03(\x0b\x32\x13.WidgetCoolDownData\x12+\n\x11\x61nchor_point_list\x18\r \x03(\x0b\x32\x10.AnchorPointDatab\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AllWidgetDataNotify_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ALLWIDGETDATANOTIFY._serialized_start=211
-  _ALLWIDGETDATANOTIFY._serialized_end=720
+  _ALLWIDGETDATANOTIFY._serialized_start=239
+  _ALLWIDGETDATANOTIFY._serialized_end=816
 # @@protoc_insertion_point(module_scope)

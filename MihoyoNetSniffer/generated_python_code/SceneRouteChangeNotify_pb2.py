@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import SceneRouteChangeInfo_pb2 as SceneRouteChangeInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cSceneRouteChangeNotify.proto\x1a\x1aSceneRouteChangeInfo.proto\"i\n\x16SceneRouteChangeNotify\x12\x10\n\x08scene_id\x18\x0c \x01(\r\x12\x12\n\nscene_time\x18\x0b \x01(\r\x12)\n\nroute_list\x18\x02 \x03(\x0b\x32\x15.SceneRouteChangeInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cSceneRouteChangeNotify.proto\x1a\x1aSceneRouteChangeInfo.proto\"i\n\x16SceneRouteChangeNotify\x12\x12\n\nscene_time\x18\x03 \x01(\r\x12)\n\nroute_list\x18\x04 \x03(\x0b\x32\x15.SceneRouteChangeInfo\x12\x10\n\x08scene_id\x18\x0b \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneRouteChangeNotify_pb2', globals())

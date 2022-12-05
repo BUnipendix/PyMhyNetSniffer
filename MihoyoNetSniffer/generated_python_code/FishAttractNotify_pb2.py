@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x46ishAttractNotify.proto\x1a\x0cVector.proto\"L\n\x11\x46ishAttractNotify\x12\x14\n\x0c\x66ish_id_list\x18\x03 \x03(\r\x12\x14\n\x03pos\x18\t \x01(\x0b\x32\x07.Vector\x12\x0b\n\x03uid\x18\x02 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x46ishAttractNotify.proto\x1a\x0cVector.proto\"L\n\x11\x46ishAttractNotify\x12\x14\n\x03pos\x18\x02 \x01(\x0b\x32\x07.Vector\x12\x14\n\x0c\x66ish_id_list\x18\x0e \x03(\r\x12\x0b\n\x03uid\x18\r \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FishAttractNotify_pb2', globals())

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"TakeEffigyFirstPassRewardReq.proto\"4\n\x1cTakeEffigyFirstPassRewardReq\x12\x14\n\x0c\x63hallenge_id\x18\x06 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"TakeEffigyFirstPassRewardReq.proto\"4\n\x1cTakeEffigyFirstPassRewardReq\x12\x14\n\x0c\x63hallenge_id\x18\r \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TakeEffigyFirstPassRewardReq_pb2', globals())

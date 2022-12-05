@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import PropChangeReason_pb2 as PropChangeReason__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"PlayerPropChangeReasonNotify.proto\x1a\x16PropChangeReason.proto\"z\n\x1cPlayerPropChangeReasonNotify\x12\x11\n\tprop_type\x18\x06 \x01(\r\x12\x11\n\told_value\x18\x0c \x01(\x02\x12!\n\x06reason\x18\x01 \x01(\x0e\x32\x11.PropChangeReason\x12\x11\n\tcur_value\x18\x0b \x01(\x02\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"PlayerPropChangeReasonNotify.proto\x1a\x16PropChangeReason.proto\"z\n\x1cPlayerPropChangeReasonNotify\x12\x11\n\told_value\x18\n \x01(\x02\x12\x11\n\tcur_value\x18\x0b \x01(\x02\x12!\n\x06reason\x18\x02 \x01(\x0e\x32\x11.PropChangeReason\x12\x11\n\tprop_type\x18\x05 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerPropChangeReasonNotify_pb2', globals())

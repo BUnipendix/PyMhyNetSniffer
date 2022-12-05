@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16WidgetGadgetData.proto\"D\n\x10WidgetGadgetData\x12\x1d\n\x15gadget_entity_id_list\x18\x01 \x03(\r\x12\x11\n\tgadget_id\x18\x08 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16WidgetGadgetData.proto\"D\n\x10WidgetGadgetData\x12\x1d\n\x15gadget_entity_id_list\x18\x06 \x03(\r\x12\x11\n\tgadget_id\x18\x02 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WidgetGadgetData_pb2', globals())

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aProudSkillUpgradeReq.proto\"b\n\x14ProudSkillUpgradeReq\x12\x13\n\x0b\x61vatar_guid\x18\x05 \x01(\x04\x12\x1d\n\x15old_proud_skill_level\x18\x04 \x01(\r\x12\x16\n\x0eproud_skill_id\x18\x0e \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aProudSkillUpgradeReq.proto\"b\n\x14ProudSkillUpgradeReq\x12\x13\n\x0b\x61vatar_guid\x18\r \x01(\x04\x12\x1d\n\x15old_proud_skill_level\x18\x03 \x01(\r\x12\x16\n\x0eproud_skill_id\x18\x02 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ProudSkillUpgradeReq_pb2', globals())

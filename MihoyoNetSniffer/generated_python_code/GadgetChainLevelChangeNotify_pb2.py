@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"GadgetChainLevelChangeNotify.proto\"\xb2\x01\n\x1cGadgetChainLevelChangeNotify\x12V\n\x16gadget_chain_level_map\x18\x02 \x03(\x0b\x32\x36.GadgetChainLevelChangeNotify.GadgetChainLevelMapEntry\x1a:\n\x18GadgetChainLevelMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"GadgetChainLevelChangeNotify.proto\"\xb2\x01\n\x1cGadgetChainLevelChangeNotify\x12V\n\x16gadget_chain_level_map\x18\r \x03(\x0b\x32\x36.GadgetChainLevelChangeNotify.GadgetChainLevelMapEntry\x1a:\n\x18GadgetChainLevelMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GadgetChainLevelChangeNotify_pb2', globals())

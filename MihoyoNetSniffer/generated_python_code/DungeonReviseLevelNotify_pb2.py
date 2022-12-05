@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x44ungeonReviseLevelNotify.proto\"D\n\x18\x44ungeonReviseLevelNotify\x12\x14\n\x0crevise_level\x18\x07 \x01(\r\x12\x12\n\ndungeon_id\x18\x0e \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x44ungeonReviseLevelNotify.proto\"h\n\x18\x44ungeonReviseLevelNotify\x12\x12\n\ndungeon_id\x18\x02 \x01(\r\x12\x1b\n\x13Unk3300_ALMECLCHHFA\x18\x03 \x01(\r\x12\x1b\n\x13Unk3300_DKIMMKIHDCK\x18\x0f \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DungeonReviseLevelNotify_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _DUNGEONREVISELEVELNOTIFY._serialized_start=34
-  _DUNGEONREVISELEVELNOTIFY._serialized_end=102
+  _DUNGEONREVISELEVELNOTIFY._serialized_end=138
 # @@protoc_insertion_point(module_scope)

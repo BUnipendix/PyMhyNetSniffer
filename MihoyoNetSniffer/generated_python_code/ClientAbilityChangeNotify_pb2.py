@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import AbilityInvokeEntry_pb2 as AbilityInvokeEntry__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x43lientAbilityChangeNotify.proto\x1a\x18\x41\x62ilityInvokeEntry.proto\"q\n\x19\x43lientAbilityChangeNotify\x12\x1b\n\x13Unk2200_FNAFDMAPLHP\x18\t \x01(\x08\x12\x11\n\tentity_id\x18\x02 \x01(\r\x12$\n\x07invokes\x18\x03 \x03(\x0b\x32\x13.AbilityInvokeEntryb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x43lientAbilityChangeNotify.proto\x1a\x18\x41\x62ilityInvokeEntry.proto\"j\n\x19\x43lientAbilityChangeNotify\x12\x14\n\x0cis_init_hash\x18\n \x01(\x08\x12$\n\x07invokes\x18\x0e \x03(\x0b\x32\x13.AbilityInvokeEntry\x12\x11\n\tentity_id\x18\x0b \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ClientAbilityChangeNotify_pb2', globals())
@@ -22,5 +22,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _CLIENTABILITYCHANGENOTIFY._serialized_start=61
-  _CLIENTABILITYCHANGENOTIFY._serialized_end=174
+  _CLIENTABILITYCHANGENOTIFY._serialized_end=167
 # @@protoc_insertion_point(module_scope)

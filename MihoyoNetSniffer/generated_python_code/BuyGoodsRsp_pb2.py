@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ShopGoods_pb2 as ShopGoods__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11\x42uyGoodsRsp.proto\x1a\x0fShopGoods.proto\"\x7f\n\x0b\x42uyGoodsRsp\x12\x11\n\tbuy_count\x18\x0e \x01(\r\x12\x19\n\x05goods\x18\x0c \x01(\x0b\x32\n.ShopGoods\x12\x11\n\tshop_type\x18\x0b \x01(\r\x12\x0f\n\x07retcode\x18\x02 \x01(\x05\x12\x1e\n\ngoods_list\x18\x05 \x03(\x0b\x32\n.ShopGoodsb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11\x42uyGoodsRsp.proto\x1a\x0fShopGoods.proto\"\x7f\n\x0b\x42uyGoodsRsp\x12\x11\n\tshop_type\x18\x0f \x01(\r\x12\x0f\n\x07retcode\x18\r \x01(\x05\x12\x1e\n\ngoods_list\x18\n \x03(\x0b\x32\n.ShopGoods\x12\x19\n\x05goods\x18\x07 \x01(\x0b\x32\n.ShopGoods\x12\x11\n\tbuy_count\x18\t \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BuyGoodsRsp_pb2', globals())

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&InBattleMechanicusConfirmCardReq.proto\"Y\n InBattleMechanicusConfirmCardReq\x12\x12\n\nplay_index\x18\x06 \x01(\r\x12\x0f\n\x07\x63\x61rd_id\x18\x01 \x01(\r\x12\x10\n\x08group_id\x18\x03 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&InBattleMechanicusConfirmCardReq.proto\"Y\n InBattleMechanicusConfirmCardReq\x12\x0f\n\x07\x63\x61rd_id\x18\x03 \x01(\r\x12\x12\n\nplay_index\x18\x08 \x01(\r\x12\x10\n\x08group_id\x18\x05 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'InBattleMechanicusConfirmCardReq_pb2', globals())

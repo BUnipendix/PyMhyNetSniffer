@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cGetOnlinePlayerInfoReq.proto\"x\n\x16GetOnlinePlayerInfoReq\x12\x14\n\x0cis_online_id\x18\x0f \x01(\x08\x12\x14\n\ntarget_uid\x18\t \x01(\rH\x00\x12\x13\n\tonline_id\x18\x07 \x01(\tH\x00\x12\x10\n\x06psn_id\x18\x02 \x01(\tH\x00\x42\x0b\n\tplayer_idb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cGetOnlinePlayerInfoReq.proto\"x\n\x16GetOnlinePlayerInfoReq\x12\x14\n\x0cis_online_id\x18\x08 \x01(\x08\x12\x14\n\ntarget_uid\x18\x01 \x01(\rH\x00\x12\x13\n\tonline_id\x18\x07 \x01(\tH\x00\x12\x10\n\x06psn_id\x18\x04 \x01(\tH\x00\x42\x0b\n\tplayer_idb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetOnlinePlayerInfoReq_pb2', globals())

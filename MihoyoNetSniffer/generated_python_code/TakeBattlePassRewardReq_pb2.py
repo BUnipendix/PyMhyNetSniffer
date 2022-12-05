@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import BattlePassRewardTakeOption_pb2 as BattlePassRewardTakeOption__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dTakeBattlePassRewardReq.proto\x1a BattlePassRewardTakeOption.proto\"P\n\x17TakeBattlePassRewardReq\x12\x35\n\x10take_option_list\x18\x0c \x03(\x0b\x32\x1b.BattlePassRewardTakeOptionb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dTakeBattlePassRewardReq.proto\x1a BattlePassRewardTakeOption.proto\"P\n\x17TakeBattlePassRewardReq\x12\x35\n\x10take_option_list\x18\t \x03(\x0b\x32\x1b.BattlePassRewardTakeOptionb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TakeBattlePassRewardReq_pb2', globals())

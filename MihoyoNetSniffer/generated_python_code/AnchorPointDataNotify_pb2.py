@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import AnchorPointData_pb2 as AnchorPointData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x41nchorPointDataNotify.proto\x1a\x15\x41nchorPointData.proto\"^\n\x15\x41nchorPointDataNotify\x12+\n\x11\x61nchor_point_list\x18\n \x03(\x0b\x32\x10.AnchorPointData\x12\x18\n\x10next_usable_time\x18\x0e \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x41nchorPointDataNotify.proto\x1a\x15\x41nchorPointData.proto\"^\n\x15\x41nchorPointDataNotify\x12\x18\n\x10next_usable_time\x18\x01 \x01(\r\x12+\n\x11\x61nchor_point_list\x18\x0b \x03(\x0b\x32\x10.AnchorPointDatab\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AnchorPointDataNotify_pb2', globals())

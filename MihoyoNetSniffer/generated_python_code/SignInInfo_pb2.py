@@ -11,16 +11,16 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import Unk2700_HENCIJOPCIF_pb2 as Unk2700__HENCIJOPCIF__pb2
+import SignInData_pb2 as SignInData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10SignInInfo.proto\x1a\x19Unk2700_HENCIJOPCIF.proto\"\xf3\x01\n\nSignInInfo\x12\x19\n\x11is_cond_satisfied\x18\x07 \x01(\x08\x12\x17\n\x0freward_day_list\x18\x0f \x03(\r\x12\x31\n\x13Unk2700_HBMMIEOFIEI\x18\x0c \x03(\x0b\x32\x14.Unk2700_HENCIJOPCIF\x12\x11\n\tconfig_id\x18\x08 \x01(\r\x12\x15\n\rsign_in_count\x18\x02 \x01(\r\x12\x13\n\x0bschedule_id\x18\x03 \x01(\r\x12\x10\n\x08\x65nd_time\x18\r \x01(\r\x12\x19\n\x11last_sign_in_time\x18\x06 \x01(\r\x12\x12\n\nbegin_time\x18\x05 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10SignInInfo.proto\x1a\x10SignInData.proto\"\xef\x01\n\nSignInInfo\x12\x19\n\x11is_cond_satisfied\x18\x01 \x01(\x08\x12%\n\x10signin_data_list\x18\n \x03(\x0b\x32\x0b.SignInData\x12\x1b\n\x13Unk3300_MNJELIDKMCF\x18\x05 \x01(\r\x12\x13\n\x0bschedule_id\x18\x07 \x01(\r\x12\x1b\n\x13Unk3300_NFNOKBNBLGE\x18\x03 \x01(\r\x12\x17\n\x0freward_day_list\x18\x04 \x03(\r\x12\x12\n\nbegin_time\x18\x06 \x01(\r\x12\x11\n\tconfig_id\x18\t \x01(\r\x12\x10\n\x08\x65nd_time\x18\x08 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SignInInfo_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SIGNININFO._serialized_start=48
-  _SIGNININFO._serialized_end=291
+  _SIGNININFO._serialized_start=39
+  _SIGNININFO._serialized_end=278
 # @@protoc_insertion_point(module_scope)

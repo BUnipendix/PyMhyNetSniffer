@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$SceneGallerySalvagePreventInfo.proto\"=\n\x1eSceneGallerySalvagePreventInfo\x12\x1b\n\x13Unk2700_FFCCLGIFGIP\x18\x07 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$SceneGallerySalvagePreventInfo.proto\"7\n\x1eSceneGallerySalvagePreventInfo\x12\x15\n\rmonster_count\x18\x01 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGallerySalvagePreventInfo_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _SCENEGALLERYSALVAGEPREVENTINFO._serialized_start=40
-  _SCENEGALLERYSALVAGEPREVENTINFO._serialized_end=101
+  _SCENEGALLERYSALVAGEPREVENTINFO._serialized_end=95
 # @@protoc_insertion_point(module_scope)

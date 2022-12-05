@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x41\x62ilityArgument.proto\"S\n\x0f\x41\x62ilityArgument\x12\x11\n\x07int_arg\x18\x05 \x01(\rH\x00\x12\x13\n\tfloat_arg\x18\x0f \x01(\x02H\x00\x12\x11\n\x07str_arg\x18\x0b \x01(\tH\x00\x42\x05\n\x03\x61rgb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x41\x62ilityArgument.proto\"S\n\x0f\x41\x62ilityArgument\x12\x11\n\x07int_arg\x18\x0e \x01(\rH\x00\x12\x13\n\tfloat_arg\x18\x07 \x01(\x02H\x00\x12\x11\n\x07str_arg\x18\t \x01(\tH\x00\x42\x05\n\x03\x61rgb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AbilityArgument_pb2', globals())

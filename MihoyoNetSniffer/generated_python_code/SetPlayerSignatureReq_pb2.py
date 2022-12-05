@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bSetPlayerSignatureReq.proto\"*\n\x15SetPlayerSignatureReq\x12\x11\n\tsignature\x18\x03 \x01(\tb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bSetPlayerSignatureReq.proto\"*\n\x15SetPlayerSignatureReq\x12\x11\n\tsignature\x18\x0f \x01(\tb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SetPlayerSignatureReq_pb2', globals())

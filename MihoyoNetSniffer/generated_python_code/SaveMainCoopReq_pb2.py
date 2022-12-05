@@ -13,21 +13,21 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15SaveMainCoopReq.proto\"\xa9\x02\n\x0fSaveMainCoopReq\x12:\n\x0enormal_var_map\x18\x0f \x03(\x0b\x32\".SaveMainCoopReq.NormalVarMapEntry\x12\x17\n\x0fself_confidence\x18\x02 \x01(\r\x12\x15\n\rsave_point_id\x18\x01 \x01(\r\x12\x36\n\x0ctemp_var_map\x18\x08 \x03(\x0b\x32 .SaveMainCoopReq.TempVarMapEntry\x12\n\n\x02id\x18\x03 \x01(\r\x1a\x33\n\x11NormalVarMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\x05:\x02\x38\x01\x1a\x31\n\x0fTempVarMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\x05:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15SaveMainCoopReq.proto\"\xd1\x02\n\x0fSaveMainCoopReq\x12\x45\n\x13Unk3300_JFPLEDLNJPF\x18\x0e \x03(\x0b\x32(.SaveMainCoopReq.Unk3300JFPLEDLNJPFEntry\x12\x17\n\x0fself_confidence\x18\x06 \x01(\r\x12\n\n\x02id\x18\r \x01(\r\x12\x15\n\rsave_point_id\x18\x02 \x01(\r\x12\x45\n\x13Unk3300_OMEEMFJFKBH\x18\x0c \x03(\x0b\x32(.SaveMainCoopReq.Unk3300OMEEMFJFKBHEntry\x1a\x39\n\x17Unk3300JFPLEDLNJPFEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\x05:\x02\x38\x01\x1a\x39\n\x17Unk3300OMEEMFJFKBHEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\x05:\x02\x38\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SaveMainCoopReq_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SAVEMAINCOOPREQ_NORMALVARMAPENTRY._options = None
-  _SAVEMAINCOOPREQ_NORMALVARMAPENTRY._serialized_options = b'8\001'
-  _SAVEMAINCOOPREQ_TEMPVARMAPENTRY._options = None
-  _SAVEMAINCOOPREQ_TEMPVARMAPENTRY._serialized_options = b'8\001'
+  _SAVEMAINCOOPREQ_UNK3300JFPLEDLNJPFENTRY._options = None
+  _SAVEMAINCOOPREQ_UNK3300JFPLEDLNJPFENTRY._serialized_options = b'8\001'
+  _SAVEMAINCOOPREQ_UNK3300OMEEMFJFKBHENTRY._options = None
+  _SAVEMAINCOOPREQ_UNK3300OMEEMFJFKBHENTRY._serialized_options = b'8\001'
   _SAVEMAINCOOPREQ._serialized_start=26
-  _SAVEMAINCOOPREQ._serialized_end=323
-  _SAVEMAINCOOPREQ_NORMALVARMAPENTRY._serialized_start=221
-  _SAVEMAINCOOPREQ_NORMALVARMAPENTRY._serialized_end=272
-  _SAVEMAINCOOPREQ_TEMPVARMAPENTRY._serialized_start=274
-  _SAVEMAINCOOPREQ_TEMPVARMAPENTRY._serialized_end=323
+  _SAVEMAINCOOPREQ._serialized_end=363
+  _SAVEMAINCOOPREQ_UNK3300JFPLEDLNJPFENTRY._serialized_start=247
+  _SAVEMAINCOOPREQ_UNK3300JFPLEDLNJPFENTRY._serialized_end=304
+  _SAVEMAINCOOPREQ_UNK3300OMEEMFJFKBHENTRY._serialized_start=306
+  _SAVEMAINCOOPREQ_UNK3300OMEEMFJFKBHENTRY._serialized_end=363
 # @@protoc_insertion_point(module_scope)

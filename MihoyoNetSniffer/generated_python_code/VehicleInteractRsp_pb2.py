@@ -15,7 +15,7 @@ import VehicleInteractType_pb2 as VehicleInteractType__pb2
 import VehicleMember_pb2 as VehicleMember__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18VehicleInteractRsp.proto\x1a\x19VehicleInteractType.proto\x1a\x13VehicleMember.proto\"\x85\x01\n\x12VehicleInteractRsp\x12+\n\rinteract_type\x18\x0f \x01(\x0e\x32\x14.VehicleInteractType\x12\x1e\n\x06member\x18\x03 \x01(\x0b\x32\x0e.VehicleMember\x12\x11\n\tentity_id\x18\x02 \x01(\r\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18VehicleInteractRsp.proto\x1a\x19VehicleInteractType.proto\x1a\x13VehicleMember.proto\"\x85\x01\n\x12VehicleInteractRsp\x12\x11\n\tentity_id\x18\x04 \x01(\r\x12\x1e\n\x06member\x18\x0b \x01(\x0b\x32\x0e.VehicleMember\x12\x0f\n\x07retcode\x18\x06 \x01(\x05\x12+\n\rinteract_type\x18\x07 \x01(\x0e\x32\x14.VehicleInteractTypeb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'VehicleInteractRsp_pb2', globals())

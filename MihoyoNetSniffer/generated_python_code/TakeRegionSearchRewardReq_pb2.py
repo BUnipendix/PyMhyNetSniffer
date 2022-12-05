@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fTakeRegionSearchRewardReq.proto\":\n\x19TakeRegionSearchRewardReq\x12\x11\n\tsearch_id\x18\x03 \x01(\r\x12\n\n\x02id\x18\x0f \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fTakeRegionSearchRewardReq.proto\":\n\x19TakeRegionSearchRewardReq\x12\n\n\x02id\x18\x08 \x01(\r\x12\x11\n\tsearch_id\x18\x06 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TakeRegionSearchRewardReq_pb2', globals())

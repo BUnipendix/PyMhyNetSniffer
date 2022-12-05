@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import FallSettleInfo_pb2 as FallSettleInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x46leurFairFallSettleInfo.proto\x1a\x14\x46\x61llSettleInfo.proto\"V\n\x17\x46leurFairFallSettleInfo\x12$\n\x0bsettle_info\x18\x04 \x01(\x0b\x32\x0f.FallSettleInfo\x12\x15\n\ris_new_record\x18\n \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x46leurFairFallSettleInfo.proto\x1a\x14\x46\x61llSettleInfo.proto\"V\n\x17\x46leurFairFallSettleInfo\x12$\n\x0bsettle_info\x18\x03 \x01(\x0b\x32\x0f.FallSettleInfo\x12\x15\n\ris_new_record\x18\t \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FleurFairFallSettleInfo_pb2', globals())

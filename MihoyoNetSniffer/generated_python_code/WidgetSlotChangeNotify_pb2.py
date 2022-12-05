@@ -15,7 +15,7 @@ import WidgetSlotData_pb2 as WidgetSlotData__pb2
 import WidgetSlotOp_pb2 as WidgetSlotOp__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cWidgetSlotChangeNotify.proto\x1a\x14WidgetSlotData.proto\x1a\x12WidgetSlotOp.proto\"R\n\x16WidgetSlotChangeNotify\x12\x19\n\x02op\x18\x0b \x01(\x0e\x32\r.WidgetSlotOp\x12\x1d\n\x04slot\x18\x08 \x01(\x0b\x32\x0f.WidgetSlotDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cWidgetSlotChangeNotify.proto\x1a\x14WidgetSlotData.proto\x1a\x12WidgetSlotOp.proto\"R\n\x16WidgetSlotChangeNotify\x12\x19\n\x02op\x18\x05 \x01(\x0e\x32\r.WidgetSlotOp\x12\x1d\n\x04slot\x18\x02 \x01(\x0b\x32\x0f.WidgetSlotDatab\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WidgetSlotChangeNotify_pb2', globals())

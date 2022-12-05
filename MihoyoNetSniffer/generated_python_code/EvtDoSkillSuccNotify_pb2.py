@@ -15,7 +15,7 @@ import ForwardType_pb2 as ForwardType__pb2
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x45vtDoSkillSuccNotify.proto\x1a\x11\x46orwardType.proto\x1a\x0cVector.proto\"y\n\x14\x45vtDoSkillSuccNotify\x12\x11\n\tcaster_id\x18\r \x01(\r\x12\"\n\x0c\x66orward_type\x18\n \x01(\x0e\x32\x0c.ForwardType\x12\x18\n\x07\x66orward\x18\x0f \x01(\x0b\x32\x07.Vector\x12\x10\n\x08skill_id\x18\x07 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x45vtDoSkillSuccNotify.proto\x1a\x11\x46orwardType.proto\x1a\x0cVector.proto\"y\n\x14\x45vtDoSkillSuccNotify\x12\x11\n\tcaster_id\x18\x0f \x01(\r\x12\"\n\x0c\x66orward_type\x18\t \x01(\x0e\x32\x0c.ForwardType\x12\x10\n\x08skill_id\x18\x0e \x01(\r\x12\x18\n\x07\x66orward\x18\r \x01(\x0b\x32\x07.Vectorb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EvtDoSkillSuccNotify_pb2', globals())

@@ -11,16 +11,16 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import Unk2800_FMAOEPEBKHB_pb2 as Unk2800__FMAOEPEBKHB__pb2
+import GalleryStartSource_pb2 as GalleryStartSource__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n)SceneGalleryIslandPartyDownHillInfo.proto\x1a\x19Unk2800_FMAOEPEBKHB.proto\"\xa0\x01\n#SceneGalleryIslandPartyDownHillInfo\x12\x1b\n\x13Unk2800_LBPCDCHOOLJ\x18\x0e \x01(\r\x12\x31\n\x13Unk2800_ENJGEFBCLOL\x18\x0f \x01(\x0e\x32\x14.Unk2800_FMAOEPEBKHB\x12\x1b\n\x13Unk2800_BKEFLDCEBLF\x18\x05 \x01(\r\x12\x0c\n\x04\x63oin\x18\r \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n)SceneGalleryIslandPartyDownHillInfo.proto\x1a\x18GalleryStartSource.proto\"\xa0\x01\n#SceneGalleryIslandPartyDownHillInfo\x12\x1e\n\x16max_kill_monster_count\x18\n \x01(\r\x12)\n\x0cstart_source\x18\x02 \x01(\x0e\x32\x13.GalleryStartSource\x12 \n\x18total_kill_monster_count\x18\x0c \x01(\r\x12\x0c\n\x04\x63oin\x18\x04 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGalleryIslandPartyDownHillInfo_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SCENEGALLERYISLANDPARTYDOWNHILLINFO._serialized_start=73
-  _SCENEGALLERYISLANDPARTYDOWNHILLINFO._serialized_end=233
+  _SCENEGALLERYISLANDPARTYDOWNHILLINFO._serialized_start=72
+  _SCENEGALLERYISLANDPARTYDOWNHILLINFO._serialized_end=232
 # @@protoc_insertion_point(module_scope)

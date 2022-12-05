@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19InvestigationTarget.proto\"\xf5\x01\n\x13InvestigationTarget\x12\x10\n\x08quest_id\x18\x0f \x01(\r\x12)\n\x05state\x18\x02 \x01(\x0e\x32\x1a.InvestigationTarget.State\x12\x10\n\x08progress\x18\x08 \x01(\r\x12\x16\n\x0etotal_progress\x18\x07 \x01(\r\x12\x18\n\x10investigation_id\x18\x03 \x01(\r\"]\n\x05State\x12\x11\n\rSTATE_INVALID\x10\x00\x12\x15\n\x11STATE_IN_PROGRESS\x10\x01\x12\x12\n\x0eSTATE_COMPLETE\x10\x02\x12\x16\n\x12STATE_REWARD_TAKEN\x10\x03\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19InvestigationTarget.proto\"\xf5\x01\n\x13InvestigationTarget\x12\x18\n\x10investigation_id\x18\x08 \x01(\r\x12\x10\n\x08quest_id\x18\x06 \x01(\r\x12)\n\x05state\x18\x02 \x01(\x0e\x32\x1a.InvestigationTarget.State\x12\x16\n\x0etotal_progress\x18\x05 \x01(\r\x12\x10\n\x08progress\x18\x0f \x01(\r\"]\n\x05State\x12\x11\n\rSTATE_INVALID\x10\x00\x12\x15\n\x11STATE_IN_PROGRESS\x10\x01\x12\x12\n\x0eSTATE_COMPLETE\x10\x02\x12\x16\n\x12STATE_REWARD_TAKEN\x10\x03\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'InvestigationTarget_pb2', globals())

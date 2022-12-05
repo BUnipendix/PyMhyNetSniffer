@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18PlayerLocationInfo.proto\x1a\x0cVector.proto\"M\n\x12PlayerLocationInfo\x12\x0b\n\x03uid\x18\x0f \x01(\r\x12\x14\n\x03pos\x18\x03 \x01(\x0b\x32\x07.Vector\x12\x14\n\x03rot\x18\r \x01(\x0b\x32\x07.Vectorb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18PlayerLocationInfo.proto\x1a\x0cVector.proto\"M\n\x12PlayerLocationInfo\x12\x0b\n\x03uid\x18\x07 \x01(\r\x12\x14\n\x03rot\x18\r \x01(\x0b\x32\x07.Vector\x12\x14\n\x03pos\x18\x03 \x01(\x0b\x32\x07.Vectorb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerLocationInfo_pb2', globals())

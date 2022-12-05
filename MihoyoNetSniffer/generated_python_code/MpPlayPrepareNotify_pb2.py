@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19MpPlayPrepareNotify.proto\"C\n\x13MpPlayPrepareNotify\x12\x12\n\nmp_play_id\x18\t \x01(\r\x12\x18\n\x10prepare_end_time\x18\x0b \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19MpPlayPrepareNotify.proto\"C\n\x13MpPlayPrepareNotify\x12\x12\n\nmp_play_id\x18\x03 \x01(\r\x12\x18\n\x10prepare_end_time\x18\r \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MpPlayPrepareNotify_pb2', globals())

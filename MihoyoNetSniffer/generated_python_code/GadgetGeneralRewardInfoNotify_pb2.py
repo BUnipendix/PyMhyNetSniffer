@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import GadgetGeneralRewardInfo_pb2 as GadgetGeneralRewardInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#GadgetGeneralRewardInfoNotify.proto\x1a\x1dGadgetGeneralRewardInfo.proto\"i\n\x1dGadgetGeneralRewardInfoNotify\x12\x11\n\tentity_id\x18\r \x01(\r\x12\x35\n\x13general_reward_info\x18\t \x01(\x0b\x32\x18.GadgetGeneralRewardInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#GadgetGeneralRewardInfoNotify.proto\x1a\x1dGadgetGeneralRewardInfo.proto\"i\n\x1dGadgetGeneralRewardInfoNotify\x12\x11\n\tentity_id\x18\n \x01(\r\x12\x35\n\x13general_reward_info\x18\x0c \x01(\x0b\x32\x18.GadgetGeneralRewardInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GadgetGeneralRewardInfoNotify_pb2', globals())

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ItemParam_pb2 as ItemParam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16WeaponUpgradeRsp.proto\x1a\x0fItemParam.proto\"\x8a\x01\n\x10WeaponUpgradeRsp\x12\x11\n\tcur_level\x18\x07 \x01(\r\x12\x0f\n\x07retcode\x18\x0b \x01(\x05\x12\x11\n\told_level\x18\x08 \x01(\r\x12#\n\x0fitem_param_list\x18\x02 \x03(\x0b\x32\n.ItemParam\x12\x1a\n\x12target_weapon_guid\x18\x06 \x01(\x04\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16WeaponUpgradeRsp.proto\x1a\x0fItemParam.proto\"\x8a\x01\n\x10WeaponUpgradeRsp\x12\x11\n\told_level\x18\x0e \x01(\r\x12\x1a\n\x12target_weapon_guid\x18\x03 \x01(\x04\x12\x11\n\tcur_level\x18\x06 \x01(\r\x12#\n\x0fitem_param_list\x18\x08 \x03(\x0b\x32\n.ItemParam\x12\x0f\n\x07retcode\x18\n \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WeaponUpgradeRsp_pb2', globals())

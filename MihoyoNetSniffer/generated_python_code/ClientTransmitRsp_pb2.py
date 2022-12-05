@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import TransmitReason_pb2 as TransmitReason__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x43lientTransmitRsp.proto\x1a\x14TransmitReason.proto\"E\n\x11\x43lientTransmitRsp\x12\x1f\n\x06reason\x18\x03 \x01(\x0e\x32\x0f.TransmitReason\x12\x0f\n\x07retcode\x18\t \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x43lientTransmitRsp.proto\x1a\x14TransmitReason.proto\"E\n\x11\x43lientTransmitRsp\x12\x1f\n\x06reason\x18\x0b \x01(\x0e\x32\x0f.TransmitReason\x12\x0f\n\x07retcode\x18\r \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ClientTransmitRsp_pb2', globals())

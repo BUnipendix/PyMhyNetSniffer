@@ -17,7 +17,7 @@ import ModifierAction_pb2 as ModifierAction__pb2
 import ModifierProperty_pb2 as ModifierProperty__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x41\x62ilityMetaModifierChange.proto\x1a\x1d\x41\x62ilityAttachedModifier.proto\x1a\x13\x41\x62ilityString.proto\x1a\x14ModifierAction.proto\x1a\x16ModifierProperty.proto\"\xa6\x03\n\x19\x41\x62ilityMetaModifierChange\x12=\n\x1b\x61ttached_instanced_modifier\x18\x07 \x01(\x0b\x32\x18.AbilityAttachedModifier\x12\x17\n\x0fserver_buff_uid\x18\x04 \x01(\r\x12\"\n\x1ais_attached_parent_ability\x18\n \x01(\x08\x12\x1f\n\x06\x61\x63tion\x18\r \x01(\x0e\x32\x0f.ModifierAction\x12\x19\n\x11modifier_local_id\x18\x02 \x01(\x05\x12+\n\x13parent_ability_name\x18\x01 \x01(\x0b\x32\x0e.AbilityString\x12\x16\n\x0eis_mute_remote\x18\x06 \x01(\x08\x12\x17\n\x0f\x61pply_entity_id\x18\x05 \x01(\r\x12%\n\nproperties\x18\x03 \x03(\x0b\x32\x11.ModifierProperty\x12/\n\x17parent_ability_override\x18\x0b \x01(\x0b\x32\x0e.AbilityString\x12\x1b\n\x13Unk2700_PMJMNCFJPDC\x18\t \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x41\x62ilityMetaModifierChange.proto\x1a\x1d\x41\x62ilityAttachedModifier.proto\x1a\x13\x41\x62ilityString.proto\x1a\x14ModifierAction.proto\x1a\x16ModifierProperty.proto\"\xab\x03\n\x19\x41\x62ilityMetaModifierChange\x12=\n\x1b\x61ttached_instanced_modifier\x18\x03 \x01(\x0b\x32\x18.AbilityAttachedModifier\x12\"\n\x1ais_attached_parent_ability\x18\x05 \x01(\x08\x12%\n\nproperties\x18\x0e \x03(\x0b\x32\x11.ModifierProperty\x12\x1b\n\x13Unk3300_NOPKODKOHJK\x18\x0c \x01(\x08\x12\x19\n\x11modifier_local_id\x18\x02 \x01(\x05\x12\x1b\n\x13Unk3300_PBNENPBMNCI\x18\x08 \x01(\x08\x12+\n\x13parent_ability_name\x18\r \x01(\x0b\x32\x0e.AbilityString\x12\x17\n\x0fserver_buff_uid\x18\t \x01(\r\x12\x17\n\x0f\x61pply_entity_id\x18\x07 \x01(\r\x12/\n\x17parent_ability_override\x18\x0f \x01(\x0b\x32\x0e.AbilityString\x12\x1f\n\x06\x61\x63tion\x18\x04 \x01(\x0e\x32\x0f.ModifierActionb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AbilityMetaModifierChange_pb2', globals())
@@ -25,5 +25,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _ABILITYMETAMODIFIERCHANGE._serialized_start=134
-  _ABILITYMETAMODIFIERCHANGE._serialized_end=556
+  _ABILITYMETAMODIFIERCHANGE._serialized_end=561
 # @@protoc_insertion_point(module_scope)

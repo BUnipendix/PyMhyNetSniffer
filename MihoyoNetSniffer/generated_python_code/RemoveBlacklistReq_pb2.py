@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18RemoveBlacklistReq.proto\"(\n\x12RemoveBlacklistReq\x12\x12\n\ntarget_uid\x18\r \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18RemoveBlacklistReq.proto\"(\n\x12RemoveBlacklistReq\x12\x12\n\ntarget_uid\x18\x04 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RemoveBlacklistReq_pb2', globals())

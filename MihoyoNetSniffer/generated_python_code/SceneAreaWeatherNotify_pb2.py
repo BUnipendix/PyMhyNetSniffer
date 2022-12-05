@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cSceneAreaWeatherNotify.proto\"\xfb\x01\n\x16SceneAreaWeatherNotify\x12\x17\n\x0fweather_area_id\x18\x01 \x01(\r\x12\x19\n\x11weather_gadget_id\x18\t \x01(\r\x12\x14\n\x0c\x63limate_type\x18\x0e \x01(\r\x12\x16\n\x0etrans_duration\x18\x0f \x01(\x02\x12G\n\x11weather_value_map\x18\n \x03(\x0b\x32,.SceneAreaWeatherNotify.WeatherValueMapEntry\x1a\x36\n\x14WeatherValueMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cSceneAreaWeatherNotify.proto\"\xfb\x01\n\x16SceneAreaWeatherNotify\x12\x19\n\x11weather_gadget_id\x18\x06 \x01(\r\x12G\n\x11weather_value_map\x18\x0b \x03(\x0b\x32,.SceneAreaWeatherNotify.WeatherValueMapEntry\x12\x14\n\x0c\x63limate_type\x18\x07 \x01(\r\x12\x16\n\x0etrans_duration\x18\n \x01(\x02\x12\x17\n\x0fweather_area_id\x18\x0f \x01(\r\x1a\x36\n\x14WeatherValueMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneAreaWeatherNotify_pb2', globals())

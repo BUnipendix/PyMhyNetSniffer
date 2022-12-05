@@ -15,7 +15,7 @@ import EvtFaceToDirInfo_pb2 as EvtFaceToDirInfo__pb2
 import ForwardType_pb2 as ForwardType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x45vtFaceToDirNotify.proto\x1a\x16\x45vtFaceToDirInfo.proto\x1a\x11\x46orwardType.proto\"i\n\x12\x45vtFaceToDirNotify\x12\"\n\x0c\x66orward_type\x18\r \x01(\x0e\x32\x0c.ForwardType\x12/\n\x14\x65vt_face_to_dir_info\x18\x05 \x01(\x0b\x32\x11.EvtFaceToDirInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x45vtFaceToDirNotify.proto\x1a\x16\x45vtFaceToDirInfo.proto\x1a\x11\x46orwardType.proto\"i\n\x12\x45vtFaceToDirNotify\x12/\n\x14\x65vt_face_to_dir_info\x18\x02 \x01(\x0b\x32\x11.EvtFaceToDirInfo\x12\"\n\x0c\x66orward_type\x18\t \x01(\x0e\x32\x0c.ForwardTypeb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EvtFaceToDirNotify_pb2', globals())

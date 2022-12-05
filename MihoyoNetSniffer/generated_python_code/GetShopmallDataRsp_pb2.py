@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18GetShopmallDataRsp.proto\"=\n\x12GetShopmallDataRsp\x12\x16\n\x0eshop_type_list\x18\x0f \x03(\r\x12\x0f\n\x07retcode\x18\x03 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18GetShopmallDataRsp.proto\"=\n\x12GetShopmallDataRsp\x12\x0f\n\x07retcode\x18\x02 \x01(\x05\x12\x16\n\x0eshop_type_list\x18\x07 \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetShopmallDataRsp_pb2', globals())

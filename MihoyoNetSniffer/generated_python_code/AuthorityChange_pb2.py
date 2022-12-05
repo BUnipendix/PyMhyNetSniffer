@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import EntityAuthorityInfo_pb2 as EntityAuthorityInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x41uthorityChange.proto\x1a\x19\x45ntityAuthorityInfo.proto\"t\n\x0f\x41uthorityChange\x12\x33\n\x15\x65ntity_authority_info\x18\x05 \x01(\x0b\x32\x14.EntityAuthorityInfo\x12\x19\n\x11\x61uthority_peer_id\x18\x03 \x01(\r\x12\x11\n\tentity_id\x18\r \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x41uthorityChange.proto\x1a\x19\x45ntityAuthorityInfo.proto\"t\n\x0f\x41uthorityChange\x12\x11\n\tentity_id\x18\x08 \x01(\r\x12\x33\n\x15\x65ntity_authority_info\x18\x01 \x01(\x0b\x32\x14.EntityAuthorityInfo\x12\x19\n\x11\x61uthority_peer_id\x18\x02 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AuthorityChange_pb2', globals())

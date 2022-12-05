@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dGetBattlePassProductRsp.proto\"\x92\x01\n\x17GetBattlePassProductRsp\x12\x0f\n\x07retcode\x18\x0e \x01(\x05\x12\x12\n\nprice_tier\x18\x06 \x01(\t\x12%\n\x1d\x62\x61ttle_pass_product_play_type\x18\x02 \x01(\r\x12\x12\n\nproduct_id\x18\x01 \x01(\t\x12\x17\n\x0f\x63ur_schedule_id\x18\x0b \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dGetBattlePassProductRsp.proto\"\x92\x01\n\x17GetBattlePassProductRsp\x12\x17\n\x0f\x63ur_schedule_id\x18\x0e \x01(\r\x12\x12\n\nproduct_id\x18\x02 \x01(\t\x12\x12\n\nprice_tier\x18\t \x01(\t\x12\x0f\n\x07retcode\x18\n \x01(\x05\x12%\n\x1d\x62\x61ttle_pass_product_play_type\x18\x0f \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetBattlePassProductRsp_pb2', globals())

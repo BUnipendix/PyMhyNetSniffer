@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%SetIsAutoUnlockSpecificEquipReq.proto\"H\n\x1fSetIsAutoUnlockSpecificEquipReq\x12%\n\x1dis_auto_unlock_specific_equip\x18\x0e \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%SetIsAutoUnlockSpecificEquipReq.proto\"H\n\x1fSetIsAutoUnlockSpecificEquipReq\x12%\n\x1dis_auto_unlock_specific_equip\x18\x08 \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SetIsAutoUnlockSpecificEquipReq_pb2', globals())

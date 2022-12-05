@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import FriendEnterHomeOption_pb2 as FriendEnterHomeOption__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18PlayerHomeCompInfo.proto\x1a\x1b\x46riendEnterHomeOption.proto\"\xb3\x01\n\x12PlayerHomeCompInfo\x12\x1f\n\x17unlocked_module_id_list\x18\x04 \x03(\r\x12\x1b\n\x13seen_module_id_list\x18\x02 \x03(\r\x12%\n\x1dlevelup_reward_got_level_list\x18\x07 \x03(\r\x12\x38\n\x18\x66riend_enter_home_option\x18\x08 \x01(\x0e\x32\x16.FriendEnterHomeOptionb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18PlayerHomeCompInfo.proto\x1a\x1b\x46riendEnterHomeOption.proto\"\xa5\x01\n\x12PlayerHomeCompInfo\x12\x38\n\x18\x66riend_enter_home_option\x18\r \x01(\x0e\x32\x16.FriendEnterHomeOption\x12\x1b\n\x13seen_module_id_list\x18\x05 \x03(\r\x12\x1b\n\x13Unk3300_PBEFIJCEKMH\x18\x02 \x03(\r\x12\x1b\n\x13Unk3300_JJPCFPAKFLM\x18\x0b \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerHomeCompInfo_pb2', globals())
@@ -22,5 +22,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _PLAYERHOMECOMPINFO._serialized_start=58
-  _PLAYERHOMECOMPINFO._serialized_end=237
+  _PLAYERHOMECOMPINFO._serialized_end=223
 # @@protoc_insertion_point(module_scope)

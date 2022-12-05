@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x44\x61ilyTaskDataNotify.proto\"c\n\x13\x44\x61ilyTaskDataNotify\x12\x17\n\x0fscore_reward_id\x18\x0b \x01(\r\x12\x14\n\x0c\x66inished_num\x18\x04 \x01(\r\x12\x1d\n\x15is_taken_score_reward\x18\t \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x44\x61ilyTaskDataNotify.proto\"c\n\x13\x44\x61ilyTaskDataNotify\x12\x17\n\x0fscore_reward_id\x18\r \x01(\r\x12\x14\n\x0c\x66inished_num\x18\x08 \x01(\r\x12\x1d\n\x15is_taken_score_reward\x18\x05 \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DailyTaskDataNotify_pb2', globals())

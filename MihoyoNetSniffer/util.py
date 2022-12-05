@@ -59,5 +59,5 @@ def varint(data):
 	return num
 
 
-remove_extra_info(r'D:\yuanshen2\tmp\3.1.0\Sorapointa-Protos-3.1.0\proto', r'D:\yuanshen2\tmp\3.1.0\Sorapointa-Protos-3.1.0\small_proto')
-generate_code(r'D:\yuanshen2\tmp\3.1.0\Sorapointa-Protos-3.1.0\small_proto', r'D:\Android\PyMhyNetSniffer\MihoyoNetSniffer\generated_python_code')
+remove_extra_info(r'D:\yuanshen2\3.3.0\proto\proto', r'D:\yuanshen2\3.3.0\proto\small_proto')
+generate_code(r'D:\yuanshen2\3.3.0\proto\small_proto', r'D:\Android\PyMhyNetSniffer\MihoyoNetSniffer\generated_python_code')

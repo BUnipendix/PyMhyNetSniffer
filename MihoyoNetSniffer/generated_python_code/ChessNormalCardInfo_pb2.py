@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x43hessNormalCardInfo.proto\"T\n\x13\x43hessNormalCardInfo\x12\x0f\n\x07\x63\x61rd_id\x18\x02 \x01(\r\x12\x13\n\x0b\x63ost_points\x18\x0f \x01(\r\x12\x17\n\x0fis_attach_curse\x18\x06 \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x43hessNormalCardInfo.proto\"T\n\x13\x43hessNormalCardInfo\x12\x13\n\x0b\x63ost_points\x18\x03 \x01(\r\x12\x0f\n\x07\x63\x61rd_id\x18\x02 \x01(\r\x12\x17\n\x0fis_attach_curse\x18\x04 \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChessNormalCardInfo_pb2', globals())

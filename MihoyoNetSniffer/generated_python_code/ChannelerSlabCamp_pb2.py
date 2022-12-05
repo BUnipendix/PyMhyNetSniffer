@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x43hannelerSlabCamp.proto\x1a\x0cVector.proto\"`\n\x11\x43hannelerSlabCamp\x12\x11\n\treward_id\x18\x0b \x01(\r\x12\x14\n\x03pos\x18\x08 \x01(\x0b\x32\x07.Vector\x12\x10\n\x08\x62uff_num\x18\x07 \x01(\r\x12\x10\n\x08group_id\x18\x03 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x43hannelerSlabCamp.proto\x1a\x0cVector.proto\"`\n\x11\x43hannelerSlabCamp\x12\x10\n\x08\x62uff_num\x18\x0b \x01(\r\x12\x11\n\treward_id\x18\t \x01(\r\x12\x10\n\x08group_id\x18\x08 \x01(\r\x12\x14\n\x03pos\x18\x0f \x01(\x0b\x32\x07.Vectorb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChannelerSlabCamp_pb2', globals())

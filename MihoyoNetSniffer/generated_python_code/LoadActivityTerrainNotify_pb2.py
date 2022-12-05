@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fLoadActivityTerrainNotify.proto\"0\n\x19LoadActivityTerrainNotify\x12\x13\n\x0b\x61\x63tivity_id\x18\x03 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fLoadActivityTerrainNotify.proto\"0\n\x19LoadActivityTerrainNotify\x12\x13\n\x0b\x61\x63tivity_id\x18\x05 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LoadActivityTerrainNotify_pb2', globals())

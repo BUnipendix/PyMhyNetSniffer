@@ -11,16 +11,16 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import Unk3000_OMCBMAHOLHB_pb2 as Unk3000__OMCBMAHOLHB__pb2
+import SceneGalleryInstableSprayBuffInfo_pb2 as SceneGalleryInstableSprayBuffInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#SceneGalleryInstableSprayInfo.proto\x1a\x19Unk3000_OMCBMAHOLHB.proto\"a\n\x1dSceneGalleryInstableSprayInfo\x12\r\n\x05score\x18\x05 \x01(\r\x12\x31\n\x13Unk2700_INIBKFPMCFO\x18\x0c \x03(\x0b\x32\x14.Unk3000_OMCBMAHOLHBb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#SceneGalleryInstableSprayInfo.proto\x1a\'SceneGalleryInstableSprayBuffInfo.proto\"j\n\x1dSceneGalleryInstableSprayInfo\x12\r\n\x05score\x18\n \x01(\r\x12:\n\x0e\x62uff_info_list\x18\x04 \x03(\x0b\x32\".SceneGalleryInstableSprayBuffInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGalleryInstableSprayInfo_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SCENEGALLERYINSTABLESPRAYINFO._serialized_start=66
-  _SCENEGALLERYINSTABLESPRAYINFO._serialized_end=163
+  _SCENEGALLERYINSTABLESPRAYINFO._serialized_start=80
+  _SCENEGALLERYINSTABLESPRAYINFO._serialized_end=186
 # @@protoc_insertion_point(module_scope)

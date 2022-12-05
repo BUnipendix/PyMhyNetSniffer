@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fPlayerCompoundMaterialReq.proto\"?\n\x19PlayerCompoundMaterialReq\x12\r\n\x05\x63ount\x18\x0b \x01(\r\x12\x13\n\x0b\x63ompound_id\x18\x03 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fPlayerCompoundMaterialReq.proto\"?\n\x19PlayerCompoundMaterialReq\x12\x13\n\x0b\x63ompound_id\x18\x04 \x01(\r\x12\r\n\x05\x63ount\x18\x03 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerCompoundMaterialReq_pb2', globals())

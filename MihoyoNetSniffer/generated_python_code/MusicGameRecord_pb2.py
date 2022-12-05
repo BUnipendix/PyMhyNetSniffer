@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15MusicGameRecord.proto\"J\n\x0fMusicGameRecord\x12\x11\n\tis_unlock\x18\t \x01(\x08\x12\x11\n\tmax_score\x18\x0b \x01(\r\x12\x11\n\tmax_combo\x18\x06 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15MusicGameRecord.proto\"J\n\x0fMusicGameRecord\x12\x11\n\tis_unlock\x18\x03 \x01(\x08\x12\x11\n\tmax_combo\x18\x0e \x01(\r\x12\x11\n\tmax_score\x18\x07 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MusicGameRecord_pb2', globals())

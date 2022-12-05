@@ -15,7 +15,7 @@ import BattlePassMission_pb2 as BattlePassMission__pb2
 import BattlePassSchedule_pb2 as BattlePassSchedule__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x42\x61ttlePassAllDataNotify.proto\x1a\x17\x42\x61ttlePassMission.proto\x1a\x18\x42\x61ttlePassSchedule.proto\"\x89\x01\n\x17\x42\x61ttlePassAllDataNotify\x12\x19\n\x11have_cur_schedule\x18\x02 \x01(\x08\x12(\n\x0cmission_list\x18\x04 \x03(\x0b\x32\x12.BattlePassMission\x12)\n\x0c\x63ur_schedule\x18\x01 \x01(\x0b\x32\x13.BattlePassScheduleb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x42\x61ttlePassAllDataNotify.proto\x1a\x17\x42\x61ttlePassMission.proto\x1a\x18\x42\x61ttlePassSchedule.proto\"\x89\x01\n\x17\x42\x61ttlePassAllDataNotify\x12(\n\x0cmission_list\x18\x01 \x03(\x0b\x32\x12.BattlePassMission\x12)\n\x0c\x63ur_schedule\x18\n \x01(\x0b\x32\x13.BattlePassSchedule\x12\x19\n\x11have_cur_schedule\x18\x03 \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BattlePassAllDataNotify_pb2', globals())

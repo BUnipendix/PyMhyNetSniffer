@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x43hannelerSlabOneofDungeon.proto\"S\n\x19\x43hannelerSlabOneofDungeon\x12\x0f\n\x07is_done\x18\x08 \x01(\x08\x12\x12\n\ndungeon_id\x18\x0c \x01(\r\x12\x11\n\treward_id\x18\r \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x43hannelerSlabOneofDungeon.proto\"S\n\x19\x43hannelerSlabOneofDungeon\x12\x12\n\ndungeon_id\x18\x06 \x01(\r\x12\x0f\n\x07is_done\x18\x01 \x01(\x08\x12\x11\n\treward_id\x18\x05 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChannelerSlabOneofDungeon_pb2', globals())

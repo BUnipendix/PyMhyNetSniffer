@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x42\x61ttlePassProduct.proto\"d\n\x11\x42\x61ttlePassProduct\x12\x19\n\x11normal_product_id\x18\r \x01(\t\x12\x18\n\x10\x65xtra_product_id\x18\n \x01(\t\x12\x1a\n\x12upgrade_product_id\x18\x06 \x01(\tb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x42\x61ttlePassProduct.proto\"j\n\x11\x42\x61ttlePassProduct\x12\x1b\n\x13Unk3300_AOMGCJOGGED\x18\x0c \x01(\t\x12\x1b\n\x13Unk3300_NHOAGMGNEIM\x18\t \x01(\t\x12\x1b\n\x13Unk3300_NIEBADLADMK\x18\x07 \x01(\tb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BattlePassProduct_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _BATTLEPASSPRODUCT._serialized_start=27
-  _BATTLEPASSPRODUCT._serialized_end=127
+  _BATTLEPASSPRODUCT._serialized_end=133
 # @@protoc_insertion_point(module_scope)

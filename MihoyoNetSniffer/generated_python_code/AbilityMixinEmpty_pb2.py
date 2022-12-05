@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x41\x62ilityMixinEmpty.proto\"$\n\x11\x41\x62ilityMixinEmpty\x12\x0f\n\x07is_swim\x18\x01 \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x41\x62ilityMixinEmpty.proto\"\x13\n\x11\x41\x62ilityMixinEmptyb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AbilityMixinEmpty_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _ABILITYMIXINEMPTY._serialized_start=27
-  _ABILITYMIXINEMPTY._serialized_end=63
+  _ABILITYMIXINEMPTY._serialized_end=46
 # @@protoc_insertion_point(module_scope)

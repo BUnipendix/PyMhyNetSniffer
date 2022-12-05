@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import PlayerOfferingData_pb2 as PlayerOfferingData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19OfferingInteractRsp.proto\x1a\x18PlayerOfferingData.proto\"R\n\x13OfferingInteractRsp\x12*\n\roffering_data\x18\x0b \x01(\x0b\x32\x13.PlayerOfferingData\x12\x0f\n\x07retcode\x18\x0c \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19OfferingInteractRsp.proto\x1a\x18PlayerOfferingData.proto\"R\n\x13OfferingInteractRsp\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x12*\n\roffering_data\x18\x04 \x01(\x0b\x32\x13.PlayerOfferingDatab\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'OfferingInteractRsp_pb2', globals())

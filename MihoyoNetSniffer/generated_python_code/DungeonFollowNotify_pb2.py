@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x44ungeonFollowNotify.proto\")\n\x13\x44ungeonFollowNotify\x12\x12\n\ntarget_uid\x18\x08 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x44ungeonFollowNotify.proto\")\n\x13\x44ungeonFollowNotify\x12\x12\n\ntarget_uid\x18\x05 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DungeonFollowNotify_pb2', globals())

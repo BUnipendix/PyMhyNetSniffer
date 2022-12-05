@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n,InBattleMechanicusBuildingPointsNotify.proto\"\xd2\x01\n&InBattleMechanicusBuildingPointsNotify\x12h\n\x1aplayer_building_points_map\x18\x04 \x03(\x0b\x32\x44.InBattleMechanicusBuildingPointsNotify.PlayerBuildingPointsMapEntry\x1a>\n\x1cPlayerBuildingPointsMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n,InBattleMechanicusBuildingPointsNotify.proto\"\xd2\x01\n&InBattleMechanicusBuildingPointsNotify\x12h\n\x1aplayer_building_points_map\x18\x0c \x03(\x0b\x32\x44.InBattleMechanicusBuildingPointsNotify.PlayerBuildingPointsMapEntry\x1a>\n\x1cPlayerBuildingPointsMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'InBattleMechanicusBuildingPointsNotify_pb2', globals())

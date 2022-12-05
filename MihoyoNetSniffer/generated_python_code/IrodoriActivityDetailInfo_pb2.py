@@ -11,19 +11,19 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import Unk2700_AIGECAPPCKK_pb2 as Unk2700__AIGECAPPCKK__pb2
-import Unk2700_AMJFIJNNGHC_pb2 as Unk2700__AMJFIJNNGHC__pb2
-import Unk2700_GCPNGHFNGDP_pb2 as Unk2700__GCPNGHFNGDP__pb2
-import Unk2700_JACACCPGMGC_pb2 as Unk2700__JACACCPGMGC__pb2
+import IrodoriChessData_pb2 as IrodoriChessData__pb2
+import IrodoriFlowerData_pb2 as IrodoriFlowerData__pb2
+import IrodoriMasterLevelInfo_pb2 as IrodoriMasterLevelInfo__pb2
+import IrodoriPoetryData_pb2 as IrodoriPoetryData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fIrodoriActivityDetailInfo.proto\x1a\x19Unk2700_AIGECAPPCKK.proto\x1a\x19Unk2700_AMJFIJNNGHC.proto\x1a\x19Unk2700_GCPNGHFNGDP.proto\x1a\x19Unk2700_JACACCPGMGC.proto\"\xe7\x01\n\x19IrodoriActivityDetailInfo\x12\x31\n\x13Unk2700_KLDGOEPJGNC\x18\x0b \x03(\x0b\x32\x14.Unk2700_JACACCPGMGC\x12\x31\n\x13Unk2700_BFPBLJAAPAL\x18\x06 \x01(\x0b\x32\x14.Unk2700_GCPNGHFNGDP\x12\x31\n\x13Unk2700_AGGJBDLONGC\x18\x08 \x01(\x0b\x32\x14.Unk2700_AIGECAPPCKK\x12\x31\n\x13Unk2700_MCMCCIEFMPD\x18\x0e \x01(\x0b\x32\x14.Unk2700_AMJFIJNNGHCb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fIrodoriActivityDetailInfo.proto\x1a\x16IrodoriChessData.proto\x1a\x17IrodoriFlowerData.proto\x1a\x1cIrodoriMasterLevelInfo.proto\x1a\x17IrodoriPoetryData.proto\"\xc8\x01\n\x19IrodoriActivityDetailInfo\x12%\n\nchess_data\x18\x05 \x01(\x0b\x32\x11.IrodoriChessData\x12\'\n\x0b\x66lower_data\x18\x03 \x01(\x0b\x32\x12.IrodoriFlowerData\x12\'\n\x0bpoetry_data\x18\x06 \x01(\x0b\x32\x12.IrodoriPoetryData\x12\x32\n\x11master_level_list\x18\x01 \x03(\x0b\x32\x17.IrodoriMasterLevelInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'IrodoriActivityDetailInfo_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _IRODORIACTIVITYDETAILINFO._serialized_start=144
-  _IRODORIACTIVITYDETAILINFO._serialized_end=375
+  _IRODORIACTIVITYDETAILINFO._serialized_start=140
+  _IRODORIACTIVITYDETAILINFO._serialized_end=340
 # @@protoc_insertion_point(module_scope)

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import PropValue_pb2 as PropValue__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15WorldDataNotify.proto\x1a\x0fPropValue.proto\"\xe6\x01\n\x0fWorldDataNotify\x12:\n\x0eworld_prop_map\x18\t \x03(\x0b\x32\".WorldDataNotify.WorldPropMapEntry\x1a?\n\x11WorldPropMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x19\n\x05value\x18\x02 \x01(\x0b\x32\n.PropValue:\x02\x38\x01\"V\n\x08\x44\x61taType\x12\x12\n\x0e\x44\x41TA_TYPE_NONE\x10\x00\x12\x19\n\x15\x44\x41TA_TYPE_WORLD_LEVEL\x10\x01\x12\x1b\n\x17\x44\x41TA_TYPE_IS_IN_MP_MODE\x10\x02\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15WorldDataNotify.proto\x1a\x0fPropValue.proto\"\xe6\x01\n\x0fWorldDataNotify\x12:\n\x0eworld_prop_map\x18\x06 \x03(\x0b\x32\".WorldDataNotify.WorldPropMapEntry\x1a?\n\x11WorldPropMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x19\n\x05value\x18\x02 \x01(\x0b\x32\n.PropValue:\x02\x38\x01\"V\n\x08\x44\x61taType\x12\x12\n\x0e\x44\x41TA_TYPE_NONE\x10\x00\x12\x19\n\x15\x44\x41TA_TYPE_WORLD_LEVEL\x10\x01\x12\x1b\n\x17\x44\x41TA_TYPE_IS_IN_MP_MODE\x10\x02\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WorldDataNotify_pb2', globals())

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import MaterialDeleteReturnType_pb2 as MaterialDeleteReturnType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!TakeMaterialDeleteReturnReq.proto\x1a\x1eMaterialDeleteReturnType.proto\"F\n\x1bTakeMaterialDeleteReturnReq\x12\'\n\x04type\x18\x08 \x01(\x0e\x32\x19.MaterialDeleteReturnTypeb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!TakeMaterialDeleteReturnReq.proto\x1a\x1eMaterialDeleteReturnType.proto\"F\n\x1bTakeMaterialDeleteReturnReq\x12\'\n\x04type\x18\x0b \x01(\x0e\x32\x19.MaterialDeleteReturnTypeb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TakeMaterialDeleteReturnReq_pb2', globals())

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"TakeAchievementGoalRewardReq.proto\"/\n\x1cTakeAchievementGoalRewardReq\x12\x0f\n\x07id_list\x18\x05 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"TakeAchievementGoalRewardReq.proto\"/\n\x1cTakeAchievementGoalRewardReq\x12\x0f\n\x07id_list\x18\x04 \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TakeAchievementGoalRewardReq_pb2', globals())

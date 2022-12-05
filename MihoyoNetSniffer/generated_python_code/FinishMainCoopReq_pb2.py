@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x46inishMainCoopReq.proto\"=\n\x11\x46inishMainCoopReq\x12\n\n\x02id\x18\n \x01(\r\x12\x1c\n\x14\x65nding_save_point_id\x18\x01 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x46inishMainCoopReq.proto\"=\n\x11\x46inishMainCoopReq\x12\n\n\x02id\x18\x0e \x01(\r\x12\x1c\n\x14\x65nding_save_point_id\x18\x03 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FinishMainCoopReq_pb2', globals())

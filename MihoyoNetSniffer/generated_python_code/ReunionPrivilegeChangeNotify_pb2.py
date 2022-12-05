@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ReunionPrivilegeInfo_pb2 as ReunionPrivilegeInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"ReunionPrivilegeChangeNotify.proto\x1a\x1aReunionPrivilegeInfo.proto\"M\n\x1cReunionPrivilegeChangeNotify\x12-\n\x0eprivilege_info\x18\r \x01(\x0b\x32\x15.ReunionPrivilegeInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"ReunionPrivilegeChangeNotify.proto\x1a\x1aReunionPrivilegeInfo.proto\"M\n\x1cReunionPrivilegeChangeNotify\x12-\n\x0eprivilege_info\x18\n \x01(\x0b\x32\x15.ReunionPrivilegeInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ReunionPrivilegeChangeNotify_pb2', globals())

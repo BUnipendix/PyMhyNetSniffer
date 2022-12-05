@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fTreasureMapCurrencyNotify.proto\"1\n\x19TreasureMapCurrencyNotify\x12\x14\n\x0c\x63urrency_num\x18\x08 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fTreasureMapCurrencyNotify.proto\"1\n\x19TreasureMapCurrencyNotify\x12\x14\n\x0c\x63urrency_num\x18\x03 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TreasureMapCurrencyNotify_pb2', globals())

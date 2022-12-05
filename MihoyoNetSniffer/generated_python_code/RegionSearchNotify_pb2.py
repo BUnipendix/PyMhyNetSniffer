@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import RegionSearchInfo_pb2 as RegionSearchInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18RegionSearchNotify.proto\x1a\x16RegionSearchInfo.proto\"P\n\x12RegionSearchNotify\x12-\n\x12region_search_list\x18\x01 \x03(\x0b\x32\x11.RegionSearchInfo\x12\x0b\n\x03uid\x18\x08 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18RegionSearchNotify.proto\x1a\x16RegionSearchInfo.proto\"P\n\x12RegionSearchNotify\x12-\n\x12region_search_list\x18\x03 \x03(\x0b\x32\x11.RegionSearchInfo\x12\x0b\n\x03uid\x18\x0e \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RegionSearchNotify_pb2', globals())

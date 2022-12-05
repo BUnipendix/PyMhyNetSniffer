@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import OnlinePlayerInfo_pb2 as OnlinePlayerInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x42\x61lloonSettleInfo.proto\x1a\x16OnlinePlayerInfo.proto\"\x85\x01\n\x11\x42\x61lloonSettleInfo\x12\x0b\n\x03uid\x18\x03 \x01(\r\x12\x13\n\x0bshoot_count\x18\x0c \x01(\r\x12\x11\n\tmax_combo\x18\t \x01(\r\x12\x13\n\x0b\x66inal_score\x18\x07 \x01(\r\x12&\n\x0bplayer_info\x18\x02 \x01(\x0b\x32\x11.OnlinePlayerInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x42\x61lloonSettleInfo.proto\x1a\x16OnlinePlayerInfo.proto\"\x85\x01\n\x11\x42\x61lloonSettleInfo\x12&\n\x0bplayer_info\x18\x08 \x01(\x0b\x32\x11.OnlinePlayerInfo\x12\x0b\n\x03uid\x18\r \x01(\r\x12\x13\n\x0b\x66inal_score\x18\x02 \x01(\r\x12\x11\n\tmax_combo\x18\x07 \x01(\r\x12\x13\n\x0bshoot_count\x18\x0e \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BalloonSettleInfo_pb2', globals())

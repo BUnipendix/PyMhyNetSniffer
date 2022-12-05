@@ -16,7 +16,7 @@ import PolygonRegionSize_pb2 as PolygonRegionSize__pb2
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fPlayerEyePointStateNotify.proto\x1a\x18\x43ylinderRegionSize.proto\x1a\x17PolygonRegionSize.proto\x1a\x0cVector.proto\"\x98\x03\n\x19PlayerEyePointStateNotify\x12\x18\n\x10region_entity_id\x18\x0f \x01(\r\x12\x1e\n\reye_point_pos\x18\x01 \x01(\x0b\x32\x07.Vector\x12\x18\n\x10is_use_eye_point\x18\x03 \x01(\x08\x12\x18\n\x10region_config_id\x18\x07 \x01(\r\x12\x14\n\x0cregion_shape\x18\x0c \x01(\r\x12\x1c\n\x14is_filter_stream_pos\x18\x02 \x01(\x08\x12\x1b\n\x13Unk2800_GBBMMIGJFCF\x18\x05 \x01(\x05\x12\x17\n\x0fregion_group_id\x18\x04 \x01(\r\x12\x18\n\rsphere_radius\x18\xff\x01 \x01(\x02H\x00\x12\x1e\n\ncubic_size\x18\x9f\x0e \x01(\x0b\x32\x07.VectorH\x00\x12-\n\rcylinder_size\x18\xc6\x0e \x01(\x0b\x32\x13.CylinderRegionSizeH\x00\x12+\n\x0cpolygon_size\x18\xed\x06 \x01(\x0b\x32\x12.PolygonRegionSizeH\x00\x42\r\n\x0bregion_sizeb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fPlayerEyePointStateNotify.proto\x1a\x18\x43ylinderRegionSize.proto\x1a\x17PolygonRegionSize.proto\x1a\x0cVector.proto\"\xa5\x03\n\x19PlayerEyePointStateNotify\x12\x1e\n\reye_point_pos\x18\x0c \x01(\x0b\x32\x07.Vector\x12\x1b\n\x13Unk3300_KFOHOBLMMLB\x18\t \x01(\x08\x12\x1b\n\x13Unk3300_GNFJIOEGHOE\x18\x01 \x01(\r\x12\x1b\n\x13Unk3300_BIHEKNFDDDI\x18\x08 \x01(\r\x12\x15\n\rfix_lod_level\x18\x0b \x01(\x05\x12\x1b\n\x13Unk3300_NIPFCFCBFAE\x18\x0e \x01(\x08\x12\x1b\n\x13Unk3300_JGEMKKJAHKA\x18\r \x01(\r\x12\x1b\n\x13Unk3300_EOPFNBBBGPK\x18\x06 \x01(\r\x12\x18\n\rsphere_radius\x18\x85\x0b \x01(\x02H\x00\x12\x1e\n\ncubic_size\x18\xd2\n \x01(\x0b\x32\x07.VectorH\x00\x12-\n\rcylinder_size\x18\xe2\t \x01(\x0b\x32\x13.CylinderRegionSizeH\x00\x12+\n\x0cpolygon_size\x18\xe0\x04 \x01(\x0b\x32\x12.PolygonRegionSizeH\x00\x42\r\n\x0bregion_sizeb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerEyePointStateNotify_pb2', globals())
@@ -24,5 +24,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _PLAYEREYEPOINTSTATENOTIFY._serialized_start=101
-  _PLAYEREYEPOINTSTATENOTIFY._serialized_end=509
+  _PLAYEREYEPOINTSTATENOTIFY._serialized_end=522
 # @@protoc_insertion_point(module_scope)

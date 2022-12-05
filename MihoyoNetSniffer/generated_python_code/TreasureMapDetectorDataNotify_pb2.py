@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import TreasureMapDetectorData_pb2 as TreasureMapDetectorData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#TreasureMapDetectorDataNotify.proto\x1a\x1dTreasureMapDetectorData.proto\"G\n\x1dTreasureMapDetectorDataNotify\x12&\n\x04\x64\x61ta\x18\x02 \x01(\x0b\x32\x18.TreasureMapDetectorDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#TreasureMapDetectorDataNotify.proto\x1a\x1dTreasureMapDetectorData.proto\"G\n\x1dTreasureMapDetectorDataNotify\x12&\n\x04\x64\x61ta\x18\x07 \x01(\x0b\x32\x18.TreasureMapDetectorDatab\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TreasureMapDetectorDataNotify_pb2', globals())

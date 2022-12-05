@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"EvtDestroyServerGadgetNotify.proto\"1\n\x1c\x45vtDestroyServerGadgetNotify\x12\x11\n\tentity_id\x18\x07 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"EvtDestroyServerGadgetNotify.proto\"1\n\x1c\x45vtDestroyServerGadgetNotify\x12\x11\n\tentity_id\x18\x03 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EvtDestroyServerGadgetNotify_pb2', globals())

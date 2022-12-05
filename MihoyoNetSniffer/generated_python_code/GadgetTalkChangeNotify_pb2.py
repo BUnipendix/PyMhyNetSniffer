@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cGadgetTalkChangeNotify.proto\"Q\n\x16GadgetTalkChangeNotify\x12\x18\n\x10gadget_entity_id\x18\x05 \x01(\r\x12\x1d\n\x15\x63ur_gadget_talk_state\x18\x0f \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cGadgetTalkChangeNotify.proto\"Q\n\x16GadgetTalkChangeNotify\x12\x1d\n\x15\x63ur_gadget_talk_state\x18\x0c \x01(\r\x12\x18\n\x10gadget_entity_id\x18\r \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GadgetTalkChangeNotify_pb2', globals())

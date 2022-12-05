@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x43lientReconnectReason.proto*t\n\x15\x43lientReconnectReason\x12+\n\'CLIENT_RECONNECT_REASON_RECONNNECT_NONE\x10\x00\x12.\n*CLIENT_RECONNECT_REASON_RECONNNECT_QUIT_MP\x10\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x43lientReconnectReason.proto*^\n\x15\x43lientReconnectReason\x12 \n\x1c\x43LIENT_RECONNECT_REASON_NONE\x10\x00\x12#\n\x1f\x43LIENT_RECONNECT_REASON_QUIT_MP\x10\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ClientReconnectReason_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _CLIENTRECONNECTREASON._serialized_start=31
-  _CLIENTRECONNECTREASON._serialized_end=147
+  _CLIENTRECONNECTREASON._serialized_end=125
 # @@protoc_insertion_point(module_scope)

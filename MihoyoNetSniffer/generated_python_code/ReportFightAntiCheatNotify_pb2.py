@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n ReportFightAntiCheatNotify.proto\"E\n\x1aReportFightAntiCheatNotify\x12\x13\n\x0b\x63heat_count\x18\x08 \x01(\r\x12\x12\n\ncheat_type\x18\x0c \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n ReportFightAntiCheatNotify.proto\"V\n\x1aReportFightAntiCheatNotify\x12\x1b\n\x13Unk3300_MIFNAAADBBP\x18\x08 \x01(\r\x12\x1b\n\x13Unk3300_ABCKMPPMNCH\x18\n \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ReportFightAntiCheatNotify_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _REPORTFIGHTANTICHEATNOTIFY._serialized_start=36
-  _REPORTFIGHTANTICHEATNOTIFY._serialized_end=105
+  _REPORTFIGHTANTICHEATNOTIFY._serialized_end=122
 # @@protoc_insertion_point(module_scope)

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13HitTreeNotify.proto\x1a\x0cVector.proto\"X\n\rHitTreeNotify\x12\x11\n\ttree_type\x18\x0b \x01(\r\x12\x19\n\x08tree_pos\x18\x02 \x01(\x0b\x32\x07.Vector\x12\x19\n\x08\x64rop_pos\x18\x08 \x01(\x0b\x32\x07.Vectorb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13HitTreeNotify.proto\x1a\x0cVector.proto\"X\n\rHitTreeNotify\x12\x11\n\ttree_type\x18\x08 \x01(\r\x12\x19\n\x08\x64rop_pos\x18\x0c \x01(\x0b\x32\x07.Vector\x12\x19\n\x08tree_pos\x18\x0f \x01(\x0b\x32\x07.Vectorb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HitTreeNotify_pb2', globals())

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11HomeNpcData.proto\x1a\x0cVector.proto\"l\n\x0bHomeNpcData\x12\x11\n\tavatar_id\x18\x0e \x01(\r\x12\x1a\n\tspawn_pos\x18\x0f \x01(\x0b\x32\x07.Vector\x12\x12\n\ncostume_id\x18\x03 \x01(\r\x12\x1a\n\tspawn_rot\x18\r \x01(\x0b\x32\x07.Vectorb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11HomeNpcData.proto\x1a\x0cVector.proto\"l\n\x0bHomeNpcData\x12\x11\n\tavatar_id\x18\x0b \x01(\r\x12\x1a\n\tspawn_pos\x18\r \x01(\x0b\x32\x07.Vector\x12\x12\n\ncostume_id\x18\x04 \x01(\r\x12\x1a\n\tspawn_rot\x18\x07 \x01(\x0b\x32\x07.Vectorb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeNpcData_pb2', globals())

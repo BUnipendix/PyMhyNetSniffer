@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n.UpdateAbilityCreatedMovingPlatformNotify.proto\"\xca\x01\n(UpdateAbilityCreatedMovingPlatformNotify\x12\x11\n\tentity_id\x18\x04 \x01(\r\x12\x41\n\x07op_type\x18\x03 \x01(\x0e\x32\x30.UpdateAbilityCreatedMovingPlatformNotify.OpType\"H\n\x06OpType\x12\x10\n\x0cOP_TYPE_NONE\x10\x00\x12\x14\n\x10OP_TYPE_ACTIVATE\x10\x01\x12\x16\n\x12OP_TYPE_DEACTIVATE\x10\x02\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n.UpdateAbilityCreatedMovingPlatformNotify.proto\"\xca\x01\n(UpdateAbilityCreatedMovingPlatformNotify\x12\x11\n\tentity_id\x18\x01 \x01(\r\x12\x41\n\x07op_type\x18\x0f \x01(\x0e\x32\x30.UpdateAbilityCreatedMovingPlatformNotify.OpType\"H\n\x06OpType\x12\x10\n\x0cOP_TYPE_NONE\x10\x00\x12\x14\n\x10OP_TYPE_ACTIVATE\x10\x01\x12\x16\n\x12OP_TYPE_DEACTIVATE\x10\x02\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'UpdateAbilityCreatedMovingPlatformNotify_pb2', globals())

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import WidgetSlotData_pb2 as WidgetSlotData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eWidgetActiveChangeNotify.proto\x1a\x14WidgetSlotData.proto\"E\n\x18WidgetActiveChangeNotify\x12)\n\x10widget_data_list\x18\x05 \x03(\x0b\x32\x0f.WidgetSlotDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eWidgetActiveChangeNotify.proto\x1a\x14WidgetSlotData.proto\"E\n\x18WidgetActiveChangeNotify\x12)\n\x10widget_data_list\x18\x0f \x03(\x0b\x32\x0f.WidgetSlotDatab\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WidgetActiveChangeNotify_pb2', globals())

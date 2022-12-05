@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import TowerTeam_pb2 as TowerTeam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19TowerCurLevelRecord.proto\x1a\x0fTowerTeam.proto\"\xae\x01\n\x13TowerCurLevelRecord\x12#\n\x0ftower_team_list\x18\x08 \x03(\x0b\x32\n.TowerTeam\x12\x10\n\x08is_empty\x18\x06 \x01(\x08\x12\x14\n\x0c\x62uff_id_list\x18\x04 \x03(\r\x12\x1b\n\x13Unk2700_CBPNPEBMPOH\x18\x02 \x01(\x08\x12\x17\n\x0f\x63ur_level_index\x18\x01 \x01(\r\x12\x14\n\x0c\x63ur_floor_id\x18\x0f \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19TowerCurLevelRecord.proto\x1a\x0fTowerTeam.proto\"\xb3\x01\n\x13TowerCurLevelRecord\x12\x14\n\x0c\x62uff_id_list\x18\x0e \x03(\r\x12\x15\n\ris_upper_part\x18\x04 \x01(\x08\x12\x1b\n\x13Unk3300_KPGBPDIJJJJ\x18\x06 \x01(\r\x12\x10\n\x08is_empty\x18\x01 \x01(\x08\x12#\n\x0ftower_team_list\x18\x08 \x03(\x0b\x32\n.TowerTeam\x12\x1b\n\x13Unk3300_PMHCLPFPHBJ\x18\t \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TowerCurLevelRecord_pb2', globals())
@@ -22,5 +22,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _TOWERCURLEVELRECORD._serialized_start=47
-  _TOWERCURLEVELRECORD._serialized_end=221
+  _TOWERCURLEVELRECORD._serialized_end=226
 # @@protoc_insertion_point(module_scope)

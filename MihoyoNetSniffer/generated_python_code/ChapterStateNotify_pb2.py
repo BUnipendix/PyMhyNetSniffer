@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ChapterState_pb2 as ChapterState__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x43hapterStateNotify.proto\x1a\x12\x43hapterState.proto\"\xd4\x02\n\x12\x43hapterStateNotify\x12$\n\rchapter_state\x18\t \x01(\x0e\x32\r.ChapterState\x12>\n\x11need_player_level\x18\n \x01(\x0b\x32#.ChapterStateNotify.NeedPlayerLevel\x12:\n\x0fneed_begin_time\x18\x01 \x01(\x0b\x32!.ChapterStateNotify.NeedBeginTime\x12\x12\n\nchapter_id\x18\x02 \x01(\r\x1a\x45\n\x0fNeedPlayerLevel\x12\x10\n\x08is_limit\x18\x02 \x01(\x08\x12 \n\x18\x63onfig_need_player_level\x18\x0b \x01(\r\x1a\x41\n\rNeedBeginTime\x12\x1e\n\x16\x63onfig_need_begin_time\x18\x03 \x01(\r\x12\x10\n\x08is_limit\x18\x07 \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x43hapterStateNotify.proto\x1a\x12\x43hapterState.proto\"\xd4\x02\n\x12\x43hapterStateNotify\x12\x12\n\nchapter_id\x18\t \x01(\r\x12:\n\x0fneed_begin_time\x18\r \x01(\x0b\x32!.ChapterStateNotify.NeedBeginTime\x12$\n\rchapter_state\x18\x01 \x01(\x0e\x32\r.ChapterState\x12>\n\x11need_player_level\x18\x05 \x01(\x0b\x32#.ChapterStateNotify.NeedPlayerLevel\x1a\x45\n\x0fNeedPlayerLevel\x12\x10\n\x08is_limit\x18\x0c \x01(\x08\x12 \n\x18\x63onfig_need_player_level\x18\x03 \x01(\r\x1a\x41\n\rNeedBeginTime\x12\x10\n\x08is_limit\x18\x04 \x01(\x08\x12\x1e\n\x16\x63onfig_need_begin_time\x18\x0e \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChapterStateNotify_pb2', globals())

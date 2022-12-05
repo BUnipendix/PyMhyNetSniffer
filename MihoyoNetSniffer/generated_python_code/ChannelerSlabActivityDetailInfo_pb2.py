@@ -16,7 +16,7 @@ import ChannelerSlabChallengeStage_pb2 as ChannelerSlabChallengeStage__pb2
 import ChannelerSlabLoopDungeonStageInfo_pb2 as ChannelerSlabLoopDungeonStageInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%ChannelerSlabActivityDetailInfo.proto\x1a\x1b\x43hannelerSlabBuffInfo.proto\x1a!ChannelerSlabChallengeStage.proto\x1a\'ChannelerSlabLoopDungeonStageInfo.proto\"\xda\x01\n\x1f\x43hannelerSlabActivityDetailInfo\x12)\n\tbuff_info\x18\x01 \x01(\x0b\x32\x16.ChannelerSlabBuffInfo\x12\x43\n\x17loop_dungeon_stage_info\x18\x07 \x01(\x0b\x32\".ChannelerSlabLoopDungeonStageInfo\x12\x30\n\nstage_list\x18\x0f \x03(\x0b\x32\x1c.ChannelerSlabChallengeStage\x12\x15\n\rplay_end_time\x18\x03 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%ChannelerSlabActivityDetailInfo.proto\x1a\x1b\x43hannelerSlabBuffInfo.proto\x1a!ChannelerSlabChallengeStage.proto\x1a\'ChannelerSlabLoopDungeonStageInfo.proto\"\xda\x01\n\x1f\x43hannelerSlabActivityDetailInfo\x12\x43\n\x17loop_dungeon_stage_info\x18\x02 \x01(\x0b\x32\".ChannelerSlabLoopDungeonStageInfo\x12)\n\tbuff_info\x18\t \x01(\x0b\x32\x16.ChannelerSlabBuffInfo\x12\x30\n\nstage_list\x18\x08 \x03(\x0b\x32\x1c.ChannelerSlabChallengeStage\x12\x15\n\rplay_end_time\x18\x0e \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChannelerSlabActivityDetailInfo_pb2', globals())

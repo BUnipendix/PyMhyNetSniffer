@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16WeaponPromoteRsp.proto\"u\n\x10WeaponPromoteRsp\x12\x1a\n\x12target_weapon_guid\x18\x03 \x01(\x04\x12\x19\n\x11old_promote_level\x18\x07 \x01(\r\x12\x19\n\x11\x63ur_promote_level\x18\x0c \x01(\r\x12\x0f\n\x07retcode\x18\x04 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16WeaponPromoteRsp.proto\"y\n\x10WeaponPromoteRsp\x12\x1b\n\x13Unk3300_GGFCIPAKKDP\x18\x04 \x01(\r\x12\x1a\n\x12target_weapon_guid\x18\x0b \x01(\x04\x12\x1b\n\x13Unk3300_MBEBIACJNBB\x18\x05 \x01(\r\x12\x0f\n\x07retcode\x18\x08 \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WeaponPromoteRsp_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _WEAPONPROMOTERSP._serialized_start=26
-  _WEAPONPROMOTERSP._serialized_end=143
+  _WEAPONPROMOTERSP._serialized_end=147
 # @@protoc_insertion_point(module_scope)

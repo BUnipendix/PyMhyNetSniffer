@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cGetQuestTalkHistoryReq.proto\"1\n\x16GetQuestTalkHistoryReq\x12\x17\n\x0fparent_quest_id\x18\x06 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cGetQuestTalkHistoryReq.proto\"1\n\x16GetQuestTalkHistoryReq\x12\x17\n\x0fparent_quest_id\x18\x0f \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetQuestTalkHistoryReq_pb2', globals())

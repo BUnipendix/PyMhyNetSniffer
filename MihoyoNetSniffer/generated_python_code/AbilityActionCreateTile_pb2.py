@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x41\x62ilityActionCreateTile.proto\x1a\x0cVector.proto\"E\n\x17\x41\x62ilityActionCreateTile\x12\x14\n\x03rot\x18\x03 \x01(\x0b\x32\x07.Vector\x12\x14\n\x03pos\x18\x08 \x01(\x0b\x32\x07.Vectorb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x41\x62ilityActionCreateTile.proto\x1a\x0cVector.proto\"E\n\x17\x41\x62ilityActionCreateTile\x12\x14\n\x03pos\x18\x0f \x01(\x0b\x32\x07.Vector\x12\x14\n\x03rot\x18\r \x01(\x0b\x32\x07.Vectorb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AbilityActionCreateTile_pb2', globals())

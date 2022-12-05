@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Investigation_pb2 as Investigation__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fPlayerInvestigationNotify.proto\x1a\x13Investigation.proto\"G\n\x19PlayerInvestigationNotify\x12*\n\x12investigation_list\x18\x01 \x03(\x0b\x32\x0e.Investigationb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fPlayerInvestigationNotify.proto\x1a\x13Investigation.proto\"G\n\x19PlayerInvestigationNotify\x12*\n\x12investigation_list\x18\x0c \x03(\x0b\x32\x0e.Investigationb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerInvestigationNotify_pb2', globals())

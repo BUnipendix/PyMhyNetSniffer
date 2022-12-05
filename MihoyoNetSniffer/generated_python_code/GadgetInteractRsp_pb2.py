@@ -11,11 +11,11 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import InteractType_pb2 as InteractType__pb2
 import InterOpType_pb2 as InterOpType__pb2
+import InteractType_pb2 as InteractType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17GadgetInteractRsp.proto\x1a\x12InteractType.proto\x1a\x11InterOpType.proto\"\x96\x01\n\x11GadgetInteractRsp\x12\x18\n\x10gadget_entity_id\x18\n \x01(\r\x12$\n\rinteract_type\x18\x02 \x01(\x0e\x32\r.InteractType\x12\x1d\n\x07op_type\x18\x03 \x01(\x0e\x32\x0c.InterOpType\x12\x0f\n\x07retcode\x18\x07 \x01(\x05\x12\x11\n\tgadget_id\x18\x0f \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17GadgetInteractRsp.proto\x1a\x11InterOpType.proto\x1a\x12InteractType.proto\"\x96\x01\n\x11GadgetInteractRsp\x12$\n\rinteract_type\x18\x02 \x01(\x0e\x32\r.InteractType\x12\x11\n\tgadget_id\x18\x0b \x01(\r\x12\x0f\n\x07retcode\x18\x07 \x01(\x05\x12\x18\n\x10gadget_entity_id\x18\x01 \x01(\r\x12\x1d\n\x07op_type\x18\x08 \x01(\x0e\x32\x0c.InterOpTypeb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GadgetInteractRsp_pb2', globals())

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cSetFriendRemarkNameReq.proto\":\n\x16SetFriendRemarkNameReq\x12\x0b\n\x03uid\x18\n \x01(\r\x12\x13\n\x0bremark_name\x18\x08 \x01(\tb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cSetFriendRemarkNameReq.proto\":\n\x16SetFriendRemarkNameReq\x12\x0b\n\x03uid\x18\x0e \x01(\r\x12\x13\n\x0bremark_name\x18\n \x01(\tb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SetFriendRemarkNameReq_pb2', globals())

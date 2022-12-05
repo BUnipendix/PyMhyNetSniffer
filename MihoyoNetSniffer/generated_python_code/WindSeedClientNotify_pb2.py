@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aWindSeedClientNotify.proto\x1a\x0cVector.proto\"\xb4\x03\n\x14WindSeedClientNotify\x12=\n\x0erefresh_notify\x18\x0e \x01(\x0b\x32#.WindSeedClientNotify.RefreshNotifyH\x00\x12K\n\x16\x61\x64\x64_wind_bullet_notify\x18\x06 \x01(\x0b\x32).WindSeedClientNotify.AddWindBulletNotifyH\x00\x12\x37\n\x0b\x61rea_notify\x18\x04 \x01(\x0b\x32 .WindSeedClientNotify.AreaNotifyH\x00\x1a$\n\rRefreshNotify\x12\x13\n\x0brefresh_num\x18\t \x01(\r\x1a\x62\n\x13\x41\x64\x64WindBulletNotify\x12\x19\n\x08seed_pos\x18\x06 \x01(\x0b\x32\x07.Vector\x12\x18\n\x10\x63\x61tch_player_uid\x18\x08 \x01(\r\x12\x16\n\x0eseed_entity_id\x18\x07 \x01(\r\x1a\x43\n\nAreaNotify\x12\x11\n\tarea_code\x18\x05 \x01(\x0c\x12\x0f\n\x07\x61rea_id\x18\n \x01(\r\x12\x11\n\tarea_type\x18\x07 \x01(\rB\x08\n\x06notifyb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aWindSeedClientNotify.proto\x1a\x0cVector.proto\"\xbc\x03\n\x14WindSeedClientNotify\x12=\n\x0erefresh_notify\x18\x0e \x01(\x0b\x32#.WindSeedClientNotify.RefreshNotifyH\x00\x12K\n\x16\x61\x64\x64_wind_bullet_notify\x18\x07 \x01(\x0b\x32).WindSeedClientNotify.AddWindBulletNotifyH\x00\x12\x37\n\x0b\x61rea_notify\x18\x05 \x01(\x0b\x32 .WindSeedClientNotify.AreaNotifyH\x00\x1a$\n\rRefreshNotify\x12\x13\n\x0brefresh_num\x18\x07 \x01(\r\x1aj\n\x13\x41\x64\x64WindBulletNotify\x12\x19\n\x08seed_pos\x18\x0e \x01(\x0b\x32\x07.Vector\x12\x1b\n\x13Unk3300_CKIKKCAFJBC\x18\x07 \x01(\r\x12\x1b\n\x13Unk3300_MPDFAPBDJAH\x18\x0b \x01(\r\x1a\x43\n\nAreaNotify\x12\x0f\n\x07\x61rea_id\x18\x0c \x01(\r\x12\x11\n\tarea_code\x18\n \x01(\x0c\x12\x11\n\tarea_type\x18\r \x01(\rB\x08\n\x06notifyb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WindSeedClientNotify_pb2', globals())
@@ -22,11 +22,11 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _WINDSEEDCLIENTNOTIFY._serialized_start=45
-  _WINDSEEDCLIENTNOTIFY._serialized_end=481
+  _WINDSEEDCLIENTNOTIFY._serialized_end=489
   _WINDSEEDCLIENTNOTIFY_REFRESHNOTIFY._serialized_start=266
   _WINDSEEDCLIENTNOTIFY_REFRESHNOTIFY._serialized_end=302
   _WINDSEEDCLIENTNOTIFY_ADDWINDBULLETNOTIFY._serialized_start=304
-  _WINDSEEDCLIENTNOTIFY_ADDWINDBULLETNOTIFY._serialized_end=402
-  _WINDSEEDCLIENTNOTIFY_AREANOTIFY._serialized_start=404
-  _WINDSEEDCLIENTNOTIFY_AREANOTIFY._serialized_end=471
+  _WINDSEEDCLIENTNOTIFY_ADDWINDBULLETNOTIFY._serialized_end=410
+  _WINDSEEDCLIENTNOTIFY_AREANOTIFY._serialized_start=412
+  _WINDSEEDCLIENTNOTIFY_AREANOTIFY._serialized_end=479
 # @@protoc_insertion_point(module_scope)

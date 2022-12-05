@@ -11,15 +11,16 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
+import ChatChannelInfo_pb2 as ChatChannelInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x43hatChannelDataNotify.proto\"-\n\x15\x43hatChannelDataNotify\x12\x14\n\x0c\x63hannel_list\x18\x03 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x43hatChannelDataNotify.proto\x1a\x15\x43hatChannelInfo.proto\"Z\n\x15\x43hatChannelDataNotify\x12+\n\x11\x63hannel_info_list\x18\x05 \x03(\x0b\x32\x10.ChatChannelInfo\x12\x14\n\x0c\x63hannel_list\x18\x03 \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChatChannelDataNotify_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _CHATCHANNELDATANOTIFY._serialized_start=31
-  _CHATCHANNELDATANOTIFY._serialized_end=76
+  _CHATCHANNELDATANOTIFY._serialized_start=54
+  _CHATCHANNELDATANOTIFY._serialized_end=144
 # @@protoc_insertion_point(module_scope)

@@ -11,10 +11,10 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import Unk2800_JKLFAJKDLDG_pb2 as Unk2800__JKLFAJKDLDG__pb2
+import DungeonEnterPosInfo_pb2 as DungeonEnterPosInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bPlayerEnterDungeonReq.proto\x1a\x19Unk2800_JKLFAJKDLDG.proto\"p\n\x15PlayerEnterDungeonReq\x12\x31\n\x13Unk2800_ANJAHBGBIFD\x18\x02 \x01(\x0b\x32\x14.Unk2800_JKLFAJKDLDG\x12\x10\n\x08point_id\x18\r \x01(\r\x12\x12\n\ndungeon_id\x18\x07 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bPlayerEnterDungeonReq.proto\x1a\x19\x44ungeonEnterPosInfo.proto\"k\n\x15PlayerEnterDungeonReq\x12\x12\n\ndungeon_id\x18\x04 \x01(\r\x12,\n\x0e\x65nter_pos_info\x18\t \x01(\x0b\x32\x14.DungeonEnterPosInfo\x12\x10\n\x08point_id\x18\x01 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerEnterDungeonReq_pb2', globals())
@@ -22,5 +22,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _PLAYERENTERDUNGEONREQ._serialized_start=58
-  _PLAYERENTERDUNGEONREQ._serialized_end=170
+  _PLAYERENTERDUNGEONREQ._serialized_end=165
 # @@protoc_insertion_point(module_scope)

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$CancelCityReputationRequestReq.proto\"E\n\x1e\x43\x61ncelCityReputationRequestReq\x12\x12\n\nrequest_id\x18\n \x01(\r\x12\x0f\n\x07\x63ity_id\x18\x06 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$CancelCityReputationRequestReq.proto\"E\n\x1e\x43\x61ncelCityReputationRequestReq\x12\x0f\n\x07\x63ity_id\x18\x0e \x01(\r\x12\x12\n\nrequest_id\x18\n \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CancelCityReputationRequestReq_pb2', globals())

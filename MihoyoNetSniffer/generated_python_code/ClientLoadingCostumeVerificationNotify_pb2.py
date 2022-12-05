@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n,ClientLoadingCostumeVerificationNotify.proto\"_\n&ClientLoadingCostumeVerificationNotify\x12\x12\n\ncostume_id\x18\t \x01(\r\x12\x13\n\x0bprefab_hash\x18\x02 \x01(\x04\x12\x0c\n\x04guid\x18\x0e \x01(\x04\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n,ClientLoadingCostumeVerificationNotify.proto\"_\n&ClientLoadingCostumeVerificationNotify\x12\x13\n\x0bprefab_hash\x18\x05 \x01(\x04\x12\x0c\n\x04guid\x18\x01 \x01(\x04\x12\x12\n\ncostume_id\x18\x07 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ClientLoadingCostumeVerificationNotify_pb2', globals())

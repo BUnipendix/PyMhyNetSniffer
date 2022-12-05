@@ -11,16 +11,16 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import Unk3100_HJALLGOLFGL_pb2 as Unk3100__HJALLGOLFGL__pb2
+import WindFieldDungeonFailReason_pb2 as WindFieldDungeonFailReason__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n WindFieldDungeonSettleInfo.proto\x1a\x19Unk3100_HJALLGOLFGL.proto\"\x89\x01\n\x1aWindFieldDungeonSettleInfo\x12\x1b\n\x13Unk3100_ABGAMIOBKAB\x18\x0b \x03(\r\x12\x1b\n\x13Unk3100_MPGPNBOHCMC\x18\x07 \x03(\r\x12\x31\n\x13Unk3100_AOFJAJACNAJ\x18\x02 \x01(\x0e\x32\x14.Unk3100_HJALLGOLFGLb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n WindFieldDungeonSettleInfo.proto\x1a WindFieldDungeonFailReason.proto\"\x88\x01\n\x1aWindFieldDungeonSettleInfo\x12\x1b\n\x13Unk3300_FJGFOJBGBKM\x18\x07 \x03(\r\x12\x30\n\x0b\x66\x61il_reason\x18\x03 \x01(\x0e\x32\x1b.WindFieldDungeonFailReason\x12\x1b\n\x13Unk3300_EMCOILGACOC\x18\x01 \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WindFieldDungeonSettleInfo_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _WINDFIELDDUNGEONSETTLEINFO._serialized_start=64
-  _WINDFIELDDUNGEONSETTLEINFO._serialized_end=201
+  _WINDFIELDDUNGEONSETTLEINFO._serialized_start=71
+  _WINDFIELDDUNGEONSETTLEINFO._serialized_end=207
 # @@protoc_insertion_point(module_scope)

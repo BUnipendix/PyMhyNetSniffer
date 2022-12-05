@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Achievement_pb2 as Achievement__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x41\x63hievementUpdateNotify.proto\x1a\x11\x41\x63hievement.proto\"A\n\x17\x41\x63hievementUpdateNotify\x12&\n\x10\x61\x63hievement_list\x18\x0e \x03(\x0b\x32\x0c.Achievementb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x41\x63hievementUpdateNotify.proto\x1a\x11\x41\x63hievement.proto\"A\n\x17\x41\x63hievementUpdateNotify\x12&\n\x10\x61\x63hievement_list\x18\x0b \x03(\x0b\x32\x0c.Achievementb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AchievementUpdateNotify_pb2', globals())

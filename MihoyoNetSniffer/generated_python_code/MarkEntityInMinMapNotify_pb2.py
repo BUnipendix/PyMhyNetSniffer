@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eMarkEntityInMinMapNotify.proto\x1a\x0cVector.proto\"\\\n\x18MarkEntityInMinMapNotify\x12\x19\n\x08position\x18\x04 \x01(\x0b\x32\x07.Vector\x12\x12\n\nmonster_id\x18\x07 \x01(\r\x12\x11\n\tentity_id\x18\x0e \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eMarkEntityInMinMapNotify.proto\x1a\x0cVector.proto\"\\\n\x18MarkEntityInMinMapNotify\x12\x19\n\x08position\x18\x04 \x01(\x0b\x32\x07.Vector\x12\x11\n\tentity_id\x18\x03 \x01(\r\x12\x12\n\nmonster_id\x18\x0e \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MarkEntityInMinMapNotify_pb2', globals())

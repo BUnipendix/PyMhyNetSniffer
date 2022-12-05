@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19WatcherChangeNotify.proto\"M\n\x13WatcherChangeNotify\x12\x1c\n\x14removed_watcher_list\x18\x02 \x03(\r\x12\x18\n\x10new_watcher_list\x18\x0f \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19WatcherChangeNotify.proto\"O\n\x13WatcherChangeNotify\x12\x1b\n\x13Unk3300_ELDNONOCFMM\x18\n \x03(\r\x12\x1b\n\x13Unk3300_FDMJACFMOLG\x18\x05 \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WatcherChangeNotify_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _WATCHERCHANGENOTIFY._serialized_start=29
-  _WATCHERCHANGENOTIFY._serialized_end=106
+  _WATCHERCHANGENOTIFY._serialized_end=108
 # @@protoc_insertion_point(module_scope)

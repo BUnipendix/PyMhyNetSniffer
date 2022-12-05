@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import AvatarEquipAffixInfo_pb2 as AvatarEquipAffixInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!AvatarEquipAffixStartNotify.proto\x1a\x1a\x41vatarEquipAffixInfo.proto\"c\n\x1b\x41vatarEquipAffixStartNotify\x12\x13\n\x0b\x61vatar_guid\x18\x04 \x01(\x04\x12/\n\x10\x65quip_affix_info\x18\x0c \x01(\x0b\x32\x15.AvatarEquipAffixInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!AvatarEquipAffixStartNotify.proto\x1a\x1a\x41vatarEquipAffixInfo.proto\"c\n\x1b\x41vatarEquipAffixStartNotify\x12\x13\n\x0b\x61vatar_guid\x18\x01 \x01(\x04\x12/\n\x10\x65quip_affix_info\x18\t \x01(\x0b\x32\x15.AvatarEquipAffixInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarEquipAffixStartNotify_pb2', globals())

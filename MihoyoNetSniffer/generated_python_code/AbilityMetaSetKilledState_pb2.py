@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x41\x62ilityMetaSetKilledState.proto\"+\n\x19\x41\x62ilityMetaSetKilledState\x12\x0e\n\x06killed\x18\x02 \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x41\x62ilityMetaSetKilledState.proto\"+\n\x19\x41\x62ilityMetaSetKilledState\x12\x0e\n\x06killed\x18\x05 \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AbilityMetaSetKilledState_pb2', globals())

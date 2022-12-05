@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import BalloonPlayerInfo_pb2 as BalloonPlayerInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dSceneGalleryBalloonInfo.proto\x1a\x17\x42\x61lloonPlayerInfo.proto\"\xe1\x01\n\x17SceneGalleryBalloonInfo\x12^\n\x1dscene_player_balloon_info_map\x18\x0e \x03(\x0b\x32\x37.SceneGalleryBalloonInfo.ScenePlayerBalloonInfoMapEntry\x12\x10\n\x08\x65nd_time\x18\x05 \x01(\r\x1aT\n\x1eScenePlayerBalloonInfoMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12!\n\x05value\x18\x02 \x01(\x0b\x32\x12.BalloonPlayerInfo:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dSceneGalleryBalloonInfo.proto\x1a\x17\x42\x61lloonPlayerInfo.proto\"\xe1\x01\n\x17SceneGalleryBalloonInfo\x12^\n\x1dscene_player_balloon_info_map\x18\r \x03(\x0b\x32\x37.SceneGalleryBalloonInfo.ScenePlayerBalloonInfoMapEntry\x12\x10\n\x08\x65nd_time\x18\t \x01(\r\x1aT\n\x1eScenePlayerBalloonInfoMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12!\n\x05value\x18\x02 \x01(\x0b\x32\x12.BalloonPlayerInfo:\x02\x38\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGalleryBalloonInfo_pb2', globals())

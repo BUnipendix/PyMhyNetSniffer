@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import CreateEntityInfo_pb2 as CreateEntityInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aQuestCreateEntityRsp.proto\x1a\x16\x43reateEntityInfo.proto\"\x9b\x01\n\x14QuestCreateEntityRsp\x12\x10\n\x08quest_id\x18\r \x01(\r\x12\x0f\n\x07retcode\x18\x08 \x01(\x05\x12\x11\n\tentity_id\x18\x07 \x01(\r\x12!\n\x06\x65ntity\x18\x0b \x01(\x0b\x32\x11.CreateEntityInfo\x12\x17\n\x0fparent_quest_id\x18\x01 \x01(\r\x12\x11\n\tis_rewind\x18\x0e \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aQuestCreateEntityRsp.proto\x1a\x16\x43reateEntityInfo.proto\"\x9b\x01\n\x14QuestCreateEntityRsp\x12!\n\x06\x65ntity\x18\x0b \x01(\x0b\x32\x11.CreateEntityInfo\x12\x11\n\tentity_id\x18\x03 \x01(\r\x12\x11\n\tis_rewind\x18\t \x01(\x08\x12\x17\n\x0fparent_quest_id\x18\x02 \x01(\r\x12\x0f\n\x07retcode\x18\x07 \x01(\x05\x12\x10\n\x08quest_id\x18\x01 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'QuestCreateEntityRsp_pb2', globals())

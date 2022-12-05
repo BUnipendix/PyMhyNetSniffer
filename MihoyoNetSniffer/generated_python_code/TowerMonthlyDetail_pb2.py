@@ -15,7 +15,7 @@ import TowerMonthlyBrief_pb2 as TowerMonthlyBrief__pb2
 import TowerMonthlyCombatRecord_pb2 as TowerMonthlyCombatRecord__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18TowerMonthlyDetail.proto\x1a\x17TowerMonthlyBrief.proto\x1a\x1eTowerMonthlyCombatRecord.proto\"y\n\x12TowerMonthlyDetail\x12\x38\n\x15monthly_combat_record\x18\x02 \x01(\x0b\x32\x19.TowerMonthlyCombatRecord\x12)\n\rmonthly_brief\x18\x0c \x01(\x0b\x32\x12.TowerMonthlyBriefb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18TowerMonthlyDetail.proto\x1a\x17TowerMonthlyBrief.proto\x1a\x1eTowerMonthlyCombatRecord.proto\"y\n\x12TowerMonthlyDetail\x12\x38\n\x15monthly_combat_record\x18\x0f \x01(\x0b\x32\x19.TowerMonthlyCombatRecord\x12)\n\rmonthly_brief\x18\x04 \x01(\x0b\x32\x12.TowerMonthlyBriefb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TowerMonthlyDetail_pb2', globals())

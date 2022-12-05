@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x43lientReportNotify.proto\"?\n\x12\x43lientReportNotify\x12\x13\n\x0breport_type\x18\x01 \x01(\t\x12\x14\n\x0creport_value\x18\x04 \x01(\tb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x43lientReportNotify.proto\"N\n\x12\x43lientReportNotify\x12\x1b\n\x13Unk3300_JHJDJEBAFCM\x18\x0f \x01(\t\x12\x1b\n\x13Unk3300_AMLEAJLJDFO\x18\n \x01(\tb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ClientReportNotify_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _CLIENTREPORTNOTIFY._serialized_start=28
-  _CLIENTREPORTNOTIFY._serialized_end=91
+  _CLIENTREPORTNOTIFY._serialized_end=106
 # @@protoc_insertion_point(module_scope)

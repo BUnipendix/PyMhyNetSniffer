@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x43ommonPlayerTipsNotify.proto\"G\n\x16\x43ommonPlayerTipsNotify\x12\x13\n\x0bnotify_type\x18\x03 \x01(\r\x12\x18\n\x10text_map_id_list\x18\t \x03(\tb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x43ommonPlayerTipsNotify.proto\"G\n\x16\x43ommonPlayerTipsNotify\x12\x13\n\x0bnotify_type\x18\x0f \x01(\r\x12\x18\n\x10text_map_id_list\x18\x08 \x03(\tb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CommonPlayerTipsNotify_pb2', globals())

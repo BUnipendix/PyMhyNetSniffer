@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import AvatarInfo_pb2 as AvatarInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n DungeonCandidateTeamAvatar.proto\x1a\x10\x41vatarInfo.proto\"R\n\x1a\x44ungeonCandidateTeamAvatar\x12\x12\n\nplayer_uid\x18\x02 \x01(\r\x12 \n\x0b\x61vatar_info\x18\x06 \x01(\x0b\x32\x0b.AvatarInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n DungeonCandidateTeamAvatar.proto\x1a\x10\x41vatarInfo.proto\"R\n\x1a\x44ungeonCandidateTeamAvatar\x12 \n\x0b\x61vatar_info\x18\x06 \x01(\x0b\x32\x0b.AvatarInfo\x12\x12\n\nplayer_uid\x18\x07 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DungeonCandidateTeamAvatar_pb2', globals())

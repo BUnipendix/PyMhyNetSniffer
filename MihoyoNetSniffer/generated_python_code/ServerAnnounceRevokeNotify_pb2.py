@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n ServerAnnounceRevokeNotify.proto\"4\n\x1aServerAnnounceRevokeNotify\x12\x16\n\x0e\x63onfig_id_list\x18\x0f \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n ServerAnnounceRevokeNotify.proto\"4\n\x1aServerAnnounceRevokeNotify\x12\x16\n\x0e\x63onfig_id_list\x18\t \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ServerAnnounceRevokeNotify_pb2', globals())

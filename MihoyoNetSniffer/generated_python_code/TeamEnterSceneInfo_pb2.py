@@ -15,7 +15,7 @@ import AbilityControlBlock_pb2 as AbilityControlBlock__pb2
 import AbilitySyncStateInfo_pb2 as AbilitySyncStateInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18TeamEnterSceneInfo.proto\x1a\x19\x41\x62ilityControlBlock.proto\x1a\x1a\x41\x62ilitySyncStateInfo.proto\"\x93\x01\n\x12TeamEnterSceneInfo\x12\x33\n\x15\x61\x62ility_control_block\x18\x07 \x01(\x0b\x32\x14.AbilityControlBlock\x12\x30\n\x11team_ability_info\x18\n \x01(\x0b\x32\x15.AbilitySyncStateInfo\x12\x16\n\x0eteam_entity_id\x18\x0f \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18TeamEnterSceneInfo.proto\x1a\x19\x41\x62ilityControlBlock.proto\x1a\x1a\x41\x62ilitySyncStateInfo.proto\"\x93\x01\n\x12TeamEnterSceneInfo\x12\x30\n\x11team_ability_info\x18\x06 \x01(\x0b\x32\x15.AbilitySyncStateInfo\x12\x33\n\x15\x61\x62ility_control_block\x18\x05 \x01(\x0b\x32\x14.AbilityControlBlock\x12\x16\n\x0eteam_entity_id\x18\x0b \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TeamEnterSceneInfo_pb2', globals())

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15PlayerReportRsp.proto\"G\n\x0fPlayerReportRsp\x12\x0f\n\x07\x63\x64_time\x18\x0b \x01(\r\x12\x12\n\ntarget_uid\x18\x06 \x01(\r\x12\x0f\n\x07retcode\x18\x0c \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15PlayerReportRsp.proto\"G\n\x0fPlayerReportRsp\x12\x0f\n\x07\x63\x64_time\x18\x08 \x01(\r\x12\x0f\n\x07retcode\x18\x07 \x01(\x05\x12\x12\n\ntarget_uid\x18\x0b \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerReportRsp_pb2', globals())

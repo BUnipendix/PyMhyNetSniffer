@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import GivingRecord_pb2 as GivingRecord__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eGivingRecordChangeNotify.proto\x1a\x12GivingRecord.proto\"U\n\x18GivingRecordChangeNotify\x12\x13\n\x0bis_deactive\x18\x0b \x01(\x08\x12$\n\rgiving_record\x18\x0f \x01(\x0b\x32\r.GivingRecordb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eGivingRecordChangeNotify.proto\x1a\x12GivingRecord.proto\"U\n\x18GivingRecordChangeNotify\x12\x13\n\x0bis_deactive\x18\x0e \x01(\x08\x12$\n\rgiving_record\x18\x0f \x01(\x0b\x32\r.GivingRecordb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GivingRecordChangeNotify_pb2', globals())

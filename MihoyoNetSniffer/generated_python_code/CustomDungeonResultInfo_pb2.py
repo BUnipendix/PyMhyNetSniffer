@@ -11,17 +11,17 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import Unk2700_FDEGJOCDDGH_pb2 as Unk2700__FDEGJOCDDGH__pb2
-import Unk2700_OCOKILBJIPJ_pb2 as Unk2700__OCOKILBJIPJ__pb2
+import ChallengeBrief_pb2 as ChallengeBrief__pb2
+import CustomDungeonFinishType_pb2 as CustomDungeonFinishType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x43ustomDungeonResultInfo.proto\x1a\x19Unk2700_FDEGJOCDDGH.proto\x1a\x19Unk2700_OCOKILBJIPJ.proto\"\xa4\x02\n\x17\x43ustomDungeonResultInfo\x12\x1b\n\x13Unk2700_BONNHGKDLFO\x18\x0c \x01(\x08\x12\x1b\n\x13Unk2700_FBBEJKCDMEI\x18\t \x01(\r\x12\x32\n\x14\x63hild_challenge_list\x18\x06 \x03(\x0b\x32\x14.Unk2700_FDEGJOCDDGH\x12\x1b\n\x13Unk2700_ONOOJBEABOE\x18\x03 \x01(\x04\x12\x31\n\x13Unk2700_ONCDLPDHFAB\x18\x07 \x01(\x0e\x32\x14.Unk2700_OCOKILBJIPJ\x12\x11\n\ttime_cost\x18\x0b \x01(\r\x12\x1b\n\x13Unk2700_IBDCFAMBGOK\x18\x02 \x01(\x08\x12\x1b\n\x13Unk2700_HBFLKFOCKBF\x18\x0e \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x43ustomDungeonResultInfo.proto\x1a\x14\x43hallengeBrief.proto\x1a\x1d\x43ustomDungeonFinishType.proto\"\xf5\x01\n\x17\x43ustomDungeonResultInfo\x12\x10\n\x08is_liked\x18\r \x01(\x08\x12\x18\n\x10is_arrive_finish\x18\x02 \x01(\x08\x12\x14\n\x0c\x64ungeon_guid\x18\x05 \x01(\x04\x12-\n\x0b\x66inish_type\x18\x08 \x01(\x0e\x32\x18.CustomDungeonFinishType\x12-\n\x14\x63hild_challenge_list\x18\x01 \x03(\x0b\x32\x0f.ChallengeBrief\x12\x11\n\tis_stored\x18\x06 \x01(\x08\x12\x11\n\ttime_cost\x18\t \x01(\r\x12\x14\n\x0cgot_coin_num\x18\x04 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CustomDungeonResultInfo_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _CUSTOMDUNGEONRESULTINFO._serialized_start=88
-  _CUSTOMDUNGEONRESULTINFO._serialized_end=380
+  _CUSTOMDUNGEONRESULTINFO._serialized_start=87
+  _CUSTOMDUNGEONRESULTINFO._serialized_end=332
 # @@protoc_insertion_point(module_scope)

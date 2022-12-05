@@ -15,7 +15,7 @@ import PBNavMeshPoly_pb2 as PBNavMeshPoly__pb2
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13PBNavMeshTile.proto\x1a\x13PBNavMeshPoly.proto\x1a\x0cVector.proto\"E\n\rPBNavMeshTile\x12\x15\n\x04vecs\x18\x04 \x03(\x0b\x32\x07.Vector\x12\x1d\n\x05polys\x18\x08 \x03(\x0b\x32\x0e.PBNavMeshPolyb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13PBNavMeshTile.proto\x1a\x13PBNavMeshPoly.proto\x1a\x0cVector.proto\"E\n\rPBNavMeshTile\x12\x15\n\x04vecs\x18\x0c \x03(\x0b\x32\x07.Vector\x12\x1d\n\x05polys\x18\r \x03(\x0b\x32\x0e.PBNavMeshPolyb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PBNavMeshTile_pb2', globals())

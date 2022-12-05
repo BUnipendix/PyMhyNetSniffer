@@ -15,7 +15,7 @@ import PlayerLocationInfo_pb2 as PlayerLocationInfo__pb2
 import PlayerWorldLocationInfo_pb2 as PlayerWorldLocationInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fWorldPlayerLocationNotify.proto\x1a\x18PlayerLocationInfo.proto\x1a\x1dPlayerWorldLocationInfo.proto\"\x82\x01\n\x19WorldPlayerLocationNotify\x12\x37\n\x15player_world_loc_list\x18\x08 \x03(\x0b\x32\x18.PlayerWorldLocationInfo\x12,\n\x0fplayer_loc_list\x18\x0f \x03(\x0b\x32\x13.PlayerLocationInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fWorldPlayerLocationNotify.proto\x1a\x18PlayerLocationInfo.proto\x1a\x1dPlayerWorldLocationInfo.proto\"\x82\x01\n\x19WorldPlayerLocationNotify\x12\x37\n\x15player_world_loc_list\x18\x05 \x03(\x0b\x32\x18.PlayerWorldLocationInfo\x12,\n\x0fplayer_loc_list\x18\x0e \x03(\x0b\x32\x13.PlayerLocationInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WorldPlayerLocationNotify_pb2', globals())

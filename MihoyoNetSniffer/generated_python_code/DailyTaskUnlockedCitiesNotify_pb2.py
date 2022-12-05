@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#DailyTaskUnlockedCitiesNotify.proto\";\n\x1d\x44\x61ilyTaskUnlockedCitiesNotify\x12\x1a\n\x12unlocked_city_list\x18\x0c \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#DailyTaskUnlockedCitiesNotify.proto\";\n\x1d\x44\x61ilyTaskUnlockedCitiesNotify\x12\x1a\n\x12unlocked_city_list\x18\x0f \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DailyTaskUnlockedCitiesNotify_pb2', globals())

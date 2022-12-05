@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import PlayerWorldSceneInfo_pb2 as PlayerWorldSceneInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$PlayerWorldSceneInfoListNotify.proto\x1a\x1aPlayerWorldSceneInfo.proto\"J\n\x1ePlayerWorldSceneInfoListNotify\x12(\n\tinfo_list\x18\x05 \x03(\x0b\x32\x15.PlayerWorldSceneInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$PlayerWorldSceneInfoListNotify.proto\x1a\x1aPlayerWorldSceneInfo.proto\"J\n\x1ePlayerWorldSceneInfoListNotify\x12(\n\tinfo_list\x18\x02 \x03(\x0b\x32\x15.PlayerWorldSceneInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerWorldSceneInfoListNotify_pb2', globals())

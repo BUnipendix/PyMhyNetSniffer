@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import CreateEntityInfo_pb2 as CreateEntityInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aSceneCreateEntityRsp.proto\x1a\x16\x43reateEntityInfo.proto\"]\n\x14SceneCreateEntityRsp\x12\x0f\n\x07retcode\x18\x0e \x01(\x05\x12\x11\n\tentity_id\x18\x01 \x01(\r\x12!\n\x06\x65ntity\x18\n \x01(\x0b\x32\x11.CreateEntityInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aSceneCreateEntityRsp.proto\x1a\x16\x43reateEntityInfo.proto\"]\n\x14SceneCreateEntityRsp\x12\x0f\n\x07retcode\x18\x0f \x01(\x05\x12!\n\x06\x65ntity\x18\x04 \x01(\x0b\x32\x11.CreateEntityInfo\x12\x11\n\tentity_id\x18\x05 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneCreateEntityRsp_pb2', globals())

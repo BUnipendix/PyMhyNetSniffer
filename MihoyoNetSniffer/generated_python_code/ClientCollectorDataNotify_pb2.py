@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ClientCollectorData_pb2 as ClientCollectorData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x43lientCollectorDataNotify.proto\x1a\x19\x43lientCollectorData.proto\"U\n\x19\x43lientCollectorDataNotify\x12\x38\n\x1a\x63lient_collector_data_list\x18\r \x03(\x0b\x32\x14.ClientCollectorDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x43lientCollectorDataNotify.proto\x1a\x19\x43lientCollectorData.proto\"U\n\x19\x43lientCollectorDataNotify\x12\x38\n\x1a\x63lient_collector_data_list\x18\x01 \x03(\x0b\x32\x14.ClientCollectorDatab\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ClientCollectorDataNotify_pb2', globals())

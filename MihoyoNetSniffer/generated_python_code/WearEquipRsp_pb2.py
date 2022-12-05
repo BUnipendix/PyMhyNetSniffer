@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12WearEquipRsp.proto\"H\n\x0cWearEquipRsp\x12\x0f\n\x07retcode\x18\x05 \x01(\x05\x12\x12\n\nequip_guid\x18\x01 \x01(\x04\x12\x13\n\x0b\x61vatar_guid\x18\x07 \x01(\x04\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12WearEquipRsp.proto\"H\n\x0cWearEquipRsp\x12\x0f\n\x07retcode\x18\x03 \x01(\x05\x12\x12\n\nequip_guid\x18\x01 \x01(\x04\x12\x13\n\x0b\x61vatar_guid\x18\x0e \x01(\x04\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WearEquipRsp_pb2', globals())

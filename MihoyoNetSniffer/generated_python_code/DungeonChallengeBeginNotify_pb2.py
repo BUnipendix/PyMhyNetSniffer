@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!DungeonChallengeBeginNotify.proto\"\x9a\x01\n\x1b\x44ungeonChallengeBeginNotify\x12\x14\n\x0c\x66\x61ther_index\x18\x05 \x01(\r\x12\x12\n\nparam_list\x18\x0e \x03(\r\x12\x17\n\x0f\x63hallenge_index\x18\x06 \x01(\r\x12\x14\n\x0c\x63hallenge_id\x18\x01 \x01(\r\x12\x10\n\x08group_id\x18\x04 \x01(\r\x12\x10\n\x08uid_list\x18\x0c \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!DungeonChallengeBeginNotify.proto\"\x9a\x01\n\x1b\x44ungeonChallengeBeginNotify\x12\x17\n\x0f\x63hallenge_index\x18\x03 \x01(\r\x12\x14\n\x0c\x66\x61ther_index\x18\r \x01(\r\x12\x10\n\x08group_id\x18\x0f \x01(\r\x12\x10\n\x08uid_list\x18\x08 \x03(\r\x12\x14\n\x0c\x63hallenge_id\x18\x07 \x01(\r\x12\x12\n\nparam_list\x18\x02 \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DungeonChallengeBeginNotify_pb2', globals())

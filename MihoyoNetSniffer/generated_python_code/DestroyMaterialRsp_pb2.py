@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x44\x65stroyMaterialRsp.proto\"T\n\x12\x44\x65stroyMaterialRsp\x12\x17\n\x0fitem_count_list\x18\x0c \x03(\r\x12\x14\n\x0citem_id_list\x18\r \x03(\r\x12\x0f\n\x07retcode\x18\x0b \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x44\x65stroyMaterialRsp.proto\"T\n\x12\x44\x65stroyMaterialRsp\x12\x14\n\x0citem_id_list\x18\n \x03(\r\x12\x17\n\x0fitem_count_list\x18\x0c \x03(\r\x12\x0f\n\x07retcode\x18\r \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DestroyMaterialRsp_pb2', globals())

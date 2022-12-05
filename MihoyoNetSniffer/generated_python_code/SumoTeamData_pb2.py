@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import SumoAvatarInfo_pb2 as SumoAvatarInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12SumoTeamData.proto\x1a\x14SumoAvatarInfo.proto\"P\n\x0cSumoTeamData\x12\x15\n\rskill_id_list\x18\x0e \x03(\r\x12)\n\x10\x61vatar_info_list\x18\x03 \x03(\x0b\x32\x0f.SumoAvatarInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12SumoTeamData.proto\x1a\x14SumoAvatarInfo.proto\"P\n\x0cSumoTeamData\x12\x15\n\rskill_id_list\x18\x0c \x03(\r\x12)\n\x10\x61vatar_info_list\x18\x04 \x03(\x0b\x32\x0f.SumoAvatarInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SumoTeamData_pb2', globals())

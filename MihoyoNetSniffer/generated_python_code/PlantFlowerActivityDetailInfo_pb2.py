@@ -13,21 +13,21 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#PlantFlowerActivityDetailInfo.proto\"\xa1\x03\n\x1dPlantFlowerActivityDetailInfo\x12\x19\n\x11is_content_closed\x18\x03 \x01(\x08\x12Q\n\x13wish_flower_num_map\x18\n \x03(\x0b\x32\x34.PlantFlowerActivityDetailInfo.WishFlowerNumMapEntry\x12\x1c\n\x14today_seed_reward_id\x18\x0b \x01(\r\x12\x11\n\tday_index\x18\x01 \x01(\r\x12\x1c\n\x14is_today_has_awarded\x18\r \x01(\x08\x12Q\n\x13used_flower_num_map\x18\x07 \x03(\x0b\x32\x34.PlantFlowerActivityDetailInfo.UsedFlowerNumMapEntry\x1a\x37\n\x15WishFlowerNumMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x1a\x37\n\x15UsedFlowerNumMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#PlantFlowerActivityDetailInfo.proto\"\xa9\x03\n\x1dPlantFlowerActivityDetailInfo\x12\x11\n\tday_index\x18\x01 \x01(\r\x12\x1c\n\x14today_seed_reward_id\x18\x0f \x01(\r\x12\x19\n\x11is_content_closed\x18\x03 \x01(\x08\x12S\n\x13Unk3300_EPMKDFOBLFK\x18\t \x03(\x0b\x32\x36.PlantFlowerActivityDetailInfo.Unk3300EPMKDFOBLFKEntry\x12S\n\x13Unk3300_ELAIBMDIBFJ\x18\x05 \x03(\x0b\x32\x36.PlantFlowerActivityDetailInfo.Unk3300ELAIBMDIBFJEntry\x12\x1c\n\x14is_today_has_awarded\x18\x08 \x01(\x08\x1a\x39\n\x17Unk3300EPMKDFOBLFKEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x1a\x39\n\x17Unk3300ELAIBMDIBFJEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlantFlowerActivityDetailInfo_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _PLANTFLOWERACTIVITYDETAILINFO_WISHFLOWERNUMMAPENTRY._options = None
-  _PLANTFLOWERACTIVITYDETAILINFO_WISHFLOWERNUMMAPENTRY._serialized_options = b'8\001'
-  _PLANTFLOWERACTIVITYDETAILINFO_USEDFLOWERNUMMAPENTRY._options = None
-  _PLANTFLOWERACTIVITYDETAILINFO_USEDFLOWERNUMMAPENTRY._serialized_options = b'8\001'
+  _PLANTFLOWERACTIVITYDETAILINFO_UNK3300EPMKDFOBLFKENTRY._options = None
+  _PLANTFLOWERACTIVITYDETAILINFO_UNK3300EPMKDFOBLFKENTRY._serialized_options = b'8\001'
+  _PLANTFLOWERACTIVITYDETAILINFO_UNK3300ELAIBMDIBFJENTRY._options = None
+  _PLANTFLOWERACTIVITYDETAILINFO_UNK3300ELAIBMDIBFJENTRY._serialized_options = b'8\001'
   _PLANTFLOWERACTIVITYDETAILINFO._serialized_start=40
-  _PLANTFLOWERACTIVITYDETAILINFO._serialized_end=457
-  _PLANTFLOWERACTIVITYDETAILINFO_WISHFLOWERNUMMAPENTRY._serialized_start=345
-  _PLANTFLOWERACTIVITYDETAILINFO_WISHFLOWERNUMMAPENTRY._serialized_end=400
-  _PLANTFLOWERACTIVITYDETAILINFO_USEDFLOWERNUMMAPENTRY._serialized_start=402
-  _PLANTFLOWERACTIVITYDETAILINFO_USEDFLOWERNUMMAPENTRY._serialized_end=457
+  _PLANTFLOWERACTIVITYDETAILINFO._serialized_end=465
+  _PLANTFLOWERACTIVITYDETAILINFO_UNK3300EPMKDFOBLFKENTRY._serialized_start=349
+  _PLANTFLOWERACTIVITYDETAILINFO_UNK3300EPMKDFOBLFKENTRY._serialized_end=406
+  _PLANTFLOWERACTIVITYDETAILINFO_UNK3300ELAIBMDIBFJENTRY._serialized_start=408
+  _PLANTFLOWERACTIVITYDETAILINFO_UNK3300ELAIBMDIBFJENTRY._serialized_end=465
 # @@protoc_insertion_point(module_scope)

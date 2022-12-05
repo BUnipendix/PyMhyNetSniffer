@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import DealAddFriendResultType_pb2 as DealAddFriendResultType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x44\x65\x61lAddFriendRsp.proto\x1a\x1d\x44\x65\x61lAddFriendResultType.proto\"q\n\x10\x44\x65\x61lAddFriendRsp\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x12\x12\n\ntarget_uid\x18\x05 \x01(\r\x12\x38\n\x16\x64\x65\x61l_add_friend_result\x18\x06 \x01(\x0e\x32\x18.DealAddFriendResultTypeb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x44\x65\x61lAddFriendRsp.proto\x1a\x1d\x44\x65\x61lAddFriendResultType.proto\"q\n\x10\x44\x65\x61lAddFriendRsp\x12\x12\n\ntarget_uid\x18\x0f \x01(\r\x12\x38\n\x16\x64\x65\x61l_add_friend_result\x18\x04 \x01(\x0e\x32\x18.DealAddFriendResultType\x12\x0f\n\x07retcode\x18\x0b \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DealAddFriendRsp_pb2', globals())

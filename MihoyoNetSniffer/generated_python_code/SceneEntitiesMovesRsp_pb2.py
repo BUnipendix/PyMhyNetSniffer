@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import EntityMoveFailInfo_pb2 as EntityMoveFailInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bSceneEntitiesMovesRsp.proto\x1a\x18\x45ntityMoveFailInfo.proto\"P\n\x15SceneEntitiesMovesRsp\x12\x37\n\x1a\x65ntity_move_fail_info_list\x18\x0b \x03(\x0b\x32\x13.EntityMoveFailInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bSceneEntitiesMovesRsp.proto\x1a\x18\x45ntityMoveFailInfo.proto\"P\n\x15SceneEntitiesMovesRsp\x12\x37\n\x1a\x65ntity_move_fail_info_list\x18\n \x03(\x0b\x32\x13.EntityMoveFailInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneEntitiesMovesRsp_pb2', globals())

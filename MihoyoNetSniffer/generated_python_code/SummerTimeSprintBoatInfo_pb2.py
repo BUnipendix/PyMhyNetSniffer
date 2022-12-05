@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import SummerTimeSprintBoatRecord_pb2 as SummerTimeSprintBoatRecord__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eSummerTimeSprintBoatInfo.proto\x1a SummerTimeSprintBoatRecord.proto\"L\n\x18SummerTimeSprintBoatInfo\x12\x30\n\x0brecord_list\x18\x07 \x03(\x0b\x32\x1b.SummerTimeSprintBoatRecordb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eSummerTimeSprintBoatInfo.proto\x1a SummerTimeSprintBoatRecord.proto\"L\n\x18SummerTimeSprintBoatInfo\x12\x30\n\x0brecord_list\x18\t \x03(\x0b\x32\x1b.SummerTimeSprintBoatRecordb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SummerTimeSprintBoatInfo_pb2', globals())

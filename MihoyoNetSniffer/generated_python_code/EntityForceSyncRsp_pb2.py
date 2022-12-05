@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import MotionInfo_pb2 as MotionInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x45ntityForceSyncRsp.proto\x1a\x10MotionInfo.proto\"n\n\x12\x45ntityForceSyncRsp\x12\x12\n\nscene_time\x18\x0e \x01(\r\x12\x11\n\tentity_id\x18\x06 \x01(\r\x12 \n\x0b\x66\x61il_motion\x18\x08 \x01(\x0b\x32\x0b.MotionInfo\x12\x0f\n\x07retcode\x18\x04 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x45ntityForceSyncRsp.proto\x1a\x10MotionInfo.proto\"n\n\x12\x45ntityForceSyncRsp\x12\x11\n\tentity_id\x18\x0c \x01(\r\x12\x12\n\nscene_time\x18\x02 \x01(\r\x12 \n\x0b\x66\x61il_motion\x18\x0b \x01(\x0b\x32\x0b.MotionInfo\x12\x0f\n\x07retcode\x18\x08 \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EntityForceSyncRsp_pb2', globals())

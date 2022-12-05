@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import CompoundQueueData_pb2 as CompoundQueueData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18GetCompoundDataRsp.proto\x1a\x17\x43ompoundQueueData.proto\"w\n\x12GetCompoundDataRsp\x12\x0f\n\x07retcode\x18\x03 \x01(\x05\x12\x1c\n\x14unlock_compound_list\x18\x0b \x03(\r\x12\x32\n\x16\x63ompound_que_data_list\x18\x07 \x03(\x0b\x32\x12.CompoundQueueDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18GetCompoundDataRsp.proto\x1a\x17\x43ompoundQueueData.proto\"y\n\x12GetCompoundDataRsp\x12\x34\n\x18\x63ompound_queue_data_list\x18\x04 \x03(\x0b\x32\x12.CompoundQueueData\x12\x1c\n\x14unlock_compound_list\x18\n \x03(\r\x12\x0f\n\x07retcode\x18\x0f \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetCompoundDataRsp_pb2', globals())
@@ -22,5 +22,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _GETCOMPOUNDDATARSP._serialized_start=53
-  _GETCOMPOUNDDATARSP._serialized_end=172
+  _GETCOMPOUNDDATARSP._serialized_end=174
 # @@protoc_insertion_point(module_scope)

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import DailyDungeonEntryInfo_pb2 as DailyDungeonEntryInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!GetDailyDungeonEntryInfoRsp.proto\x1a\x1b\x44\x61ilyDungeonEntryInfo.proto\"g\n\x1bGetDailyDungeonEntryInfoRsp\x12\x37\n\x17\x64\x61ily_dungeon_info_list\x18\x02 \x03(\x0b\x32\x16.DailyDungeonEntryInfo\x12\x0f\n\x07retcode\x18\x0e \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!GetDailyDungeonEntryInfoRsp.proto\x1a\x1b\x44\x61ilyDungeonEntryInfo.proto\"g\n\x1bGetDailyDungeonEntryInfoRsp\x12\x37\n\x17\x64\x61ily_dungeon_info_list\x18\x01 \x03(\x0b\x32\x16.DailyDungeonEntryInfo\x12\x0f\n\x07retcode\x18\t \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetDailyDungeonEntryInfoRsp_pb2', globals())

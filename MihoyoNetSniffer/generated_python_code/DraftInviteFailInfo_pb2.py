@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import DraftInviteFailReason_pb2 as DraftInviteFailReason__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x44raftInviteFailInfo.proto\x1a\x1b\x44raftInviteFailReason.proto\"J\n\x13\x44raftInviteFailInfo\x12\x0b\n\x03uid\x18\x08 \x01(\r\x12&\n\x06reason\x18\x05 \x01(\x0e\x32\x16.DraftInviteFailReasonb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x44raftInviteFailInfo.proto\x1a\x1b\x44raftInviteFailReason.proto\"J\n\x13\x44raftInviteFailInfo\x12&\n\x06reason\x18\x06 \x01(\x0e\x32\x16.DraftInviteFailReason\x12\x0b\n\x03uid\x18\n \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DraftInviteFailInfo_pb2', globals())

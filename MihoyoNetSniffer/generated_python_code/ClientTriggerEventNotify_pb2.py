@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import EventTriggerType_pb2 as EventTriggerType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x43lientTriggerEventNotify.proto\x1a\x16\x45ventTriggerType.proto\"S\n\x18\x43lientTriggerEventNotify\x12\x10\n\x08\x66orce_id\x18\x03 \x01(\r\x12%\n\nevent_type\x18\x02 \x01(\x0e\x32\x11.EventTriggerTypeb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x43lientTriggerEventNotify.proto\x1a\x16\x45ventTriggerType.proto\"S\n\x18\x43lientTriggerEventNotify\x12\x10\n\x08\x66orce_id\x18\n \x01(\r\x12%\n\nevent_type\x18\x0f \x01(\x0e\x32\x11.EventTriggerTypeb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ClientTriggerEventNotify_pb2', globals())

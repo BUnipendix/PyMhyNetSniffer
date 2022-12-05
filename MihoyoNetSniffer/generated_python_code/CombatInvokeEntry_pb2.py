@@ -15,7 +15,7 @@ import CombatTypeArgument_pb2 as CombatTypeArgument__pb2
 import ForwardType_pb2 as ForwardType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x43ombatInvokeEntry.proto\x1a\x18\x43ombatTypeArgument.proto\x1a\x11\x46orwardType.proto\"x\n\x11\x43ombatInvokeEntry\x12\x13\n\x0b\x63ombat_data\x18\x0c \x01(\x0c\x12\"\n\x0c\x66orward_type\x18\n \x01(\x0e\x32\x0c.ForwardType\x12*\n\rargument_type\x18\x0b \x01(\x0e\x32\x13.CombatTypeArgumentb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x43ombatInvokeEntry.proto\x1a\x18\x43ombatTypeArgument.proto\x1a\x11\x46orwardType.proto\"x\n\x11\x43ombatInvokeEntry\x12\"\n\x0c\x66orward_type\x18\x0b \x01(\x0e\x32\x0c.ForwardType\x12*\n\rargument_type\x18\t \x01(\x0e\x32\x13.CombatTypeArgument\x12\x13\n\x0b\x63ombat_data\x18\x07 \x01(\x0c\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CombatInvokeEntry_pb2', globals())

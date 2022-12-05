@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import TowerLevelStarCondData_pb2 as TowerLevelStarCondData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eTowerLevelStarCondNotify.proto\x1a\x1cTowerLevelStarCondData.proto\"r\n\x18TowerLevelStarCondNotify\x12\x13\n\x0blevel_index\x18\x0e \x01(\r\x12\x10\n\x08\x66loor_id\x18\x0b \x01(\r\x12/\n\x0e\x63ond_data_list\x18\t \x03(\x0b\x32\x17.TowerLevelStarCondDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eTowerLevelStarCondNotify.proto\x1a\x1cTowerLevelStarCondData.proto\"r\n\x18TowerLevelStarCondNotify\x12/\n\x0e\x63ond_data_list\x18\x01 \x03(\x0b\x32\x17.TowerLevelStarCondData\x12\x13\n\x0blevel_index\x18\x08 \x01(\r\x12\x10\n\x08\x66loor_id\x18\n \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TowerLevelStarCondNotify_pb2', globals())

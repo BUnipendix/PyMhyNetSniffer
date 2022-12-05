@@ -11,16 +11,16 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import Unk2700_IOLMLCCBAKP_pb2 as Unk2700__IOLMLCCBAKP__pb2
+import CrystalLinkLevelInfo_pb2 as CrystalLinkLevelInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#CrystalLinkActivityDetailInfo.proto\x1a\x19Unk2700_IOLMLCCBAKP.proto\"i\n\x1d\x43rystalLinkActivityDetailInfo\x12\x31\n\x13Unk2700_FIKHCFMEOAJ\x18\x03 \x03(\x0b\x32\x14.Unk2700_IOLMLCCBAKP\x12\x15\n\rdifficulty_id\x18\x07 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#CrystalLinkActivityDetailInfo.proto\x1a\x1a\x43rystalLinkLevelInfo.proto\"f\n\x1d\x43rystalLinkActivityDetailInfo\x12.\n\x0flevel_info_list\x18\x05 \x03(\x0b\x32\x15.CrystalLinkLevelInfo\x12\x15\n\rdifficulty_id\x18\x0c \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CrystalLinkActivityDetailInfo_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _CRYSTALLINKACTIVITYDETAILINFO._serialized_start=66
-  _CRYSTALLINKACTIVITYDETAILINFO._serialized_end=171
+  _CRYSTALLINKACTIVITYDETAILINFO._serialized_start=67
+  _CRYSTALLINKACTIVITYDETAILINFO._serialized_end=169
 # @@protoc_insertion_point(module_scope)

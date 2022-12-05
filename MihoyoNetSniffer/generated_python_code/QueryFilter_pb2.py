@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11QueryFilter.proto\"1\n\x0bQueryFilter\x12\x0f\n\x07type_id\x18\t \x01(\x05\x12\x11\n\tarea_mask\x18\r \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11QueryFilter.proto\"1\n\x0bQueryFilter\x12\x11\n\tarea_mask\x18\x04 \x01(\x05\x12\x0f\n\x07type_id\x18\x03 \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'QueryFilter_pb2', globals())

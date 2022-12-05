@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18QuestDestroyNpcReq.proto\"=\n\x12QuestDestroyNpcReq\x12\x0e\n\x06npc_id\x18\x01 \x01(\r\x12\x17\n\x0fparent_quest_id\x18\x0c \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18QuestDestroyNpcReq.proto\"=\n\x12QuestDestroyNpcReq\x12\x0e\n\x06npc_id\x18\x0f \x01(\r\x12\x17\n\x0fparent_quest_id\x18\x02 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'QuestDestroyNpcReq_pb2', globals())

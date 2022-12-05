@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0fMatchType.proto*\x83\x01\n\tMatchType\x12\x13\n\x0fMATCH_TYPE_NONE\x10\x00\x12\x16\n\x12MATCH_TYPE_DUNGEON\x10\x01\x12\x16\n\x12MATCH_TYPE_MP_PLAY\x10\x02\x12\x19\n\x15MATCH_TYPE_MECHANICUS\x10\x03\x12\x16\n\x12MATCH_TYPE_GENERAL\x10\x04\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0fMatchType.proto*\x97\x01\n\tMatchType\x12\x13\n\x0fMATCH_TYPE_NONE\x10\x00\x12\x16\n\x12MATCH_TYPE_DUNGEON\x10\x01\x12\x16\n\x12MATCH_TYPE_MP_PLAY\x10\x02\x12\x19\n\x15MATCH_TYPE_MECHANICUS\x10\x03\x12\x16\n\x12MATCH_TYPE_GENERAL\x10\x04\x12\x12\n\x0eMATCH_TYPE_GCG\x10\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MatchType_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _MATCHTYPE._serialized_start=20
-  _MATCHTYPE._serialized_end=151
+  _MATCHTYPE._serialized_end=171
 # @@protoc_insertion_point(module_scope)

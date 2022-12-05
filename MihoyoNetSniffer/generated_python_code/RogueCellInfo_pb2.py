@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import RogueCellState_pb2 as RogueCellState__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13RogueCellInfo.proto\x1a\x14RogueCellState.proto\"\x7f\n\rRogueCellInfo\x12\x16\n\x0e\x63\x65ll_config_id\x18\x0e \x01(\r\x12\x12\n\ndungeon_id\x18\x04 \x01(\r\x12\x0f\n\x07\x63\x65ll_id\x18\t \x01(\r\x12\x11\n\tcell_type\x18\r \x01(\r\x12\x1e\n\x05state\x18\n \x01(\x0e\x32\x0f.RogueCellStateb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13RogueCellInfo.proto\x1a\x14RogueCellState.proto\"\x7f\n\rRogueCellInfo\x12\x12\n\ndungeon_id\x18\x01 \x01(\r\x12\x16\n\x0e\x63\x65ll_config_id\x18\x0e \x01(\r\x12\x0f\n\x07\x63\x65ll_id\x18\x02 \x01(\r\x12\x1e\n\x05state\x18\t \x01(\x0e\x32\x0f.RogueCellState\x12\x11\n\tcell_type\x18\r \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RogueCellInfo_pb2', globals())

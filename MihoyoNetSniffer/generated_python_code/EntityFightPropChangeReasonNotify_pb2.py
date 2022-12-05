@@ -16,7 +16,7 @@ import ChangeHpReason_pb2 as ChangeHpReason__pb2
 import PropChangeReason_pb2 as PropChangeReason__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'EntityFightPropChangeReasonNotify.proto\x1a\x18\x43hangeEnergyReason.proto\x1a\x14\x43hangeHpReason.proto\x1a\x16PropChangeReason.proto\"\xf1\x01\n!EntityFightPropChangeReasonNotify\x12\x12\n\nparam_list\x18\n \x03(\r\x12\x12\n\nprop_delta\x18\x01 \x01(\x02\x12)\n\x10\x63hange_hp_reason\x18\x0e \x01(\x0e\x32\x0f.ChangeHpReason\x12!\n\x06reason\x18\x06 \x01(\x0e\x32\x11.PropChangeReason\x12\x11\n\tentity_id\x18\x05 \x01(\r\x12\x30\n\x13\x63hange_energy_reson\x18\x0f \x01(\x0e\x32\x13.ChangeEnergyReason\x12\x11\n\tprop_type\x18\r \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'EntityFightPropChangeReasonNotify.proto\x1a\x18\x43hangeEnergyReason.proto\x1a\x14\x43hangeHpReason.proto\x1a\x16PropChangeReason.proto\"\xf2\x01\n!EntityFightPropChangeReasonNotify\x12\x11\n\tprop_type\x18\x05 \x01(\r\x12\x12\n\nparam_list\x18\x07 \x03(\r\x12\x11\n\tentity_id\x18\x08 \x01(\r\x12!\n\x06reason\x18\x02 \x01(\x0e\x32\x11.PropChangeReason\x12)\n\x10\x63hange_hp_reason\x18\t \x01(\x0e\x32\x0f.ChangeHpReason\x12\x31\n\x14\x63hange_energy_reason\x18\x0c \x01(\x0e\x32\x13.ChangeEnergyReason\x12\x12\n\nprop_delta\x18\n \x01(\x02\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EntityFightPropChangeReasonNotify_pb2', globals())
@@ -24,5 +24,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _ENTITYFIGHTPROPCHANGEREASONNOTIFY._serialized_start=116
-  _ENTITYFIGHTPROPCHANGEREASONNOTIFY._serialized_end=357
+  _ENTITYFIGHTPROPCHANGEREASONNOTIFY._serialized_end=358
 # @@protoc_insertion_point(module_scope)

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ReunionSignInInfo_pb2 as ReunionSignInInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n TakeReunionSignInRewardRsp.proto\x1a\x17ReunionSignInInfo.proto\"W\n\x1aTakeReunionSignInRewardRsp\x12(\n\x0csign_in_info\x18\n \x01(\x0b\x32\x12.ReunionSignInInfo\x12\x0f\n\x07retcode\x18\x05 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n TakeReunionSignInRewardRsp.proto\x1a\x17ReunionSignInInfo.proto\"W\n\x1aTakeReunionSignInRewardRsp\x12(\n\x0csign_in_info\x18\r \x01(\x0b\x32\x12.ReunionSignInInfo\x12\x0f\n\x07retcode\x18\x07 \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TakeReunionSignInRewardRsp_pb2', globals())

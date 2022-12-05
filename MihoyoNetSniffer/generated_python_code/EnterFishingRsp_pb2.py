@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x45nterFishingRsp.proto\"8\n\x0f\x45nterFishingRsp\x12\x0f\n\x07retcode\x18\x07 \x01(\x05\x12\x14\n\x0c\x66ish_pool_id\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x45nterFishingRsp.proto\"8\n\x0f\x45nterFishingRsp\x12\x0f\n\x07retcode\x18\n \x01(\x05\x12\x14\n\x0c\x66ish_pool_id\x18\t \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EnterFishingRsp_pb2', globals())

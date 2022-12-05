@@ -15,7 +15,7 @@ import ExhibitionDisplayInfo_pb2 as ExhibitionDisplayInfo__pb2
 import OnlinePlayerInfo_pb2 as OnlinePlayerInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!DungeonSettleExhibitionInfo.proto\x1a\x1b\x45xhibitionDisplayInfo.proto\x1a\x16OnlinePlayerInfo.proto\"p\n\x1b\x44ungeonSettleExhibitionInfo\x12&\n\x0bplayer_info\x18\x03 \x01(\x0b\x32\x11.OnlinePlayerInfo\x12)\n\tcard_list\x18\r \x03(\x0b\x32\x16.ExhibitionDisplayInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!DungeonSettleExhibitionInfo.proto\x1a\x1b\x45xhibitionDisplayInfo.proto\x1a\x16OnlinePlayerInfo.proto\"p\n\x1b\x44ungeonSettleExhibitionInfo\x12&\n\x0bplayer_info\x18\x0e \x01(\x0b\x32\x11.OnlinePlayerInfo\x12)\n\tcard_list\x18\r \x03(\x0b\x32\x16.ExhibitionDisplayInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DungeonSettleExhibitionInfo_pb2', globals())

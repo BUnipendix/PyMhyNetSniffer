@@ -15,7 +15,7 @@ import WidgetSlotOp_pb2 as WidgetSlotOp__pb2
 import WidgetSlotTag_pb2 as WidgetSlotTag__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16SetWidgetSlotRsp.proto\x1a\x12WidgetSlotOp.proto\x1a\x13WidgetSlotTag.proto\"u\n\x10SetWidgetSlotRsp\x12 \n\x08tag_list\x18\x0f \x03(\x0e\x32\x0e.WidgetSlotTag\x12\x0f\n\x07retcode\x18\x06 \x01(\x05\x12\x13\n\x0bmaterial_id\x18\x01 \x01(\r\x12\x19\n\x02op\x18\x04 \x01(\x0e\x32\r.WidgetSlotOpb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16SetWidgetSlotRsp.proto\x1a\x12WidgetSlotOp.proto\x1a\x13WidgetSlotTag.proto\"u\n\x10SetWidgetSlotRsp\x12\x13\n\x0bmaterial_id\x18\x04 \x01(\r\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x12 \n\x08tag_list\x18\x0f \x03(\x0e\x32\x0e.WidgetSlotTag\x12\x19\n\x02op\x18\x05 \x01(\x0e\x32\r.WidgetSlotOpb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SetWidgetSlotRsp_pb2', globals())

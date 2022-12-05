@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#UpdatePlayerShowAvatarListReq.proto\"T\n\x1dUpdatePlayerShowAvatarListReq\x12\x16\n\x0eis_show_avatar\x18\x0f \x01(\x08\x12\x1b\n\x13show_avatar_id_list\x18\r \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#UpdatePlayerShowAvatarListReq.proto\"T\n\x1dUpdatePlayerShowAvatarListReq\x12\x1b\n\x13show_avatar_id_list\x18\n \x03(\r\x12\x16\n\x0eis_show_avatar\x18\x06 \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'UpdatePlayerShowAvatarListReq_pb2', globals())

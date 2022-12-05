@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&MechanicusCandidateTeamCreateReq.proto\";\n MechanicusCandidateTeamCreateReq\x12\x17\n\x0f\x64ifficult_level\x18\x06 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&MechanicusCandidateTeamCreateReq.proto\";\n MechanicusCandidateTeamCreateReq\x12\x17\n\x0f\x64ifficult_level\x18\x02 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MechanicusCandidateTeamCreateReq_pb2', globals())

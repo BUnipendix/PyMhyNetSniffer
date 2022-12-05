@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x43utSceneFinishNotify.proto\"+\n\x14\x43utSceneFinishNotify\x12\x13\n\x0b\x63utscene_id\x18\x0c \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x43utSceneFinishNotify.proto\"+\n\x14\x43utSceneFinishNotify\x12\x13\n\x0b\x63utscene_id\x18\x05 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CutSceneFinishNotify_pb2', globals())

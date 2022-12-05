@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x43hangeMpTeamAvatarRsp.proto\"[\n\x15\x43hangeMpTeamAvatarRsp\x12\x0f\n\x07retcode\x18\x04 \x01(\x05\x12\x18\n\x10\x61vatar_guid_list\x18\x03 \x03(\x04\x12\x17\n\x0f\x63ur_avatar_guid\x18\r \x01(\x04\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x43hangeMpTeamAvatarRsp.proto\"[\n\x15\x43hangeMpTeamAvatarRsp\x12\x17\n\x0f\x63ur_avatar_guid\x18\x0c \x01(\x04\x12\x0f\n\x07retcode\x18\n \x01(\x05\x12\x18\n\x10\x61vatar_guid_list\x18\x02 \x03(\x04\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChangeMpTeamAvatarRsp_pb2', globals())

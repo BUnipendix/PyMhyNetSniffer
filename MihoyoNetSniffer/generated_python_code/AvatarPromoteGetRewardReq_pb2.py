@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x41vatarPromoteGetRewardReq.proto\"G\n\x19\x41vatarPromoteGetRewardReq\x12\x13\n\x0b\x61vatar_guid\x18\x07 \x01(\x04\x12\x15\n\rpromote_level\x18\x0c \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x41vatarPromoteGetRewardReq.proto\"G\n\x19\x41vatarPromoteGetRewardReq\x12\x13\n\x0b\x61vatar_guid\x18\x04 \x01(\x04\x12\x15\n\rpromote_level\x18\x05 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarPromoteGetRewardReq_pb2', globals())

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15TowerAllDataReq.proto\"&\n\x0fTowerAllDataReq\x12\x13\n\x0bis_interact\x18\x02 \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15TowerAllDataReq.proto\"&\n\x0fTowerAllDataReq\x12\x13\n\x0bis_interact\x18\x0f \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TowerAllDataReq_pb2', globals())

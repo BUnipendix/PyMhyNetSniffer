@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17TowerSurrenderRsp.proto\"$\n\x11TowerSurrenderRsp\x12\x0f\n\x07retcode\x18\t \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17TowerSurrenderRsp.proto\"$\n\x11TowerSurrenderRsp\x12\x0f\n\x07retcode\x18\x0e \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TowerSurrenderRsp_pb2', globals())

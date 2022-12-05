@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ObstacleInfo_pb2 as ObstacleInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aObstacleModifyNotify.proto\x1a\x12ObstacleInfo.proto\"k\n\x14ObstacleModifyNotify\x12\x1b\n\x13remove_obstacle_ids\x18\t \x03(\x05\x12$\n\radd_obstacles\x18\x06 \x03(\x0b\x32\r.ObstacleInfo\x12\x10\n\x08scene_id\x18\x05 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aObstacleModifyNotify.proto\x1a\x12ObstacleInfo.proto\"k\n\x14ObstacleModifyNotify\x12\x1b\n\x13remove_obstacle_ids\x18\x07 \x03(\x05\x12$\n\radd_obstacles\x18\x0f \x03(\x0b\x32\r.ObstacleInfo\x12\x10\n\x08scene_id\x18\x0c \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ObstacleModifyNotify_pb2', globals())

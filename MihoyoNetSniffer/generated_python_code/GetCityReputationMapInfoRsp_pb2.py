@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!GetCityReputationMapInfoRsp.proto\"\x9a\x01\n\x1bGetCityReputationMapInfoRsp\x12\x0f\n\x07retcode\x18\x0b \x01(\x05\x12\x16\n\x0eis_new_hunting\x18\n \x01(\x08\x12\x16\n\x0eis_new_request\x18\x02 \x01(\x08\x12 \n\x18unlock_hunting_city_list\x18\t \x03(\r\x12\x18\n\x10reward_city_list\x18\x03 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!GetCityReputationMapInfoRsp.proto\"\xa2\x01\n\x1bGetCityReputationMapInfoRsp\x12\x0f\n\x07retcode\x18\r \x01(\x05\x12\x1b\n\x13Unk3300_DAIGHHPJHOO\x18\x04 \x03(\r\x12\x1b\n\x13Unk3300_GJFNOPNMFNG\x18\x0c \x01(\x08\x12\x1b\n\x13Unk3300_NCMHMODIIKM\x18\x05 \x01(\x08\x12\x1b\n\x13Unk3300_PAPBOHKOMFK\x18\x0f \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetCityReputationMapInfoRsp_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _GETCITYREPUTATIONMAPINFORSP._serialized_start=38
-  _GETCITYREPUTATIONMAPINFORSP._serialized_end=192
+  _GETCITYREPUTATIONMAPINFORSP._serialized_end=200
 # @@protoc_insertion_point(module_scope)

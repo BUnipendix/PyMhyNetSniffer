@@ -15,7 +15,7 @@ import EvtRushMoveInfo_pb2 as EvtRushMoveInfo__pb2
 import ForwardType_pb2 as ForwardType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x45vtRushMoveNotify.proto\x1a\x15\x45vtRushMoveInfo.proto\x1a\x11\x46orwardType.proto\"e\n\x11\x45vtRushMoveNotify\x12\"\n\x0c\x66orward_type\x18\x01 \x01(\x0e\x32\x0c.ForwardType\x12,\n\x12\x65vt_rush_move_info\x18\x0f \x01(\x0b\x32\x10.EvtRushMoveInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x45vtRushMoveNotify.proto\x1a\x15\x45vtRushMoveInfo.proto\x1a\x11\x46orwardType.proto\"e\n\x11\x45vtRushMoveNotify\x12,\n\x12\x65vt_rush_move_info\x18\x01 \x01(\x0b\x32\x10.EvtRushMoveInfo\x12\"\n\x0c\x66orward_type\x18\n \x01(\x0e\x32\x0c.ForwardTypeb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EvtRushMoveNotify_pb2', globals())

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import SceneEntityInfo_pb2 as SceneEntityInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x41vatarChangeCostumeNotify.proto\x1a\x15SceneEntityInfo.proto\"B\n\x19\x41vatarChangeCostumeNotify\x12%\n\x0b\x65ntity_info\x18\x07 \x01(\x0b\x32\x10.SceneEntityInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x41vatarChangeCostumeNotify.proto\x1a\x15SceneEntityInfo.proto\"B\n\x19\x41vatarChangeCostumeNotify\x12%\n\x0b\x65ntity_info\x18\x0b \x01(\x0b\x32\x10.SceneEntityInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarChangeCostumeNotify_pb2', globals())

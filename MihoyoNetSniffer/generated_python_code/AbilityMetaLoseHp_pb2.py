@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x41\x62ilityMetaLoseHp.proto\"/\n\x11\x41\x62ilityMetaLoseHp\x12\x1a\n\x12lose_hp_config_idx\x18\n \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x41\x62ilityMetaLoseHp.proto\"/\n\x11\x41\x62ilityMetaLoseHp\x12\x1a\n\x12lose_hp_config_idx\x18\x0f \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AbilityMetaLoseHp_pb2', globals())

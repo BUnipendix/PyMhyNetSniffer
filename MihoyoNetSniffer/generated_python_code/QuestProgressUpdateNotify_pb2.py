@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fQuestProgressUpdateNotify.proto\"g\n\x19QuestProgressUpdateNotify\x12\x10\n\x08quest_id\x18\x0c \x01(\r\x12\x1a\n\x12\x66\x61il_progress_list\x18\x06 \x03(\r\x12\x1c\n\x14\x66inish_progress_list\x18\r \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fQuestProgressUpdateNotify.proto\"g\n\x19QuestProgressUpdateNotify\x12\x10\n\x08quest_id\x18\t \x01(\r\x12\x1c\n\x14\x66inish_progress_list\x18\x0c \x03(\r\x12\x1a\n\x12\x66\x61il_progress_list\x18\x0f \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'QuestProgressUpdateNotify_pb2', globals())

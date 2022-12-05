@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n(UnlockedFurnitureFormulaDataNotify.proto\"O\n\"UnlockedFurnitureFormulaDataNotify\x12\x19\n\x11\x66urniture_id_list\x18\x0f \x03(\r\x12\x0e\n\x06is_all\x18\x0b \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n(UnlockedFurnitureFormulaDataNotify.proto\"O\n\"UnlockedFurnitureFormulaDataNotify\x12\x0e\n\x06is_all\x18\x04 \x01(\x08\x12\x19\n\x11\x66urniture_id_list\x18\x02 \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'UnlockedFurnitureFormulaDataNotify_pb2', globals())

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ParentQuest_pb2 as ParentQuest__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x46inishedParentQuestNotify.proto\x1a\x11ParentQuest.proto\"D\n\x19\x46inishedParentQuestNotify\x12\'\n\x11parent_quest_list\x18\x02 \x03(\x0b\x32\x0c.ParentQuestb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x46inishedParentQuestNotify.proto\x1a\x11ParentQuest.proto\"D\n\x19\x46inishedParentQuestNotify\x12\'\n\x11parent_quest_list\x18\r \x03(\x0b\x32\x0c.ParentQuestb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FinishedParentQuestNotify_pb2', globals())

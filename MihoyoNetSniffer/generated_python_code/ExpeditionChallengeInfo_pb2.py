@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x45xpeditionChallengeInfo.proto\"M\n\x17\x45xpeditionChallengeInfo\x12\x13\n\x0bis_finished\x18\x05 \x01(\x08\x12\n\n\x02id\x18\x0b \x01(\r\x12\x11\n\topen_time\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x45xpeditionChallengeInfo.proto\"M\n\x17\x45xpeditionChallengeInfo\x12\n\n\x02id\x18\x05 \x01(\r\x12\x13\n\x0bis_finished\x18\x02 \x01(\x08\x12\x11\n\topen_time\x18\x0c \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ExpeditionChallengeInfo_pb2', globals())

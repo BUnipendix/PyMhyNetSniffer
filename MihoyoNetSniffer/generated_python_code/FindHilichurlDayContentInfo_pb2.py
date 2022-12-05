@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!FindHilichurlDayContentInfo.proto\"1\n\x1b\x46indHilichurlDayContentInfo\x12\x12\n\nstart_time\x18\x01 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!FindHilichurlDayContentInfo.proto\"1\n\x1b\x46indHilichurlDayContentInfo\x12\x12\n\nstart_time\x18\r \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FindHilichurlDayContentInfo_pb2', globals())

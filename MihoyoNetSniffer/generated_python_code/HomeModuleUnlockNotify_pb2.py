@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cHomeModuleUnlockNotify.proto\"+\n\x16HomeModuleUnlockNotify\x12\x11\n\tmodule_id\x18\x08 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cHomeModuleUnlockNotify.proto\"+\n\x16HomeModuleUnlockNotify\x12\x11\n\tmodule_id\x18\x04 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeModuleUnlockNotify_pb2', globals())

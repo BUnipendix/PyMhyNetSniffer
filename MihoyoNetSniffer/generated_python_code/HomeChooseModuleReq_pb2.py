@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19HomeChooseModuleReq.proto\"(\n\x13HomeChooseModuleReq\x12\x11\n\tmodule_id\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19HomeChooseModuleReq.proto\"(\n\x13HomeChooseModuleReq\x12\x11\n\tmodule_id\x18\x0e \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeChooseModuleReq_pb2', globals())

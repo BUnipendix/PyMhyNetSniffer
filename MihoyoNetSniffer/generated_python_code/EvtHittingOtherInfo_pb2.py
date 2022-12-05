@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import AttackResult_pb2 as AttackResult__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x45vtHittingOtherInfo.proto\x1a\x12\x41ttackResult.proto\"L\n\x13\x45vtHittingOtherInfo\x12$\n\rattack_result\x18\x02 \x01(\x0b\x32\r.AttackResult\x12\x0f\n\x07peer_id\x18\x08 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x45vtHittingOtherInfo.proto\x1a\x12\x41ttackResult.proto\"L\n\x13\x45vtHittingOtherInfo\x12\x0f\n\x07peer_id\x18\x02 \x01(\r\x12$\n\rattack_result\x18\x07 \x01(\x0b\x32\r.AttackResultb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EvtHittingOtherInfo_pb2', globals())

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ExhibitionDisplayInfo_pb2 as ExhibitionDisplayInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dInBattleChessSettleInfo.proto\x1a\x1b\x45xhibitionDisplayInfo.proto\"\xc8\x01\n\x17InBattleChessSettleInfo\x12\x12\n\nis_success\x18\x07 \x01(\x08\x12\x11\n\tchess_exp\x18\x0b \x01(\r\x12\x13\n\x0b\x63hess_level\x18\r \x01(\r\x12\x17\n\x0fold_chess_level\x18\n \x01(\r\x12*\n\nscore_list\x18\x01 \x03(\x0b\x32\x16.ExhibitionDisplayInfo\x12\x15\n\rscene_time_ms\x18\x0e \x01(\x04\x12\x15\n\rold_chess_exp\x18\x02 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dInBattleChessSettleInfo.proto\x1a\x1b\x45xhibitionDisplayInfo.proto\"\xe4\x01\n\x17InBattleChessSettleInfo\x12\x1b\n\x13Unk3300_LPANFEBFJOJ\x18\x05 \x01(\r\x12\x15\n\rscene_time_ms\x18\x08 \x01(\x04\x12\x1b\n\x13Unk3300_NKHDFHAPNCN\x18\r \x01(\r\x12\x12\n\nis_success\x18\x06 \x01(\x08\x12\x1b\n\x13Unk3300_EMNLLDJHMEI\x18\x01 \x01(\r\x12*\n\nscore_list\x18\x04 \x03(\x0b\x32\x16.ExhibitionDisplayInfo\x12\x1b\n\x13Unk3300_IPGILJCBABK\x18\x02 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'InBattleChessSettleInfo_pb2', globals())
@@ -22,5 +22,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _INBATTLECHESSSETTLEINFO._serialized_start=63
-  _INBATTLECHESSSETTLEINFO._serialized_end=263
+  _INBATTLECHESSSETTLEINFO._serialized_end=291
 # @@protoc_insertion_point(module_scope)

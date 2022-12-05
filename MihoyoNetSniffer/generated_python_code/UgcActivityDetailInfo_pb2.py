@@ -11,16 +11,16 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import Unk2700_MMJJMKMHANL_pb2 as Unk2700__MMJJMKMHANL__pb2
+import OfficialCustomDungeon_pb2 as OfficialCustomDungeon__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bUgcActivityDetailInfo.proto\x1a\x19Unk2700_MMJJMKMHANL.proto\"\xa1\x01\n\x15UgcActivityDetailInfo\x12\x1b\n\x13Unk2700_GMICFADLAMC\x18\n \x01(\x08\x12\x1b\n\x13Unk2700_FDDCMGKDOCC\x18\x0c \x01(\r\x12\x31\n\x13Unk2700_ILCAPJBAFOI\x18\x05 \x03(\x0b\x32\x14.Unk2700_MMJJMKMHANL\x12\x1b\n\x13Unk2700_PNOCELCOFNK\x18\x0b \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bUgcActivityDetailInfo.proto\x1a\x1bOfficialCustomDungeon.proto\"\xac\x01\n\x15UgcActivityDetailInfo\x12\x15\n\ris_enable_ugc\x18\x0e \x01(\x08\x12<\n\x1cofficial_custom_dungeon_list\x18\n \x03(\x0b\x32\x16.OfficialCustomDungeon\x12\x1f\n\x17\x63ustom_dungeon_group_id\x18\x04 \x01(\r\x12\x1d\n\x15is_ugc_feature_closed\x18\t \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'UgcActivityDetailInfo_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _UGCACTIVITYDETAILINFO._serialized_start=59
-  _UGCACTIVITYDETAILINFO._serialized_end=220
+  _UGCACTIVITYDETAILINFO._serialized_start=61
+  _UGCACTIVITYDETAILINFO._serialized_end=233
 # @@protoc_insertion_point(module_scope)

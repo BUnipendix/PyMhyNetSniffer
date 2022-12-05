@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x41\x62ilityIdentifier.proto\"\xb8\x01\n\x11\x41\x62ilityIdentifier\x12\x19\n\x11modifier_owner_id\x18\x02 \x01(\r\x12\x1d\n\x15instanced_modifier_id\x18\t \x01(\r\x12\x1c\n\x14instanced_ability_id\x18\n \x01(\r\x12\x1e\n\x16is_serverbuff_modifier\x18\x06 \x01(\x08\x12\x19\n\x11\x61\x62ility_caster_id\x18\x0f \x01(\r\x12\x10\n\x08local_id\x18\x03 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x41\x62ilityIdentifier.proto\"\xbc\x01\n\x11\x41\x62ilityIdentifier\x12\x1c\n\x14instanced_ability_id\x18\x04 \x01(\r\x12\x1b\n\x13Unk3300_IHCKJKLCICI\x18\n \x01(\r\x12\x1e\n\x16is_serverbuff_modifier\x18\x0e \x01(\x08\x12\x10\n\x08local_id\x18\x07 \x01(\x05\x12\x1b\n\x13Unk3300_OOOLELPBDHJ\x18\x01 \x01(\r\x12\x1d\n\x15instanced_modifier_id\x18\x05 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AbilityIdentifier_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _ABILITYIDENTIFIER._serialized_start=28
-  _ABILITYIDENTIFIER._serialized_end=212
+  _ABILITYIDENTIFIER._serialized_end=216
 # @@protoc_insertion_point(module_scope)

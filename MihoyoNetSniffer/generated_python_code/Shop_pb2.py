@@ -17,7 +17,7 @@ import ShopGoods_pb2 as ShopGoods__pb2
 import ShopMcoinProduct_pb2 as ShopMcoinProduct__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\nShop.proto\x1a\x15ShopCardProduct.proto\x1a\x18ShopConcertProduct.proto\x1a\x0fShopGoods.proto\x1a\x16ShopMcoinProduct.proto\"\x93\x02\n\x04Shop\x12\x31\n\x14\x63oncert_product_list\x18\x03 \x03(\x0b\x32\x13.ShopConcertProduct\x12\x1e\n\ngoods_list\x18\x0f \x03(\x0b\x32\n.ShopGoods\x12\x1d\n\x15\x63ity_reputation_level\x18\x02 \x01(\r\x12+\n\x11\x63\x61rd_product_list\x18\x0e \x03(\x0b\x32\x10.ShopCardProduct\x12-\n\x12mcoin_product_list\x18\x07 \x03(\x0b\x32\x11.ShopMcoinProduct\x12\x19\n\x11next_refresh_time\x18\x0b \x01(\r\x12\x0f\n\x07\x63ity_id\x18\n \x01(\r\x12\x11\n\tshop_type\x18\r \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\nShop.proto\x1a\x15ShopCardProduct.proto\x1a\x18ShopConcertProduct.proto\x1a\x0fShopGoods.proto\x1a\x16ShopMcoinProduct.proto\"\x93\x02\n\x04Shop\x12\x11\n\tshop_type\x18\x01 \x01(\r\x12\x19\n\x11next_refresh_time\x18\x05 \x01(\r\x12\x0f\n\x07\x63ity_id\x18\x0c \x01(\r\x12\x1d\n\x15\x63ity_reputation_level\x18\x08 \x01(\r\x12\x1e\n\ngoods_list\x18\x03 \x03(\x0b\x32\n.ShopGoods\x12+\n\x11\x63\x61rd_product_list\x18\x0b \x03(\x0b\x32\x10.ShopCardProduct\x12\x31\n\x14\x63oncert_product_list\x18\t \x03(\x0b\x32\x13.ShopConcertProduct\x12-\n\x12mcoin_product_list\x18\x07 \x03(\x0b\x32\x11.ShopMcoinProductb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'Shop_pb2', globals())

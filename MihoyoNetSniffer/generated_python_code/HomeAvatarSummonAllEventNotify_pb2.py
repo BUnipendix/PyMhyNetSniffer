@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import HomeAvatarSummonEventInfo_pb2 as HomeAvatarSummonEventInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$HomeAvatarSummonAllEventNotify.proto\x1a\x1fHomeAvatarSummonEventInfo.proto\"W\n\x1eHomeAvatarSummonAllEventNotify\x12\x35\n\x11summon_event_list\x18\x01 \x03(\x0b\x32\x1a.HomeAvatarSummonEventInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$HomeAvatarSummonAllEventNotify.proto\x1a\x1fHomeAvatarSummonEventInfo.proto\"W\n\x1eHomeAvatarSummonAllEventNotify\x12\x35\n\x11summon_event_list\x18\x0e \x03(\x0b\x32\x1a.HomeAvatarSummonEventInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeAvatarSummonAllEventNotify_pb2', globals())

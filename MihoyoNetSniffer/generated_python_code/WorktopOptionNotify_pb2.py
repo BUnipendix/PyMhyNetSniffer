@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19WorktopOptionNotify.proto\"D\n\x13WorktopOptionNotify\x12\x18\n\x10gadget_entity_id\x18\x0b \x01(\r\x12\x13\n\x0boption_list\x18\x08 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19WorktopOptionNotify.proto\"D\n\x13WorktopOptionNotify\x12\x13\n\x0boption_list\x18\n \x03(\r\x12\x18\n\x10gadget_entity_id\x18\x08 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WorktopOptionNotify_pb2', globals())

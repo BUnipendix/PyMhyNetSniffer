@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x43\x61nUseSkillNotify.proto\"-\n\x11\x43\x61nUseSkillNotify\x12\x18\n\x10is_can_use_skill\x18\x02 \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x43\x61nUseSkillNotify.proto\"-\n\x11\x43\x61nUseSkillNotify\x12\x18\n\x10is_can_use_skill\x18\x0c \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CanUseSkillNotify_pb2', globals())

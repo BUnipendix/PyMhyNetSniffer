@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16HomeSceneJumpReq.proto\"/\n\x10HomeSceneJumpReq\x12\x1b\n\x13is_enter_room_scene\x18\t \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16HomeSceneJumpReq.proto\"/\n\x10HomeSceneJumpReq\x12\x1b\n\x13is_enter_room_scene\x18\x02 \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeSceneJumpReq_pb2', globals())

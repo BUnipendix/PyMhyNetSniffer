@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cGetAreaExplorePointRsp.proto\"[\n\x16GetAreaExplorePointRsp\x12\x0f\n\x07retcode\x18\x08 \x01(\x05\x12\x14\n\x0c\x61rea_id_list\x18\x0b \x03(\r\x12\x1a\n\x12\x65xplore_point_list\x18\x04 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cGetAreaExplorePointRsp.proto\"[\n\x16GetAreaExplorePointRsp\x12\x1a\n\x12\x65xplore_point_list\x18\x04 \x03(\r\x12\x0f\n\x07retcode\x18\x02 \x01(\x05\x12\x14\n\x0c\x61rea_id_list\x18\x0b \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetAreaExplorePointRsp_pb2', globals())

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n ExitSceneWeatherAreaNotify.proto\"7\n\x1a\x45xitSceneWeatherAreaNotify\x12\x19\n\x11weather_gadget_id\x18\x02 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n ExitSceneWeatherAreaNotify.proto\"7\n\x1a\x45xitSceneWeatherAreaNotify\x12\x19\n\x11weather_gadget_id\x18\r \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ExitSceneWeatherAreaNotify_pb2', globals())

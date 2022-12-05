@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14PrivateChatRsp.proto\"A\n\x0ePrivateChatRsp\x12\x1e\n\x16\x63hat_forbidden_endtime\x18\x0c \x01(\r\x12\x0f\n\x07retcode\x18\x0e \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14PrivateChatRsp.proto\"A\n\x0ePrivateChatRsp\x12\x0f\n\x07retcode\x18\x04 \x01(\x05\x12\x1e\n\x16\x63hat_forbidden_endtime\x18\x06 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PrivateChatRsp_pb2', globals())

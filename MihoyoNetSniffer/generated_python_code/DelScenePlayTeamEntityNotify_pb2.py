@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"DelScenePlayTeamEntityNotify.proto\"L\n\x1c\x44\x65lScenePlayTeamEntityNotify\x12\x1a\n\x12\x64\x65l_entity_id_list\x18\x02 \x03(\r\x12\x10\n\x08scene_id\x18\x04 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"DelScenePlayTeamEntityNotify.proto\"L\n\x1c\x44\x65lScenePlayTeamEntityNotify\x12\x1a\n\x12\x64\x65l_entity_id_list\x18\x05 \x03(\r\x12\x10\n\x08scene_id\x18\n \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DelScenePlayTeamEntityNotify_pb2', globals())

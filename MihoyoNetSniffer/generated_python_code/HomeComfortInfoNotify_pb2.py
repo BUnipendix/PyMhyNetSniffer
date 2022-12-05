@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import HomeModuleComfortInfo_pb2 as HomeModuleComfortInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bHomeComfortInfoNotify.proto\x1a\x1bHomeModuleComfortInfo.proto\"I\n\x15HomeComfortInfoNotify\x12\x30\n\x10module_info_list\x18\x06 \x03(\x0b\x32\x16.HomeModuleComfortInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bHomeComfortInfoNotify.proto\x1a\x1bHomeModuleComfortInfo.proto\"I\n\x15HomeComfortInfoNotify\x12\x30\n\x10module_info_list\x18\x03 \x03(\x0b\x32\x16.HomeModuleComfortInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeComfortInfoNotify_pb2', globals())

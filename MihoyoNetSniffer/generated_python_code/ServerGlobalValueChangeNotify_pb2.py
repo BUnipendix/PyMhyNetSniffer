@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#ServerGlobalValueChangeNotify.proto\"S\n\x1dServerGlobalValueChangeNotify\x12\x11\n\tentity_id\x18\x06 \x01(\r\x12\r\n\x05value\x18\x0c \x01(\x02\x12\x10\n\x08key_hash\x18\r \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#ServerGlobalValueChangeNotify.proto\"S\n\x1dServerGlobalValueChangeNotify\x12\x10\n\x08key_hash\x18\x03 \x01(\r\x12\r\n\x05value\x18\x0f \x01(\x02\x12\x11\n\tentity_id\x18\x07 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ServerGlobalValueChangeNotify_pb2', globals())

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import HuntingPair_pb2 as HuntingPair__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16HuntingGiveUpReq.proto\x1a\x11HuntingPair.proto\"6\n\x10HuntingGiveUpReq\x12\"\n\x0chunting_pair\x18\x01 \x01(\x0b\x32\x0c.HuntingPairb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16HuntingGiveUpReq.proto\x1a\x11HuntingPair.proto\"6\n\x10HuntingGiveUpReq\x12\"\n\x0chunting_pair\x18\x02 \x01(\x0b\x32\x0c.HuntingPairb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HuntingGiveUpReq_pb2', globals())

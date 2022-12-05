@@ -16,7 +16,7 @@ import RegionInfo_pb2 as RegionInfo__pb2
 import StopServerInfo_pb2 as StopServerInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cQueryCurrRegionHttpRsp.proto\x1a\x15\x46orceUpdateInfo.proto\x1a\x10RegionInfo.proto\x1a\x14StopServerInfo.proto\"\xa6\x02\n\x16QueryCurrRegionHttpRsp\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x12\x0b\n\x03msg\x18\x02 \x01(\t\x12 \n\x0bregion_info\x18\x03 \x01(\x0b\x32\x0b.RegionInfo\x12\x19\n\x11\x63lient_secret_key\x18\x0b \x01(\x0c\x12&\n\x1eregion_custom_config_encrypted\x18\x0c \x01(\x0c\x12-\n%client_region_custom_config_encrypted\x18\r \x01(\x0c\x12(\n\x0c\x66orce_udpate\x18\x04 \x01(\x0b\x32\x10.ForceUpdateInfoH\x00\x12&\n\x0bstop_server\x18\x05 \x01(\x0b\x32\x0f.StopServerInfoH\x00\x42\x08\n\x06\x64\x65tailb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cQueryCurrRegionHttpRsp.proto\x1a\x15\x46orceUpdateInfo.proto\x1a\x10RegionInfo.proto\x1a\x14StopServerInfo.proto\"\xa6\x02\n\x16QueryCurrRegionHttpRsp\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x12\x0b\n\x03msg\x18\x02 \x01(\t\x12 \n\x0bregion_info\x18\x03 \x01(\x0b\x32\x0b.RegionInfo\x12\x19\n\x11\x63lient_secret_key\x18\x0b \x01(\x0c\x12&\n\x1eregion_custom_config_encrypted\x18\x0c \x01(\x0c\x12-\n%client_region_custom_config_encrypted\x18\r \x01(\x0c\x12(\n\x0c\x66orce_update\x18\x04 \x01(\x0b\x32\x10.ForceUpdateInfoH\x00\x12&\n\x0bstop_server\x18\x05 \x01(\x0b\x32\x0f.StopServerInfoH\x00\x42\x08\n\x06\x64\x65tailb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'QueryCurrRegionHttpRsp_pb2', globals())

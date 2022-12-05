@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ServerBuff_pb2 as ServerBuff__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cServerBuffChangeNotify.proto\x1a\x10ServerBuff.proto\"\xcc\x02\n\x16ServerBuffChangeNotify\x12M\n\x17server_buff_change_type\x18\x07 \x01(\x0e\x32,.ServerBuffChangeNotify.ServerBuffChangeType\x12\x18\n\x10is_creature_buff\x18\n \x01(\x08\x12\x16\n\x0e\x65ntity_id_list\x18\x01 \x03(\r\x12\x18\n\x10\x61vatar_guid_list\x18\x0c \x03(\x04\x12%\n\x10server_buff_list\x18\x0b \x03(\x0b\x32\x0b.ServerBuff\"p\n\x14ServerBuffChangeType\x12+\n\'SERVER_BUFF_CHANGE_TYPE_ADD_SERVER_BUFF\x10\x00\x12+\n\'SERVER_BUFF_CHANGE_TYPE_DEL_SERVER_BUFF\x10\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cServerBuffChangeNotify.proto\x1a\x10ServerBuff.proto\"\xcc\x02\n\x16ServerBuffChangeNotify\x12%\n\x10server_buff_list\x18\x04 \x03(\x0b\x32\x0b.ServerBuff\x12\x18\n\x10is_creature_buff\x18\x08 \x01(\x08\x12\x16\n\x0e\x65ntity_id_list\x18\x06 \x03(\r\x12M\n\x17server_buff_change_type\x18\t \x01(\x0e\x32,.ServerBuffChangeNotify.ServerBuffChangeType\x12\x18\n\x10\x61vatar_guid_list\x18\x05 \x03(\x04\"p\n\x14ServerBuffChangeType\x12+\n\'SERVER_BUFF_CHANGE_TYPE_ADD_SERVER_BUFF\x10\x00\x12+\n\'SERVER_BUFF_CHANGE_TYPE_DEL_SERVER_BUFF\x10\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ServerBuffChangeNotify_pb2', globals())

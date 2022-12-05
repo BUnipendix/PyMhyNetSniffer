@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!AbilityMixinWidgetMpSupport.proto\"7\n\x1b\x41\x62ilityMixinWidgetMpSupport\x12\x18\n\x10target_entity_id\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!AbilityMixinWidgetMpSupport.proto\"7\n\x1b\x41\x62ilityMixinWidgetMpSupport\x12\x18\n\x10target_entity_id\x18\x02 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AbilityMixinWidgetMpSupport_pb2', globals())

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"ClientAbilityInitBeginNotify.proto\"1\n\x1c\x43lientAbilityInitBeginNotify\x12\x11\n\tentity_id\x18\x01 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"ClientAbilityInitBeginNotify.proto\"1\n\x1c\x43lientAbilityInitBeginNotify\x12\x11\n\tentity_id\x18\n \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ClientAbilityInitBeginNotify_pb2', globals())

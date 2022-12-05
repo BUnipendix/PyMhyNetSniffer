@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import TowerMonthlyDetail_pb2 as TowerMonthlyDetail__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cTowerRecordHandbookRsp.proto\x1a\x18TowerMonthlyDetail.proto\"[\n\x16TowerRecordHandbookRsp\x12\x0f\n\x07retcode\x18\x07 \x01(\x05\x12\x30\n\x13monthly_detail_list\x18\x0e \x03(\x0b\x32\x13.TowerMonthlyDetailb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cTowerRecordHandbookRsp.proto\x1a\x18TowerMonthlyDetail.proto\"[\n\x16TowerRecordHandbookRsp\x12\x0f\n\x07retcode\x18\x08 \x01(\x05\x12\x30\n\x13monthly_detail_list\x18\x04 \x03(\x0b\x32\x13.TowerMonthlyDetailb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TowerRecordHandbookRsp_pb2', globals())

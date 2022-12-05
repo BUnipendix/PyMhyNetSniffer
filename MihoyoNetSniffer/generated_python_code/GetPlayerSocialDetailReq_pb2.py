@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eGetPlayerSocialDetailReq.proto\"\'\n\x18GetPlayerSocialDetailReq\x12\x0b\n\x03uid\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eGetPlayerSocialDetailReq.proto\"\'\n\x18GetPlayerSocialDetailReq\x12\x0b\n\x03uid\x18\x01 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetPlayerSocialDetailReq_pb2', globals())

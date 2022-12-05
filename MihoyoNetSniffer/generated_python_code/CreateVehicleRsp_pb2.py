@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x43reateVehicleRsp.proto\"J\n\x10\x43reateVehicleRsp\x12\x0f\n\x07retcode\x18\n \x01(\x05\x12\x12\n\nvehicle_id\x18\t \x01(\r\x12\x11\n\tentity_id\x18\x0b \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x43reateVehicleRsp.proto\"J\n\x10\x43reateVehicleRsp\x12\x11\n\tentity_id\x18\x05 \x01(\r\x12\x12\n\nvehicle_id\x18\x08 \x01(\r\x12\x0f\n\x07retcode\x18\x02 \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CreateVehicleRsp_pb2', globals())

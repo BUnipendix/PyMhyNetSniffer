@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18PlayerOfferingData.proto\"\x8e\x01\n\x12PlayerOfferingData\x12\x13\n\x0boffering_id\x18\x01 \x01(\r\x12\x19\n\x11is_first_interact\x18\x0f \x01(\x08\x12\r\n\x05level\x18\x0c \x01(\r\x12\x1f\n\x17taken_level_reward_list\x18\x08 \x03(\r\x12\x18\n\x10is_new_max_level\x18\x06 \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18PlayerOfferingData.proto\"\x8e\x01\n\x12PlayerOfferingData\x12\r\n\x05level\x18\x08 \x01(\r\x12\x13\n\x0boffering_id\x18\x03 \x01(\r\x12\x18\n\x10is_new_max_level\x18\x0e \x01(\x08\x12\x19\n\x11is_first_interact\x18\t \x01(\x08\x12\x1f\n\x17taken_level_reward_list\x18\x02 \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerOfferingData_pb2', globals())

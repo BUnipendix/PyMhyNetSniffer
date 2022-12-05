@@ -13,13 +13,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n-MistTrialSelectAvatarAndEnterDungeonReq.proto\"x\n\'MistTrialSelectAvatarAndEnterDungeonReq\x12\x10\n\x08trial_id\x18\x04 \x01(\r\x12#\n\x1bselect_trial_avatar_id_list\x18\n \x03(\r\x12\x16\n\x0e\x65nter_point_id\x18\x07 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n-MistTrialSelectAvatarAndEnterDungeonReq.proto\"\xeb\x01\n\'MistTrialSelectAvatarAndEnterDungeonReq\x12\\\n\x18select_avatar_index_list\x18\x0b \x03(\x0b\x32:.MistTrialSelectAvatarAndEnterDungeonReq.SelectAvatarIndex\x12#\n\x1bselect_trial_avatar_id_list\x18\x01 \x03(\r\x12\x16\n\x0e\x65nter_point_id\x18\x08 \x01(\r\x12\x10\n\x08trial_id\x18\x05 \x01(\r\x1a\x13\n\x11SelectAvatarIndexb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MistTrialSelectAvatarAndEnterDungeonReq_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _MISTTRIALSELECTAVATARANDENTERDUNGEONREQ._serialized_start=49
-  _MISTTRIALSELECTAVATARANDENTERDUNGEONREQ._serialized_end=169
+  _MISTTRIALSELECTAVATARANDENTERDUNGEONREQ._serialized_start=50
+  _MISTTRIALSELECTAVATARANDENTERDUNGEONREQ._serialized_end=285
+  _MISTTRIALSELECTAVATARANDENTERDUNGEONREQ_SELECTAVATARINDEX._serialized_start=266
+  _MISTTRIALSELECTAVATARANDENTERDUNGEONREQ_SELECTAVATARINDEX._serialized_end=285
 # @@protoc_insertion_point(module_scope)

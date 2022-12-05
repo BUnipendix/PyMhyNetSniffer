@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cPlayerPropChangeNotify.proto\"?\n\x16PlayerPropChangeNotify\x12\x12\n\nprop_delta\x18\r \x01(\r\x12\x11\n\tprop_type\x18\x0c \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cPlayerPropChangeNotify.proto\"?\n\x16PlayerPropChangeNotify\x12\x12\n\nprop_delta\x18\x04 \x01(\r\x12\x11\n\tprop_type\x18\r \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerPropChangeNotify_pb2', globals())

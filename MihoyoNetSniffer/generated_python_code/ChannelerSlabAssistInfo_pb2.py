@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x43hannelerSlabAssistInfo.proto\"O\n\x17\x43hannelerSlabAssistInfo\x12\x0b\n\x03uid\x18\n \x01(\r\x12\x14\n\x0c\x61vatar_level\x18\x0c \x01(\r\x12\x11\n\tavatar_id\x18\x06 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x43hannelerSlabAssistInfo.proto\"O\n\x17\x43hannelerSlabAssistInfo\x12\x14\n\x0c\x61vatar_level\x18\n \x01(\r\x12\x0b\n\x03uid\x18\x0b \x01(\r\x12\x11\n\tavatar_id\x18\x06 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChannelerSlabAssistInfo_pb2', globals())

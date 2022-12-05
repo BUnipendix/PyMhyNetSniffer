@@ -24,7 +24,7 @@ a.add_handle('FinishedParentQuestNotify', test)
 a.add_handle('FinishedParentQuestUpdateNotify', test)
 a.start()
 try:
-	sleep(3000)
+	a.process_loop.join()
 except KeyboardInterrupt:
 	pass
 finally:

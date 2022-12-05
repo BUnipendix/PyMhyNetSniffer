@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18PullPrivateChatReq.proto\"Q\n\x12PullPrivateChatReq\x12\x12\n\ntarget_uid\x18\x05 \x01(\r\x12\x10\n\x08pull_num\x18\x07 \x01(\r\x12\x15\n\rfrom_sequence\x18\x0c \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18PullPrivateChatReq.proto\"Q\n\x12PullPrivateChatReq\x12\x15\n\rfrom_sequence\x18\x05 \x01(\r\x12\x12\n\ntarget_uid\x18\x0c \x01(\r\x12\x10\n\x08pull_num\x18\x0b \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PullPrivateChatReq_pb2', globals())

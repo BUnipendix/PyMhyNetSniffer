@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x41\x62ilityMixinEliteShield.proto\"-\n\x17\x41\x62ilityMixinEliteShield\x12\x12\n\nsub_shield\x18\x02 \x01(\x02\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x41\x62ilityMixinEliteShield.proto\"-\n\x17\x41\x62ilityMixinEliteShield\x12\x12\n\nsub_shield\x18\t \x01(\x02\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AbilityMixinEliteShield_pb2', globals())

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n-WidgetUseAttachAbilityGroupChangeNotify.proto\"Q\n\'WidgetUseAttachAbilityGroupChangeNotify\x12\x11\n\tis_attach\x18\x06 \x01(\x08\x12\x13\n\x0bmaterial_id\x18\x0b \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n-WidgetUseAttachAbilityGroupChangeNotify.proto\"Q\n\'WidgetUseAttachAbilityGroupChangeNotify\x12\x13\n\x0bmaterial_id\x18\x0f \x01(\r\x12\x11\n\tis_attach\x18\x07 \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WidgetUseAttachAbilityGroupChangeNotify_pb2', globals())

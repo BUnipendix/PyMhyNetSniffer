@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16GroupSuiteNotify.proto\"w\n\x10GroupSuiteNotify\x12\x32\n\tgroup_map\x18\x03 \x03(\x0b\x32\x1f.GroupSuiteNotify.GroupMapEntry\x1a/\n\rGroupMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16GroupSuiteNotify.proto\"w\n\x10GroupSuiteNotify\x12\x32\n\tgroup_map\x18\x04 \x03(\x0b\x32\x1f.GroupSuiteNotify.GroupMapEntry\x1a/\n\rGroupMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GroupSuiteNotify_pb2', globals())

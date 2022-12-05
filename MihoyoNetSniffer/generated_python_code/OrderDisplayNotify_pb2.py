@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18OrderDisplayNotify.proto\"&\n\x12OrderDisplayNotify\x12\x10\n\x08order_id\x18\x01 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18OrderDisplayNotify.proto\"&\n\x12OrderDisplayNotify\x12\x10\n\x08order_id\x18\x05 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'OrderDisplayNotify_pb2', globals())

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import AbilityString_pb2 as AbilityString__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n)AbilityMetaUpdateBaseReactionDamage.proto\x1a\x13\x41\x62ilityString.proto\"\x80\x01\n#AbilityMetaUpdateBaseReactionDamage\x12\x18\n\x10source_caster_id\x18\x0f \x01(\r\x12(\n\x10global_value_key\x18\x04 \x01(\x0b\x32\x0e.AbilityString\x12\x15\n\rreaction_type\x18\x08 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n)AbilityMetaUpdateBaseReactionDamage.proto\x1a\x13\x41\x62ilityString.proto\"\xaf\x01\n#AbilityMetaUpdateBaseReactionDamage\x12\x1b\n\x13Unk3300_OIPAEGAMCLI\x18\x02 \x01(\r\x12\x1b\n\x13Unk3300_CAKEJCJKHOA\x18\r \x01(\r\x12$\n\x0c\x61\x62ility_name\x18\x06 \x01(\x0b\x32\x0e.AbilityString\x12(\n\x10global_value_key\x18\x0e \x01(\x0b\x32\x0e.AbilityStringb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AbilityMetaUpdateBaseReactionDamage_pb2', globals())
@@ -22,5 +22,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _ABILITYMETAUPDATEBASEREACTIONDAMAGE._serialized_start=67
-  _ABILITYMETAUPDATEBASEREACTIONDAMAGE._serialized_end=195
+  _ABILITYMETAUPDATEBASEREACTIONDAMAGE._serialized_end=242
 # @@protoc_insertion_point(module_scope)

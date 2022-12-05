@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!ChannelerSlabTakeoffBuffReq.proto\"N\n\x1b\x43hannelerSlabTakeoffBuffReq\x12\r\n\x05is_mp\x18\n \x01(\x08\x12\x0f\n\x07slot_id\x18\x0c \x01(\r\x12\x0f\n\x07\x62uff_id\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!ChannelerSlabTakeoffBuffReq.proto\"N\n\x1b\x43hannelerSlabTakeoffBuffReq\x12\x0f\n\x07slot_id\x18\x03 \x01(\r\x12\x0f\n\x07\x62uff_id\x18\x0c \x01(\r\x12\r\n\x05is_mp\x18\n \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChannelerSlabTakeoffBuffReq_pb2', globals())

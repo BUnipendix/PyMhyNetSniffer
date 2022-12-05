@@ -11,18 +11,18 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import SceneGalleryVintageHuntingFirstStageInfo_pb2 as SceneGalleryVintageHuntingFirstStageInfo__pb2
-import SceneGalleryVintageHuntingSecondStageInfo_pb2 as SceneGalleryVintageHuntingSecondStageInfo__pb2
-import SceneGalleryVintageHuntingThirdStageInfo_pb2 as SceneGalleryVintageHuntingThirdStageInfo__pb2
+import VintageHuntingFirstStageInfo_pb2 as VintageHuntingFirstStageInfo__pb2
+import VintageHuntingSecondStageInfo_pb2 as VintageHuntingSecondStageInfo__pb2
+import VintageHuntingThirdStageInfo_pb2 as VintageHuntingThirdStageInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$SceneGalleryVintageHuntingInfo.proto\x1a.SceneGalleryVintageHuntingFirstStageInfo.proto\x1a/SceneGalleryVintageHuntingSecondStageInfo.proto\x1a.SceneGalleryVintageHuntingThirdStageInfo.proto\"\x91\x02\n\x1eSceneGalleryVintageHuntingInfo\x12\x10\n\x08stage_id\x18\x07 \x01(\r\x12\x45\n\x10\x66irst_stage_info\x18\x02 \x01(\x0b\x32).SceneGalleryVintageHuntingFirstStageInfoH\x00\x12G\n\x11second_stage_info\x18\x0f \x01(\x0b\x32*.SceneGalleryVintageHuntingSecondStageInfoH\x00\x12\x45\n\x10third_stage_info\x18\x0c \x01(\x0b\x32).SceneGalleryVintageHuntingThirdStageInfoH\x00\x42\x06\n\x04infob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$SceneGalleryVintageHuntingInfo.proto\x1a\"VintageHuntingFirstStageInfo.proto\x1a#VintageHuntingSecondStageInfo.proto\x1a\"VintageHuntingThirdStageInfo.proto\"\xed\x01\n\x1eSceneGalleryVintageHuntingInfo\x12\x10\n\x08stage_id\x18\t \x01(\r\x12\x39\n\x10\x66irst_stage_info\x18\x05 \x01(\x0b\x32\x1d.VintageHuntingFirstStageInfoH\x00\x12;\n\x11second_stage_info\x18\x0e \x01(\x0b\x32\x1e.VintageHuntingSecondStageInfoH\x00\x12\x39\n\x10third_stage_info\x18\x08 \x01(\x0b\x32\x1d.VintageHuntingThirdStageInfoH\x00\x42\x06\n\x04infob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGalleryVintageHuntingInfo_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SCENEGALLERYVINTAGEHUNTINGINFO._serialized_start=186
-  _SCENEGALLERYVINTAGEHUNTINGINFO._serialized_end=459
+  _SCENEGALLERYVINTAGEHUNTINGINFO._serialized_start=150
+  _SCENEGALLERYVINTAGEHUNTINGINFO._serialized_end=387
 # @@protoc_insertion_point(module_scope)

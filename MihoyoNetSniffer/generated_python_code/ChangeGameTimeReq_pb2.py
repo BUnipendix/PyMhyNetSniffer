@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x43hangeGameTimeReq.proto\"P\n\x11\x43hangeGameTimeReq\x12\x11\n\tgame_time\x18\x06 \x01(\r\x12\x14\n\x0cis_force_set\x18\x0b \x01(\x08\x12\x12\n\nextra_days\x18\x0c \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x43hangeGameTimeReq.proto\"P\n\x11\x43hangeGameTimeReq\x12\x12\n\nextra_days\x18\x03 \x01(\r\x12\x11\n\tgame_time\x18\x08 \x01(\r\x12\x14\n\x0cis_force_set\x18\x02 \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChangeGameTimeReq_pb2', globals())

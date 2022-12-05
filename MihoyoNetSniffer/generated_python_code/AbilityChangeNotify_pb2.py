@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import AbilityControlBlock_pb2 as AbilityControlBlock__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x41\x62ilityChangeNotify.proto\x1a\x19\x41\x62ilityControlBlock.proto\"]\n\x13\x41\x62ilityChangeNotify\x12\x11\n\tentity_id\x18\x01 \x01(\r\x12\x33\n\x15\x61\x62ility_control_block\x18\x0f \x01(\x0b\x32\x14.AbilityControlBlockb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x41\x62ilityChangeNotify.proto\x1a\x19\x41\x62ilityControlBlock.proto\"]\n\x13\x41\x62ilityChangeNotify\x12\x33\n\x15\x61\x62ility_control_block\x18\x06 \x01(\x0b\x32\x14.AbilityControlBlock\x12\x11\n\tentity_id\x18\n \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AbilityChangeNotify_pb2', globals())

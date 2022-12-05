@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x43ombineDataNotify.proto\",\n\x11\x43ombineDataNotify\x12\x17\n\x0f\x63ombine_id_list\x18\x05 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x43ombineDataNotify.proto\",\n\x11\x43ombineDataNotify\x12\x17\n\x0f\x63ombine_id_list\x18\x07 \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CombineDataNotify_pb2', globals())

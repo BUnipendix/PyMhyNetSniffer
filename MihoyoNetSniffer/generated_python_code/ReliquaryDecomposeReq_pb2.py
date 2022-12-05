@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bReliquaryDecomposeReq.proto\"S\n\x15ReliquaryDecomposeReq\x12\x11\n\tconfig_id\x18\r \x01(\r\x12\x14\n\x0ctarget_count\x18\t \x01(\r\x12\x11\n\tguid_list\x18\x08 \x03(\x04\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bReliquaryDecomposeReq.proto\"S\n\x15ReliquaryDecomposeReq\x12\x11\n\tconfig_id\x18\x04 \x01(\r\x12\x14\n\x0ctarget_count\x18\x0f \x01(\r\x12\x11\n\tguid_list\x18\r \x03(\x04\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ReliquaryDecomposeReq_pb2', globals())

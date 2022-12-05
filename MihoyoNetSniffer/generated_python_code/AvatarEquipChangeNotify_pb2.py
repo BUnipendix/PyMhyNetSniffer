@@ -15,7 +15,7 @@ import SceneReliquaryInfo_pb2 as SceneReliquaryInfo__pb2
 import SceneWeaponInfo_pb2 as SceneWeaponInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x41vatarEquipChangeNotify.proto\x1a\x18SceneReliquaryInfo.proto\x1a\x15SceneWeaponInfo.proto\"\xb1\x01\n\x17\x41vatarEquipChangeNotify\x12\x13\n\x0b\x61vatar_guid\x18\n \x01(\x04\x12\x12\n\nequip_guid\x18\r \x01(\x04\x12&\n\treliquary\x18\x01 \x01(\x0b\x32\x13.SceneReliquaryInfo\x12 \n\x06weapon\x18\x0f \x01(\x0b\x32\x10.SceneWeaponInfo\x12\x0f\n\x07item_id\x18\x0e \x01(\r\x12\x12\n\nequip_type\x18\x08 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x41vatarEquipChangeNotify.proto\x1a\x18SceneReliquaryInfo.proto\x1a\x15SceneWeaponInfo.proto\"\xb1\x01\n\x17\x41vatarEquipChangeNotify\x12\x13\n\x0b\x61vatar_guid\x18\x07 \x01(\x04\x12\x12\n\nequip_type\x18\n \x01(\r\x12\x12\n\nequip_guid\x18\x05 \x01(\x04\x12\x0f\n\x07item_id\x18\x03 \x01(\r\x12&\n\treliquary\x18\x04 \x01(\x0b\x32\x13.SceneReliquaryInfo\x12 \n\x06weapon\x18\x0f \x01(\x0b\x32\x10.SceneWeaponInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarEquipChangeNotify_pb2', globals())

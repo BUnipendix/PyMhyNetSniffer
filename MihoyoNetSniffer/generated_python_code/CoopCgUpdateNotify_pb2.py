@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x43oopCgUpdateNotify.proto\"%\n\x12\x43oopCgUpdateNotify\x12\x0f\n\x07\x63g_list\x18\r \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x43oopCgUpdateNotify.proto\"%\n\x12\x43oopCgUpdateNotify\x12\x0f\n\x07\x63g_list\x18\x08 \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CoopCgUpdateNotify_pb2', globals())

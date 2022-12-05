@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x41sterMiscInfoNotify.proto\"@\n\x13\x41sterMiscInfoNotify\x12\x13\n\x0b\x61ster_token\x18\x02 \x01(\r\x12\x14\n\x0c\x61ster_credit\x18\x0f \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x41sterMiscInfoNotify.proto\"O\n\x13\x41sterMiscInfoNotify\x12\x1b\n\x13Unk3300_DCHBFEJNBHP\x18\x04 \x01(\r\x12\x1b\n\x13Unk3300_KFDGFFPJGJC\x18\x05 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AsterMiscInfoNotify_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _ASTERMISCINFONOTIFY._serialized_start=29
-  _ASTERMISCINFONOTIFY._serialized_end=93
+  _ASTERMISCINFONOTIFY._serialized_end=108
 # @@protoc_insertion_point(module_scope)

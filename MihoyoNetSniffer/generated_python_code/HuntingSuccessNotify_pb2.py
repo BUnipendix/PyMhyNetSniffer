@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import HuntingPair_pb2 as HuntingPair__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aHuntingSuccessNotify.proto\x1a\x11HuntingPair.proto\":\n\x14HuntingSuccessNotify\x12\"\n\x0chunting_pair\x18\x04 \x01(\x0b\x32\x0c.HuntingPairb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aHuntingSuccessNotify.proto\x1a\x11HuntingPair.proto\":\n\x14HuntingSuccessNotify\x12\"\n\x0chunting_pair\x18\x07 \x01(\x0b\x32\x0c.HuntingPairb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HuntingSuccessNotify_pb2', globals())

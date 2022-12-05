@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aMechanicusCoinNotify.proto\";\n\x14MechanicusCoinNotify\x12\x15\n\rmechanicus_id\x18\x07 \x01(\r\x12\x0c\n\x04\x63oin\x18\x04 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aMechanicusCoinNotify.proto\";\n\x14MechanicusCoinNotify\x12\x0c\n\x04\x63oin\x18\x08 \x01(\r\x12\x15\n\rmechanicus_id\x18\x05 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MechanicusCoinNotify_pb2', globals())

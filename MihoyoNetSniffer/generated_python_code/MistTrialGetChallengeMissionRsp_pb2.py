@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import MistTrialMissionInfo_pb2 as MistTrialMissionInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%MistTrialGetChallengeMissionRsp.proto\x1a\x1aMistTrialMissionInfo.proto\"v\n\x1fMistTrialGetChallengeMissionRsp\x12\x10\n\x08trial_id\x18\x01 \x01(\r\x12\x30\n\x11mission_info_list\x18\x0f \x03(\x0b\x32\x15.MistTrialMissionInfo\x12\x0f\n\x07retcode\x18\x0b \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%MistTrialGetChallengeMissionRsp.proto\x1a\x1aMistTrialMissionInfo.proto\"v\n\x1fMistTrialGetChallengeMissionRsp\x12\x10\n\x08trial_id\x18\x06 \x01(\r\x12\x30\n\x11mission_info_list\x18\x03 \x03(\x0b\x32\x15.MistTrialMissionInfo\x12\x0f\n\x07retcode\x18\x07 \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MistTrialGetChallengeMissionRsp_pb2', globals())

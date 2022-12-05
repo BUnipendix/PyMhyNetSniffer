@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13ItemGivingRsp.proto\"P\n\rItemGivingRsp\x12\x1b\n\x13Unk2700_MHIPHDFEOON\x18\x01 \x01(\r\x12\x11\n\tgiving_id\x18\r \x01(\r\x12\x0f\n\x07retcode\x18\x03 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13ItemGivingRsp.proto\"L\n\rItemGivingRsp\x12\x17\n\x0fgiving_group_id\x18\x0f \x01(\r\x12\x0f\n\x07retcode\x18\x05 \x01(\x05\x12\x11\n\tgiving_id\x18\x0c \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ItemGivingRsp_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _ITEMGIVINGRSP._serialized_start=23
-  _ITEMGIVINGRSP._serialized_end=103
+  _ITEMGIVINGRSP._serialized_end=99
 # @@protoc_insertion_point(module_scope)

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n AddQuestContentProgressRsp.proto\"C\n\x1a\x41\x64\x64QuestContentProgressRsp\x12\x0f\n\x07retcode\x18\r \x01(\x05\x12\x14\n\x0c\x63ontent_type\x18\x04 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n AddQuestContentProgressRsp.proto\"C\n\x1a\x41\x64\x64QuestContentProgressRsp\x12\x14\n\x0c\x63ontent_type\x18\x07 \x01(\r\x12\x0f\n\x07retcode\x18\x0c \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AddQuestContentProgressRsp_pb2', globals())

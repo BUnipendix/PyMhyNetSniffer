@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import MaterialInfo_pb2 as MaterialInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x44\x65stroyMaterialReq.proto\x1a\x12MaterialInfo.proto\":\n\x12\x44\x65stroyMaterialReq\x12$\n\rmaterial_list\x18\x05 \x03(\x0b\x32\r.MaterialInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x44\x65stroyMaterialReq.proto\x1a\x12MaterialInfo.proto\":\n\x12\x44\x65stroyMaterialReq\x12$\n\rmaterial_list\x18\x01 \x03(\x0b\x32\r.MaterialInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DestroyMaterialReq_pb2', globals())

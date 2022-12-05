@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%PlayerGeneralMatchConfirmNotify.proto\"R\n\x1fPlayerGeneralMatchConfirmNotify\x12\x10\n\x08match_id\x18\x08 \x01(\r\x12\x10\n\x08is_agree\x18\r \x01(\x08\x12\x0b\n\x03uid\x18\x0e \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%PlayerGeneralMatchConfirmNotify.proto\"R\n\x1fPlayerGeneralMatchConfirmNotify\x12\x10\n\x08match_id\x18\x02 \x01(\r\x12\x0b\n\x03uid\x18\x06 \x01(\r\x12\x10\n\x08is_agree\x18\r \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerGeneralMatchConfirmNotify_pb2', globals())

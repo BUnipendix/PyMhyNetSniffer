@@ -15,7 +15,7 @@ import AvatarExpeditionInfo_pb2 as AvatarExpeditionInfo__pb2
 import ItemParam_pb2 as ItemParam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"AvatarExpeditionGetRewardRsp.proto\x1a\x1a\x41vatarExpeditionInfo.proto\x1a\x0fItemParam.proto\"\x9b\x02\n\x1c\x41vatarExpeditionGetRewardRsp\x12\'\n\x13Unk2700_HBKHOBPGCLH\x18\t \x03(\x0b\x32\n.ItemParam\x12\x1d\n\titem_list\x18\x08 \x03(\x0b\x32\n.ItemParam\x12Q\n\x13\x65xpedition_info_map\x18\x0c \x03(\x0b\x32\x34.AvatarExpeditionGetRewardRsp.ExpeditionInfoMapEntry\x12\x0f\n\x07retcode\x18\x02 \x01(\x05\x1aO\n\x16\x45xpeditionInfoMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\x04\x12$\n\x05value\x18\x02 \x01(\x0b\x32\x15.AvatarExpeditionInfo:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"AvatarExpeditionGetRewardRsp.proto\x1a\x1a\x41vatarExpeditionInfo.proto\x1a\x0fItemParam.proto\"\x97\x02\n\x1c\x41vatarExpeditionGetRewardRsp\x12\x1d\n\titem_list\x18\x07 \x03(\x0b\x32\n.ItemParam\x12#\n\x0f\x65xtra_item_list\x18\x0b \x03(\x0b\x32\n.ItemParam\x12Q\n\x13\x65xpedition_info_map\x18\r \x03(\x0b\x32\x34.AvatarExpeditionGetRewardRsp.ExpeditionInfoMapEntry\x12\x0f\n\x07retcode\x18\x08 \x01(\x05\x1aO\n\x16\x45xpeditionInfoMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\x04\x12$\n\x05value\x18\x02 \x01(\x0b\x32\x15.AvatarExpeditionInfo:\x02\x38\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarExpeditionGetRewardRsp_pb2', globals())
@@ -25,7 +25,7 @@ if _descriptor._USE_C_DESCRIPTORS == False:
   _AVATAREXPEDITIONGETREWARDRSP_EXPEDITIONINFOMAPENTRY._options = None
   _AVATAREXPEDITIONGETREWARDRSP_EXPEDITIONINFOMAPENTRY._serialized_options = b'8\001'
   _AVATAREXPEDITIONGETREWARDRSP._serialized_start=84
-  _AVATAREXPEDITIONGETREWARDRSP._serialized_end=367
-  _AVATAREXPEDITIONGETREWARDRSP_EXPEDITIONINFOMAPENTRY._serialized_start=288
-  _AVATAREXPEDITIONGETREWARDRSP_EXPEDITIONINFOMAPENTRY._serialized_end=367
+  _AVATAREXPEDITIONGETREWARDRSP._serialized_end=363
+  _AVATAREXPEDITIONGETREWARDRSP_EXPEDITIONINFOMAPENTRY._serialized_start=284
+  _AVATAREXPEDITIONGETREWARDRSP_EXPEDITIONINFOMAPENTRY._serialized_end=363
 # @@protoc_insertion_point(module_scope)

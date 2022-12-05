@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"DungeonRestartInviteReplyReq.proto\"1\n\x1c\x44ungeonRestartInviteReplyReq\x12\x11\n\tis_accept\x18\x0b \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"DungeonRestartInviteReplyReq.proto\"1\n\x1c\x44ungeonRestartInviteReplyReq\x12\x11\n\tis_accept\x18\x02 \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DungeonRestartInviteReplyReq_pb2', globals())

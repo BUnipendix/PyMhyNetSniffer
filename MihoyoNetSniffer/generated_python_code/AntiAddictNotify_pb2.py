@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x41ntiAddictNotify.proto\"@\n\x10\x41ntiAddictNotify\x12\x10\n\x08msg_type\x18\x06 \x01(\x05\x12\x0b\n\x03msg\x18\x03 \x01(\t\x12\r\n\x05level\x18\x05 \x01(\tb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x41ntiAddictNotify.proto\"@\n\x10\x41ntiAddictNotify\x12\r\n\x05level\x18\x04 \x01(\t\x12\x0b\n\x03msg\x18\x07 \x01(\t\x12\x10\n\x08msg_type\x18\x02 \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AntiAddictNotify_pb2', globals())

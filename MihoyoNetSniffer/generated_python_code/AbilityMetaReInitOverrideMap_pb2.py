@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import AbilityScalarValueEntry_pb2 as AbilityScalarValueEntry__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"AbilityMetaReInitOverrideMap.proto\x1a\x1d\x41\x62ilityScalarValueEntry.proto\"N\n\x1c\x41\x62ilityMetaReInitOverrideMap\x12.\n\x0coverride_map\x18\x07 \x03(\x0b\x32\x18.AbilityScalarValueEntryb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"AbilityMetaReInitOverrideMap.proto\x1a\x1d\x41\x62ilityScalarValueEntry.proto\"N\n\x1c\x41\x62ilityMetaReInitOverrideMap\x12.\n\x0coverride_map\x18\n \x03(\x0b\x32\x18.AbilityScalarValueEntryb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AbilityMetaReInitOverrideMap_pb2', globals())

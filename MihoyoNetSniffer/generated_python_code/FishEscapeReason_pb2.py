@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x46ishEscapeReason.proto*z\n\x10\x46ishEscapeReason\x12\'\n#FISH_ESCAPE_REASON_FISN_ESCAPE_NONE\x10\x00\x12\x1e\n\x1a\x46ISH_ESCAPE_REASON_SHOCKED\x10\x01\x12\x1d\n\x19\x46ISH_ESCAPE_REASON_UNHOOK\x10\x02\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x46ishEscapeReason.proto*n\n\x10\x46ishEscapeReason\x12\x1b\n\x17\x46ISH_ESCAPE_REASON_NONE\x10\x00\x12\x1e\n\x1a\x46ISH_ESCAPE_REASON_SHOCKED\x10\x01\x12\x1d\n\x19\x46ISH_ESCAPE_REASON_UNHOOK\x10\x02\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FishEscapeReason_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _FISHESCAPEREASON._serialized_start=26
-  _FISHESCAPEREASON._serialized_end=148
+  _FISHESCAPEREASON._serialized_end=136
 # @@protoc_insertion_point(module_scope)

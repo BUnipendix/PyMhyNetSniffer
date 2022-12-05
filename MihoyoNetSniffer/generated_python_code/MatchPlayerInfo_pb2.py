@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import OnlinePlayerInfo_pb2 as OnlinePlayerInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15MatchPlayerInfo.proto\x1a\x16OnlinePlayerInfo.proto\"L\n\x0fMatchPlayerInfo\x12\x11\n\tis_agreed\x18\t \x01(\x08\x12&\n\x0bplayer_info\x18\x02 \x01(\x0b\x32\x11.OnlinePlayerInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15MatchPlayerInfo.proto\x1a\x16OnlinePlayerInfo.proto\"L\n\x0fMatchPlayerInfo\x12\x11\n\tis_agreed\x18\x04 \x01(\x08\x12&\n\x0bplayer_info\x18\x0f \x01(\x0b\x32\x11.OnlinePlayerInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MatchPlayerInfo_pb2', globals())

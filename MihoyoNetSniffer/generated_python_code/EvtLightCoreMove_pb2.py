@@ -14,13 +14,13 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x45vtLightCoreMove.proto\x1a\x0cVector.proto\"}\n\x10\x45vtLightCoreMove\x12\x1b\n\ntarget_pos\x18\x0f \x01(\x0b\x32\x07.Vector\x12\x11\n\tacelerate\x18\x0b \x01(\x02\x12\x11\n\tentity_id\x18\x05 \x01(\r\x12\x17\n\x0fmax_absorb_time\x18\n \x01(\x02\x12\r\n\x05speed\x18\x0e \x01(\x02\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x45vtLightCoreMove.proto\x1a\x0cVector.proto\"\x8b\x01\n\x10\x45vtLightCoreMove\x12\r\n\x05speed\x18\x04 \x01(\x02\x12\x11\n\tentity_id\x18\x0c \x01(\r\x12\x1b\n\x13Unk3300_BLNIJMMNAGH\x18\x01 \x01(\x02\x12\x1b\n\x13Unk3300_NHPEDPJMCOL\x18\x05 \x01(\x02\x12\x1b\n\ntarget_pos\x18\x0b \x01(\x0b\x32\x07.Vectorb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EvtLightCoreMove_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _EVTLIGHTCOREMOVE._serialized_start=40
-  _EVTLIGHTCOREMOVE._serialized_end=165
+  _EVTLIGHTCOREMOVE._serialized_start=41
+  _EVTLIGHTCOREMOVE._serialized_end=180
 # @@protoc_insertion_point(module_scope)

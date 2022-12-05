@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import AvatarSkillInfo_pb2 as AvatarSkillInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x41vatarSkillInfoNotify.proto\x1a\x15\x41vatarSkillInfo.proto\"\xa1\x01\n\x15\x41vatarSkillInfoNotify\x12\x37\n\tskill_map\x18\x0b \x03(\x0b\x32$.AvatarSkillInfoNotify.SkillMapEntry\x12\x0c\n\x04guid\x18\x04 \x01(\x04\x1a\x41\n\rSkillMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x1f\n\x05value\x18\x02 \x01(\x0b\x32\x10.AvatarSkillInfo:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x41vatarSkillInfoNotify.proto\x1a\x15\x41vatarSkillInfo.proto\"\xa1\x01\n\x15\x41vatarSkillInfoNotify\x12\x37\n\tskill_map\x18\x06 \x03(\x0b\x32$.AvatarSkillInfoNotify.SkillMapEntry\x12\x0c\n\x04guid\x18\x04 \x01(\x04\x1a\x41\n\rSkillMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x1f\n\x05value\x18\x02 \x01(\x0b\x32\x10.AvatarSkillInfo:\x02\x38\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarSkillInfoNotify_pb2', globals())

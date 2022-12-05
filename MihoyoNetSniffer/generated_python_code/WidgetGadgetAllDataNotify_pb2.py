@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import WidgetGadgetData_pb2 as WidgetGadgetData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fWidgetGadgetAllDataNotify.proto\x1a\x16WidgetGadgetData.proto\"J\n\x19WidgetGadgetAllDataNotify\x12-\n\x12widget_gadget_data\x18\r \x03(\x0b\x32\x11.WidgetGadgetDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fWidgetGadgetAllDataNotify.proto\x1a\x16WidgetGadgetData.proto\"J\n\x19WidgetGadgetAllDataNotify\x12-\n\x12widget_gadget_data\x18\x01 \x03(\x0b\x32\x11.WidgetGadgetDatab\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WidgetGadgetAllDataNotify_pb2', globals())

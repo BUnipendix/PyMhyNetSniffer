@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import HomeMarkPointSceneData_pb2 as HomeMarkPointSceneData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19HomeMarkPointNotify.proto\x1a\x1cHomeMarkPointSceneData.proto\"L\n\x13HomeMarkPointNotify\x12\x35\n\x14mark_point_data_list\x18\x0c \x03(\x0b\x32\x17.HomeMarkPointSceneDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19HomeMarkPointNotify.proto\x1a\x1cHomeMarkPointSceneData.proto\"L\n\x13HomeMarkPointNotify\x12\x35\n\x14mark_point_data_list\x18\x0b \x03(\x0b\x32\x17.HomeMarkPointSceneDatab\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeMarkPointNotify_pb2', globals())

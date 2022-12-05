@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eHomeAvatarTalkFinishInfo.proto\"J\n\x18HomeAvatarTalkFinishInfo\x12\x11\n\tavatar_id\x18\t \x01(\r\x12\x1b\n\x13\x66inish_talk_id_list\x18\x03 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eHomeAvatarTalkFinishInfo.proto\"J\n\x18HomeAvatarTalkFinishInfo\x12\x1b\n\x13\x66inish_talk_id_list\x18\x04 \x03(\r\x12\x11\n\tavatar_id\x18\x02 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeAvatarTalkFinishInfo_pb2', globals())

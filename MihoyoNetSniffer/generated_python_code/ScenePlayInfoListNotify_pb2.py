@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ScenePlayInfo_pb2 as ScenePlayInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dScenePlayInfoListNotify.proto\x1a\x13ScenePlayInfo.proto\"A\n\x17ScenePlayInfoListNotify\x12&\n\x0eplay_info_list\x18\x06 \x03(\x0b\x32\x0e.ScenePlayInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dScenePlayInfoListNotify.proto\x1a\x13ScenePlayInfo.proto\"A\n\x17ScenePlayInfoListNotify\x12&\n\x0eplay_info_list\x18\x0f \x03(\x0b\x32\x0e.ScenePlayInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ScenePlayInfoListNotify_pb2', globals())

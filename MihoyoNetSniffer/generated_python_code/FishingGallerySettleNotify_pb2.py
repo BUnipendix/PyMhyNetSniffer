@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import FishingGallerySettleInfo_pb2 as FishingGallerySettleInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n FishingGallerySettleNotify.proto\x1a\x1e\x46ishingGallerySettleInfo.proto\"r\n\x1a\x46ishingGallerySettleNotify\x12\x12\n\ngallery_id\x18\x06 \x01(\r\x12\x10\n\x08level_id\x18\x0f \x01(\r\x12.\n\x0bsettle_info\x18\r \x01(\x0b\x32\x19.FishingGallerySettleInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n FishingGallerySettleNotify.proto\x1a\x1e\x46ishingGallerySettleInfo.proto\"r\n\x1a\x46ishingGallerySettleNotify\x12\x12\n\ngallery_id\x18\x05 \x01(\r\x12.\n\x0bsettle_info\x18\x04 \x01(\x0b\x32\x19.FishingGallerySettleInfo\x12\x10\n\x08level_id\x18\x0c \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FishingGallerySettleNotify_pb2', globals())

@@ -15,7 +15,7 @@ import FleurFairBossSettleInfo_pb2 as FleurFairBossSettleInfo__pb2
 import FleurFairGallerySettleInfo_pb2 as FleurFairGallerySettleInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n FleurFairStageSettleNotify.proto\x1a\x1d\x46leurFairBossSettleInfo.proto\x1a FleurFairGallerySettleInfo.proto\"\xac\x01\n\x1a\x46leurFairStageSettleNotify\x12\x12\n\nstage_type\x18\n \x01(\r\x12:\n\x13gallery_settle_info\x18\r \x01(\x0b\x32\x1b.FleurFairGallerySettleInfoH\x00\x12\x34\n\x10\x62oss_settle_info\x18\x0e \x01(\x0b\x32\x18.FleurFairBossSettleInfoH\x00\x42\x08\n\x06\x64\x65tailb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n FleurFairStageSettleNotify.proto\x1a\x1d\x46leurFairBossSettleInfo.proto\x1a FleurFairGallerySettleInfo.proto\"\xac\x01\n\x1a\x46leurFairStageSettleNotify\x12\x12\n\nstage_type\x18\x07 \x01(\r\x12:\n\x13gallery_settle_info\x18\x01 \x01(\x0b\x32\x1b.FleurFairGallerySettleInfoH\x00\x12\x34\n\x10\x62oss_settle_info\x18\x0c \x01(\x0b\x32\x18.FleurFairBossSettleInfoH\x00\x42\x08\n\x06\x64\x65tailb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FleurFairStageSettleNotify_pb2', globals())

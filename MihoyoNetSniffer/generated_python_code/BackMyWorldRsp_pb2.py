@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14\x42\x61\x63kMyWorldRsp.proto\"!\n\x0e\x42\x61\x63kMyWorldRsp\x12\x0f\n\x07retcode\x18\x0b \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14\x42\x61\x63kMyWorldRsp.proto\"!\n\x0e\x42\x61\x63kMyWorldRsp\x12\x0f\n\x07retcode\x18\x06 \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BackMyWorldRsp_pb2', globals())

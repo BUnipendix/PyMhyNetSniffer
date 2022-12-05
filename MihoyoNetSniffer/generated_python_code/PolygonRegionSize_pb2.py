@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import VectorPlane_pb2 as VectorPlane__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17PolygonRegionSize.proto\x1a\x11VectorPlane.proto\"E\n\x11PolygonRegionSize\x12 \n\npoint_list\x18\x05 \x03(\x0b\x32\x0c.VectorPlane\x12\x0e\n\x06height\x18\t \x01(\x02\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17PolygonRegionSize.proto\x1a\x11VectorPlane.proto\"E\n\x11PolygonRegionSize\x12\x0e\n\x06height\x18\x03 \x01(\x02\x12 \n\npoint_list\x18\t \x03(\x0b\x32\x0c.VectorPlaneb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PolygonRegionSize_pb2', globals())

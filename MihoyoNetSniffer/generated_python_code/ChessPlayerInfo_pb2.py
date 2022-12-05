@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ChessNormalCardInfo_pb2 as ChessNormalCardInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x43hessPlayerInfo.proto\x1a\x19\x43hessNormalCardInfo.proto\"\xd6\x01\n\x0f\x43hessPlayerInfo\x12\x0b\n\x03uid\x18\x05 \x01(\r\x12\x1a\n\x12\x66ree_refresh_limit\x18\n \x01(\r\x12\x36\n\x18\x63\x61ndidate_card_info_list\x18\x03 \x03(\x0b\x32\x14.ChessNormalCardInfo\x12\x17\n\x0f\x62uilding_points\x18\x0c \x01(\r\x12\x17\n\x0f\x63\x61ndidate_index\x18\x06 \x01(\r\x12\x1a\n\x12\x66ree_refresh_count\x18\r \x01(\r\x12\x14\n\x0crefresh_cost\x18\x07 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x43hessPlayerInfo.proto\x1a\x19\x43hessNormalCardInfo.proto\"\xe3\x01\n\x0f\x43hessPlayerInfo\x12\x36\n\x18\x63\x61ndidate_card_info_list\x18\x01 \x03(\x0b\x32\x14.ChessNormalCardInfo\x12\x0b\n\x03uid\x18\x05 \x01(\r\x12\x1b\n\x13Unk3300_AOCJHOKCDDM\x18\x02 \x01(\r\x12\x1b\n\x13Unk3300_GPNDNCCLHKE\x18\n \x01(\r\x12\x17\n\x0f\x62uilding_points\x18\x08 \x01(\r\x12\x1b\n\x13Unk3300_PPFBGIDKCDJ\x18\x0c \x01(\r\x12\x1b\n\x13Unk3300_PPFPEAGBHLP\x18\r \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChessPlayerInfo_pb2', globals())
@@ -22,5 +22,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _CHESSPLAYERINFO._serialized_start=53
-  _CHESSPLAYERINFO._serialized_end=267
+  _CHESSPLAYERINFO._serialized_end=280
 # @@protoc_insertion_point(module_scope)

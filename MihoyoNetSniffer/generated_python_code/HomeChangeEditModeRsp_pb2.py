@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bHomeChangeEditModeRsp.proto\"D\n\x15HomeChangeEditModeRsp\x12\x0f\n\x07retcode\x18\n \x01(\x05\x12\x1a\n\x12is_enter_edit_mode\x18\x05 \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bHomeChangeEditModeRsp.proto\"D\n\x15HomeChangeEditModeRsp\x12\x1a\n\x12is_enter_edit_mode\x18\x02 \x01(\x08\x12\x0f\n\x07retcode\x18\r \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeChangeEditModeRsp_pb2', globals())

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#WaterSpiritActivityDetailInfo.proto\"\xcf\x01\n\x1dWaterSpiritActivityDetailInfo\x12J\n\x0fsearch_time_map\x18\t \x03(\x0b\x32\x31.WaterSpiritActivityDetailInfo.SearchTimeMapEntry\x12\x18\n\x10region_search_id\x18\x02 \x01(\r\x12\x12\n\nmp_play_id\x18\x0f \x01(\r\x1a\x34\n\x12SearchTimeMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#WaterSpiritActivityDetailInfo.proto\"\xcf\x01\n\x1dWaterSpiritActivityDetailInfo\x12J\n\x0fsearch_time_map\x18\r \x03(\x0b\x32\x31.WaterSpiritActivityDetailInfo.SearchTimeMapEntry\x12\x18\n\x10region_search_id\x18\x04 \x01(\r\x12\x12\n\nmp_play_id\x18\t \x01(\r\x1a\x34\n\x12SearchTimeMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WaterSpiritActivityDetailInfo_pb2', globals())

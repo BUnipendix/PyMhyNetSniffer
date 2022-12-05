@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"MechanicusSequenceOpenNotify.proto\"J\n\x1cMechanicusSequenceOpenNotify\x12\x15\n\rmechanicus_id\x18\x08 \x01(\r\x12\x13\n\x0bsequence_id\x18\x07 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"MechanicusSequenceOpenNotify.proto\"J\n\x1cMechanicusSequenceOpenNotify\x12\x15\n\rmechanicus_id\x18\x0c \x01(\r\x12\x13\n\x0bsequence_id\x18\t \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MechanicusSequenceOpenNotify_pb2', globals())

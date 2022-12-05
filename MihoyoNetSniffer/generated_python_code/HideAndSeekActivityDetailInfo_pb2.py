@@ -11,16 +11,16 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import Unk2700_LBOAEFMECCP_pb2 as Unk2700__LBOAEFMECCP__pb2
+import HideAndSeekMapInfo_pb2 as HideAndSeekMapInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#HideAndSeekActivityDetailInfo.proto\x1a\x19Unk2700_LBOAEFMECCP.proto\"\xae\x01\n\x1dHideAndSeekActivityDetailInfo\x12\x31\n\x13Unk2700_JDMDOOHFNCA\x18\x01 \x03(\x0b\x32\x14.Unk2700_LBOAEFMECCP\x12 \n\x18\x63hosen_hunter_skill_list\x18\x04 \x03(\r\x12\x17\n\x0funlock_map_list\x18\r \x03(\r\x12\x1f\n\x17\x63hosen_hider_skill_list\x18\x06 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#HideAndSeekActivityDetailInfo.proto\x1a\x18HideAndSeekMapInfo.proto\"\xc4\x01\n\x1dHideAndSeekActivityDetailInfo\x12\x1b\n\x13Unk3300_JBKIAGNADEN\x18\x06 \x03(\r\x12/\n\x12open_map_info_list\x18\r \x03(\x0b\x32\x13.HideAndSeekMapInfo\x12\x1b\n\x13Unk3300_FPCDPLNJKKN\x18\x02 \x03(\r\x12\x1b\n\x13Unk3300_CMLGPPDANNN\x18\x0f \x03(\r\x12\x1b\n\x13Unk3300_HHJPAALNMNK\x18\x04 \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HideAndSeekActivityDetailInfo_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _HIDEANDSEEKACTIVITYDETAILINFO._serialized_start=67
-  _HIDEANDSEEKACTIVITYDETAILINFO._serialized_end=241
+  _HIDEANDSEEKACTIVITYDETAILINFO._serialized_start=66
+  _HIDEANDSEEKACTIVITYDETAILINFO._serialized_end=262
 # @@protoc_insertion_point(module_scope)

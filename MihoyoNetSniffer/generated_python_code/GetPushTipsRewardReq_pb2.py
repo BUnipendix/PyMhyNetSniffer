@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aGetPushTipsRewardReq.proto\"1\n\x14GetPushTipsRewardReq\x12\x19\n\x11push_tips_id_list\x18\x04 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aGetPushTipsRewardReq.proto\"1\n\x14GetPushTipsRewardReq\x12\x19\n\x11push_tips_id_list\x18\x07 \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetPushTipsRewardReq_pb2', globals())

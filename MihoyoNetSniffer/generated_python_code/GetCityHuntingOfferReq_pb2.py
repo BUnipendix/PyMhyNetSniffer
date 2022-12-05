@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cGetCityHuntingOfferReq.proto\")\n\x16GetCityHuntingOfferReq\x12\x0f\n\x07\x63ity_id\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cGetCityHuntingOfferReq.proto\")\n\x16GetCityHuntingOfferReq\x12\x0f\n\x07\x63ity_id\x18\x03 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetCityHuntingOfferReq_pb2', globals())

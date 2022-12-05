@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17PlayerRoutineInfo.proto\"?\n\x11PlayerRoutineInfo\x12\x14\n\x0croutine_type\x18\x08 \x01(\r\x12\x14\n\x0c\x66inished_num\x18\x0f \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17PlayerRoutineInfo.proto\"?\n\x11PlayerRoutineInfo\x12\x14\n\x0croutine_type\x18\x05 \x01(\r\x12\x14\n\x0c\x66inished_num\x18\t \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerRoutineInfo_pb2', globals())

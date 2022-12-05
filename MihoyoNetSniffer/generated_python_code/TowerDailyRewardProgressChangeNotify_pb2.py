@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n*TowerDailyRewardProgressChangeNotify.proto\"Y\n$TowerDailyRewardProgressChangeNotify\x12\x16\n\x0e\x64\x61ily_floor_id\x18\x0f \x01(\r\x12\x19\n\x11\x64\x61ily_level_index\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n*TowerDailyRewardProgressChangeNotify.proto\"`\n$TowerDailyRewardProgressChangeNotify\x12\x1b\n\x13Unk3300_OHCHCJGJIDK\x18\x08 \x01(\r\x12\x1b\n\x13Unk3300_JBACKENDHDG\x18\x06 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TowerDailyRewardProgressChangeNotify_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _TOWERDAILYREWARDPROGRESSCHANGENOTIFY._serialized_start=46
-  _TOWERDAILYREWARDPROGRESSCHANGENOTIFY._serialized_end=135
+  _TOWERDAILYREWARDPROGRESSCHANGENOTIFY._serialized_end=142
 # @@protoc_insertion_point(module_scope)

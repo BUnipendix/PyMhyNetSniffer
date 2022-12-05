@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ItemParam_pb2 as ItemParam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19TowerLevelEndNotify.proto\x1a\x0fItemParam.proto\"\xbb\x02\n\x13TowerLevelEndNotify\x12\x15\n\rnext_floor_id\x18\x04 \x01(\r\x12$\n\x10reward_item_list\x18\x0c \x03(\x0b\x32\n.ItemParam\x12\x16\n\x0e\x63ontinue_state\x18\x0f \x01(\r\x12\x12\n\nis_success\x18\x05 \x01(\x08\x12\x1f\n\x17\x66inished_star_cond_list\x18\x06 \x03(\r\"\x99\x01\n\x11\x43ontinueStateType\x12(\n$CONTINUE_STATE_TYPE_CAN_NOT_CONTINUE\x10\x00\x12,\n(CONTINUE_STATE_TYPE_CAN_ENTER_NEXT_LEVEL\x10\x01\x12,\n(CONTINUE_STATE_TYPE_CAN_ENTER_NEXT_FLOOR\x10\x02\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19TowerLevelEndNotify.proto\x1a\x0fItemParam.proto\"\xc6\x02\n\x13TowerLevelEndNotify\x12\x1b\n\x13Unk3300_BOPIBKGAMID\x18\x02 \x01(\r\x12\x1f\n\x17\x66inished_star_cond_list\x18\x06 \x03(\r\x12\x1b\n\x13Unk3300_AHBGPMBHPMO\x18\x04 \x01(\r\x12\x12\n\nis_success\x18\x0f \x01(\x08\x12$\n\x10reward_item_list\x18\n \x03(\x0b\x32\n.ItemParam\"\x99\x01\n\x11\x43ontinueStateType\x12(\n$CONTINUE_STATE_TYPE_CAN_NOT_CONTINUE\x10\x00\x12,\n(CONTINUE_STATE_TYPE_CAN_ENTER_NEXT_LEVEL\x10\x01\x12,\n(CONTINUE_STATE_TYPE_CAN_ENTER_NEXT_FLOOR\x10\x02\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TowerLevelEndNotify_pb2', globals())
@@ -22,7 +22,7 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _TOWERLEVELENDNOTIFY._serialized_start=47
-  _TOWERLEVELENDNOTIFY._serialized_end=362
-  _TOWERLEVELENDNOTIFY_CONTINUESTATETYPE._serialized_start=209
-  _TOWERLEVELENDNOTIFY_CONTINUESTATETYPE._serialized_end=362
+  _TOWERLEVELENDNOTIFY._serialized_end=373
+  _TOWERLEVELENDNOTIFY_CONTINUESTATETYPE._serialized_start=220
+  _TOWERLEVELENDNOTIFY_CONTINUESTATETYPE._serialized_end=373
 # @@protoc_insertion_point(module_scope)

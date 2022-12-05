@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import MatchType_pb2 as MatchType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aPlayerCancelMatchReq.proto\x1a\x0fMatchType.proto\"6\n\x14PlayerCancelMatchReq\x12\x1e\n\nmatch_type\x18\x0b \x01(\x0e\x32\n.MatchTypeb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aPlayerCancelMatchReq.proto\x1a\x0fMatchType.proto\"6\n\x14PlayerCancelMatchReq\x12\x1e\n\nmatch_type\x18\x01 \x01(\x0e\x32\n.MatchTypeb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerCancelMatchReq_pb2', globals())

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0f\x43oopPoint.proto\"\x96\x01\n\tCoopPoint\x12\x17\n\x0fself_confidence\x18\x0f \x01(\r\x12\x1f\n\x05state\x18\n \x01(\x0e\x32\x10.CoopPoint.State\x12\n\n\x02id\x18\x0e \x01(\r\"C\n\x05State\x12\x13\n\x0fSTATE_UNSTARTED\x10\x00\x12\x11\n\rSTATE_STARTED\x10\x01\x12\x12\n\x0eSTATE_FINISHED\x10\x02\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0f\x43oopPoint.proto\"\x96\x01\n\tCoopPoint\x12\x17\n\x0fself_confidence\x18\x06 \x01(\r\x12\x1f\n\x05state\x18\x0e \x01(\x0e\x32\x10.CoopPoint.State\x12\n\n\x02id\x18\x04 \x01(\r\"C\n\x05State\x12\x13\n\x0fSTATE_UNSTARTED\x10\x00\x12\x11\n\rSTATE_STARTED\x10\x01\x12\x12\n\x0eSTATE_FINISHED\x10\x02\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CoopPoint_pb2', globals())

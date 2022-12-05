@@ -15,7 +15,7 @@ import ExhibitionDisplayInfo_pb2 as ExhibitionDisplayInfo__pb2
 import OnlinePlayerInfo_pb2 as OnlinePlayerInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&BounceConjuringGallerySettleInfo.proto\x1a\x1b\x45xhibitionDisplayInfo.proto\x1a\x16OnlinePlayerInfo.proto\"\x87\x03\n BounceConjuringGallerySettleInfo\x12&\n\x0bplayer_info\x18\x0e \x01(\x0b\x32\x11.OnlinePlayerInfo\x12\x1f\n\x17\x64\x65stroyed_machine_count\x18\x05 \x01(\r\x12\x13\n\x0b\x66\x65ver_count\x18\x06 \x01(\r\x12\x18\n\x10normal_hit_count\x18\x04 \x01(\r\x12\x0e\n\x06\x64\x61mage\x18\x0b \x01(\x02\x12O\n\x10gadget_count_map\x18\x0f \x03(\x0b\x32\x35.BounceConjuringGallerySettleInfo.GadgetCountMapEntry\x12\r\n\x05score\x18\x0c \x01(\r\x12\x19\n\x11perfect_hit_count\x18\x08 \x01(\r\x12)\n\tcard_list\x18\x07 \x03(\x0b\x32\x16.ExhibitionDisplayInfo\x1a\x35\n\x13GadgetCountMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&BounceConjuringGallerySettleInfo.proto\x1a\x1b\x45xhibitionDisplayInfo.proto\x1a\x16OnlinePlayerInfo.proto\"\x90\x03\n BounceConjuringGallerySettleInfo\x12\x1b\n\x13Unk3300_PELHBJDMKAE\x18\x06 \x01(\r\x12\r\n\x05score\x18\x0f \x01(\r\x12O\n\x10gadget_count_map\x18\x03 \x03(\x0b\x32\x35.BounceConjuringGallerySettleInfo.GadgetCountMapEntry\x12\x1b\n\x13Unk3300_CNGOBOFDEOE\x18\x0b \x01(\r\x12\x1b\n\x13Unk3300_NKGFKLGDFAC\x18\x01 \x01(\r\x12&\n\x0bplayer_info\x18\x02 \x01(\x0b\x32\x11.OnlinePlayerInfo\x12\x0e\n\x06\x64\x61mage\x18\x0c \x01(\x02\x12\x1b\n\x13Unk3300_BJHCDKNFDFN\x18\x07 \x01(\r\x12)\n\tcard_list\x18\t \x03(\x0b\x32\x16.ExhibitionDisplayInfo\x1a\x35\n\x13GadgetCountMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BounceConjuringGallerySettleInfo_pb2', globals())
@@ -25,7 +25,7 @@ if _descriptor._USE_C_DESCRIPTORS == False:
   _BOUNCECONJURINGGALLERYSETTLEINFO_GADGETCOUNTMAPENTRY._options = None
   _BOUNCECONJURINGGALLERYSETTLEINFO_GADGETCOUNTMAPENTRY._serialized_options = b'8\001'
   _BOUNCECONJURINGGALLERYSETTLEINFO._serialized_start=96
-  _BOUNCECONJURINGGALLERYSETTLEINFO._serialized_end=487
-  _BOUNCECONJURINGGALLERYSETTLEINFO_GADGETCOUNTMAPENTRY._serialized_start=434
-  _BOUNCECONJURINGGALLERYSETTLEINFO_GADGETCOUNTMAPENTRY._serialized_end=487
+  _BOUNCECONJURINGGALLERYSETTLEINFO._serialized_end=496
+  _BOUNCECONJURINGGALLERYSETTLEINFO_GADGETCOUNTMAPENTRY._serialized_start=443
+  _BOUNCECONJURINGGALLERYSETTLEINFO_GADGETCOUNTMAPENTRY._serialized_end=496
 # @@protoc_insertion_point(module_scope)

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import PropValue_pb2 as PropValue__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16SetPlayerPropReq.proto\x1a\x0fPropValue.proto\"1\n\x10SetPlayerPropReq\x12\x1d\n\tprop_list\x18\x07 \x03(\x0b\x32\n.PropValueb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16SetPlayerPropReq.proto\x1a\x0fPropValue.proto\"1\n\x10SetPlayerPropReq\x12\x1d\n\tprop_list\x18\x03 \x03(\x0b\x32\n.PropValueb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SetPlayerPropReq_pb2', globals())

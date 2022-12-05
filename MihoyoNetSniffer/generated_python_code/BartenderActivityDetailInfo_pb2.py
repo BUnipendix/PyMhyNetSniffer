@@ -11,17 +11,17 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import Unk2700_KJODHFMHMNC_pb2 as Unk2700__KJODHFMHMNC__pb2
-import Unk2700_LBIDBGLGKCJ_pb2 as Unk2700__LBIDBGLGKCJ__pb2
+import BartenderLevelInfo_pb2 as BartenderLevelInfo__pb2
+import BartenderTaskInfo_pb2 as BartenderTaskInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!BartenderActivityDetailInfo.proto\x1a\x19Unk2700_KJODHFMHMNC.proto\x1a\x19Unk2700_LBIDBGLGKCJ.proto\"\xf5\x01\n\x1b\x42\x61rtenderActivityDetailInfo\x12\x1b\n\x13Unk2700_BMOAIJMHPGA\x18\x03 \x03(\r\x12\x1b\n\x13Unk2700_JICAAEMPNBC\x18\r \x01(\x08\x12\x19\n\x11is_content_closed\x18\x06 \x01(\x08\x12\x31\n\x13Unk2700_MEGOPKBEHOH\x18\x05 \x03(\x0b\x32\x14.Unk2700_LBIDBGLGKCJ\x12\x1b\n\x13Unk2700_AIKFMMLFIJI\x18\x0e \x03(\r\x12\x31\n\x13Unk2700_DAGGAECBDEG\x18\x02 \x03(\x0b\x32\x14.Unk2700_KJODHFMHMNCb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!BartenderActivityDetailInfo.proto\x1a\x18\x42\x61rtenderLevelInfo.proto\x1a\x17\x42\x61rtenderTaskInfo.proto\"\xf0\x01\n\x1b\x42\x61rtenderActivityDetailInfo\x12\x19\n\x11is_content_closed\x18\x0f \x01(\x08\x12.\n\x11unlock_level_list\x18\n \x03(\x0b\x32\x13.BartenderLevelInfo\x12\x1b\n\x13Unk3300_BPCBOANPBHF\x18\x03 \x03(\r\x12\x1b\n\x13Unk3300_OGPLCBFDHCF\x18\x06 \x03(\r\x12,\n\x10unlock_task_list\x18\x05 \x03(\x0b\x32\x12.BartenderTaskInfo\x12\x1e\n\x16is_develop_module_open\x18\t \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BartenderActivityDetailInfo_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _BARTENDERACTIVITYDETAILINFO._serialized_start=92
-  _BARTENDERACTIVITYDETAILINFO._serialized_end=337
+  _BARTENDERACTIVITYDETAILINFO._serialized_start=89
+  _BARTENDERACTIVITYDETAILINFO._serialized_end=329
 # @@protoc_insertion_point(module_scope)

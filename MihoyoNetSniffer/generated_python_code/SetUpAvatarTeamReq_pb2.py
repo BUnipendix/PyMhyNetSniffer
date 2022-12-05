@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18SetUpAvatarTeamReq.proto\"]\n\x12SetUpAvatarTeamReq\x12\x0f\n\x07team_id\x18\x03 \x01(\r\x12\x1d\n\x15\x61vatar_team_guid_list\x18\x07 \x03(\x04\x12\x17\n\x0f\x63ur_avatar_guid\x18\x05 \x01(\x04\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18SetUpAvatarTeamReq.proto\"]\n\x12SetUpAvatarTeamReq\x12\x0f\n\x07team_id\x18\r \x01(\r\x12\x17\n\x0f\x63ur_avatar_guid\x18\x05 \x01(\x04\x12\x1d\n\x15\x61vatar_team_guid_list\x18\x0e \x03(\x04\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SetUpAvatarTeamReq_pb2', globals())

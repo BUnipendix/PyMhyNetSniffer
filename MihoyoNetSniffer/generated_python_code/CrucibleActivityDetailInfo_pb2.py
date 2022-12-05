@@ -15,7 +15,7 @@ import CrucibleBattleUidInfo_pb2 as CrucibleBattleUidInfo__pb2
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n CrucibleActivityDetailInfo.proto\x1a\x1b\x43rucibleBattleUidInfo.proto\x1a\x0cVector.proto\"\x90\x01\n\x1a\x43rucibleActivityDetailInfo\x12\x11\n\tcost_time\x18\x05 \x01(\r\x12\x1a\n\x12\x62\x61ttle_world_level\x18\x0c \x01(\r\x12-\n\ruid_info_list\x18\x03 \x03(\x0b\x32\x16.CrucibleBattleUidInfo\x12\x14\n\x03pos\x18\t \x01(\x0b\x32\x07.Vectorb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n CrucibleActivityDetailInfo.proto\x1a\x1b\x43rucibleBattleUidInfo.proto\x1a\x0cVector.proto\"\x90\x01\n\x1a\x43rucibleActivityDetailInfo\x12\x1a\n\x12\x62\x61ttle_world_level\x18\x05 \x01(\r\x12\x11\n\tcost_time\x18\x07 \x01(\r\x12\x14\n\x03pos\x18\t \x01(\x0b\x32\x07.Vector\x12-\n\ruid_info_list\x18\x0b \x03(\x0b\x32\x16.CrucibleBattleUidInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CrucibleActivityDetailInfo_pb2', globals())

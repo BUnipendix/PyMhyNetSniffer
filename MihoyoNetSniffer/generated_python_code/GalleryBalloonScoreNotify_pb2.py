@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fGalleryBalloonScoreNotify.proto\"\xa7\x01\n\x19GalleryBalloonScoreNotify\x12\x12\n\ngallery_id\x18\t \x01(\r\x12\x42\n\ruid_score_map\x18\x07 \x03(\x0b\x32+.GalleryBalloonScoreNotify.UidScoreMapEntry\x1a\x32\n\x10UidScoreMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fGalleryBalloonScoreNotify.proto\"\xa7\x01\n\x19GalleryBalloonScoreNotify\x12\x42\n\ruid_score_map\x18\x0c \x03(\x0b\x32+.GalleryBalloonScoreNotify.UidScoreMapEntry\x12\x12\n\ngallery_id\x18\x0b \x01(\r\x1a\x32\n\x10UidScoreMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GalleryBalloonScoreNotify_pb2', globals())

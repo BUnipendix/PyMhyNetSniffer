@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x46urnitureMakeStartReq.proto\";\n\x15\x46urnitureMakeStartReq\x12\x11\n\tavatar_id\x18\t \x01(\r\x12\x0f\n\x07make_id\x18\x01 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x46urnitureMakeStartReq.proto\";\n\x15\x46urnitureMakeStartReq\x12\x0f\n\x07make_id\x18\x0f \x01(\r\x12\x11\n\tavatar_id\x18\r \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FurnitureMakeStartReq_pb2', globals())

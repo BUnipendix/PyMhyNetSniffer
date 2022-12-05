@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x42lossomChestCreateNotify.proto\"F\n\x18\x42lossomChestCreateNotify\x12\x12\n\nrefresh_id\x18\x01 \x01(\r\x12\x16\n\x0e\x63ircle_camp_id\x18\n \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x42lossomChestCreateNotify.proto\"F\n\x18\x42lossomChestCreateNotify\x12\x12\n\nrefresh_id\x18\x07 \x01(\r\x12\x16\n\x0e\x63ircle_camp_id\x18\x0f \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BlossomChestCreateNotify_pb2', globals())

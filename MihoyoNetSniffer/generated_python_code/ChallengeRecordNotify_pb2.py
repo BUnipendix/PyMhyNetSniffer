@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ChallengeRecord_pb2 as ChallengeRecord__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x43hallengeRecordNotify.proto\x1a\x15\x43hallengeRecord.proto\"Z\n\x15\x43hallengeRecordNotify\x12\x10\n\x08group_id\x18\x02 \x01(\r\x12/\n\x15\x63hallenge_record_list\x18\x05 \x03(\x0b\x32\x10.ChallengeRecordb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x43hallengeRecordNotify.proto\x1a\x15\x43hallengeRecord.proto\"Z\n\x15\x43hallengeRecordNotify\x12\x10\n\x08group_id\x18\x0f \x01(\r\x12/\n\x15\x63hallenge_record_list\x18\t \x03(\x0b\x32\x10.ChallengeRecordb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChallengeRecordNotify_pb2', globals())

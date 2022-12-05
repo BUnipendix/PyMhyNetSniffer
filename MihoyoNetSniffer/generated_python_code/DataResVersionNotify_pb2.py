@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ResVersionConfig_pb2 as ResVersionConfig__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x44\x61taResVersionNotify.proto\x1a\x16ResVersionConfig.proto\"\xe3\x03\n\x14\x44\x61taResVersionNotify\x12\x1a\n\x12\x63lient_silence_md5\x18\n \x01(\t\x12%\n\x1d\x63lient_silence_version_suffix\x18\x0f \x01(\t\x12-\n\x12res_version_config\x18\t \x01(\x0b\x32\x11.ResVersionConfig\x12\x1c\n\x14is_data_need_relogin\x18\x07 \x01(\x08\x12;\n\x07op_type\x18\x0c \x01(\x0e\x32*.DataResVersionNotify.DataResVersionOpType\x12\x1b\n\x13\x63lient_data_version\x18\x02 \x01(\r\x12\x1d\n\x15\x63lient_version_suffix\x18\x05 \x01(\t\x12#\n\x1b\x63lient_silence_data_version\x18\x01 \x01(\r\x12\x12\n\nclient_md5\x18\x0e \x01(\t\"\x88\x01\n\x14\x44\x61taResVersionOpType\x12!\n\x1d\x44\x41TA_RES_VERSION_OP_TYPE_NONE\x10\x00\x12$\n DATA_RES_VERSION_OP_TYPE_RELOGIN\x10\x01\x12\'\n#DATA_RES_VERSION_OP_TYPE_MP_RELOGIN\x10\x02\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x44\x61taResVersionNotify.proto\x1a\x16ResVersionConfig.proto\"\xed\x03\n\x14\x44\x61taResVersionNotify\x12#\n\x1b\x63lient_silence_data_version\x18\r \x01(\r\x12;\n\x07op_type\x18\x06 \x01(\x0e\x32*.DataResVersionNotify.DataResVersionOpType\x12%\n\x1d\x63lient_silence_version_suffix\x18\x03 \x01(\t\x12\x1d\n\x15\x63lient_version_suffix\x18\t \x01(\t\x12\x1c\n\x14is_data_need_relogin\x18\x0f \x01(\x08\x12\x1b\n\x13Unk3300_HMGCPAGLDHB\x18\x0c \x01(\t\x12\x1b\n\x13\x63lient_data_version\x18\x05 \x01(\r\x12\x1b\n\x13Unk3300_OPGDBOLKLJA\x18\x02 \x01(\t\x12-\n\x12res_version_config\x18\x07 \x01(\x0b\x32\x11.ResVersionConfig\"\x88\x01\n\x14\x44\x61taResVersionOpType\x12!\n\x1d\x44\x41TA_RES_VERSION_OP_TYPE_NONE\x10\x00\x12$\n DATA_RES_VERSION_OP_TYPE_RELOGIN\x10\x01\x12\'\n#DATA_RES_VERSION_OP_TYPE_MP_RELOGIN\x10\x02\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DataResVersionNotify_pb2', globals())
@@ -22,7 +22,7 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _DATARESVERSIONNOTIFY._serialized_start=55
-  _DATARESVERSIONNOTIFY._serialized_end=538
-  _DATARESVERSIONNOTIFY_DATARESVERSIONOPTYPE._serialized_start=402
-  _DATARESVERSIONNOTIFY_DATARESVERSIONOPTYPE._serialized_end=538
+  _DATARESVERSIONNOTIFY._serialized_end=548
+  _DATARESVERSIONNOTIFY_DATARESVERSIONOPTYPE._serialized_start=412
+  _DATARESVERSIONNOTIFY_DATARESVERSIONOPTYPE._serialized_end=548
 # @@protoc_insertion_point(module_scope)

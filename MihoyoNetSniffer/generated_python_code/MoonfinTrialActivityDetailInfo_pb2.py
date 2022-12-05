@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import MoonfinTrialLevelInfo_pb2 as MoonfinTrialLevelInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$MoonfinTrialActivityDetailInfo.proto\x1a\x1bMoonfinTrialLevelInfo.proto\"\xd4\x01\n\x1eMoonfinTrialActivityDetailInfo\x12I\n\x0elevel_info_map\x18\x05 \x03(\x0b\x32\x31.MoonfinTrialActivityDetailInfo.LevelInfoMapEntry\x12\x1a\n\x12special_fish_count\x18\x0b \x01(\r\x1aK\n\x11LevelInfoMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12%\n\x05value\x18\x02 \x01(\x0b\x32\x16.MoonfinTrialLevelInfo:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$MoonfinTrialActivityDetailInfo.proto\x1a\x1bMoonfinTrialLevelInfo.proto\"\xd4\x01\n\x1eMoonfinTrialActivityDetailInfo\x12\x1a\n\x12special_fish_count\x18\r \x01(\r\x12I\n\x0elevel_info_map\x18\x05 \x03(\x0b\x32\x31.MoonfinTrialActivityDetailInfo.LevelInfoMapEntry\x1aK\n\x11LevelInfoMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12%\n\x05value\x18\x02 \x01(\x0b\x32\x16.MoonfinTrialLevelInfo:\x02\x38\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MoonfinTrialActivityDetailInfo_pb2', globals())

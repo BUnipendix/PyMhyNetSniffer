@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ChannelerSlabCamp_pb2 as ChannelerSlabCamp__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x43hannelerSlabChallenge.proto\x1a\x17\x43hannelerSlabCamp.proto\"Z\n\x16\x43hannelerSlabChallenge\x12\x19\n\x11\x61\x63tive_camp_index\x18\x05 \x01(\r\x12%\n\tcamp_list\x18\x0e \x03(\x0b\x32\x12.ChannelerSlabCampb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x43hannelerSlabChallenge.proto\x1a\x17\x43hannelerSlabCamp.proto\"Z\n\x16\x43hannelerSlabChallenge\x12\x19\n\x11\x61\x63tive_camp_index\x18\x01 \x01(\r\x12%\n\tcamp_list\x18\x0e \x03(\x0b\x32\x12.ChannelerSlabCampb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChannelerSlabChallenge_pb2', globals())

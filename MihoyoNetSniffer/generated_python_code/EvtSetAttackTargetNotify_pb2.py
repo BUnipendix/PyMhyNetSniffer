@@ -15,7 +15,7 @@ import EvtSetAttackTargetInfo_pb2 as EvtSetAttackTargetInfo__pb2
 import ForwardType_pb2 as ForwardType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x45vtSetAttackTargetNotify.proto\x1a\x1c\x45vtSetAttackTargetInfo.proto\x1a\x11\x46orwardType.proto\"{\n\x18\x45vtSetAttackTargetNotify\x12\"\n\x0c\x66orward_type\x18\x01 \x01(\x0e\x32\x0c.ForwardType\x12;\n\x1a\x65vt_set_attack_target_info\x18\x0b \x01(\x0b\x32\x17.EvtSetAttackTargetInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x45vtSetAttackTargetNotify.proto\x1a\x1c\x45vtSetAttackTargetInfo.proto\x1a\x11\x46orwardType.proto\"{\n\x18\x45vtSetAttackTargetNotify\x12;\n\x1a\x65vt_set_attack_target_info\x18\r \x01(\x0b\x32\x17.EvtSetAttackTargetInfo\x12\"\n\x0c\x66orward_type\x18\x06 \x01(\x0e\x32\x0c.ForwardTypeb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EvtSetAttackTargetNotify_pb2', globals())

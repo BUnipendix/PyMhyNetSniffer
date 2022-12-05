@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fRobotPushPlayerDataNotify.proto\"(\n\x19RobotPushPlayerDataNotify\x12\x0b\n\x03\x62in\x18\x06 \x01(\x0c\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fRobotPushPlayerDataNotify.proto\"(\n\x19RobotPushPlayerDataNotify\x12\x0b\n\x03\x62in\x18\x07 \x01(\x0c\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RobotPushPlayerDataNotify_pb2', globals())

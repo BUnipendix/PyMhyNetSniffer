@@ -11,15 +11,15 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
+import ChallengeFinishType_pb2 as ChallengeFinishType__pb2
 import ChannelerSlabLoopDungeonResultInfo_pb2 as ChannelerSlabLoopDungeonResultInfo__pb2
 import CustomDungeonResultInfo_pb2 as CustomDungeonResultInfo__pb2
 import EffigyChallengeDungeonResultInfo_pb2 as EffigyChallengeDungeonResultInfo__pb2
 import PotionDungeonResultInfo_pb2 as PotionDungeonResultInfo__pb2
 import StrengthenPointData_pb2 as StrengthenPointData__pb2
-import Unk2700_FHOKHHBGPEG_pb2 as Unk2700__FHOKHHBGPEG__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"DungeonChallengeFinishNotify.proto\x1a(ChannelerSlabLoopDungeonResultInfo.proto\x1a\x1d\x43ustomDungeonResultInfo.proto\x1a&EffigyChallengeDungeonResultInfo.proto\x1a\x1dPotionDungeonResultInfo.proto\x1a\x19StrengthenPointData.proto\x1a\x19Unk2700_FHOKHHBGPEG.proto\"\xcb\x05\n\x1c\x44ungeonChallengeFinishNotify\x12\\\n\x19strengthen_point_data_map\x18\r \x03(\x0b\x32\x39.DungeonChallengeFinishNotify.StrengthenPointDataMapEntry\x12\x31\n\x13Unk2700_ONCDLPDHFAB\x18\t \x01(\x0e\x32\x14.Unk2700_FHOKHHBGPEG\x12\x15\n\ris_new_record\x18\n \x01(\x08\x12\x1d\n\x15\x63hallenge_record_type\x18\x07 \x01(\r\x12\x11\n\ttime_cost\x18\x04 \x01(\r\x12\x15\n\rcurrent_value\x18\x0f \x01(\r\x12\x12\n\nis_success\x18\x03 \x01(\x08\x12\x17\n\x0f\x63hallenge_index\x18\x05 \x01(\r\x12X\n(channeller_slab_loop_dungeon_result_info\x18\xf1\x0b \x01(\x0b\x32#.ChannelerSlabLoopDungeonResultInfoH\x00\x12R\n$effigy_challenge_dungeon_result_info\x18\xdb\x0c \x01(\x0b\x32!.EffigyChallengeDungeonResultInfoH\x00\x12?\n\x1apotion_dungeon_result_info\x18\xa0\x0e \x01(\x0b\x32\x18.PotionDungeonResultInfoH\x00\x12?\n\x1a\x63ustom_dungeon_result_info\x18\x80\r \x01(\x0b\x32\x18.CustomDungeonResultInfoH\x00\x1aS\n\x1bStrengthenPointDataMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12#\n\x05value\x18\x02 \x01(\x0b\x32\x14.StrengthenPointData:\x02\x38\x01\x42\x08\n\x06\x64\x65tailb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"DungeonChallengeFinishNotify.proto\x1a\x19\x43hallengeFinishType.proto\x1a(ChannelerSlabLoopDungeonResultInfo.proto\x1a\x1d\x43ustomDungeonResultInfo.proto\x1a&EffigyChallengeDungeonResultInfo.proto\x1a\x1dPotionDungeonResultInfo.proto\x1a\x19StrengthenPointData.proto\"\xc2\x05\n\x1c\x44ungeonChallengeFinishNotify\x12\x15\n\ris_new_record\x18\t \x01(\x08\x12\x15\n\rcurrent_value\x18\x05 \x01(\r\x12)\n\x0b\x66inish_type\x18\x03 \x01(\x0e\x32\x14.ChallengeFinishType\x12\\\n\x19strengthen_point_data_map\x18\x0b \x03(\x0b\x32\x39.DungeonChallengeFinishNotify.StrengthenPointDataMapEntry\x12\x1d\n\x15\x63hallenge_record_type\x18\x02 \x01(\r\x12\x12\n\nis_success\x18\x08 \x01(\x08\x12\x17\n\x0f\x63hallenge_index\x18\x0c \x01(\r\x12\x11\n\ttime_cost\x18\x07 \x01(\r\x12X\n(channeller_slab_loop_dungeon_result_info\x18\x89\x0c \x01(\x0b\x32#.ChannelerSlabLoopDungeonResultInfoH\x00\x12Q\n$effigy_challenge_dungeon_result_info\x18L \x01(\x0b\x32!.EffigyChallengeDungeonResultInfoH\x00\x12?\n\x1apotion_dungeon_result_info\x18\xd8\x01 \x01(\x0b\x32\x18.PotionDungeonResultInfoH\x00\x12?\n\x1a\x63ustom_dungeon_result_info\x18\x8e\r \x01(\x0b\x32\x18.CustomDungeonResultInfoH\x00\x1aS\n\x1bStrengthenPointDataMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12#\n\x05value\x18\x02 \x01(\x0b\x32\x14.StrengthenPointData:\x02\x38\x01\x42\x08\n\x06\x64\x65tailb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DungeonChallengeFinishNotify_pb2', globals())
@@ -29,7 +29,7 @@ if _descriptor._USE_C_DESCRIPTORS == False:
   _DUNGEONCHALLENGEFINISHNOTIFY_STRENGTHENPOINTDATAMAPENTRY._options = None
   _DUNGEONCHALLENGEFINISHNOTIFY_STRENGTHENPOINTDATAMAPENTRY._serialized_options = b'8\001'
   _DUNGEONCHALLENGEFINISHNOTIFY._serialized_start=237
-  _DUNGEONCHALLENGEFINISHNOTIFY._serialized_end=952
-  _DUNGEONCHALLENGEFINISHNOTIFY_STRENGTHENPOINTDATAMAPENTRY._serialized_start=859
-  _DUNGEONCHALLENGEFINISHNOTIFY_STRENGTHENPOINTDATAMAPENTRY._serialized_end=942
+  _DUNGEONCHALLENGEFINISHNOTIFY._serialized_end=943
+  _DUNGEONCHALLENGEFINISHNOTIFY_STRENGTHENPOINTDATAMAPENTRY._serialized_start=850
+  _DUNGEONCHALLENGEFINISHNOTIFY_STRENGTHENPOINTDATAMAPENTRY._serialized_end=933
 # @@protoc_insertion_point(module_scope)

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import MonsterRoute_pb2 as MonsterRoute__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n(MonsterPointArrayRouteUpdateNotify.proto\x1a\x12MonsterRoute.proto\"]\n\"MonsterPointArrayRouteUpdateNotify\x12\x11\n\tentity_id\x18\x07 \x01(\r\x12$\n\rmonster_route\x18\x05 \x01(\x0b\x32\r.MonsterRouteb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n(MonsterPointArrayRouteUpdateNotify.proto\x1a\x12MonsterRoute.proto\"]\n\"MonsterPointArrayRouteUpdateNotify\x12\x11\n\tentity_id\x18\x05 \x01(\r\x12$\n\rmonster_route\x18\x0b \x01(\x0b\x32\r.MonsterRouteb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MonsterPointArrayRouteUpdateNotify_pb2', globals())

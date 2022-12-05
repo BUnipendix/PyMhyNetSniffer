@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import LunchBoxData_pb2 as LunchBoxData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cSetUpLunchBoxWidgetRsp.proto\x1a\x12LunchBoxData.proto\"P\n\x16SetUpLunchBoxWidgetRsp\x12%\n\x0elunch_box_data\x18\x03 \x01(\x0b\x32\r.LunchBoxData\x12\x0f\n\x07retcode\x18\r \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cSetUpLunchBoxWidgetRsp.proto\x1a\x12LunchBoxData.proto\"P\n\x16SetUpLunchBoxWidgetRsp\x12\x0f\n\x07retcode\x18\x07 \x01(\x05\x12%\n\x0elunch_box_data\x18\x02 \x01(\x0b\x32\r.LunchBoxDatab\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SetUpLunchBoxWidgetRsp_pb2', globals())

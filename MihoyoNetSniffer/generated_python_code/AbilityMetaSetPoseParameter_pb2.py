@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import AnimatorParameterValueInfoPair_pb2 as AnimatorParameterValueInfoPair__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!AbilityMetaSetPoseParameter.proto\x1a$AnimatorParameterValueInfoPair.proto\"M\n\x1b\x41\x62ilityMetaSetPoseParameter\x12.\n\x05value\x18\x06 \x01(\x0b\x32\x1f.AnimatorParameterValueInfoPairb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!AbilityMetaSetPoseParameter.proto\x1a$AnimatorParameterValueInfoPair.proto\"M\n\x1b\x41\x62ilityMetaSetPoseParameter\x12.\n\x05value\x18\x07 \x01(\x0b\x32\x1f.AnimatorParameterValueInfoPairb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AbilityMetaSetPoseParameter_pb2', globals())

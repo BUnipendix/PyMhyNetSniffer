@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import RoguelikeDungeonSettleInfo_pb2 as RoguelikeDungeonSettleInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18RoguelikeGiveUpRsp.proto\x1a RoguelikeDungeonSettleInfo.proto\"s\n\x12RoguelikeGiveUpRsp\x12\x0f\n\x07retcode\x18\x04 \x01(\x05\x12\x10\n\x08stage_id\x18\x07 \x01(\r\x12\x32\n\x0bsettle_info\x18\x08 \x01(\x0b\x32\x1b.RoguelikeDungeonSettleInfoH\x00\x42\x06\n\x04infob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18RoguelikeGiveUpRsp.proto\x1a RoguelikeDungeonSettleInfo.proto\"s\n\x12RoguelikeGiveUpRsp\x12\x0f\n\x07retcode\x18\x06 \x01(\x05\x12\x10\n\x08stage_id\x18\x0e \x01(\r\x12\x32\n\x0bsettle_info\x18\x02 \x01(\x0b\x32\x1b.RoguelikeDungeonSettleInfoH\x00\x42\x06\n\x04infob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RoguelikeGiveUpRsp_pb2', globals())

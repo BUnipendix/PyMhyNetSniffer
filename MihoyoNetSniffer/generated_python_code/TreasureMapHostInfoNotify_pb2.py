@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fTreasureMapHostInfoNotify.proto\"=\n\x19TreasureMapHostInfoNotify\x12 \n\x18mp_challenge_region_list\x18\x08 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fTreasureMapHostInfoNotify.proto\"=\n\x19TreasureMapHostInfoNotify\x12 \n\x18mp_challenge_region_list\x18\x01 \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TreasureMapHostInfoNotify_pb2', globals())

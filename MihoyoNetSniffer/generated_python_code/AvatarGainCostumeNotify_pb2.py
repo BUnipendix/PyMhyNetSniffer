@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x41vatarGainCostumeNotify.proto\"-\n\x17\x41vatarGainCostumeNotify\x12\x12\n\ncostume_id\x18\x0f \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x41vatarGainCostumeNotify.proto\"-\n\x17\x41vatarGainCostumeNotify\x12\x12\n\ncostume_id\x18\n \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarGainCostumeNotify_pb2', globals())

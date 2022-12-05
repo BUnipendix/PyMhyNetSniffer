@@ -16,7 +16,7 @@ import Vector_pb2 as Vector__pb2
 import Vector3Int_pb2 as Vector3Int__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12ObstacleInfo.proto\x1a\x14MathQuaternion.proto\x1a\x0cVector.proto\x1a\x10Vector3Int.proto\"\xfc\x01\n\x0cObstacleInfo\x12!\n\x08rotation\x18\x04 \x01(\x0b\x32\x0f.MathQuaternion\x12\x13\n\x0bobstacle_id\x18\x02 \x01(\x05\x12\x17\n\x06\x63\x65nter\x18\x0e \x01(\x0b\x32\x07.Vector\x12&\n\x05shape\x18\x06 \x01(\x0e\x32\x17.ObstacleInfo.ShapeType\x12\x1c\n\x07\x65xtents\x18\x0c \x01(\x0b\x32\x0b.Vector3Int\"U\n\tShapeType\x12%\n!SHAPE_TYPE_OBSTACLE_SHAPE_CAPSULE\x10\x00\x12!\n\x1dSHAPE_TYPE_OBSTACLE_SHAPE_BOX\x10\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12ObstacleInfo.proto\x1a\x14MathQuaternion.proto\x1a\x0cVector.proto\x1a\x10Vector3Int.proto\"\xfc\x01\n\x0cObstacleInfo\x12!\n\x08rotation\x18\x0b \x01(\x0b\x32\x0f.MathQuaternion\x12&\n\x05shape\x18\x02 \x01(\x0e\x32\x17.ObstacleInfo.ShapeType\x12\x1c\n\x07\x65xtents\x18\x04 \x01(\x0b\x32\x0b.Vector3Int\x12\x17\n\x06\x63\x65nter\x18\x07 \x01(\x0b\x32\x07.Vector\x12\x13\n\x0bobstacle_id\x18\n \x01(\x05\"U\n\tShapeType\x12%\n!SHAPE_TYPE_OBSTACLE_SHAPE_CAPSULE\x10\x00\x12!\n\x1dSHAPE_TYPE_OBSTACLE_SHAPE_BOX\x10\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ObstacleInfo_pb2', globals())

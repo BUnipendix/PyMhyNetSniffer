@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import TowerFightRecordPair_pb2 as TowerFightRecordPair__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eTowerMonthlyCombatRecord.proto\x1a\x1aTowerFightRecordPair.proto\"\x82\x03\n\x18TowerMonthlyCombatRecord\x12\x34\n\x15most_kill_avatar_pair\x18\x0e \x01(\x0b\x32\x15.TowerFightRecordPair\x12\x41\n\"most_cast_normal_skill_avatar_pair\x18\x08 \x01(\x0b\x32\x15.TowerFightRecordPair\x12\x36\n\x17most_reveal_avatar_list\x18\x06 \x03(\x0b\x32\x15.TowerFightRecordPair\x12\x41\n\"most_cast_energy_skill_avatar_pair\x18\x04 \x01(\x0b\x32\x15.TowerFightRecordPair\x12\x35\n\x16highest_dps_avatr_pair\x18\x0c \x01(\x0b\x32\x15.TowerFightRecordPair\x12;\n\x1cmost_take_damage_avatar_pair\x18\t \x01(\x0b\x32\x15.TowerFightRecordPairb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eTowerMonthlyCombatRecord.proto\x1a\x1aTowerFightRecordPair.proto\"\xd6\x02\n\x18TowerMonthlyCombatRecord\x12\x36\n\x17most_reveal_avatar_list\x18\x03 \x03(\x0b\x32\x15.TowerFightRecordPair\x12\x32\n\x13Unk3300_EIGEGOGFJND\x18\x08 \x01(\x0b\x32\x15.TowerFightRecordPair\x12\x32\n\x13Unk3300_OALLHJPBOHO\x18\x02 \x01(\x0b\x32\x15.TowerFightRecordPair\x12\x32\n\x13Unk3300_KMCLPHEDNCJ\x18\x0e \x01(\x0b\x32\x15.TowerFightRecordPair\x12\x32\n\x13Unk3300_KIKPMNPKLDG\x18\x07 \x01(\x0b\x32\x15.TowerFightRecordPair\x12\x32\n\x13Unk3300_CCFHOFCIEPF\x18\x0f \x01(\x0b\x32\x15.TowerFightRecordPairb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TowerMonthlyCombatRecord_pb2', globals())
@@ -22,5 +22,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _TOWERMONTHLYCOMBATRECORD._serialized_start=63
-  _TOWERMONTHLYCOMBATRECORD._serialized_end=449
+  _TOWERMONTHLYCOMBATRECORD._serialized_end=405
 # @@protoc_insertion_point(module_scope)

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bUnlockPersonalLineRsp.proto\"r\n\x15UnlockPersonalLineRsp\x12\x0f\n\x07retcode\x18\x04 \x01(\x05\x12\x18\n\x10personal_line_id\x18\n \x01(\r\x12\x0f\n\x05level\x18\x0b \x01(\rH\x00\x12\x14\n\nchapter_id\x18\x06 \x01(\rH\x00\x42\x07\n\x05paramb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bUnlockPersonalLineRsp.proto\"r\n\x15UnlockPersonalLineRsp\x12\x18\n\x10personal_line_id\x18\x04 \x01(\r\x12\x0f\n\x07retcode\x18\x0c \x01(\x05\x12\x0f\n\x05level\x18\n \x01(\rH\x00\x12\x14\n\nchapter_id\x18\x03 \x01(\rH\x00\x42\x07\n\x05paramb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'UnlockPersonalLineRsp_pb2', globals())

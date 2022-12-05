@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n HideAndSeekSelectAvatarReq.proto\"/\n\x1aHideAndSeekSelectAvatarReq\x12\x11\n\tavatar_id\x18\x08 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n HideAndSeekSelectAvatarReq.proto\"/\n\x1aHideAndSeekSelectAvatarReq\x12\x11\n\tavatar_id\x18\n \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HideAndSeekSelectAvatarReq_pb2', globals())

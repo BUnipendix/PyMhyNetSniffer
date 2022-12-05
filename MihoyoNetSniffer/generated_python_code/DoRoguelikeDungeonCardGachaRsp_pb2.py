@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$DoRoguelikeDungeonCardGachaRsp.proto\"\\\n\x1e\x44oRoguelikeDungeonCardGachaRsp\x12\x16\n\x0eis_can_refresh\x18\x08 \x01(\x08\x12\x11\n\tcard_list\x18\x0f \x03(\r\x12\x0f\n\x07retcode\x18\x05 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$DoRoguelikeDungeonCardGachaRsp.proto\"\\\n\x1e\x44oRoguelikeDungeonCardGachaRsp\x12\x0f\n\x07retcode\x18\x0b \x01(\x05\x12\x16\n\x0eis_can_refresh\x18\x06 \x01(\x08\x12\x11\n\tcard_list\x18\x0f \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DoRoguelikeDungeonCardGachaRsp_pb2', globals())

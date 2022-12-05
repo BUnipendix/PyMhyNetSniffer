@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ForgeQueueManipulateType_pb2 as ForgeQueueManipulateType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x46orgeQueueManipulateReq.proto\x1a\x1e\x46orgeQueueManipulateType.proto\"e\n\x17\x46orgeQueueManipulateReq\x12\x16\n\x0e\x66orge_queue_id\x18\x05 \x01(\r\x12\x32\n\x0fmanipulate_type\x18\r \x01(\x0e\x32\x19.ForgeQueueManipulateTypeb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x46orgeQueueManipulateReq.proto\x1a\x1e\x46orgeQueueManipulateType.proto\"e\n\x17\x46orgeQueueManipulateReq\x12\x16\n\x0e\x66orge_queue_id\x18\x03 \x01(\r\x12\x32\n\x0fmanipulate_type\x18\x04 \x01(\x0e\x32\x19.ForgeQueueManipulateTypeb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ForgeQueueManipulateReq_pb2', globals())

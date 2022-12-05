@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&SceneGallerySummerTimeV2BoatInfo.proto\"o\n SceneGallerySummerTimeV2BoatInfo\x12\x0e\n\x06param1\x18\x0f \x01(\r\x12\x0e\n\x06param3\x18\x03 \x01(\r\x12\x1b\n\x13Unk2800_NGGPIECNHJA\x18\x0b \x01(\r\x12\x0e\n\x06param2\x18\x07 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&SceneGallerySummerTimeV2BoatInfo.proto\"e\n SceneGallerySummerTimeV2BoatInfo\x12\x11\n\tused_time\x18\x06 \x01(\r\x12\x0e\n\x06param1\x18\x05 \x01(\r\x12\x0e\n\x06param3\x18\x0c \x01(\r\x12\x0e\n\x06param2\x18\x03 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGallerySummerTimeV2BoatInfo_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _SCENEGALLERYSUMMERTIMEV2BOATINFO._serialized_start=42
-  _SCENEGALLERYSUMMERTIMEV2BOATINFO._serialized_end=153
+  _SCENEGALLERYSUMMERTIMEV2BOATINFO._serialized_end=143
 # @@protoc_insertion_point(module_scope)

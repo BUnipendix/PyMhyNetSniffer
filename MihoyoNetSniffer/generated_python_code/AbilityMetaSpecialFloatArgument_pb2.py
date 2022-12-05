@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%AbilityMetaSpecialFloatArgument.proto\"H\n\x1f\x41\x62ilityMetaSpecialFloatArgument\x12\x16\n\x0e\x61rgument_value\x18\x0e \x01(\x02\x12\r\n\x05is_on\x18\n \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%AbilityMetaSpecialFloatArgument.proto\"H\n\x1f\x41\x62ilityMetaSpecialFloatArgument\x12\x16\n\x0e\x61rgument_value\x18\x04 \x01(\x02\x12\r\n\x05is_on\x18\n \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AbilityMetaSpecialFloatArgument_pb2', globals())

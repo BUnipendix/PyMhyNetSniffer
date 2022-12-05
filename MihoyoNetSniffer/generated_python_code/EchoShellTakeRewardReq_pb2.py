@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x45\x63hoShellTakeRewardReq.proto\"+\n\x16\x45\x63hoShellTakeRewardReq\x12\x11\n\treward_id\x18\n \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x45\x63hoShellTakeRewardReq.proto\"+\n\x16\x45\x63hoShellTakeRewardReq\x12\x11\n\treward_id\x18\x04 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EchoShellTakeRewardReq_pb2', globals())

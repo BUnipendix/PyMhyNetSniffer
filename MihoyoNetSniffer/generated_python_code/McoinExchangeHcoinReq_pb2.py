@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bMcoinExchangeHcoinReq.proto\":\n\x15McoinExchangeHcoinReq\x12\r\n\x05hcoin\x18\x05 \x01(\r\x12\x12\n\nmcoin_cost\x18\x01 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bMcoinExchangeHcoinReq.proto\":\n\x15McoinExchangeHcoinReq\x12\r\n\x05hcoin\x18\x01 \x01(\r\x12\x12\n\nmcoin_cost\x18\x03 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'McoinExchangeHcoinReq_pb2', globals())

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import PlayerDieOption_pb2 as PlayerDieOption__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x44ungeonDieOptionReq.proto\x1a\x15PlayerDieOption.proto\"X\n\x13\x44ungeonDieOptionReq\x12$\n\ndie_option\x18\x0b \x01(\x0e\x32\x10.PlayerDieOption\x12\x1b\n\x13is_quit_immediately\x18\x0e \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x44ungeonDieOptionReq.proto\x1a\x15PlayerDieOption.proto\"X\n\x13\x44ungeonDieOptionReq\x12$\n\ndie_option\x18\x05 \x01(\x0e\x32\x10.PlayerDieOption\x12\x1b\n\x13is_quit_immediately\x18\x0e \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DungeonDieOptionReq_pb2', globals())

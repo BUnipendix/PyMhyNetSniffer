@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10\x43hildQuest.proto\"F\n\nChildQuest\x12\x17\n\x0fquest_config_id\x18\x08 \x01(\r\x12\r\n\x05state\x18\x04 \x01(\r\x12\x10\n\x08quest_id\x18\x0f \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10\x43hildQuest.proto\"F\n\nChildQuest\x12\r\n\x05state\x18\x0f \x01(\r\x12\x17\n\x0fquest_config_id\x18\t \x01(\r\x12\x10\n\x08quest_id\x18\r \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChildQuest_pb2', globals())

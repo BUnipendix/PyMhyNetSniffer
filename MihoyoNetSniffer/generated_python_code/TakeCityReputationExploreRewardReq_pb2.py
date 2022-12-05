@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n(TakeCityReputationExploreRewardReq.proto\"N\n\"TakeCityReputationExploreRewardReq\x12\x0f\n\x07\x63ity_id\x18\x0f \x01(\r\x12\x17\n\x0f\x65xplore_id_list\x18\x0c \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n(TakeCityReputationExploreRewardReq.proto\"N\n\"TakeCityReputationExploreRewardReq\x12\x17\n\x0f\x65xplore_id_list\x18\x05 \x03(\r\x12\x0f\n\x07\x63ity_id\x18\x03 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TakeCityReputationExploreRewardReq_pb2', globals())

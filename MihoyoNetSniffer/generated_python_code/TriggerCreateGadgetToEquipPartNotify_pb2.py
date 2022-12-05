@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n*TriggerCreateGadgetToEquipPartNotify.proto\"z\n$TriggerCreateGadgetToEquipPartNotify\x12\x11\n\tgadget_id\x18\x01 \x01(\r\x12\x11\n\tentity_id\x18\r \x01(\r\x12\x12\n\nequip_part\x18\x0e \x01(\t\x12\x18\n\x10gadget_entity_id\x18\n \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n*TriggerCreateGadgetToEquipPartNotify.proto\"z\n$TriggerCreateGadgetToEquipPartNotify\x12\x18\n\x10gadget_entity_id\x18\x01 \x01(\r\x12\x12\n\nequip_part\x18\x0c \x01(\t\x12\x11\n\tentity_id\x18\x06 \x01(\r\x12\x11\n\tgadget_id\x18\x0b \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TriggerCreateGadgetToEquipPartNotify_pb2', globals())

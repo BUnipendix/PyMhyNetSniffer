@@ -11,19 +11,19 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import Unk3000_ALPEACOMIPG_pb2 as Unk3000__ALPEACOMIPG__pb2
-import Unk3000_FFOBEKMOHOI_pb2 as Unk3000__FFOBEKMOHOI__pb2
-import Unk3000_ILLNKBDNGKP_pb2 as Unk3000__ILLNKBDNGKP__pb2
-import Unk3000_OFMFFECMKLE_pb2 as Unk3000__OFMFFECMKLE__pb2
+import GravenInnocenceCampInfo_pb2 as GravenInnocenceCampInfo__pb2
+import GravenInnocenceCarveInfo_pb2 as GravenInnocenceCarveInfo__pb2
+import GravenInnocencePhotoInfo_pb2 as GravenInnocencePhotoInfo__pb2
+import GravenInnocenceRaceInfo_pb2 as GravenInnocenceRaceInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fGravenInnocenceDetailInfo.proto\x1a\x19Unk3000_ALPEACOMIPG.proto\x1a\x19Unk3000_FFOBEKMOHOI.proto\x1a\x19Unk3000_ILLNKBDNGKP.proto\x1a\x19Unk3000_OFMFFECMKLE.proto\"\x82\x02\n\x19GravenInnocenceDetailInfo\x12\x19\n\x11is_content_closed\x18\x08 \x01(\x08\x12\x31\n\x13Unk3000_JGJKABIPGLK\x18\n \x01(\x0b\x32\x14.Unk3000_OFMFFECMKLE\x12\x31\n\x13Unk3000_CDDIFHNEDOO\x18\x07 \x01(\x0b\x32\x14.Unk3000_ILLNKBDNGKP\x12\x31\n\x13Unk3000_BDFIOPBIOEB\x18\r \x01(\x0b\x32\x14.Unk3000_ALPEACOMIPG\x12\x31\n\x13Unk3000_KDPJGGENAJM\x18\x0c \x01(\x0b\x32\x14.Unk3000_FFOBEKMOHOIb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fGravenInnocenceDetailInfo.proto\x1a\x1dGravenInnocenceCampInfo.proto\x1a\x1eGravenInnocenceCarveInfo.proto\x1a\x1eGravenInnocencePhotoInfo.proto\x1a\x1dGravenInnocenceRaceInfo.proto\"\xee\x01\n\x19GravenInnocenceDetailInfo\x12\x19\n\x11is_content_closed\x18\x08 \x01(\x08\x12+\n\trace_info\x18\x02 \x01(\x0b\x32\x18.GravenInnocenceRaceInfo\x12+\n\tcamp_info\x18\x03 \x01(\x0b\x32\x18.GravenInnocenceCampInfo\x12-\n\ncarve_info\x18\r \x01(\x0b\x32\x19.GravenInnocenceCarveInfo\x12-\n\nphoto_info\x18\n \x01(\x0b\x32\x19.GravenInnocencePhotoInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GravenInnocenceDetailInfo_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GRAVENINNOCENCEDETAILINFO._serialized_start=144
-  _GRAVENINNOCENCEDETAILINFO._serialized_end=402
+  _GRAVENINNOCENCEDETAILINFO._serialized_start=162
+  _GRAVENINNOCENCEDETAILINFO._serialized_end=400
 # @@protoc_insertion_point(module_scope)

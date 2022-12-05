@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"PlayerGetForceQuitBanInfoRsp.proto\"V\n\x1cPlayerGetForceQuitBanInfoRsp\x12\x0f\n\x07retcode\x18\x04 \x01(\x05\x12\x10\n\x08match_id\x18\x08 \x01(\r\x12\x13\n\x0b\x65xpire_time\x18\r \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"PlayerGetForceQuitBanInfoRsp.proto\"V\n\x1cPlayerGetForceQuitBanInfoRsp\x12\x10\n\x08match_id\x18\r \x01(\r\x12\x13\n\x0b\x65xpire_time\x18\x02 \x01(\r\x12\x0f\n\x07retcode\x18\x04 \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerGetForceQuitBanInfoRsp_pb2', globals())

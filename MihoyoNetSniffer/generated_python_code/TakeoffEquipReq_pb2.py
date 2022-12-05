@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15TakeoffEquipReq.proto\"4\n\x0fTakeoffEquipReq\x12\x13\n\x0b\x61vatar_guid\x18\x08 \x01(\x04\x12\x0c\n\x04slot\x18\x0f \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15TakeoffEquipReq.proto\"4\n\x0fTakeoffEquipReq\x12\x0c\n\x04slot\x18\t \x01(\r\x12\x13\n\x0b\x61vatar_guid\x18\r \x01(\x04\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TakeoffEquipReq_pb2', globals())

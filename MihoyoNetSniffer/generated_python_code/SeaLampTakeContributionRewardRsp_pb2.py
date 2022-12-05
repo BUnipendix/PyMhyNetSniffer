@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&SeaLampTakeContributionRewardRsp.proto\"F\n SeaLampTakeContributionRewardRsp\x12\x11\n\tconfig_id\x18\t \x01(\r\x12\x0f\n\x07retcode\x18\x07 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&SeaLampTakeContributionRewardRsp.proto\"F\n SeaLampTakeContributionRewardRsp\x12\x0f\n\x07retcode\x18\t \x01(\x05\x12\x11\n\tconfig_id\x18\x05 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SeaLampTakeContributionRewardRsp_pb2', globals())

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&HideAndSeekPlayerSetAvatarNotify.proto\"V\n HideAndSeekPlayerSetAvatarNotify\x12\x11\n\tavatar_id\x18\x02 \x01(\r\x12\x12\n\ncostume_id\x18\r \x01(\r\x12\x0b\n\x03uid\x18\x05 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&HideAndSeekPlayerSetAvatarNotify.proto\"V\n HideAndSeekPlayerSetAvatarNotify\x12\x0b\n\x03uid\x18\x0c \x01(\r\x12\x12\n\ncostume_id\x18\x08 \x01(\r\x12\x11\n\tavatar_id\x18\n \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HideAndSeekPlayerSetAvatarNotify_pb2', globals())

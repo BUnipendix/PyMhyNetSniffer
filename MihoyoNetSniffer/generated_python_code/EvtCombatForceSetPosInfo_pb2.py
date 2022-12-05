@@ -14,13 +14,13 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x45vtCombatForceSetPosInfo.proto\x1a\x0cVector.proto\"v\n\x18\x45vtCombatForceSetPosInfo\x12\x0e\n\x06ice_id\x18\t \x01(\r\x12\x1a\n\x12\x63ollider_entity_id\x18\n \x01(\r\x12\x11\n\tentity_id\x18\x06 \x01(\r\x12\x1b\n\ntarget_pos\x18\x01 \x01(\x0b\x32\x07.Vectorb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x45vtCombatForceSetPosInfo.proto\x1a\x0cVector.proto\"\x84\x01\n\x18\x45vtCombatForceSetPosInfo\x12\x1b\n\x13Unk3300_LGGMBNLMGHB\x18\x08 \x01(\r\x12\x1b\n\x13Unk3300_IALIGDPAMFL\x18\x07 \x01(\r\x12\x1b\n\ntarget_pos\x18\x01 \x01(\x0b\x32\x07.Vector\x12\x11\n\tentity_id\x18\n \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EvtCombatForceSetPosInfo_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _EVTCOMBATFORCESETPOSINFO._serialized_start=48
-  _EVTCOMBATFORCESETPOSINFO._serialized_end=166
+  _EVTCOMBATFORCESETPOSINFO._serialized_start=49
+  _EVTCOMBATFORCESETPOSINFO._serialized_end=181
 # @@protoc_insertion_point(module_scope)

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import CodexType_pb2 as CodexType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13\x43odexTypeData.proto\x1a\x0f\x43odexType.proto\"\xef\x01\n\rCodexTypeData\x12\x15\n\rcodex_id_list\x18\x0e \x03(\r\x12R\n\x1cweapon_max_promote_level_map\x18\x04 \x03(\x0b\x32,.CodexTypeData.WeaponMaxPromoteLevelMapEntry\x12\x18\n\x04type\x18\r \x01(\x0e\x32\n.CodexType\x12\x18\n\x10have_viewed_list\x18\x05 \x03(\x08\x1a?\n\x1dWeaponMaxPromoteLevelMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13\x43odexTypeData.proto\x1a\x0f\x43odexType.proto\"\xef\x01\n\rCodexTypeData\x12\x18\n\x10have_viewed_list\x18\r \x03(\x08\x12\x15\n\rcodex_id_list\x18\t \x03(\r\x12R\n\x1cweapon_max_promote_level_map\x18\x0c \x03(\x0b\x32,.CodexTypeData.WeaponMaxPromoteLevelMapEntry\x12\x18\n\x04type\x18\x0e \x01(\x0e\x32\n.CodexType\x1a?\n\x1dWeaponMaxPromoteLevelMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CodexTypeData_pb2', globals())

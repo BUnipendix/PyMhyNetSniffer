@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%SceneGalleryBounceConjuringInfo.proto\"]\n\x1fSceneGalleryBounceConjuringInfo\x12%\n\x1dtotal_destroyed_machine_count\x18\x04 \x01(\r\x12\x13\n\x0btotal_score\x18\x06 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%SceneGalleryBounceConjuringInfo.proto\"]\n\x1fSceneGalleryBounceConjuringInfo\x12\x13\n\x0btotal_score\x18\x04 \x01(\r\x12%\n\x1dtotal_destroyed_machine_count\x18\x0c \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGalleryBounceConjuringInfo_pb2', globals())

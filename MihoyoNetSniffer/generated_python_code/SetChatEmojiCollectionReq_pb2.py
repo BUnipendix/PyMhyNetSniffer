@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ChatEmojiCollectionData_pb2 as ChatEmojiCollectionData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fSetChatEmojiCollectionReq.proto\x1a\x1d\x43hatEmojiCollectionData.proto\"Y\n\x19SetChatEmojiCollectionReq\x12<\n\x1a\x63hat_emoji_collection_data\x18\x0c \x01(\x0b\x32\x18.ChatEmojiCollectionDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fSetChatEmojiCollectionReq.proto\x1a\x1d\x43hatEmojiCollectionData.proto\"Y\n\x19SetChatEmojiCollectionReq\x12<\n\x1a\x63hat_emoji_collection_data\x18\r \x01(\x0b\x32\x18.ChatEmojiCollectionDatab\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SetChatEmojiCollectionReq_pb2', globals())

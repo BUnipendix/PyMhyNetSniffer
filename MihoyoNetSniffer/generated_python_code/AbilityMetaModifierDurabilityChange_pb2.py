@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n)AbilityMetaModifierDurabilityChange.proto\"[\n#AbilityMetaModifierDurabilityChange\x12\x19\n\x11reduce_durability\x18\x06 \x01(\x02\x12\x19\n\x11remain_durability\x18\x0f \x01(\x02\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n)AbilityMetaModifierDurabilityChange.proto\"_\n#AbilityMetaModifierDurabilityChange\x12\x1b\n\x13Unk3300_LDHNFNOGOGF\x18\r \x01(\x02\x12\x1b\n\x13Unk3300_IFHFHEHDOIO\x18\x01 \x01(\x02\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AbilityMetaModifierDurabilityChange_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _ABILITYMETAMODIFIERDURABILITYCHANGE._serialized_start=45
-  _ABILITYMETAMODIFIERDURABILITYCHANGE._serialized_end=136
+  _ABILITYMETAMODIFIERDURABILITYCHANGE._serialized_end=140
 # @@protoc_insertion_point(module_scope)

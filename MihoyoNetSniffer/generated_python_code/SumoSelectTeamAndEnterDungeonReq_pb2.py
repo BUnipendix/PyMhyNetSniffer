@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import SumoTeamData_pb2 as SumoTeamData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&SumoSelectTeamAndEnterDungeonReq.proto\x1a\x12SumoTeamData.proto\"\x82\x01\n SumoSelectTeamAndEnterDungeonReq\x12\x13\n\x0b\x61\x63tivity_id\x18\x01 \x01(\r\x12\x10\n\x08stage_id\x18\x07 \x01(\r\x12\x15\n\rdifficulty_id\x18\x04 \x01(\r\x12 \n\tteam_list\x18\n \x03(\x0b\x32\r.SumoTeamDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&SumoSelectTeamAndEnterDungeonReq.proto\x1a\x12SumoTeamData.proto\"\x82\x01\n SumoSelectTeamAndEnterDungeonReq\x12 \n\tteam_list\x18\x0f \x03(\x0b\x32\r.SumoTeamData\x12\x13\n\x0b\x61\x63tivity_id\x18\x01 \x01(\r\x12\x15\n\rdifficulty_id\x18\x05 \x01(\r\x12\x10\n\x08stage_id\x18\x07 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SumoSelectTeamAndEnterDungeonReq_pb2', globals())

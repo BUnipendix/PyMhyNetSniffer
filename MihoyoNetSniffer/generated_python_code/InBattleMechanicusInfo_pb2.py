@@ -17,7 +17,7 @@ import InBattleMechanicusPlayerInfo_pb2 as InBattleMechanicusPlayerInfo__pb2
 import InBattleMechanicusStageType_pb2 as InBattleMechanicusStageType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cInBattleMechanicusInfo.proto\x1a InBattleMechanicusCardInfo.proto\x1a#InBattleMechanicusMonsterInfo.proto\x1a\"InBattleMechanicusPlayerInfo.proto\x1a!InBattleMechanicusStageType.proto\"\xbd\x04\n\x16InBattleMechanicusInfo\x12\x14\n\x0cleft_monster\x18\x05 \x01(\r\x12\x14\n\x0cwait_seconds\x18\r \x01(\r\x12\x16\n\rentrance_list\x18\x9a\x03 \x03(\r\x12\x11\n\texit_list\x18s \x03(\r\x12\x36\n\x11history_card_list\x18\x0b \x03(\x0b\x32\x1b.InBattleMechanicusCardInfo\x12\x1e\n\x16max_escape_monster_num\x18\n \x01(\r\x12\x1f\n\x17\x62uilding_stage_duration\x18\x04 \x01(\r\x12\x13\n\x0b\x64uration_ms\x18\x08 \x01(\x04\x12+\n\x05stage\x18\t \x01(\x0e\x32\x1c.InBattleMechanicusStageType\x12\x13\n\x0btotal_round\x18\x0c \x01(\r\x12\x34\n\x0cmonster_list\x18\x0e \x03(\x0b\x32\x1e.InBattleMechanicusMonsterInfo\x12\x1b\n\x13\x65scaped_monster_num\x18\x06 \x01(\r\x12\r\n\x05round\x18\x03 \x01(\r\x12\x33\n\x0epick_card_list\x18\x0f \x03(\x0b\x32\x1b.InBattleMechanicusCardInfo\x12\x32\n\x0bplayer_list\x18\x07 \x03(\x0b\x32\x1d.InBattleMechanicusPlayerInfo\x12\x1a\n\x12wait_begin_time_us\x18\x01 \x01(\x04\x12\x15\n\rbegin_time_ms\x18\x02 \x01(\x04\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cInBattleMechanicusInfo.proto\x1a InBattleMechanicusCardInfo.proto\x1a#InBattleMechanicusMonsterInfo.proto\x1a\"InBattleMechanicusPlayerInfo.proto\x1a!InBattleMechanicusStageType.proto\"\xd9\x04\n\x16InBattleMechanicusInfo\x12\x1c\n\x13Unk3300_MNNDELKIBLG\x18\x90\x05 \x03(\r\x12\x1c\n\x13Unk3300_GHBEHPGBBIH\x18\xab\x05 \x03(\r\x12+\n\x05stage\x18\x07 \x01(\x0e\x32\x1c.InBattleMechanicusStageType\x12\x1b\n\x13Unk3300_EBOIGFMOKHK\x18\x04 \x01(\r\x12\x14\n\x0cwait_seconds\x18\r \x01(\r\x12\x18\n\x10left_monster_num\x18\x0f \x01(\r\x12\x1b\n\x13Unk3300_IFIPKLOGEOF\x18\x06 \x01(\x04\x12\x32\n\x0bplayer_list\x18\x0c \x03(\x0b\x32\x1d.InBattleMechanicusPlayerInfo\x12\x13\n\x0btotal_round\x18\x01 \x01(\r\x12\x1b\n\x13Unk3300_IAPINOLIALF\x18\x0e \x01(\x04\x12\x34\n\x0cmonster_list\x18\t \x03(\x0b\x32\x1e.InBattleMechanicusMonsterInfo\x12\x1b\n\x13Unk3300_CIJALCAMHCD\x18\x03 \x01(\r\x12\x1a\n\x12wait_begin_time_us\x18\x02 \x01(\x04\x12\x36\n\x11history_card_list\x18\x05 \x03(\x0b\x32\x1b.InBattleMechanicusCardInfo\x12\x33\n\x0epick_card_list\x18\x08 \x03(\x0b\x32\x1b.InBattleMechanicusCardInfo\x12\x1b\n\x13\x65scaped_monster_num\x18\n \x01(\r\x12\r\n\x05round\x18\x0b \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'InBattleMechanicusInfo_pb2', globals())
@@ -25,5 +25,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _INBATTLEMECHANICUSINFO._serialized_start=175
-  _INBATTLEMECHANICUSINFO._serialized_end=748
+  _INBATTLEMECHANICUSINFO._serialized_end=776
 # @@protoc_insertion_point(module_scope)

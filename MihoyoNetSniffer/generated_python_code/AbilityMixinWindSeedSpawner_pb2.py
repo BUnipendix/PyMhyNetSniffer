@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!AbilityMixinWindSeedSpawner.proto\x1a\x0cVector.proto\"\xb9\x02\n\x1b\x41\x62ilityMixinWindSeedSpawner\x12<\n\nadd_signal\x18\x02 \x01(\x0b\x32&.AbilityMixinWindSeedSpawner.AddSignalH\x00\x12@\n\x0crefresh_seed\x18\x0f \x01(\x0b\x32(.AbilityMixinWindSeedSpawner.RefreshSeedH\x00\x12<\n\ncatch_seed\x18\x0b \x01(\x0b\x32&.AbilityMixinWindSeedSpawner.CatchSeedH\x00\x1a\x0b\n\tAddSignal\x1a(\n\x0bRefreshSeed\x12\x19\n\x08pos_list\x18\x06 \x03(\x0b\x32\x07.Vector\x1a\x1e\n\tCatchSeed\x12\x11\n\tentity_id\x18\x08 \x01(\rB\x05\n\x03\x63mdb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!AbilityMixinWindSeedSpawner.proto\x1a\x0cVector.proto\"\xb9\x02\n\x1b\x41\x62ilityMixinWindSeedSpawner\x12<\n\nadd_signal\x18\x08 \x01(\x0b\x32&.AbilityMixinWindSeedSpawner.AddSignalH\x00\x12@\n\x0crefresh_seed\x18\x0c \x01(\x0b\x32(.AbilityMixinWindSeedSpawner.RefreshSeedH\x00\x12<\n\ncatch_seed\x18\x0e \x01(\x0b\x32&.AbilityMixinWindSeedSpawner.CatchSeedH\x00\x1a\x0b\n\tAddSignal\x1a(\n\x0bRefreshSeed\x12\x19\n\x08pos_list\x18\n \x03(\x0b\x32\x07.Vector\x1a\x1e\n\tCatchSeed\x12\x11\n\tentity_id\x18\r \x01(\rB\x05\n\x03\x63mdb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AbilityMixinWindSeedSpawner_pb2', globals())

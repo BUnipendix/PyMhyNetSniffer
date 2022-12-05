@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16WeaponPromoteReq.proto\".\n\x10WeaponPromoteReq\x12\x1a\n\x12target_weapon_guid\x18\x05 \x01(\x04\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16WeaponPromoteReq.proto\".\n\x10WeaponPromoteReq\x12\x1a\n\x12target_weapon_guid\x18\x0e \x01(\x04\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WeaponPromoteReq_pb2', globals())

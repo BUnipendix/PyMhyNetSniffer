@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import AISnapshotEntityData_pb2 as AISnapshotEntityData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14\x41ISnapshotInfo.proto\x1a\x1a\x41ISnapshotEntityData.proto\"=\n\x0e\x41ISnapshotInfo\x12+\n\x0c\x61i_snapshots\x18\r \x03(\x0b\x32\x15.AISnapshotEntityDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14\x41ISnapshotInfo.proto\x1a\x1a\x41ISnapshotEntityData.proto\"=\n\x0e\x41ISnapshotInfo\x12+\n\x0c\x61i_snapshots\x18\x01 \x03(\x0b\x32\x15.AISnapshotEntityDatab\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AISnapshotInfo_pb2', globals())

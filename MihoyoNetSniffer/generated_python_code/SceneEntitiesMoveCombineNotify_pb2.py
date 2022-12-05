@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import EntityMoveInfo_pb2 as EntityMoveInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$SceneEntitiesMoveCombineNotify.proto\x1a\x14\x45ntityMoveInfo.proto\"P\n\x1eSceneEntitiesMoveCombineNotify\x12.\n\x15\x65ntity_move_info_list\x18\x08 \x03(\x0b\x32\x0f.EntityMoveInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$SceneEntitiesMoveCombineNotify.proto\x1a\x14\x45ntityMoveInfo.proto\"P\n\x1eSceneEntitiesMoveCombineNotify\x12.\n\x15\x65ntity_move_info_list\x18\x0e \x03(\x0b\x32\x0f.EntityMoveInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneEntitiesMoveCombineNotify_pb2', globals())

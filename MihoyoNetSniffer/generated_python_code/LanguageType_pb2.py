@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12LanguageType.proto*\x92\x03\n\x0cLanguageType\x12\x16\n\x12LANGUAGE_TYPE_NONE\x10\x00\x12\x14\n\x10LANGUAGE_TYPE_EN\x10\x01\x12\x14\n\x10LANGUAGE_TYPE_SC\x10\x02\x12\x14\n\x10LANGUAGE_TYPE_TC\x10\x03\x12\x14\n\x10LANGUAGE_TYPE_FR\x10\x04\x12\x14\n\x10LANGUAGE_TYPE_DE\x10\x05\x12\x14\n\x10LANGUAGE_TYPE_ES\x10\x06\x12\x14\n\x10LANGUAGE_TYPE_PT\x10\x07\x12\x14\n\x10LANGUAGE_TYPE_RU\x10\x08\x12\x14\n\x10LANGUAGE_TYPE_JP\x10\t\x12\x14\n\x10LANGUAGE_TYPE_KR\x10\n\x12\x14\n\x10LANGUAGE_TYPE_TH\x10\x0b\x12\x14\n\x10LANGUAGE_TYPE_VN\x10\x0c\x12\x14\n\x10LANGUAGE_TYPE_ID\x10\r\x12%\n!LANGUAGE_TYPE_Unk2700_IBFJDMFLFII\x10\x0e\x12%\n!LANGUAGE_TYPE_Unk2700_PACIPAIFJCN\x10\x0f\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12LanguageType.proto*\xf0\x02\n\x0cLanguageType\x12\x16\n\x12LANGUAGE_TYPE_NONE\x10\x00\x12\x14\n\x10LANGUAGE_TYPE_EN\x10\x01\x12\x14\n\x10LANGUAGE_TYPE_SC\x10\x02\x12\x14\n\x10LANGUAGE_TYPE_TC\x10\x03\x12\x14\n\x10LANGUAGE_TYPE_FR\x10\x04\x12\x14\n\x10LANGUAGE_TYPE_DE\x10\x05\x12\x14\n\x10LANGUAGE_TYPE_ES\x10\x06\x12\x14\n\x10LANGUAGE_TYPE_PT\x10\x07\x12\x14\n\x10LANGUAGE_TYPE_RU\x10\x08\x12\x14\n\x10LANGUAGE_TYPE_JP\x10\t\x12\x14\n\x10LANGUAGE_TYPE_KR\x10\n\x12\x14\n\x10LANGUAGE_TYPE_TH\x10\x0b\x12\x14\n\x10LANGUAGE_TYPE_VN\x10\x0c\x12\x14\n\x10LANGUAGE_TYPE_ID\x10\r\x12\x14\n\x10LANGUAGE_TYPE_TR\x10\x0e\x12\x14\n\x10LANGUAGE_TYPE_IT\x10\x0f\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LanguageType_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _LANGUAGETYPE._serialized_start=23
-  _LANGUAGETYPE._serialized_end=425
+  _LANGUAGETYPE._serialized_end=391
 # @@protoc_insertion_point(module_scope)

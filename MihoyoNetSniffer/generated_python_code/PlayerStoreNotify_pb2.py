@@ -15,7 +15,7 @@ import Item_pb2 as Item__pb2
 import StoreType_pb2 as StoreType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17PlayerStoreNotify.proto\x1a\nItem.proto\x1a\x0fStoreType.proto\"c\n\x11PlayerStoreNotify\x12\x18\n\titem_list\x18\x0f \x03(\x0b\x32\x05.Item\x12\x14\n\x0cweight_limit\x18\x08 \x01(\r\x12\x1e\n\nstore_type\x18\x02 \x01(\x0e\x32\n.StoreTypeb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17PlayerStoreNotify.proto\x1a\nItem.proto\x1a\x0fStoreType.proto\"c\n\x11PlayerStoreNotify\x12\x1e\n\nstore_type\x18\x01 \x01(\x0e\x32\n.StoreType\x12\x14\n\x0cweight_limit\x18\x0e \x01(\r\x12\x18\n\titem_list\x18\n \x03(\x0b\x32\x05.Itemb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerStoreNotify_pb2', globals())

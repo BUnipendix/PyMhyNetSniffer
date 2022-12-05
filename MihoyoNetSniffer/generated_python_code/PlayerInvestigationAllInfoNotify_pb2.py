@@ -15,7 +15,7 @@ import Investigation_pb2 as Investigation__pb2
 import InvestigationTarget_pb2 as InvestigationTarget__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&PlayerInvestigationAllInfoNotify.proto\x1a\x13Investigation.proto\x1a\x19InvestigationTarget.proto\"\x87\x01\n PlayerInvestigationAllInfoNotify\x12*\n\x12investigation_list\x18\x0f \x03(\x0b\x32\x0e.Investigation\x12\x37\n\x19investigation_target_list\x18\x0c \x03(\x0b\x32\x14.InvestigationTargetb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&PlayerInvestigationAllInfoNotify.proto\x1a\x13Investigation.proto\x1a\x19InvestigationTarget.proto\"\x87\x01\n PlayerInvestigationAllInfoNotify\x12*\n\x12investigation_list\x18\x0b \x03(\x0b\x32\x0e.Investigation\x12\x37\n\x19investigation_target_list\x18\x05 \x03(\x0b\x32\x14.InvestigationTargetb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerInvestigationAllInfoNotify_pb2', globals())

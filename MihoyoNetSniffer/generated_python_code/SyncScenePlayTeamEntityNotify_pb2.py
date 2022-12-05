@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import PlayTeamEntityInfo_pb2 as PlayTeamEntityInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#SyncScenePlayTeamEntityNotify.proto\x1a\x18PlayTeamEntityInfo.proto\"`\n\x1dSyncScenePlayTeamEntityNotify\x12\x10\n\x08scene_id\x18\x02 \x01(\r\x12-\n\x10\x65ntity_info_list\x18\x03 \x03(\x0b\x32\x13.PlayTeamEntityInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#SyncScenePlayTeamEntityNotify.proto\x1a\x18PlayTeamEntityInfo.proto\"`\n\x1dSyncScenePlayTeamEntityNotify\x12\x10\n\x08scene_id\x18\x07 \x01(\r\x12-\n\x10\x65ntity_info_list\x18\x03 \x03(\x0b\x32\x13.PlayTeamEntityInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SyncScenePlayTeamEntityNotify_pb2', globals())

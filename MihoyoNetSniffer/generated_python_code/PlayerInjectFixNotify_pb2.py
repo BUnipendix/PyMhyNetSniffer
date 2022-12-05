@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bPlayerInjectFixNotify.proto\"7\n\x15PlayerInjectFixNotify\x12\n\n\x02id\x18\r \x01(\r\x12\x12\n\ninject_fix\x18\n \x01(\x0c\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bPlayerInjectFixNotify.proto\"7\n\x15PlayerInjectFixNotify\x12\n\n\x02id\x18\x0b \x01(\r\x12\x12\n\ninject_fix\x18\x0c \x01(\x0c\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerInjectFixNotify_pb2', globals())

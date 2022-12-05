@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!MiracleRingDropResultNotify.proto\"Q\n\x1bMiracleRingDropResultNotify\x12\x1d\n\x15last_take_reward_time\x18\x05 \x01(\x05\x12\x13\n\x0b\x64rop_result\x18\t \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!MiracleRingDropResultNotify.proto\"Q\n\x1bMiracleRingDropResultNotify\x12\x1d\n\x15last_take_reward_time\x18\x0f \x01(\x05\x12\x13\n\x0b\x64rop_result\x18\x08 \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MiracleRingDropResultNotify_pb2', globals())

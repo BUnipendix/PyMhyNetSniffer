@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aReunionPrivilegeInfo.proto\"X\n\x14ReunionPrivilegeInfo\x12\x15\n\rcur_day_count\x18\x07 \x01(\r\x12\x13\n\x0btotal_count\x18\n \x01(\r\x12\x14\n\x0cprivilege_id\x18\x04 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aReunionPrivilegeInfo.proto\"f\n\x14ReunionPrivilegeInfo\x12\x1b\n\x13Unk3300_GJBEAFPMFAA\x18\x0e \x01(\r\x12\x14\n\x0cprivilege_id\x18\x02 \x01(\r\x12\x1b\n\x13Unk3300_ALOLACFGMHI\x18\x01 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ReunionPrivilegeInfo_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _REUNIONPRIVILEGEINFO._serialized_start=30
-  _REUNIONPRIVILEGEINFO._serialized_end=118
+  _REUNIONPRIVILEGEINFO._serialized_end=132
 # @@protoc_insertion_point(module_scope)

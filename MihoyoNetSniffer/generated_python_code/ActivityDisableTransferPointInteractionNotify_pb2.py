@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Uint32Pair_pb2 as Uint32Pair__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n3ActivityDisableTransferPointInteractionNotify.proto\x1a\x10Uint32Pair.proto\"j\n-ActivityDisableTransferPointInteractionNotify\x12\x12\n\nis_disable\x18\n \x01(\x08\x12%\n\x10scene_point_pair\x18\x05 \x01(\x0b\x32\x0b.Uint32Pairb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n3ActivityDisableTransferPointInteractionNotify.proto\x1a\x10Uint32Pair.proto\"j\n-ActivityDisableTransferPointInteractionNotify\x12\x12\n\nis_disable\x18\r \x01(\x08\x12%\n\x10scene_point_pair\x18\x0b \x01(\x0b\x32\x0b.Uint32Pairb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ActivityDisableTransferPointInteractionNotify_pb2', globals())

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aSceneGallerySumoInfo.proto\"f\n\x14SceneGallerySumoInfo\x12\r\n\x05score\x18\x02 \x01(\r\x12\x1f\n\x17kill_normal_mosnter_num\x18\x0f \x01(\r\x12\x1e\n\x16kill_elite_monster_num\x18\x0e \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aSceneGallerySumoInfo.proto\"f\n\x14SceneGallerySumoInfo\x12\x1e\n\x16kill_elite_monster_num\x18\x04 \x01(\r\x12\r\n\x05score\x18\x07 \x01(\r\x12\x1f\n\x17kill_normal_monster_num\x18\x0c \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGallerySumoInfo_pb2', globals())

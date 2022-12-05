@@ -15,7 +15,7 @@ import ItemHint_pb2 as ItemHint__pb2
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17ItemAddHintNotify.proto\x1a\x0eItemHint.proto\x1a\x0cVector.proto\"\x85\x02\n\x11ItemAddHintNotify\x12\x19\n\x11is_position_valid\x18\x0e \x01(\x08\x12\x10\n\x08quest_id\x18\x03 \x01(\r\x12\x0e\n\x06reason\x18\x06 \x01(\r\x12\x1f\n\x17is_general_reward_hiden\x18\x0f \x01(\x08\x12\x1c\n\titem_list\x18\n \x03(\x0b\x32\t.ItemHint\x12&\n\x1eis_transfered_from_avatar_card\x18\x0c \x01(\x08\x12\x19\n\x08position\x18\t \x01(\x0b\x32\x07.Vector\x12\x31\n\x1eoverflow_transformed_item_list\x18\x08 \x03(\x0b\x32\t.ItemHintb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17ItemAddHintNotify.proto\x1a\x0eItemHint.proto\x1a\x0cVector.proto\"\xf8\x01\n\x11ItemAddHintNotify\x12\x1b\n\x13Unk3300_FLIKEBJINCL\x18\x05 \x01(\x08\x12\x1b\n\x13Unk3300_NIJLGEHNBNC\x18\x04 \x01(\x08\x12\x1c\n\titem_list\x18\x0b \x03(\x0b\x32\t.ItemHint\x12\x31\n\x1eoverflow_transformed_item_list\x18\x01 \x03(\x0b\x32\t.ItemHint\x12\x1b\n\x13Unk3300_KIOMJNHFMDE\x18\x06 \x01(\x08\x12\x0e\n\x06reason\x18\x0e \x01(\r\x12\x19\n\x08position\x18\x0c \x01(\x0b\x32\x07.Vector\x12\x10\n\x08quest_id\x18\x03 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ItemAddHintNotify_pb2', globals())
@@ -23,5 +23,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _ITEMADDHINTNOTIFY._serialized_start=58
-  _ITEMADDHINTNOTIFY._serialized_end=319
+  _ITEMADDHINTNOTIFY._serialized_end=306
 # @@protoc_insertion_point(module_scope)

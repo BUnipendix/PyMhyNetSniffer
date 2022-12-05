@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import AnnounceData_pb2 as AnnounceData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aServerAnnounceNotify.proto\x1a\x12\x41nnounceData.proto\"A\n\x14ServerAnnounceNotify\x12)\n\x12\x61nnounce_data_list\x18\x0b \x03(\x0b\x32\r.AnnounceDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aServerAnnounceNotify.proto\x1a\x12\x41nnounceData.proto\"A\n\x14ServerAnnounceNotify\x12)\n\x12\x61nnounce_data_list\x18\x0e \x03(\x0b\x32\r.AnnounceDatab\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ServerAnnounceNotify_pb2', globals())

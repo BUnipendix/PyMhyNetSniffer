@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#DraftTwiceConfirmResultNotify.proto\"G\n\x1d\x44raftTwiceConfirmResultNotify\x12\x14\n\x0cis_all_argee\x18\x07 \x01(\x08\x12\x10\n\x08\x64raft_id\x18\x01 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#DraftTwiceConfirmResultNotify.proto\"G\n\x1d\x44raftTwiceConfirmResultNotify\x12\x14\n\x0cis_all_agree\x18\x0e \x01(\x08\x12\x10\n\x08\x64raft_id\x18\x01 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DraftTwiceConfirmResultNotify_pb2', globals())

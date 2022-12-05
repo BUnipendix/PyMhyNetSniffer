@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17PlayerSetPauseReq.proto\"&\n\x11PlayerSetPauseReq\x12\x11\n\tis_paused\x18\x01 \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17PlayerSetPauseReq.proto\"&\n\x11PlayerSetPauseReq\x12\x11\n\tis_paused\x18\x0f \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerSetPauseReq_pb2', globals())

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x45\x66\x66igyChallengeInfoNotify.proto\"|\n\x19\x45\x66\x66igyChallengeInfoNotify\x12\x15\n\rdifficulty_id\x18\t \x01(\r\x12\x19\n\x11\x63ondition_id_list\x18\x0b \x03(\r\x12\x17\n\x0f\x63hallenge_score\x18\x0e \x01(\r\x12\x14\n\x0c\x63hallenge_id\x18\x08 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x45\x66\x66igyChallengeInfoNotify.proto\"|\n\x19\x45\x66\x66igyChallengeInfoNotify\x12\x14\n\x0c\x63hallenge_id\x18\x06 \x01(\r\x12\x15\n\rdifficulty_id\x18\x02 \x01(\r\x12\x17\n\x0f\x63hallenge_score\x18\x0b \x01(\r\x12\x19\n\x11\x63ondition_id_list\x18\x07 \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EffigyChallengeInfoNotify_pb2', globals())

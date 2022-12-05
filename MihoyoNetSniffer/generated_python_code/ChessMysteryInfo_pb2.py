@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ChessEntranceDetailInfo_pb2 as ChessEntranceDetailInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x43hessMysteryInfo.proto\x1a\x1d\x43hessEntranceDetailInfo.proto\"\xbb\x02\n\x10\x43hessMysteryInfo\x12\x43\n\x12\x65ntrance_point_map\x18\r \x03(\x0b\x32\'.ChessMysteryInfo.EntrancePointMapEntry\x12\x1a\n\x12\x65xit_point_id_list\x18\x03 \x03(\r\x12=\n\x0f\x64\x65tail_info_map\x18\x05 \x03(\x0b\x32$.ChessMysteryInfo.DetailInfoMapEntry\x1a\x37\n\x15\x45ntrancePointMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x1aN\n\x12\x44\x65tailInfoMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\'\n\x05value\x18\x02 \x01(\x0b\x32\x18.ChessEntranceDetailInfo:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x43hessMysteryInfo.proto\x1a\x1d\x43hessEntranceDetailInfo.proto\"\xbb\x02\n\x10\x43hessMysteryInfo\x12\x1a\n\x12\x65xit_point_id_list\x18\x0f \x03(\r\x12\x43\n\x12\x65ntrance_point_map\x18\n \x03(\x0b\x32\'.ChessMysteryInfo.EntrancePointMapEntry\x12=\n\x0f\x64\x65tail_info_map\x18\x08 \x03(\x0b\x32$.ChessMysteryInfo.DetailInfoMapEntry\x1a\x37\n\x15\x45ntrancePointMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x1aN\n\x12\x44\x65tailInfoMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\'\n\x05value\x18\x02 \x01(\x0b\x32\x18.ChessEntranceDetailInfo:\x02\x38\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChessMysteryInfo_pb2', globals())

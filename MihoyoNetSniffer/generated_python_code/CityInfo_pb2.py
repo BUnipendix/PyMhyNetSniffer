@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0e\x43ityInfo.proto\"?\n\x08\x43ityInfo\x12\x0f\n\x07\x63ity_id\x18\x0f \x01(\r\x12\x13\n\x0b\x63rystal_num\x18\x03 \x01(\r\x12\r\n\x05level\x18\x04 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0e\x43ityInfo.proto\"?\n\x08\x43ityInfo\x12\x0f\n\x07\x63ity_id\x18\t \x01(\r\x12\r\n\x05level\x18\x0c \x01(\r\x12\x13\n\x0b\x63rystal_num\x18\x02 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CityInfo_pb2', globals())

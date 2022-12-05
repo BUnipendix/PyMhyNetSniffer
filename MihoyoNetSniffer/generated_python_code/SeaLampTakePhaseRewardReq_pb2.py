@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fSeaLampTakePhaseRewardReq.proto\"B\n\x19SeaLampTakePhaseRewardReq\x12\x10\n\x08phase_id\x18\x0c \x01(\r\x12\x13\n\x0b\x61\x63tivity_id\x18\x0b \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fSeaLampTakePhaseRewardReq.proto\"B\n\x19SeaLampTakePhaseRewardReq\x12\x10\n\x08phase_id\x18\t \x01(\r\x12\x13\n\x0b\x61\x63tivity_id\x18\x0e \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SeaLampTakePhaseRewardReq_pb2', globals())

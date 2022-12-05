@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x43reateVehicleReq.proto\x1a\x0cVector.proto\"j\n\x10\x43reateVehicleReq\x12\x14\n\x03pos\x18\x0b \x01(\x0b\x32\x07.Vector\x12\x12\n\nvehicle_id\x18\x02 \x01(\r\x12\x16\n\x0escene_point_id\x18\x07 \x01(\r\x12\x14\n\x03rot\x18\x05 \x01(\x0b\x32\x07.Vectorb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x43reateVehicleReq.proto\x1a\x0cVector.proto\"j\n\x10\x43reateVehicleReq\x12\x14\n\x03pos\x18\x0b \x01(\x0b\x32\x07.Vector\x12\x12\n\nvehicle_id\x18\x04 \x01(\r\x12\x16\n\x0escene_point_id\x18\x03 \x01(\r\x12\x14\n\x03rot\x18\x06 \x01(\x0b\x32\x07.Vectorb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CreateVehicleReq_pb2', globals())

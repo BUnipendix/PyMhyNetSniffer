@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fGuestPostEnterSceneNotify.proto\":\n\x19GuestPostEnterSceneNotify\x12\x10\n\x08scene_id\x18\x05 \x01(\r\x12\x0b\n\x03uid\x18\x04 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fGuestPostEnterSceneNotify.proto\":\n\x19GuestPostEnterSceneNotify\x12\x0b\n\x03uid\x18\t \x01(\r\x12\x10\n\x08scene_id\x18\x02 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GuestPostEnterSceneNotify_pb2', globals())

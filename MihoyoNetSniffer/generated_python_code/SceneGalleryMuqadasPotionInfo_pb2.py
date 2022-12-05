@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#SceneGalleryMuqadasPotionInfo.proto\"\x85\x01\n\x1dSceneGalleryMuqadasPotionInfo\x12\r\n\x05score\x18\x06 \x01(\r\x12\x1b\n\x13Unk3000_MKFIPLFHJNE\x18\x04 \x01(\r\x12\x1b\n\x13Unk3000_FELJKCAAJMJ\x18\n \x01(\r\x12\x1b\n\x13Unk3000_JKHKNKNBFDC\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#SceneGalleryMuqadasPotionInfo.proto\"\x88\x01\n\x1dSceneGalleryMuqadasPotionInfo\x12\r\n\x05score\x18\x01 \x01(\r\x12\x1b\n\x13Unk3300_NHOLGGAFMPH\x18\x05 \x01(\r\x12\x1b\n\x13Unk3300_LKEICOLMPII\x18\n \x01(\r\x12\x1e\n\x16\x63\x61pture_weakness_count\x18\x0c \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGalleryMuqadasPotionInfo_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _SCENEGALLERYMUQADASPOTIONINFO._serialized_start=40
-  _SCENEGALLERYMUQADASPOTIONINFO._serialized_end=173
+  _SCENEGALLERYMUQADASPOTIONINFO._serialized_end=176
 # @@protoc_insertion_point(module_scope)

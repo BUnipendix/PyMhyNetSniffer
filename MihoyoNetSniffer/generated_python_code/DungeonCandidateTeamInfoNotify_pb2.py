@@ -15,7 +15,7 @@ import DungeonCandidateTeamAvatar_pb2 as DungeonCandidateTeamAvatar__pb2
 import DungeonCandidateTeamPlayerState_pb2 as DungeonCandidateTeamPlayerState__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$DungeonCandidateTeamInfoNotify.proto\x1a DungeonCandidateTeamAvatar.proto\x1a%DungeonCandidateTeamPlayerState.proto\"\xbc\x02\n\x1e\x44ungeonCandidateTeamInfoNotify\x12M\n\x10player_state_map\x18\n \x03(\x0b\x32\x33.DungeonCandidateTeamInfoNotify.PlayerStateMapEntry\x12\x12\n\ndungeon_id\x18\t \x01(\r\x12\x18\n\x10ready_player_uid\x18\r \x03(\r\x12\x12\n\nmatch_type\x18\x02 \x01(\r\x12\x30\n\x0b\x61vatar_list\x18\x04 \x03(\x0b\x32\x1b.DungeonCandidateTeamAvatar\x1aW\n\x13PlayerStateMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12/\n\x05value\x18\x02 \x01(\x0e\x32 .DungeonCandidateTeamPlayerState:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$DungeonCandidateTeamInfoNotify.proto\x1a DungeonCandidateTeamAvatar.proto\x1a%DungeonCandidateTeamPlayerState.proto\"\xbc\x02\n\x1e\x44ungeonCandidateTeamInfoNotify\x12\x18\n\x10ready_player_uid\x18\x02 \x03(\r\x12\x12\n\nmatch_type\x18\x0c \x01(\r\x12\x12\n\ndungeon_id\x18\x08 \x01(\r\x12\x30\n\x0b\x61vatar_list\x18\x01 \x03(\x0b\x32\x1b.DungeonCandidateTeamAvatar\x12M\n\x10player_state_map\x18\n \x03(\x0b\x32\x33.DungeonCandidateTeamInfoNotify.PlayerStateMapEntry\x1aW\n\x13PlayerStateMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12/\n\x05value\x18\x02 \x01(\x0e\x32 .DungeonCandidateTeamPlayerState:\x02\x38\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DungeonCandidateTeamInfoNotify_pb2', globals())

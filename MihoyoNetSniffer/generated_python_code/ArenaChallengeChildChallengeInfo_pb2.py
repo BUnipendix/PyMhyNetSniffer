@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&ArenaChallengeChildChallengeInfo.proto\"\x91\x01\n ArenaChallengeChildChallengeInfo\x12\x14\n\x0c\x63hallenge_id\x18\x0c \x01(\r\x12\x16\n\x0e\x63hallenge_type\x18\x05 \x01(\r\x12\x17\n\x0f\x63hallenge_index\x18\x04 \x01(\r\x12\x12\n\nis_success\x18\x07 \x01(\x08\x12\x12\n\nis_settled\x18\x0b \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&ArenaChallengeChildChallengeInfo.proto\"\x91\x01\n ArenaChallengeChildChallengeInfo\x12\x14\n\x0c\x63hallenge_id\x18\x0b \x01(\r\x12\x17\n\x0f\x63hallenge_index\x18\x04 \x01(\r\x12\x16\n\x0e\x63hallenge_type\x18\x0c \x01(\r\x12\x12\n\nis_settled\x18\x02 \x01(\x08\x12\x12\n\nis_success\x18\x0e \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ArenaChallengeChildChallengeInfo_pb2', globals())

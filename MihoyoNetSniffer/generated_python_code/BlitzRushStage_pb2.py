@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14\x42litzRushStage.proto\"4\n\x0e\x42litzRushStage\x12\x0f\n\x07is_open\x18\r \x01(\x08\x12\x11\n\topen_time\x18\x0b \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14\x42litzRushStage.proto\"4\n\x0e\x42litzRushStage\x12\x0f\n\x07is_open\x18\x08 \x01(\x08\x12\x11\n\topen_time\x18\x0c \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BlitzRushStage_pb2', globals())

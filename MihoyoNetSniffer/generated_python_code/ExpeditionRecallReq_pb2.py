@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x45xpeditionRecallReq.proto\"&\n\x13\x45xpeditionRecallReq\x12\x0f\n\x07path_id\x18\r \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x45xpeditionRecallReq.proto\"&\n\x13\x45xpeditionRecallReq\x12\x0f\n\x07path_id\x18\x0c \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ExpeditionRecallReq_pb2', globals())

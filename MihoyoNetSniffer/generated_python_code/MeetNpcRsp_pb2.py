@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10MeetNpcRsp.proto\"7\n\nMeetNpcRsp\x12\x0f\n\x07retcode\x18\x0e \x01(\x05\x12\x18\n\x10npc_first_met_id\x18\x08 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10MeetNpcRsp.proto\"7\n\nMeetNpcRsp\x12\x0f\n\x07retcode\x18\r \x01(\x05\x12\x18\n\x10npc_first_met_id\x18\x07 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MeetNpcRsp_pb2', globals())

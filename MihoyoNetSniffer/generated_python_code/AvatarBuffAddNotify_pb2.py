@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x41vatarBuffAddNotify.proto\";\n\x13\x41vatarBuffAddNotify\x12\x13\n\x0b\x61vatar_guid\x18\n \x01(\x04\x12\x0f\n\x07\x62uff_id\x18\x06 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x41vatarBuffAddNotify.proto\";\n\x13\x41vatarBuffAddNotify\x12\x13\n\x0b\x61vatar_guid\x18\x0b \x01(\x04\x12\x0f\n\x07\x62uff_id\x18\x07 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarBuffAddNotify_pb2', globals())

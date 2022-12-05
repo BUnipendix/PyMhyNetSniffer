@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import MistTrialLevelData_pb2 as MistTrialLevelData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!MistTrialActivityDetailInfo.proto\x1a\x18MistTrialLevelData.proto\"Q\n\x1bMistTrialActivityDetailInfo\x12\x32\n\x15trial_level_data_list\x18\x05 \x03(\x0b\x32\x13.MistTrialLevelDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!MistTrialActivityDetailInfo.proto\x1a\x18MistTrialLevelData.proto\"Q\n\x1bMistTrialActivityDetailInfo\x12\x32\n\x15trial_level_data_list\x18\x01 \x03(\x0b\x32\x13.MistTrialLevelDatab\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MistTrialActivityDetailInfo_pb2', globals())

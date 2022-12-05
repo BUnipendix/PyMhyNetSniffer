@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0fParamList.proto\" \n\tParamList\x12\x13\n\x0bparam_list_\x18\x01 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0fParamList.proto\"\x1f\n\tParamList\x12\x12\n\nparam_list\x18\x01 \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ParamList_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _PARAMLIST._serialized_start=19
-  _PARAMLIST._serialized_end=51
+  _PARAMLIST._serialized_end=50
 # @@protoc_insertion_point(module_scope)

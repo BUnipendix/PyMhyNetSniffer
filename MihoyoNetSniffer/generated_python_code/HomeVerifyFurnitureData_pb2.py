@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dHomeVerifyFurnitureData.proto\"@\n\x17HomeVerifyFurnitureData\x12\x0c\n\x04type\x18\x07 \x03(\r\x12\n\n\x02id\x18\x05 \x01(\r\x12\x0b\n\x03num\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dHomeVerifyFurnitureData.proto\"@\n\x17HomeVerifyFurnitureData\x12\x0c\n\x04type\x18\x0c \x03(\r\x12\x0b\n\x03num\x18\x07 \x01(\r\x12\n\n\x02id\x18\r \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeVerifyFurnitureData_pb2', globals())

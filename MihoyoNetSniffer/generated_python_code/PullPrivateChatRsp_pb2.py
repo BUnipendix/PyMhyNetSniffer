@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ChatInfo_pb2 as ChatInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18PullPrivateChatRsp.proto\x1a\x0e\x43hatInfo.proto\"C\n\x12PullPrivateChatRsp\x12\x1c\n\tchat_info\x18\x0f \x03(\x0b\x32\t.ChatInfo\x12\x0f\n\x07retcode\x18\x0b \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18PullPrivateChatRsp.proto\x1a\x0e\x43hatInfo.proto\"C\n\x12PullPrivateChatRsp\x12\x1c\n\tchat_info\x18\x06 \x03(\x0b\x32\t.ChatInfo\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PullPrivateChatRsp_pb2', globals())

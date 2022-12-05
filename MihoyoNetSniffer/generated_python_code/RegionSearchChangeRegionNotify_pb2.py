@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$RegionSearchChangeRegionNotify.proto\"\xc5\x01\n\x1eRegionSearchChangeRegionNotify\x12:\n\x05\x65vent\x18\x01 \x01(\x0e\x32+.RegionSearchChangeRegionNotify.RegionEvent\x12\x11\n\tregion_id\x18\n \x01(\r\"T\n\x0bRegionEvent\x12\x15\n\x11REGION_EVENT_NONE\x10\x00\x12\x16\n\x12REGION_EVENT_ENTER\x10\x01\x12\x16\n\x12REGION_EVENT_LEAVE\x10\x02\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$RegionSearchChangeRegionNotify.proto\"\xc5\x01\n\x1eRegionSearchChangeRegionNotify\x12\x11\n\tregion_id\x18\x06 \x01(\r\x12:\n\x05\x65vent\x18\x0b \x01(\x0e\x32+.RegionSearchChangeRegionNotify.RegionEvent\"T\n\x0bRegionEvent\x12\x15\n\x11REGION_EVENT_NONE\x10\x00\x12\x16\n\x12REGION_EVENT_ENTER\x10\x01\x12\x16\n\x12REGION_EVENT_LEAVE\x10\x02\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RegionSearchChangeRegionNotify_pb2', globals())

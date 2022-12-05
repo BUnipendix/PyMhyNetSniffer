@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ItemParam_pb2 as ItemParam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13ItemGivingReq.proto\x1a\x0fItemParam.proto\"\xe7\x02\n\rItemGivingReq\x12\x41\n\x13item_guid_count_map\x18\x0f \x03(\x0b\x32$.ItemGivingReq.ItemGuidCountMapEntry\x12\x11\n\tgiving_id\x18\r \x01(\r\x12#\n\x0fitem_param_list\x18\x04 \x03(\x0b\x32\n.ItemParam\x12?\n\x13Unk2800_PHNIJJMECGN\x18\x02 \x01(\x0e\x32\".ItemGivingReq.Unk2800_LENCDFJACFN\x1a\x37\n\x15ItemGuidCountMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\x04\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\"a\n\x13Unk2800_LENCDFJACFN\x12\x1d\n\x19Unk2800_LENCDFJACFN_QUEST\x10\x00\x12+\n\'Unk2800_LENCDFJACFN_Unk2800_HHHOPEHIPFG\x10\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13ItemGivingReq.proto\x1a\x0fItemParam.proto\"\xc7\x02\n\rItemGivingReq\x12\x11\n\tgiving_id\x18\x06 \x01(\r\x12\x37\n\x10item_giving_type\x18\x08 \x01(\x0e\x32\x1d.ItemGivingReq.ItemGivingType\x12#\n\x0fitem_param_list\x18\x0c \x03(\x0b\x32\n.ItemParam\x12\x41\n\x13item_guid_count_map\x18\x0b \x03(\x0b\x32$.ItemGivingReq.ItemGuidCountMapEntry\x1a\x37\n\x15ItemGuidCountMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\x04\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\"I\n\x0eItemGivingType\x12\x1a\n\x16ITEM_GIVING_TYPE_QUEST\x10\x00\x12\x1b\n\x17ITEM_GIVING_TYPE_GADGET\x10\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ItemGivingReq_pb2', globals())
@@ -24,9 +24,9 @@ if _descriptor._USE_C_DESCRIPTORS == False:
   _ITEMGIVINGREQ_ITEMGUIDCOUNTMAPENTRY._options = None
   _ITEMGIVINGREQ_ITEMGUIDCOUNTMAPENTRY._serialized_options = b'8\001'
   _ITEMGIVINGREQ._serialized_start=41
-  _ITEMGIVINGREQ._serialized_end=400
-  _ITEMGIVINGREQ_ITEMGUIDCOUNTMAPENTRY._serialized_start=246
-  _ITEMGIVINGREQ_ITEMGUIDCOUNTMAPENTRY._serialized_end=301
-  _ITEMGIVINGREQ_UNK2800_LENCDFJACFN._serialized_start=303
-  _ITEMGIVINGREQ_UNK2800_LENCDFJACFN._serialized_end=400
+  _ITEMGIVINGREQ._serialized_end=368
+  _ITEMGIVINGREQ_ITEMGUIDCOUNTMAPENTRY._serialized_start=238
+  _ITEMGIVINGREQ_ITEMGUIDCOUNTMAPENTRY._serialized_end=293
+  _ITEMGIVINGREQ_ITEMGIVINGTYPE._serialized_start=295
+  _ITEMGIVINGREQ_ITEMGIVINGTYPE._serialized_end=368
 # @@protoc_insertion_point(module_scope)

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import MatchType_pb2 as MatchType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bPlayerConfirmMatchRsp.proto\x1a\x0fMatchType.proto\"m\n\x15PlayerConfirmMatchRsp\x12\x1e\n\nmatch_type\x18\t \x01(\x0e\x32\n.MatchType\x12\x10\n\x08match_id\x18\x04 \x01(\r\x12\x11\n\tis_agreed\x18\x0b \x01(\x08\x12\x0f\n\x07retcode\x18\n \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bPlayerConfirmMatchRsp.proto\x1a\x0fMatchType.proto\"m\n\x15PlayerConfirmMatchRsp\x12\x11\n\tis_agreed\x18\n \x01(\x08\x12\x1e\n\nmatch_type\x18\x01 \x01(\x0e\x32\n.MatchType\x12\x0f\n\x07retcode\x18\x0b \x01(\x05\x12\x10\n\x08match_id\x18\x05 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerConfirmMatchRsp_pb2', globals())

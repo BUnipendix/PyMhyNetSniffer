@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Birthday_pb2 as Birthday__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aSetPlayerBirthdayReq.proto\x1a\x0e\x42irthday.proto\"3\n\x14SetPlayerBirthdayReq\x12\x1b\n\x08\x62irthday\x18\t \x01(\x0b\x32\t.Birthdayb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aSetPlayerBirthdayReq.proto\x1a\x0e\x42irthday.proto\"3\n\x14SetPlayerBirthdayReq\x12\x1b\n\x08\x62irthday\x18\x08 \x01(\x0b\x32\t.Birthdayb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SetPlayerBirthdayReq_pb2', globals())

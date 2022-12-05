@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import MultistageSettleWatcherInfo_pb2 as MultistageSettleWatcherInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"InBattleMechanicusSettleInfo.proto\x1a!MultistageSettleWatcherInfo.proto\"\xeb\x01\n\x1cInBattleMechanicusSettleInfo\x12\x15\n\rscene_time_ms\x18\x0f \x01(\x04\x12\x13\n\x0btotal_token\x18\x04 \x01(\r\x12\x12\n\nreal_token\x18\x08 \x01(\r\x12\x32\n\x0cwatcher_list\x18\x07 \x03(\x0b\x32\x1c.MultistageSettleWatcherInfo\x12\x12\n\nis_success\x18\x06 \x01(\x08\x12\x12\n\nplay_index\x18\x03 \x01(\r\x12\x1d\n\x15\x64ifficulty_percentage\x18\n \x01(\r\x12\x10\n\x08group_id\x18\r \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"InBattleMechanicusSettleInfo.proto\x1a!MultistageSettleWatcherInfo.proto\"\xfa\x01\n\x1cInBattleMechanicusSettleInfo\x12\x15\n\rscene_time_ms\x18\x0c \x01(\x04\x12\x12\n\nis_success\x18\r \x01(\x08\x12\x10\n\x08group_id\x18\n \x01(\r\x12\x1b\n\x13Unk3300_EKAIAPLNIPM\x18\t \x01(\r\x12\x1b\n\x13Unk3300_HAEOPAOBBFE\x18\x04 \x01(\r\x12\x1b\n\x13Unk3300_NAMBBHMJJLN\x18\x0b \x01(\r\x12\x12\n\nplay_index\x18\x08 \x01(\r\x12\x32\n\x0cwatcher_list\x18\x0f \x03(\x0b\x32\x1c.MultistageSettleWatcherInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'InBattleMechanicusSettleInfo_pb2', globals())
@@ -22,5 +22,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _INBATTLEMECHANICUSSETTLEINFO._serialized_start=74
-  _INBATTLEMECHANICUSSETTLEINFO._serialized_end=309
+  _INBATTLEMECHANICUSSETTLEINFO._serialized_end=324
 # @@protoc_insertion_point(module_scope)

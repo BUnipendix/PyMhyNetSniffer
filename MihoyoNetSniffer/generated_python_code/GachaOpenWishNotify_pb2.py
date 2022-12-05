@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19GachaOpenWishNotify.proto\"D\n\x13GachaOpenWishNotify\x12\x12\n\ngacha_type\x18\x02 \x01(\r\x12\x19\n\x11gacha_schedule_id\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19GachaOpenWishNotify.proto\"D\n\x13GachaOpenWishNotify\x12\x19\n\x11gacha_schedule_id\x18\x01 \x01(\r\x12\x12\n\ngacha_type\x18\n \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GachaOpenWishNotify_pb2', globals())

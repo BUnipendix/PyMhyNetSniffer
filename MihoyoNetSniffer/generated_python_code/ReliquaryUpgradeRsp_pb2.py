@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19ReliquaryUpgradeRsp.proto\"\xbe\x01\n\x13ReliquaryUpgradeRsp\x12\x11\n\told_level\x18\x04 \x01(\r\x12\x11\n\tcur_level\x18\r \x01(\r\x12\x1d\n\x15target_reliquary_guid\x18\t \x01(\x04\x12\x1c\n\x14\x63ur_append_prop_list\x18\x02 \x03(\r\x12\x15\n\rpower_up_rate\x18\x06 \x01(\r\x12\x1c\n\x14old_append_prop_list\x18\x0f \x03(\r\x12\x0f\n\x07retcode\x18\x05 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19ReliquaryUpgradeRsp.proto\"\xbc\x01\n\x13ReliquaryUpgradeRsp\x12\x1b\n\x13Unk3300_MGELABLMFOE\x18\r \x03(\r\x12\x0f\n\x07retcode\x18\x0b \x01(\x05\x12\x1d\n\x15target_reliquary_guid\x18\x0e \x01(\x04\x12\x11\n\tcur_level\x18\x02 \x01(\r\x12\x11\n\told_level\x18\x06 \x01(\r\x12\x1b\n\x13Unk3300_IALPGNADFKA\x18\n \x03(\r\x12\x15\n\rpower_up_rate\x18\x01 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ReliquaryUpgradeRsp_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _RELIQUARYUPGRADERSP._serialized_start=30
-  _RELIQUARYUPGRADERSP._serialized_end=220
+  _RELIQUARYUPGRADERSP._serialized_end=218
 # @@protoc_insertion_point(module_scope)

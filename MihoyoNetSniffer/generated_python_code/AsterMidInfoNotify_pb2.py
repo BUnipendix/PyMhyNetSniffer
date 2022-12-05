@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import AsterMidDetailInfo_pb2 as AsterMidDetailInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x41sterMidInfoNotify.proto\x1a\x18\x41sterMidDetailInfo.proto\"7\n\x12\x41sterMidInfoNotify\x12!\n\x04info\x18\x04 \x01(\x0b\x32\x13.AsterMidDetailInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x41sterMidInfoNotify.proto\x1a\x18\x41sterMidDetailInfo.proto\"7\n\x12\x41sterMidInfoNotify\x12!\n\x04info\x18\x07 \x01(\x0b\x32\x13.AsterMidDetailInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AsterMidInfoNotify_pb2', globals())

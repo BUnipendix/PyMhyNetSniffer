@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import CityReputationSimpleInfo_pb2 as CityReputationSimpleInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x43ityReputationDataNotify.proto\x1a\x1e\x43ityReputationSimpleInfo.proto\"O\n\x18\x43ityReputationDataNotify\x12\x33\n\x10simple_info_list\x18\x07 \x03(\x0b\x32\x19.CityReputationSimpleInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x43ityReputationDataNotify.proto\x1a\x1e\x43ityReputationSimpleInfo.proto\"O\n\x18\x43ityReputationDataNotify\x12\x33\n\x10simple_info_list\x18\r \x03(\x0b\x32\x19.CityReputationSimpleInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CityReputationDataNotify_pb2', globals())

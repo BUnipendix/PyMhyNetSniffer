@@ -15,7 +15,7 @@ import EvtAnimatorStateChangedInfo_pb2 as EvtAnimatorStateChangedInfo__pb2
 import ForwardType_pb2 as ForwardType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#EvtAnimatorStateChangedNotify.proto\x1a!EvtAnimatorStateChangedInfo.proto\x1a\x11\x46orwardType.proto\"\x8a\x01\n\x1d\x45vtAnimatorStateChangedNotify\x12\"\n\x0c\x66orward_type\x18\x03 \x01(\x0e\x32\x0c.ForwardType\x12\x45\n\x1f\x65vt_animator_state_changed_info\x18\n \x01(\x0b\x32\x1c.EvtAnimatorStateChangedInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#EvtAnimatorStateChangedNotify.proto\x1a!EvtAnimatorStateChangedInfo.proto\x1a\x11\x46orwardType.proto\"\x8a\x01\n\x1d\x45vtAnimatorStateChangedNotify\x12\"\n\x0c\x66orward_type\x18\x0e \x01(\x0e\x32\x0c.ForwardType\x12\x45\n\x1f\x65vt_animator_state_changed_info\x18\x02 \x01(\x0b\x32\x1c.EvtAnimatorStateChangedInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EvtAnimatorStateChangedNotify_pb2', globals())

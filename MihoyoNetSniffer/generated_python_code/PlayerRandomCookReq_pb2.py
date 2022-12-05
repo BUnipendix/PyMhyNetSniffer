@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ItemParam_pb2 as ItemParam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19PlayerRandomCookReq.proto\x1a\x0fItemParam.proto\"8\n\x13PlayerRandomCookReq\x12!\n\rmaterial_list\x18\r \x03(\x0b\x32\n.ItemParamb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19PlayerRandomCookReq.proto\x1a\x0fItemParam.proto\"8\n\x13PlayerRandomCookReq\x12!\n\rmaterial_list\x18\x05 \x03(\x0b\x32\n.ItemParamb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerRandomCookReq_pb2', globals())

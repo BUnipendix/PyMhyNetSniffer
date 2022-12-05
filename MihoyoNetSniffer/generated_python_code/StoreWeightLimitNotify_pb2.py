@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import StoreType_pb2 as StoreType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cStoreWeightLimitNotify.proto\x1a\x0fStoreType.proto\"\xc6\x01\n\x16StoreWeightLimitNotify\x12\x1a\n\x12weapon_count_limit\x18\x02 \x01(\r\x12\x1e\n\nstore_type\x18\x07 \x01(\x0e\x32\n.StoreType\x12\x1c\n\x14material_count_limit\x18\x04 \x01(\r\x12\x1d\n\x15reliquary_count_limit\x18\x06 \x01(\r\x12\x1d\n\x15\x66urniture_count_limit\x18\t \x01(\r\x12\x14\n\x0cweight_limit\x18\x0f \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cStoreWeightLimitNotify.proto\x1a\x0fStoreType.proto\"\xc2\x01\n\x16StoreWeightLimitNotify\x12\x1b\n\x13Unk3300_ICDKCEOJKKG\x18\x0e \x01(\r\x12\x1b\n\x13Unk3300_NIKMCBLHFNJ\x18\n \x01(\r\x12\x1b\n\x13Unk3300_OONMFCGDMMF\x18\x05 \x01(\r\x12\x1b\n\x13Unk3300_JGPODDEKAPB\x18\x01 \x01(\r\x12\x14\n\x0cweight_limit\x18\x08 \x01(\r\x12\x1e\n\nstore_type\x18\t \x01(\x0e\x32\n.StoreTypeb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'StoreWeightLimitNotify_pb2', globals())
@@ -22,5 +22,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _STOREWEIGHTLIMITNOTIFY._serialized_start=50
-  _STOREWEIGHTLIMITNOTIFY._serialized_end=248
+  _STOREWEIGHTLIMITNOTIFY._serialized_end=244
 # @@protoc_insertion_point(module_scope)

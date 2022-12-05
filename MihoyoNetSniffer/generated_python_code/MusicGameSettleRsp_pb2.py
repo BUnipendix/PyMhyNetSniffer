@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18MusicGameSettleRsp.proto\"\x8f\x01\n\x12MusicGameSettleRsp\x12\x0f\n\x07retcode\x18\x0b \x01(\x05\x12\x16\n\x0emusic_basic_id\x18\x05 \x01(\r\x12\x15\n\ris_new_record\x18\x06 \x01(\x08\x12\x1c\n\x14is_unlock_next_level\x18\x02 \x01(\x08\x12\x1b\n\x13Unk2700_CEPGMKAHHCD\x18\n \x01(\x04\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18MusicGameSettleRsp.proto\"\x84\x01\n\x12MusicGameSettleRsp\x12\x0f\n\x07retcode\x18\x0c \x01(\x05\x12\x10\n\x08ugc_guid\x18\x07 \x01(\x04\x12\x15\n\ris_new_record\x18\x08 \x01(\x08\x12\x1c\n\x14is_unlock_next_level\x18\n \x01(\x08\x12\x16\n\x0emusic_basic_id\x18\x01 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MusicGameSettleRsp_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _MUSICGAMESETTLERSP._serialized_start=29
-  _MUSICGAMESETTLERSP._serialized_end=172
+  _MUSICGAMESETTLERSP._serialized_end=161
 # @@protoc_insertion_point(module_scope)

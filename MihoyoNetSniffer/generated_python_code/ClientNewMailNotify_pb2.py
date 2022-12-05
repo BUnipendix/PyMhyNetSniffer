@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x43lientNewMailNotify.proto\"K\n\x13\x43lientNewMailNotify\x12\x14\n\x0cnot_read_num\x18\x07 \x01(\r\x12\x1e\n\x16not_got_attachment_num\x18\x02 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x43lientNewMailNotify.proto\"O\n\x13\x43lientNewMailNotify\x12\x1b\n\x13Unk3300_FBDGCFAALFN\x18\r \x01(\r\x12\x1b\n\x13Unk3300_MANJMCPELLJ\x18\x02 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ClientNewMailNotify_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _CLIENTNEWMAILNOTIFY._serialized_start=29
-  _CLIENTNEWMAILNOTIFY._serialized_end=104
+  _CLIENTNEWMAILNOTIFY._serialized_end=108
 # @@protoc_insertion_point(module_scope)

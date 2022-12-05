@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0e\x43hatInfo.proto\"\xcf\x02\n\x08\x43hatInfo\x12\x0c\n\x04time\x18\r \x01(\r\x12\x10\n\x08sequence\x18\n \x01(\r\x12\x0e\n\x06to_uid\x18\x07 \x01(\r\x12\x0b\n\x03uid\x18\x0f \x01(\r\x12\x0f\n\x07is_read\x18\x05 \x01(\x08\x12\x0f\n\x04text\x18\x9a\x0f \x01(\tH\x00\x12\x0f\n\x04icon\x18\x92\x07 \x01(\rH\x00\x12,\n\x0bsystem_hint\x18\xd9\r \x01(\x0b\x32\x14.ChatInfo.SystemHintH\x00\x1a\x1a\n\nSystemHint\x12\x0c\n\x04type\x18\x0e \x01(\r\"~\n\x0eSystemHintType\x12\x1e\n\x1aSYSTEM_HINT_TYPE_CHAT_NONE\x10\x00\x12%\n!SYSTEM_HINT_TYPE_CHAT_ENTER_WORLD\x10\x01\x12%\n!SYSTEM_HINT_TYPE_CHAT_LEAVE_WORLD\x10\x02\x42\t\n\x07\x63ontentb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0e\x43hatInfo.proto\"\xe7\x02\n\x08\x43hatInfo\x12\x0f\n\x07is_read\x18\x03 \x01(\x08\x12\x0c\n\x04time\x18\x01 \x01(\r\x12\x1b\n\x13Unk3300_HENLDIJMIOE\x18\n \x01(\r\x12\x0b\n\x03uid\x18\x0b \x01(\r\x12\x1b\n\x13Unk3300_PHBEHIGHOCD\x18\x05 \x01(\r\x12\x0f\n\x04text\x18\x8d\x07 \x01(\tH\x00\x12\x0f\n\x04icon\x18\xde\x07 \x01(\rH\x00\x12,\n\x0bsystem_hint\x18\x9f\x06 \x01(\x0b\x32\x14.ChatInfo.SystemHintH\x00\x1a\x1a\n\nSystemHint\x12\x0c\n\x04type\x18\x0f \x01(\r\"~\n\x0eSystemHintType\x12\x1e\n\x1aSYSTEM_HINT_TYPE_CHAT_NONE\x10\x00\x12%\n!SYSTEM_HINT_TYPE_CHAT_ENTER_WORLD\x10\x01\x12%\n!SYSTEM_HINT_TYPE_CHAT_LEAVE_WORLD\x10\x02\x42\t\n\x07\x63ontentb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChatInfo_pb2', globals())
@@ -21,9 +21,9 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _CHATINFO._serialized_start=19
-  _CHATINFO._serialized_end=354
-  _CHATINFO_SYSTEMHINT._serialized_start=189
-  _CHATINFO_SYSTEMHINT._serialized_end=215
-  _CHATINFO_SYSTEMHINTTYPE._serialized_start=217
-  _CHATINFO_SYSTEMHINTTYPE._serialized_end=343
+  _CHATINFO._serialized_end=378
+  _CHATINFO_SYSTEMHINT._serialized_start=213
+  _CHATINFO_SYSTEMHINT._serialized_end=239
+  _CHATINFO_SYSTEMHINTTYPE._serialized_start=241
+  _CHATINFO_SYSTEMHINTTYPE._serialized_end=367
 # @@protoc_insertion_point(module_scope)

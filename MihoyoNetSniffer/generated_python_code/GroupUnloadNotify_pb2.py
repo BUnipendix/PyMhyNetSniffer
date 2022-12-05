@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17GroupUnloadNotify.proto\"\'\n\x11GroupUnloadNotify\x12\x12\n\ngroup_list\x18\n \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17GroupUnloadNotify.proto\"\'\n\x11GroupUnloadNotify\x12\x12\n\ngroup_list\x18\x06 \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GroupUnloadNotify_pb2', globals())

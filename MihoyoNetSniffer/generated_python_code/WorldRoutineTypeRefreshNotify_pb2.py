@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import WorldRoutineTypeInfo_pb2 as WorldRoutineTypeInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#WorldRoutineTypeRefreshNotify.proto\x1a\x1aWorldRoutineTypeInfo.proto\"R\n\x1dWorldRoutineTypeRefreshNotify\x12\x31\n\x12world_routine_type\x18\x07 \x01(\x0b\x32\x15.WorldRoutineTypeInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#WorldRoutineTypeRefreshNotify.proto\x1a\x1aWorldRoutineTypeInfo.proto\"R\n\x1dWorldRoutineTypeRefreshNotify\x12\x31\n\x12world_routine_type\x18\x01 \x01(\x0b\x32\x15.WorldRoutineTypeInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WorldRoutineTypeRefreshNotify_pb2', globals())

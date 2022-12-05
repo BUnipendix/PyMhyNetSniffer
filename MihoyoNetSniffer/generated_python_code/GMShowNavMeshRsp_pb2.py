@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import PBNavMeshTile_pb2 as PBNavMeshTile__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16GMShowNavMeshRsp.proto\x1a\x13PBNavMeshTile.proto\"B\n\x10GMShowNavMeshRsp\x12\x1d\n\x05tiles\x18\x0b \x03(\x0b\x32\x0e.PBNavMeshTile\x12\x0f\n\x07retcode\x18\x05 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16GMShowNavMeshRsp.proto\x1a\x13PBNavMeshTile.proto\"B\n\x10GMShowNavMeshRsp\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x12\x1d\n\x05tiles\x18\n \x03(\x0b\x32\x0e.PBNavMeshTileb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GMShowNavMeshRsp_pb2', globals())

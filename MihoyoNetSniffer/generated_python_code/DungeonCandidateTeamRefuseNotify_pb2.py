@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&DungeonCandidateTeamRefuseNotify.proto\"6\n DungeonCandidateTeamRefuseNotify\x12\x12\n\nplayer_uid\x18\x03 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&DungeonCandidateTeamRefuseNotify.proto\"6\n DungeonCandidateTeamRefuseNotify\x12\x12\n\nplayer_uid\x18\x08 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DungeonCandidateTeamRefuseNotify_pb2', globals())

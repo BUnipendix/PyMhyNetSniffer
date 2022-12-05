@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Quest_pb2 as Quest__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bQuestListUpdateNotify.proto\x1a\x0bQuest.proto\"3\n\x15QuestListUpdateNotify\x12\x1a\n\nquest_list\x18\x06 \x03(\x0b\x32\x06.Questb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bQuestListUpdateNotify.proto\x1a\x0bQuest.proto\"3\n\x15QuestListUpdateNotify\x12\x1a\n\nquest_list\x18\x07 \x03(\x0b\x32\x06.Questb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'QuestListUpdateNotify_pb2', globals())

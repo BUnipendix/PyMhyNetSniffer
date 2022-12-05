@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import HomeLimitedShopGoods_pb2 as HomeLimitedShopGoods__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n HomeLimitedShopBuyGoodsReq.proto\x1a\x1aHomeLimitedShopGoods.proto\"U\n\x1aHomeLimitedShopBuyGoodsReq\x12$\n\x05goods\x18\x03 \x01(\x0b\x32\x15.HomeLimitedShopGoods\x12\x11\n\tbuy_count\x18\n \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n HomeLimitedShopBuyGoodsReq.proto\x1a\x1aHomeLimitedShopGoods.proto\"U\n\x1aHomeLimitedShopBuyGoodsReq\x12$\n\x05goods\x18\x06 \x01(\x0b\x32\x15.HomeLimitedShopGoods\x12\x11\n\tbuy_count\x18\r \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeLimitedShopBuyGoodsReq_pb2', globals())

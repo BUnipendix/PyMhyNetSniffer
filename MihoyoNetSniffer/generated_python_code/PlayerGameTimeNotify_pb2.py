@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aPlayerGameTimeNotify.proto\"G\n\x14PlayerGameTimeNotify\x12\x0b\n\x03uid\x18\x07 \x01(\r\x12\x11\n\tgame_time\x18\x03 \x01(\r\x12\x0f\n\x07is_home\x18\r \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aPlayerGameTimeNotify.proto\"G\n\x14PlayerGameTimeNotify\x12\x0b\n\x03uid\x18\x0f \x01(\r\x12\x0f\n\x07is_home\x18\n \x01(\x08\x12\x11\n\tgame_time\x18\x04 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerGameTimeNotify_pb2', globals())

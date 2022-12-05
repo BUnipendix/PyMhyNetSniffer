@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import OneofGatherPointDetectorData_pb2 as OneofGatherPointDetectorData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n(OneofGatherPointDetectorDataNotify.proto\x1a\"OneofGatherPointDetectorData.proto\"r\n\"OneofGatherPointDetectorDataNotify\x12L\n%oneof_gather_point_detector_data_list\x18\x03 \x03(\x0b\x32\x1d.OneofGatherPointDetectorDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n(OneofGatherPointDetectorDataNotify.proto\x1a\"OneofGatherPointDetectorData.proto\"r\n\"OneofGatherPointDetectorDataNotify\x12L\n%oneof_gather_point_detector_data_list\x18\x02 \x03(\x0b\x32\x1d.OneofGatherPointDetectorDatab\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'OneofGatherPointDetectorDataNotify_pb2', globals())

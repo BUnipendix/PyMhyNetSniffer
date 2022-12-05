@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bGachaSimpleInfoNotify.proto\"\'\n\x15GachaSimpleInfoNotify\x12\x0e\n\x06is_new\x18\x05 \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bGachaSimpleInfoNotify.proto\"\'\n\x15GachaSimpleInfoNotify\x12\x0e\n\x06is_new\x18\x0b \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GachaSimpleInfoNotify_pb2', globals())

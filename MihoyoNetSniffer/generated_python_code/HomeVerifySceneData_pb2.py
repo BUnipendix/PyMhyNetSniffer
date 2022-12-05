@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import HomeVerifyBlockData_pb2 as HomeVerifyBlockData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19HomeVerifySceneData.proto\x1a\x19HomeVerifyBlockData.proto\"\x82\x01\n\x13HomeVerifySceneData\x12$\n\x06\x62locks\x18\x06 \x03(\x0b\x32\x14.HomeVerifyBlockData\x12\x11\n\tmodule_id\x18\x0b \x01(\r\x12\x10\n\x08scene_id\x18\x04 \x01(\r\x12\x0f\n\x07version\x18\x0e \x01(\r\x12\x0f\n\x07is_room\x18\x02 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19HomeVerifySceneData.proto\x1a\x19HomeVerifyBlockData.proto\"\x82\x01\n\x13HomeVerifySceneData\x12\x10\n\x08scene_id\x18\x07 \x01(\r\x12$\n\x06\x62locks\x18\x08 \x03(\x0b\x32\x14.HomeVerifyBlockData\x12\x0f\n\x07version\x18\x02 \x01(\r\x12\x0f\n\x07is_room\x18\t \x01(\r\x12\x11\n\tmodule_id\x18\x0c \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeVerifySceneData_pb2', globals())

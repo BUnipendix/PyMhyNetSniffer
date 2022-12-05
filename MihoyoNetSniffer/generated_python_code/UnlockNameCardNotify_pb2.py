@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aUnlockNameCardNotify.proto\",\n\x14UnlockNameCardNotify\x12\x14\n\x0cname_card_id\x18\x08 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aUnlockNameCardNotify.proto\",\n\x14UnlockNameCardNotify\x12\x14\n\x0cname_card_id\x18\x03 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'UnlockNameCardNotify_pb2', globals())

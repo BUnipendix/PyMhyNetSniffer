@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0fGmTalkReq.proto\"\x18\n\tGmTalkReq\x12\x0b\n\x03msg\x18\r \x01(\tb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0fGmTalkReq.proto\"\x18\n\tGmTalkReq\x12\x0b\n\x03msg\x18\x07 \x01(\tb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GmTalkReq_pb2', globals())

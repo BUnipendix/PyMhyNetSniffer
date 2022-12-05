@@ -15,7 +15,7 @@ import FurnitureMakeBeHelpedData_pb2 as FurnitureMakeBeHelpedData__pb2
 import FurnitureMakeSlot_pb2 as FurnitureMakeSlot__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!FurnitureMakeBeHelpedNotify.proto\x1a\x1f\x46urnitureMakeBeHelpedData.proto\x1a\x17\x46urnitureMakeSlot.proto\"\x8e\x01\n\x1b\x46urnitureMakeBeHelpedNotify\x12/\n\x13\x66urniture_make_slot\x18\x07 \x01(\x0b\x32\x12.FurnitureMakeSlot\x12>\n\x1a\x66urniture_make_helped_data\x18\x02 \x01(\x0b\x32\x1a.FurnitureMakeBeHelpedDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!FurnitureMakeBeHelpedNotify.proto\x1a\x1f\x46urnitureMakeBeHelpedData.proto\x1a\x17\x46urnitureMakeSlot.proto\"\x8e\x01\n\x1b\x46urnitureMakeBeHelpedNotify\x12>\n\x1a\x66urniture_make_helped_data\x18\x0c \x01(\x0b\x32\x1a.FurnitureMakeBeHelpedData\x12/\n\x13\x66urniture_make_slot\x18\x03 \x01(\x0b\x32\x12.FurnitureMakeSlotb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FurnitureMakeBeHelpedNotify_pb2', globals())

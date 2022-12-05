@@ -17,7 +17,7 @@ import WidgetCreatorInfo_pb2 as WidgetCreatorInfo__pb2
 import WidgetThunderBirdFeatherInfo_pb2 as WidgetThunderBirdFeatherInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17QuickUseWidgetReq.proto\x1a\x16WidgetCameraInfo.proto\x1a\x1eWidgetCreateLocationInfo.proto\x1a\x17WidgetCreatorInfo.proto\x1a\"WidgetThunderBirdFeatherInfo.proto\"\xee\x01\n\x11QuickUseWidgetReq\x12\x33\n\rlocation_info\x18\xa4\x05 \x01(\x0b\x32\x19.WidgetCreateLocationInfoH\x00\x12)\n\x0b\x63\x61mera_info\x18\xde\x03 \x01(\x0b\x32\x11.WidgetCameraInfoH\x00\x12+\n\x0c\x63reator_info\x18\xac\x06 \x01(\x0b\x32\x12.WidgetCreatorInfoH\x00\x12\x43\n\x19thunder_bird_feather_info\x18\xc3\x0e \x01(\x0b\x32\x1d.WidgetThunderBirdFeatherInfoH\x00\x42\x07\n\x05paramb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17QuickUseWidgetReq.proto\x1a\x16WidgetCameraInfo.proto\x1a\x1eWidgetCreateLocationInfo.proto\x1a\x17WidgetCreatorInfo.proto\x1a\"WidgetThunderBirdFeatherInfo.proto\"\xed\x01\n\x11QuickUseWidgetReq\x12\x33\n\rlocation_info\x18\xd0\x0e \x01(\x0b\x32\x19.WidgetCreateLocationInfoH\x00\x12)\n\x0b\x63\x61mera_info\x18\xab\x0e \x01(\x0b\x32\x11.WidgetCameraInfoH\x00\x12*\n\x0c\x63reator_info\x18H \x01(\x0b\x32\x12.WidgetCreatorInfoH\x00\x12\x43\n\x19thunder_bird_feather_info\x18\xeb\x03 \x01(\x0b\x32\x1d.WidgetThunderBirdFeatherInfoH\x00\x42\x07\n\x05paramb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'QuickUseWidgetReq_pb2', globals())
@@ -25,5 +25,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _QUICKUSEWIDGETREQ._serialized_start=145
-  _QUICKUSEWIDGETREQ._serialized_end=383
+  _QUICKUSEWIDGETREQ._serialized_end=382
 # @@protoc_insertion_point(module_scope)

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ForgeQueueData_pb2 as ForgeQueueData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x46orgeQueueDataNotify.proto\x1a\x14\x46orgeQueueData.proto\"\xc2\x01\n\x14\x46orgeQueueDataNotify\x12\x41\n\x0f\x66orge_queue_map\x18\x07 \x03(\x0b\x32(.ForgeQueueDataNotify.ForgeQueueMapEntry\x12 \n\x18removed_forge_queue_list\x18\x06 \x03(\r\x1a\x45\n\x12\x46orgeQueueMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x1e\n\x05value\x18\x02 \x01(\x0b\x32\x0f.ForgeQueueData:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x46orgeQueueDataNotify.proto\x1a\x14\x46orgeQueueData.proto\"\xc2\x01\n\x14\x46orgeQueueDataNotify\x12\x41\n\x0f\x66orge_queue_map\x18\x01 \x03(\x0b\x32(.ForgeQueueDataNotify.ForgeQueueMapEntry\x12 \n\x18removed_forge_queue_list\x18\x0f \x03(\r\x1a\x45\n\x12\x46orgeQueueMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x1e\n\x05value\x18\x02 \x01(\x0b\x32\x0f.ForgeQueueData:\x02\x38\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ForgeQueueDataNotify_pb2', globals())

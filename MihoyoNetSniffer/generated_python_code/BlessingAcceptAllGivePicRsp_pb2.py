@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!BlessingAcceptAllGivePicRsp.proto\"\xd0\x01\n\x1b\x42lessingAcceptAllGivePicRsp\x12\x0f\n\x07retcode\x18\x0b \x01(\x05\x12M\n\x12\x61\x63\x63\x65pt_pic_num_map\x18\x0e \x03(\x0b\x32\x31.BlessingAcceptAllGivePicRsp.AcceptPicNumMapEntry\x12\x19\n\x11\x61\x63\x63\x65pt_index_list\x18\x05 \x03(\r\x1a\x36\n\x14\x41\x63\x63\x65ptPicNumMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!BlessingAcceptAllGivePicRsp.proto\"\xd0\x01\n\x1b\x42lessingAcceptAllGivePicRsp\x12\x19\n\x11\x61\x63\x63\x65pt_index_list\x18\x0b \x03(\r\x12\x0f\n\x07retcode\x18\x04 \x01(\x05\x12M\n\x12\x61\x63\x63\x65pt_pic_num_map\x18\x0f \x03(\x0b\x32\x31.BlessingAcceptAllGivePicRsp.AcceptPicNumMapEntry\x1a\x36\n\x14\x41\x63\x63\x65ptPicNumMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BlessingAcceptAllGivePicRsp_pb2', globals())

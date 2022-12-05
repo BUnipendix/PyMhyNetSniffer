@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ForwardType_pb2 as ForwardType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#AnimatorForceSetAirMoveNotify.proto\x1a\x11\x46orwardType.proto\"k\n\x1d\x41nimatorForceSetAirMoveNotify\x12\x11\n\tentity_id\x18\x0e \x01(\r\x12\x13\n\x0bin_air_move\x18\r \x01(\x08\x12\"\n\x0c\x66orward_type\x18\t \x01(\x0e\x32\x0c.ForwardTypeb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#AnimatorForceSetAirMoveNotify.proto\x1a\x11\x46orwardType.proto\"k\n\x1d\x41nimatorForceSetAirMoveNotify\x12\"\n\x0c\x66orward_type\x18\x0c \x01(\x0e\x32\x0c.ForwardType\x12\x13\n\x0bin_air_move\x18\x06 \x01(\x08\x12\x11\n\tentity_id\x18\x02 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AnimatorForceSetAirMoveNotify_pb2', globals())

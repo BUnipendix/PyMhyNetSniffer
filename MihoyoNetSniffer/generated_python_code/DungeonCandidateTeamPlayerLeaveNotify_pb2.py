@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import DungeonCandidateTeamPlayerLeaveReason_pb2 as DungeonCandidateTeamPlayerLeaveReason__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n+DungeonCandidateTeamPlayerLeaveNotify.proto\x1a+DungeonCandidateTeamPlayerLeaveReason.proto\"s\n%DungeonCandidateTeamPlayerLeaveNotify\x12\x36\n\x06reason\x18\x03 \x01(\x0e\x32&.DungeonCandidateTeamPlayerLeaveReason\x12\x12\n\nplayer_uid\x18\r \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n+DungeonCandidateTeamPlayerLeaveNotify.proto\x1a+DungeonCandidateTeamPlayerLeaveReason.proto\"s\n%DungeonCandidateTeamPlayerLeaveNotify\x12\x12\n\nplayer_uid\x18\x07 \x01(\r\x12\x36\n\x06reason\x18\x01 \x01(\x0e\x32&.DungeonCandidateTeamPlayerLeaveReasonb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DungeonCandidateTeamPlayerLeaveNotify_pb2', globals())

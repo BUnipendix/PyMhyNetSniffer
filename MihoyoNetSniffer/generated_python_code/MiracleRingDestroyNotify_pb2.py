@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eMiracleRingDestroyNotify.proto\"-\n\x18MiracleRingDestroyNotify\x12\x11\n\tentity_id\x18\x07 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eMiracleRingDestroyNotify.proto\"-\n\x18MiracleRingDestroyNotify\x12\x11\n\tentity_id\x18\x08 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MiracleRingDestroyNotify_pb2', globals())

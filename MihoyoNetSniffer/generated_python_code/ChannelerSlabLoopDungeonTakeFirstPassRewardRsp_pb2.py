@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n4ChannelerSlabLoopDungeonTakeFirstPassRewardRsp.proto\"X\n.ChannelerSlabLoopDungeonTakeFirstPassRewardRsp\x12\x0f\n\x07retcode\x18\n \x01(\x05\x12\x15\n\rdungeon_index\x18\x08 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n4ChannelerSlabLoopDungeonTakeFirstPassRewardRsp.proto\"X\n.ChannelerSlabLoopDungeonTakeFirstPassRewardRsp\x12\x0f\n\x07retcode\x18\r \x01(\x05\x12\x15\n\rdungeon_index\x18\t \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChannelerSlabLoopDungeonTakeFirstPassRewardRsp_pb2', globals())

@@ -15,7 +15,7 @@ import EvtAnimatorParameterInfo_pb2 as EvtAnimatorParameterInfo__pb2
 import ForwardType_pb2 as ForwardType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n EvtAnimatorParameterNotify.proto\x1a\x1e\x45vtAnimatorParameterInfo.proto\x1a\x11\x46orwardType.proto\"x\n\x1a\x45vtAnimatorParameterNotify\x12\x36\n\x13\x61nimator_param_info\x18\x0c \x01(\x0b\x32\x19.EvtAnimatorParameterInfo\x12\"\n\x0c\x66orward_type\x18\x0e \x01(\x0e\x32\x0c.ForwardTypeb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n EvtAnimatorParameterNotify.proto\x1a\x1e\x45vtAnimatorParameterInfo.proto\x1a\x11\x46orwardType.proto\"x\n\x1a\x45vtAnimatorParameterNotify\x12\"\n\x0c\x66orward_type\x18\t \x01(\x0e\x32\x0c.ForwardType\x12\x36\n\x13\x61nimator_param_info\x18\r \x01(\x0b\x32\x19.EvtAnimatorParameterInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EvtAnimatorParameterNotify_pb2', globals())

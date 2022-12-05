@@ -16,7 +16,7 @@ import MPLevelEntityInfo_pb2 as MPLevelEntityInfo__pb2
 import TeamEnterSceneInfo_pb2 as TeamEnterSceneInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n PlayerEnterSceneInfoNotify.proto\x1a\x1a\x41vatarEnterSceneInfo.proto\x1a\x17MPLevelEntityInfo.proto\x1a\x18TeamEnterSceneInfo.proto\"\xe7\x01\n\x1aPlayerEnterSceneInfoNotify\x12,\n\x0fteam_enter_info\x18\x08 \x01(\x0b\x32\x13.TeamEnterSceneInfo\x12\x19\n\x11\x65nter_scene_token\x18\x0c \x01(\r\x12\x30\n\x11\x61vatar_enter_info\x18\x07 \x03(\x0b\x32\x15.AvatarEnterSceneInfo\x12\x1c\n\x14\x63ur_avatar_entity_id\x18\x06 \x01(\r\x12\x30\n\x14mp_level_entity_info\x18\x05 \x01(\x0b\x32\x12.MPLevelEntityInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n PlayerEnterSceneInfoNotify.proto\x1a\x1a\x41vatarEnterSceneInfo.proto\x1a\x17MPLevelEntityInfo.proto\x1a\x18TeamEnterSceneInfo.proto\"\xe7\x01\n\x1aPlayerEnterSceneInfoNotify\x12,\n\x0fteam_enter_info\x18\x06 \x01(\x0b\x32\x13.TeamEnterSceneInfo\x12\x30\n\x11\x61vatar_enter_info\x18\n \x03(\x0b\x32\x15.AvatarEnterSceneInfo\x12\x1c\n\x14\x63ur_avatar_entity_id\x18\x04 \x01(\r\x12\x30\n\x14mp_level_entity_info\x18\x0f \x01(\x0b\x32\x12.MPLevelEntityInfo\x12\x19\n\x11\x65nter_scene_token\x18\x01 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerEnterSceneInfoNotify_pb2', globals())

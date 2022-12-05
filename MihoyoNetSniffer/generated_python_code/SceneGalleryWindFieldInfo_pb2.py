@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fSceneGalleryWindFieldInfo.proto\"\x83\x02\n\x19SceneGalleryWindFieldInfo\x12\x1b\n\x13Unk3100_HFOHBJOGEPJ\x18\x05 \x01(\r\x12\x1b\n\x13Unk3100_CDJOHNPJAAB\x18\x0c \x01(\r\x12\x1b\n\x13Unk3100_MPJOMKKCHKC\x18\x0f \x01(\r\x12\x1b\n\x13Unk3100_KAKJMGFBOOH\x18\x04 \x01(\r\x12\x1b\n\x13Unk3100_EDMNOAPJIDC\x18\t \x01(\r\x12\x1b\n\x13Unk3100_CHEKINPIFFM\x18\x01 \x01(\r\x12\x1b\n\x13Unk3100_CHGHHBNGNHH\x18\r \x01(\r\x12\x1b\n\x13Unk3100_OIOIEMJMNNI\x18\n \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fSceneGalleryWindFieldInfo.proto\"\x83\x02\n\x19SceneGalleryWindFieldInfo\x12\x1b\n\x13Unk3300_MMONPDMIEBN\x18\x06 \x01(\r\x12\x1b\n\x13Unk3300_OJHJPBCAONA\x18\x02 \x01(\r\x12\x1b\n\x13Unk3300_NBIBKFKOCFK\x18\x0f \x01(\r\x12\x1b\n\x13Unk3300_EKMHMHJDHIL\x18\r \x01(\r\x12\x1b\n\x13Unk3300_GNJKOCLJFNM\x18\x07 \x01(\r\x12\x1b\n\x13Unk3300_GNKCFHMDOHJ\x18\x03 \x01(\r\x12\x1b\n\x13Unk3300_FFODAKMKGEK\x18\x04 \x01(\r\x12\x1b\n\x13Unk3300_GLNHBJJJINK\x18\x0e \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGalleryWindFieldInfo_pb2', globals())

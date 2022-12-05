@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x42onusOpActivityInfo.proto\"/\n\x13\x42onusOpActivityInfo\x12\x18\n\x10left_bonus_count\x18\x0b \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x42onusOpActivityInfo.proto\"/\n\x13\x42onusOpActivityInfo\x12\x18\n\x10left_bonus_count\x18\x08 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BonusOpActivityInfo_pb2', globals())

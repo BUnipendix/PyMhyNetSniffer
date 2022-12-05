@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n AvatarChangeElementTypeReq.proto\"?\n\x1a\x41vatarChangeElementTypeReq\x12\x10\n\x08scene_id\x18\x07 \x01(\r\x12\x0f\n\x07\x61rea_id\x18\x03 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n AvatarChangeElementTypeReq.proto\"?\n\x1a\x41vatarChangeElementTypeReq\x12\x0f\n\x07\x61rea_id\x18\x0c \x01(\r\x12\x10\n\x08scene_id\x18\x03 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarChangeElementTypeReq_pb2', globals())

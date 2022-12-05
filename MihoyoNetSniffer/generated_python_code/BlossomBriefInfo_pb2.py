@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x42lossomBriefInfo.proto\x1a\x0cVector.proto\"\xd8\x01\n\x10\x42lossomBriefInfo\x12\x12\n\nrefresh_id\x18\r \x01(\r\x12\x11\n\treward_id\x18\x05 \x01(\r\x12\x0f\n\x07\x63ity_id\x18\n \x01(\r\x12\r\n\x05resin\x18\x0b \x01(\r\x12\r\n\x05state\x18\x07 \x01(\r\x12\x17\n\x0fis_guide_opened\x18\x01 \x01(\x08\x12\x15\n\rmonster_level\x18\x08 \x01(\r\x12\x16\n\x0e\x63ircle_camp_id\x18\x0f \x01(\r\x12\x14\n\x03pos\x18\x0c \x01(\x0b\x32\x07.Vector\x12\x10\n\x08scene_id\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x42lossomBriefInfo.proto\x1a\x0cVector.proto\"\xd8\x01\n\x10\x42lossomBriefInfo\x12\x14\n\x03pos\x18\x07 \x01(\x0b\x32\x07.Vector\x12\x17\n\x0fis_guide_opened\x18\x0f \x01(\x08\x12\x11\n\treward_id\x18\x03 \x01(\r\x12\r\n\x05resin\x18\x05 \x01(\r\x12\x0f\n\x07\x63ity_id\x18\x08 \x01(\r\x12\x16\n\x0e\x63ircle_camp_id\x18\n \x01(\r\x12\r\n\x05state\x18\x0b \x01(\r\x12\x15\n\rmonster_level\x18\x01 \x01(\r\x12\x10\n\x08scene_id\x18\x04 \x01(\r\x12\x12\n\nrefresh_id\x18\x0e \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BlossomBriefInfo_pb2', globals())

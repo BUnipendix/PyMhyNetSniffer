@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eTakePlayerLevelRewardRsp.proto\"M\n\x18TakePlayerLevelRewardRsp\x12\x11\n\treward_id\x18\t \x01(\r\x12\x0f\n\x07retcode\x18\r \x01(\x05\x12\r\n\x05level\x18\x06 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eTakePlayerLevelRewardRsp.proto\"M\n\x18TakePlayerLevelRewardRsp\x12\x11\n\treward_id\x18\n \x01(\r\x12\r\n\x05level\x18\x0f \x01(\r\x12\x0f\n\x07retcode\x18\x0c \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TakePlayerLevelRewardRsp_pb2', globals())

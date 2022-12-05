@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x41llSeenMonsterNotify.proto\"/\n\x14\x41llSeenMonsterNotify\x12\x17\n\x0fmonster_id_list\x18\x04 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x41llSeenMonsterNotify.proto\"/\n\x14\x41llSeenMonsterNotify\x12\x17\n\x0fmonster_id_list\x18\x01 \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AllSeenMonsterNotify_pb2', globals())

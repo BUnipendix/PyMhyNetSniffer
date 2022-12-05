@@ -11,16 +11,16 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import SpiceStage_pb2 as SpiceStage__pb2
+import SpiceStageData_pb2 as SpiceStageData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dSpiceActivityDetailInfo.proto\x1a\x10SpiceStage.proto\"z\n\x17SpiceActivityDetailInfo\x12\x1b\n\x13Unk2700_IGMHNDNGNPG\x18\x0f \x01(\r\x12%\n\x10spice_stage_list\x18\x07 \x03(\x0b\x32\x0b.SpiceStage\x12\x1b\n\x13Unk2700_KIAHJKGOLGO\x18\r \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dSpiceActivityDetailInfo.proto\x1a\x14SpiceStageData.proto\"\x83\x01\n\x17SpiceActivityDetailInfo\x12\x1b\n\x13Unk3300_CIHIAJEGCBO\x18\x0e \x01(\r\x12\x1b\n\x13Unk3300_LAKPMMIPBMI\x18\x08 \x01(\r\x12.\n\x15spice_stage_data_list\x18\x06 \x03(\x0b\x32\x0f.SpiceStageDatab\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SpiceActivityDetailInfo_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SPICEACTIVITYDETAILINFO._serialized_start=51
-  _SPICEACTIVITYDETAILINFO._serialized_end=173
+  _SPICEACTIVITYDETAILINFO._serialized_start=56
+  _SPICEACTIVITYDETAILINFO._serialized_end=187
 # @@protoc_insertion_point(module_scope)

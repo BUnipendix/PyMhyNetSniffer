@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ExpeditionAssistInfo_pb2 as ExpeditionAssistInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$GetExpeditionAssistInfoListRsp.proto\x1a\x1a\x45xpeditionAssistInfo.proto\"b\n\x1eGetExpeditionAssistInfoListRsp\x12/\n\x10\x61ssist_info_list\x18\x06 \x03(\x0b\x32\x15.ExpeditionAssistInfo\x12\x0f\n\x07retcode\x18\x07 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$GetExpeditionAssistInfoListRsp.proto\x1a\x1a\x45xpeditionAssistInfo.proto\"b\n\x1eGetExpeditionAssistInfoListRsp\x12\x0f\n\x07retcode\x18\x06 \x01(\x05\x12/\n\x10\x61ssist_info_list\x18\x01 \x03(\x0b\x32\x15.ExpeditionAssistInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetExpeditionAssistInfoListRsp_pb2', globals())

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!DungeonCandidateTeamKickReq.proto\"1\n\x1b\x44ungeonCandidateTeamKickReq\x12\x12\n\nplayer_uid\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!DungeonCandidateTeamKickReq.proto\"1\n\x1b\x44ungeonCandidateTeamKickReq\x12\x12\n\nplayer_uid\x18\x07 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DungeonCandidateTeamKickReq_pb2', globals())

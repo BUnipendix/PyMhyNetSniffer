@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!SceneGalleryHideAndSeekInfo.proto\"P\n\x1bSceneGalleryHideAndSeekInfo\x12\x18\n\x10visible_uid_list\x18\r \x03(\r\x12\x17\n\x0f\x63\x61ught_uid_list\x18\x04 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!SceneGalleryHideAndSeekInfo.proto\"W\n\x1bSceneGalleryHideAndSeekInfo\x12\x1b\n\x13Unk3300_LHMHALKDBBN\x18\n \x03(\r\x12\x1b\n\x13Unk3300_CNLKMGFFAEC\x18\x07 \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGalleryHideAndSeekInfo_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _SCENEGALLERYHIDEANDSEEKINFO._serialized_start=37
-  _SCENEGALLERYHIDEANDSEEKINFO._serialized_end=117
+  _SCENEGALLERYHIDEANDSEEKINFO._serialized_end=124
 # @@protoc_insertion_point(module_scope)

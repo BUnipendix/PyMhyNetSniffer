@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n TowerGetFloorStarRewardRsp.proto\"?\n\x1aTowerGetFloorStarRewardRsp\x12\x0f\n\x07retcode\x18\x0b \x01(\x05\x12\x10\n\x08\x66loor_id\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n TowerGetFloorStarRewardRsp.proto\"?\n\x1aTowerGetFloorStarRewardRsp\x12\x0f\n\x07retcode\x18\n \x01(\x05\x12\x10\n\x08\x66loor_id\x18\x0f \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TowerGetFloorStarRewardRsp_pb2', globals())

@@ -15,7 +15,7 @@ import TransmitReason_pb2 as TransmitReason__pb2
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x43lientTransmitReq.proto\x1a\x14TransmitReason.proto\x1a\x0cVector.proto\"r\n\x11\x43lientTransmitReq\x12\x10\n\x08scene_id\x18\x02 \x01(\r\x12\x1f\n\x06reason\x18\x0e \x01(\x0e\x32\x0f.TransmitReason\x12\x14\n\x03pos\x18\x01 \x01(\x0b\x32\x07.Vector\x12\x14\n\x03rot\x18\t \x01(\x0b\x32\x07.Vectorb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x43lientTransmitReq.proto\x1a\x14TransmitReason.proto\x1a\x0cVector.proto\"r\n\x11\x43lientTransmitReq\x12\x1f\n\x06reason\x18\x03 \x01(\x0e\x32\x0f.TransmitReason\x12\x10\n\x08scene_id\x18\t \x01(\r\x12\x14\n\x03rot\x18\x06 \x01(\x0b\x32\x07.Vector\x12\x14\n\x03pos\x18\x04 \x01(\x0b\x32\x07.Vectorb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ClientTransmitReq_pb2', globals())

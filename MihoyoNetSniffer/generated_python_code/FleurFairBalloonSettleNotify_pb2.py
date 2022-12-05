@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import FleurFairBalloonSettleInfo_pb2 as FleurFairBalloonSettleInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"FleurFairBalloonSettleNotify.proto\x1a FleurFairBalloonSettleInfo.proto\"\xd1\x01\n\x1c\x46leurFairBalloonSettleNotify\x12\x13\n\x0bminigame_id\x18\t \x01(\r\x12I\n\x0fsettle_info_map\x18\x0f \x03(\x0b\x32\x30.FleurFairBalloonSettleNotify.SettleInfoMapEntry\x1aQ\n\x12SettleInfoMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12*\n\x05value\x18\x02 \x01(\x0b\x32\x1b.FleurFairBalloonSettleInfo:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"FleurFairBalloonSettleNotify.proto\x1a FleurFairBalloonSettleInfo.proto\"\xd1\x01\n\x1c\x46leurFairBalloonSettleNotify\x12\x13\n\x0bminigame_id\x18\x01 \x01(\r\x12I\n\x0fsettle_info_map\x18\x06 \x03(\x0b\x32\x30.FleurFairBalloonSettleNotify.SettleInfoMapEntry\x1aQ\n\x12SettleInfoMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12*\n\x05value\x18\x02 \x01(\x0b\x32\x1b.FleurFairBalloonSettleInfo:\x02\x38\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FleurFairBalloonSettleNotify_pb2', globals())

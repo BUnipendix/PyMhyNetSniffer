@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import PlantFlowerAcceptFlowerResultInfo_pb2 as PlantFlowerAcceptFlowerResultInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'PlantFlowerAcceptAllGiveFlowerRsp.proto\x1a\'PlantFlowerAcceptFlowerResultInfo.proto\"\x95\x01\n!PlantFlowerAcceptAllGiveFlowerRsp\x12\x13\n\x0bschedule_id\x18\n \x01(\r\x12\x0f\n\x07retcode\x18\x0b \x01(\x05\x12J\n\x1e\x61\x63\x63\x65pt_flower_result_info_list\x18\r \x03(\x0b\x32\".PlantFlowerAcceptFlowerResultInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'PlantFlowerAcceptAllGiveFlowerRsp.proto\x1a\'PlantFlowerAcceptFlowerResultInfo.proto\"\x95\x01\n!PlantFlowerAcceptAllGiveFlowerRsp\x12\x13\n\x0bschedule_id\x18\x0c \x01(\r\x12\x0f\n\x07retcode\x18\x06 \x01(\x05\x12J\n\x1e\x61\x63\x63\x65pt_flower_result_info_list\x18\r \x03(\x0b\x32\".PlantFlowerAcceptFlowerResultInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlantFlowerAcceptAllGiveFlowerRsp_pb2', globals())

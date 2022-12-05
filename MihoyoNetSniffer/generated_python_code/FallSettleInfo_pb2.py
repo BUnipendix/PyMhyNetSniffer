@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import OnlinePlayerInfo_pb2 as OnlinePlayerInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14\x46\x61llSettleInfo.proto\x1a\x16OnlinePlayerInfo.proto\"\x97\x02\n\x0e\x46\x61llSettleInfo\x12\x13\n\x0b\x63\x61tch_count\x18\x0f \x01(\r\x12&\n\x0bplayer_info\x18\r \x01(\x0b\x32\x11.OnlinePlayerInfo\x12\x0b\n\x03uid\x18\x0e \x01(\r\x12Q\n\x1b\x66lower_ring_catch_count_map\x18\x03 \x03(\x0b\x32,.FallSettleInfo.FlowerRingCatchCountMapEntry\x12\x13\n\x0bremain_time\x18\n \x01(\r\x12\x13\n\x0b\x66inal_score\x18\x01 \x01(\r\x1a>\n\x1c\x46lowerRingCatchCountMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14\x46\x61llSettleInfo.proto\x1a\x16OnlinePlayerInfo.proto\"\x97\x02\n\x0e\x46\x61llSettleInfo\x12\x13\n\x0b\x66inal_score\x18\x0e \x01(\r\x12&\n\x0bplayer_info\x18\t \x01(\x0b\x32\x11.OnlinePlayerInfo\x12Q\n\x1b\x66lower_ring_catch_count_map\x18\r \x03(\x0b\x32,.FallSettleInfo.FlowerRingCatchCountMapEntry\x12\x0b\n\x03uid\x18\x02 \x01(\r\x12\x13\n\x0b\x63\x61tch_count\x18\x01 \x01(\r\x12\x13\n\x0bremain_time\x18\x06 \x01(\r\x1a>\n\x1c\x46lowerRingCatchCountMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FallSettleInfo_pb2', globals())

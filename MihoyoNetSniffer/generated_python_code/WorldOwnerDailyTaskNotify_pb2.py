@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import DailyTaskInfo_pb2 as DailyTaskInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fWorldOwnerDailyTaskNotify.proto\x1a\x13\x44\x61ilyTaskInfo.proto\"V\n\x19WorldOwnerDailyTaskNotify\x12\x16\n\x0e\x66ilter_city_id\x18\x02 \x01(\r\x12!\n\ttask_list\x18\x01 \x03(\x0b\x32\x0e.DailyTaskInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fWorldOwnerDailyTaskNotify.proto\x1a\x13\x44\x61ilyTaskInfo.proto\"x\n\x19WorldOwnerDailyTaskNotify\x12\x1b\n\x13Unk3300_FJOJFPPPOFP\x18\x04 \x01(\r\x12!\n\ttask_list\x18\x02 \x03(\x0b\x32\x0e.DailyTaskInfo\x12\x1b\n\x13Unk3300_NADIOIJGPHE\x18\t \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WorldOwnerDailyTaskNotify_pb2', globals())
@@ -22,5 +22,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _WORLDOWNERDAILYTASKNOTIFY._serialized_start=56
-  _WORLDOWNERDAILYTASKNOTIFY._serialized_end=142
+  _WORLDOWNERDAILYTASKNOTIFY._serialized_end=176
 # @@protoc_insertion_point(module_scope)

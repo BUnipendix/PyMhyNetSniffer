@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import CoopChapter_pb2 as CoopChapter__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14\x43oopDataNotify.proto\x1a\x11\x43oopChapter.proto\"\x83\x01\n\x0e\x43oopDataNotify\x12\"\n\x0c\x63hapter_list\x18\x0f \x03(\x0b\x32\x0c.CoopChapter\x12\x1b\n\x13viewed_chapter_list\x18\x07 \x03(\r\x12\x18\n\x10is_have_progress\x18\n \x01(\x08\x12\x16\n\x0e\x63ur_coop_point\x18\x05 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14\x43oopDataNotify.proto\x1a\x11\x43oopChapter.proto\"\x83\x01\n\x0e\x43oopDataNotify\x12\x18\n\x10is_have_progress\x18\x0b \x01(\x08\x12\x16\n\x0e\x63ur_coop_point\x18\x01 \x01(\r\x12\x1b\n\x13viewed_chapter_list\x18\x06 \x03(\r\x12\"\n\x0c\x63hapter_list\x18\x03 \x03(\x0b\x32\x0c.CoopChapterb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CoopDataNotify_pb2', globals())

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17SaveCoopDialogReq.proto\"<\n\x11SaveCoopDialogReq\x12\x14\n\x0cmain_coop_id\x18\x0b \x01(\r\x12\x11\n\tdialog_id\x18\x06 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17SaveCoopDialogReq.proto\"M\n\x11SaveCoopDialogReq\x12\x1b\n\x13Unk3300_AMKDDJEPAKM\x18\n \x01(\r\x12\x1b\n\x13Unk3300_KMBGNIICNAF\x18\x08 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SaveCoopDialogReq_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _SAVECOOPDIALOGREQ._serialized_start=27
-  _SAVECOOPDIALOGREQ._serialized_end=87
+  _SAVECOOPDIALOGREQ._serialized_end=104
 # @@protoc_insertion_point(module_scope)

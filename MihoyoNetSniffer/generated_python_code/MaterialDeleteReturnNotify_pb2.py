@@ -14,21 +14,21 @@ _sym_db = _symbol_database.Default()
 import MaterialDeleteReturnType_pb2 as MaterialDeleteReturnType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n MaterialDeleteReturnNotify.proto\x1a\x1eMaterialDeleteReturnType.proto\"\xcf\x02\n\x1aMaterialDeleteReturnNotify\x12G\n\x0freturn_item_map\x18\x05 \x03(\x0b\x32..MaterialDeleteReturnNotify.ReturnItemMapEntry\x12\'\n\x04type\x18\x08 \x01(\x0e\x32\x19.MaterialDeleteReturnType\x12O\n\x13\x64\x65lete_material_map\x18\x06 \x03(\x0b\x32\x32.MaterialDeleteReturnNotify.DeleteMaterialMapEntry\x1a\x34\n\x12ReturnItemMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x1a\x38\n\x16\x44\x65leteMaterialMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n MaterialDeleteReturnNotify.proto\x1a\x1eMaterialDeleteReturnType.proto\"\xdf\x02\n\x1aMaterialDeleteReturnNotify\x12\'\n\x04type\x18\x07 \x01(\x0e\x32\x19.MaterialDeleteReturnType\x12P\n\x13Unk3300_OFOKFKBALJD\x18\x0c \x03(\x0b\x32\x33.MaterialDeleteReturnNotify.Unk3300OFOKFKBALJDEntry\x12P\n\x13Unk3300_LAIHDKJAHAF\x18\x08 \x03(\x0b\x32\x33.MaterialDeleteReturnNotify.Unk3300LAIHDKJAHAFEntry\x1a\x39\n\x17Unk3300OFOKFKBALJDEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x1a\x39\n\x17Unk3300LAIHDKJAHAFEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MaterialDeleteReturnNotify_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _MATERIALDELETERETURNNOTIFY_RETURNITEMMAPENTRY._options = None
-  _MATERIALDELETERETURNNOTIFY_RETURNITEMMAPENTRY._serialized_options = b'8\001'
-  _MATERIALDELETERETURNNOTIFY_DELETEMATERIALMAPENTRY._options = None
-  _MATERIALDELETERETURNNOTIFY_DELETEMATERIALMAPENTRY._serialized_options = b'8\001'
+  _MATERIALDELETERETURNNOTIFY_UNK3300OFOKFKBALJDENTRY._options = None
+  _MATERIALDELETERETURNNOTIFY_UNK3300OFOKFKBALJDENTRY._serialized_options = b'8\001'
+  _MATERIALDELETERETURNNOTIFY_UNK3300LAIHDKJAHAFENTRY._options = None
+  _MATERIALDELETERETURNNOTIFY_UNK3300LAIHDKJAHAFENTRY._serialized_options = b'8\001'
   _MATERIALDELETERETURNNOTIFY._serialized_start=69
-  _MATERIALDELETERETURNNOTIFY._serialized_end=404
-  _MATERIALDELETERETURNNOTIFY_RETURNITEMMAPENTRY._serialized_start=294
-  _MATERIALDELETERETURNNOTIFY_RETURNITEMMAPENTRY._serialized_end=346
-  _MATERIALDELETERETURNNOTIFY_DELETEMATERIALMAPENTRY._serialized_start=348
-  _MATERIALDELETERETURNNOTIFY_DELETEMATERIALMAPENTRY._serialized_end=404
+  _MATERIALDELETERETURNNOTIFY._serialized_end=420
+  _MATERIALDELETERETURNNOTIFY_UNK3300OFOKFKBALJDENTRY._serialized_start=304
+  _MATERIALDELETERETURNNOTIFY_UNK3300OFOKFKBALJDENTRY._serialized_end=361
+  _MATERIALDELETERETURNNOTIFY_UNK3300LAIHDKJAHAFENTRY._serialized_start=363
+  _MATERIALDELETERETURNNOTIFY_UNK3300LAIHDKJAHAFENTRY._serialized_end=420
 # @@protoc_insertion_point(module_scope)

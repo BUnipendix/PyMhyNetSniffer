@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import PlayerDieType_pb2 as PlayerDieType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aWorldPlayerDieNotify.proto\x1a\x13PlayerDieType.proto\"\x89\x01\n\x14WorldPlayerDieNotify\x12 \n\x08\x64ie_type\x18\x0c \x01(\x0e\x32\x0e.PlayerDieType\x12\x1a\n\x12murderer_entity_id\x18\x0f \x01(\r\x12\x14\n\nmonster_id\x18\x08 \x01(\rH\x00\x12\x13\n\tgadget_id\x18\x04 \x01(\rH\x00\x42\x08\n\x06\x65ntityb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aWorldPlayerDieNotify.proto\x1a\x13PlayerDieType.proto\"\x89\x01\n\x14WorldPlayerDieNotify\x12\x1a\n\x12murderer_entity_id\x18\x03 \x01(\r\x12 \n\x08\x64ie_type\x18\r \x01(\x0e\x32\x0e.PlayerDieType\x12\x14\n\nmonster_id\x18\x06 \x01(\rH\x00\x12\x13\n\tgadget_id\x18\x0c \x01(\rH\x00\x42\x08\n\x06\x65ntityb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WorldPlayerDieNotify_pb2', globals())

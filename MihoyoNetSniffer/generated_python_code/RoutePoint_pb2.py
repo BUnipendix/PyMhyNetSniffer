@@ -15,7 +15,7 @@ import MathQuaternion_pb2 as MathQuaternion__pb2
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10RoutePoint.proto\x1a\x14MathQuaternion.proto\x1a\x0cVector.proto\"\xf0\x01\n\nRoutePoint\x12\x19\n\x08position\x18\x01 \x01(\x0b\x32\x07.Vector\x12\x14\n\x0c\x61rrive_range\x18\x02 \x01(\x02\x12\x12\n\x08velocity\x18\x0b \x01(\x02H\x00\x12\x0e\n\x04time\x18\x0c \x01(\x02H\x00\x12\x1b\n\x08rotation\x18\x15 \x01(\x0b\x32\x07.VectorH\x01\x12)\n\x0erotation_speed\x18\x16 \x01(\x0b\x32\x0f.MathQuaternionH\x01\x12%\n\naxis_speed\x18\x17 \x01(\x0b\x32\x0f.MathQuaternionH\x01\x42\r\n\x0bmove_paramsB\x0f\n\rrotate_paramsb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10RoutePoint.proto\x1a\x14MathQuaternion.proto\x1a\x0cVector.proto\"\x89\x02\n\nRoutePoint\x12\x19\n\x08position\x18\x01 \x01(\x0b\x32\x07.Vector\x12\x14\n\x0c\x61rrive_range\x18\x02 \x01(\x02\x12\x17\n\x0fhas_reach_event\x18\x03 \x01(\x08\x12\x12\n\x08velocity\x18\x0b \x01(\x02H\x00\x12\x0e\n\x04time\x18\x0c \x01(\x02H\x00\x12\x1b\n\x08rotation\x18\x15 \x01(\x0b\x32\x07.VectorH\x01\x12)\n\x0erotation_speed\x18\x16 \x01(\x0b\x32\x0f.MathQuaternionH\x01\x12%\n\naxis_speed\x18\x17 \x01(\x0b\x32\x0f.MathQuaternionH\x01\x42\r\n\x0bmove_paramsB\x0f\n\rrotate_paramsb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RoutePoint_pb2', globals())
@@ -23,5 +23,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _ROUTEPOINT._serialized_start=57
-  _ROUTEPOINT._serialized_end=297
+  _ROUTEPOINT._serialized_end=322
 # @@protoc_insertion_point(module_scope)

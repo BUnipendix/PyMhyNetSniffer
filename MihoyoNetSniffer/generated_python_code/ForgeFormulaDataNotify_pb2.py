@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x46orgeFormulaDataNotify.proto\"=\n\x16\x46orgeFormulaDataNotify\x12\x11\n\tis_locked\x18\x0f \x01(\x08\x12\x10\n\x08\x66orge_id\x18\r \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x46orgeFormulaDataNotify.proto\"=\n\x16\x46orgeFormulaDataNotify\x12\x11\n\tis_locked\x18\x04 \x01(\x08\x12\x10\n\x08\x66orge_id\x18\x03 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ForgeFormulaDataNotify_pb2', globals())

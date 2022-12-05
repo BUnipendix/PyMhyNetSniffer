@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aSetEquipLockStateReq.proto\"D\n\x14SetEquipLockStateReq\x12\x11\n\tis_locked\x18\x0f \x01(\x08\x12\x19\n\x11target_equip_guid\x18\t \x01(\x04\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aSetEquipLockStateReq.proto\"D\n\x14SetEquipLockStateReq\x12\x19\n\x11target_equip_guid\x18\n \x01(\x04\x12\x11\n\tis_locked\x18\x05 \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SetEquipLockStateReq_pb2', globals())

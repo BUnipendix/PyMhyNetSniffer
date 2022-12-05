@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x45nterWorldAreaReq.proto\"7\n\x11\x45nterWorldAreaReq\x12\x11\n\tarea_type\x18\x08 \x01(\r\x12\x0f\n\x07\x61rea_id\x18\x01 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x45nterWorldAreaReq.proto\"7\n\x11\x45nterWorldAreaReq\x12\x11\n\tarea_type\x18\x08 \x01(\r\x12\x0f\n\x07\x61rea_id\x18\n \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EnterWorldAreaReq_pb2', globals())

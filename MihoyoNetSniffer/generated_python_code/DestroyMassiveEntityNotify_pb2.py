@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ClientMassiveEntity_pb2 as ClientMassiveEntity__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n DestroyMassiveEntityNotify.proto\x1a\x19\x43lientMassiveEntity.proto\"O\n\x1a\x44\x65stroyMassiveEntityNotify\x12\x31\n\x13massive_entity_list\x18\x07 \x03(\x0b\x32\x14.ClientMassiveEntityb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n DestroyMassiveEntityNotify.proto\x1a\x19\x43lientMassiveEntity.proto\"O\n\x1a\x44\x65stroyMassiveEntityNotify\x12\x31\n\x13massive_entity_list\x18\x0f \x03(\x0b\x32\x14.ClientMassiveEntityb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DestroyMassiveEntityNotify_pb2', globals())

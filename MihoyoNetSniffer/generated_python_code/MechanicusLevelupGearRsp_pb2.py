@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eMechanicusLevelupGearRsp.proto\"m\n\x18MechanicusLevelupGearRsp\x12\x0f\n\x07gear_id\x18\x07 \x01(\r\x12\x15\n\rmechanicus_id\x18\x02 \x01(\r\x12\x18\n\x10\x61\x66ter_gear_level\x18\x0c \x01(\r\x12\x0f\n\x07retcode\x18\x08 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eMechanicusLevelupGearRsp.proto\"m\n\x18MechanicusLevelupGearRsp\x12\x0f\n\x07retcode\x18\x08 \x01(\x05\x12\x0f\n\x07gear_id\x18\t \x01(\r\x12\x15\n\rmechanicus_id\x18\x04 \x01(\r\x12\x18\n\x10\x61\x66ter_gear_level\x18\x0c \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MechanicusLevelupGearRsp_pb2', globals())

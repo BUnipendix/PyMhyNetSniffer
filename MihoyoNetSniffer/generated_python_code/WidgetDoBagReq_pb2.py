@@ -15,7 +15,7 @@ import WidgetCreateLocationInfo_pb2 as WidgetCreateLocationInfo__pb2
 import WidgetCreatorInfo_pb2 as WidgetCreatorInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14WidgetDoBagReq.proto\x1a\x1eWidgetCreateLocationInfo.proto\x1a\x17WidgetCreatorInfo.proto\"\x99\x01\n\x0eWidgetDoBagReq\x12\x13\n\x0bmaterial_id\x18\t \x01(\r\x12\x33\n\rlocation_info\x18\xc0\x06 \x01(\x0b\x32\x19.WidgetCreateLocationInfoH\x00\x12\x32\n\x13widget_creator_info\x18\xd9\x0b \x01(\x0b\x32\x12.WidgetCreatorInfoH\x00\x42\t\n\x07op_infob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14WidgetDoBagReq.proto\x1a\x1eWidgetCreateLocationInfo.proto\x1a\x17WidgetCreatorInfo.proto\"\x99\x01\n\x0eWidgetDoBagReq\x12\x13\n\x0bmaterial_id\x18\x0b \x01(\r\x12\x33\n\rlocation_info\x18\xb2\x03 \x01(\x0b\x32\x19.WidgetCreateLocationInfoH\x00\x12\x32\n\x13widget_creator_info\x18\xba\n \x01(\x0b\x32\x12.WidgetCreatorInfoH\x00\x42\t\n\x07op_infob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WidgetDoBagReq_pb2', globals())

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aGadgetPlayDataNotify.proto\"N\n\x14GadgetPlayDataNotify\x12\x11\n\tplay_type\x18\x0c \x01(\r\x12\x10\n\x08progress\x18\t \x01(\r\x12\x11\n\tentity_id\x18\x06 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aGadgetPlayDataNotify.proto\"N\n\x14GadgetPlayDataNotify\x12\x11\n\tentity_id\x18\r \x01(\r\x12\x10\n\x08progress\x18\x06 \x01(\r\x12\x11\n\tplay_type\x18\x0b \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GadgetPlayDataNotify_pb2', globals())

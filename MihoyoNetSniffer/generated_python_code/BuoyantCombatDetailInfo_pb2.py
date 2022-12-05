@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import BuoyantCombatDailyInfo_pb2 as BuoyantCombatDailyInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x42uoyantCombatDetailInfo.proto\x1a\x1c\x42uoyantCombatDailyInfo.proto\"K\n\x17\x42uoyantCombatDetailInfo\x12\x30\n\x0f\x64\x61ily_info_list\x18\x08 \x03(\x0b\x32\x17.BuoyantCombatDailyInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x42uoyantCombatDetailInfo.proto\x1a\x1c\x42uoyantCombatDailyInfo.proto\"K\n\x17\x42uoyantCombatDetailInfo\x12\x30\n\x0f\x64\x61ily_info_list\x18\x0b \x03(\x0b\x32\x17.BuoyantCombatDailyInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BuoyantCombatDetailInfo_pb2', globals())

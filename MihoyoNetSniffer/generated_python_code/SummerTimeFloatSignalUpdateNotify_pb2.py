@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'SummerTimeFloatSignalUpdateNotify.proto\x1a\x0cVector.proto\"s\n!SummerTimeFloatSignalUpdateNotify\x12\x1a\n\x12is_transfer_anchor\x18\x04 \x01(\x08\x12\x17\n\x0f\x66loat_signal_id\x18\x08 \x01(\r\x12\x19\n\x08position\x18\n \x01(\x0b\x32\x07.Vectorb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'SummerTimeFloatSignalUpdateNotify.proto\x1a\x0cVector.proto\"s\n!SummerTimeFloatSignalUpdateNotify\x12\x1a\n\x12is_transfer_anchor\x18\x01 \x01(\x08\x12\x19\n\x08position\x18\x07 \x01(\x0b\x32\x07.Vector\x12\x17\n\x0f\x66loat_signal_id\x18\x0c \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SummerTimeFloatSignalUpdateNotify_pb2', globals())

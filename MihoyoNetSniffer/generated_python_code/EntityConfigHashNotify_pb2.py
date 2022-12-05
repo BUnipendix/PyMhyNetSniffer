@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import EntityConfigHashEntry_pb2 as EntityConfigHashEntry__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x45ntityConfigHashNotify.proto\x1a\x1b\x45ntityConfigHashEntry.proto\"\xb2\x01\n\x16\x45ntityConfigHashNotify\x12\x32\n\x12\x61\x62ility_entry_list\x18\x03 \x03(\x0b\x32\x16.EntityConfigHashEntry\x12\x31\n\x11\x61vatar_entry_list\x18\x0f \x03(\x0b\x32\x16.EntityConfigHashEntry\x12\x31\n\x11\x63ombat_entry_list\x18\x08 \x03(\x0b\x32\x16.EntityConfigHashEntryb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x45ntityConfigHashNotify.proto\x1a\x1b\x45ntityConfigHashEntry.proto\"\xb7\x01\n\x16\x45ntityConfigHashNotify\x12\x33\n\x13Unk3300_NAMDIKJILAI\x18\x01 \x03(\x0b\x32\x16.EntityConfigHashEntry\x12\x33\n\x13Unk3300_BLBEKMDGCMB\x18\x02 \x03(\x0b\x32\x16.EntityConfigHashEntry\x12\x33\n\x13Unk3300_NLMPHBGMOEN\x18\t \x03(\x0b\x32\x16.EntityConfigHashEntryb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EntityConfigHashNotify_pb2', globals())
@@ -22,5 +22,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _ENTITYCONFIGHASHNOTIFY._serialized_start=62
-  _ENTITYCONFIGHASHNOTIFY._serialized_end=240
+  _ENTITYCONFIGHASHNOTIFY._serialized_end=245
 # @@protoc_insertion_point(module_scope)

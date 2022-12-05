@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ReunionWatcherInfo_pb2 as ReunionWatcherInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n UpdateReunionWatcherNotify.proto\x1a\x18ReunionWatcherInfo.proto\"[\n\x1aUpdateReunionWatcherNotify\x12\x12\n\nmission_id\x18\x03 \x01(\r\x12)\n\x0cwatcher_info\x18\n \x01(\x0b\x32\x13.ReunionWatcherInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n UpdateReunionWatcherNotify.proto\x1a\x18ReunionWatcherInfo.proto\"[\n\x1aUpdateReunionWatcherNotify\x12)\n\x0cwatcher_info\x18\x0c \x01(\x0b\x32\x13.ReunionWatcherInfo\x12\x12\n\nmission_id\x18\x0e \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'UpdateReunionWatcherNotify_pb2', globals())

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17HomeKickPlayerRsp.proto\"M\n\x11HomeKickPlayerRsp\x12\x12\n\ntarget_uid\x18\x04 \x01(\r\x12\x0f\n\x07retcode\x18\x08 \x01(\x05\x12\x13\n\x0bis_kick_all\x18\n \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17HomeKickPlayerRsp.proto\"M\n\x11HomeKickPlayerRsp\x12\x13\n\x0bis_kick_all\x18\x02 \x01(\x08\x12\x0f\n\x07retcode\x18\x0e \x01(\x05\x12\x12\n\ntarget_uid\x18\x07 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeKickPlayerRsp_pb2', globals())

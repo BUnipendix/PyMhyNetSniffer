@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import QuestGlobalVar_pb2 as QuestGlobalVar__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aQuestGlobalVarNotify.proto\x1a\x14QuestGlobalVar.proto\"9\n\x14QuestGlobalVarNotify\x12!\n\x08var_list\x18\x01 \x03(\x0b\x32\x0f.QuestGlobalVarb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aQuestGlobalVarNotify.proto\x1a\x14QuestGlobalVar.proto\"9\n\x14QuestGlobalVarNotify\x12!\n\x08var_list\x18\x08 \x03(\x0b\x32\x0f.QuestGlobalVarb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'QuestGlobalVarNotify_pb2', globals())

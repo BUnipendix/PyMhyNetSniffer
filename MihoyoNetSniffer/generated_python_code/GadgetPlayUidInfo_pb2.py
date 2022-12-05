@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ProfilePicture_pb2 as ProfilePicture__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17GadgetPlayUidInfo.proto\x1a\x14ProfilePicture.proto\"\xa7\x01\n\x11GadgetPlayUidInfo\x12(\n\x0fprofile_picture\x18\x02 \x01(\x0b\x32\x0f.ProfilePicture\x12\x19\n\x11\x62\x61ttle_watcher_id\x18\x06 \x01(\r\x12\x0b\n\x03uid\x18\x07 \x01(\r\x12\x0c\n\x04icon\x18\x0e \x01(\r\x12\r\n\x05score\x18\x04 \x01(\r\x12\x10\n\x08nickname\x18\x03 \x01(\t\x12\x11\n\tonline_id\x18\x08 \x01(\tb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17GadgetPlayUidInfo.proto\x1a\x14ProfilePicture.proto\"\xa7\x01\n\x11GadgetPlayUidInfo\x12\x11\n\tonline_id\x18\x05 \x01(\t\x12\r\n\x05score\x18\x01 \x01(\r\x12\x10\n\x08nickname\x18\x0b \x01(\t\x12\x0c\n\x04icon\x18\x0f \x01(\r\x12\x19\n\x11\x62\x61ttle_watcher_id\x18\t \x01(\r\x12(\n\x0fprofile_picture\x18\x06 \x01(\x0b\x32\x0f.ProfilePicture\x12\x0b\n\x03uid\x18\x0c \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GadgetPlayUidInfo_pb2', globals())

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14SegmentCRCInfo.proto\"\\\n\x0eSegmentCRCInfo\x12\x0e\n\x06module\x18\r \x01(\r\x12\x0f\n\x07retcode\x18\x05 \x01(\x05\x12\x0c\n\x04size\x18\n \x01(\r\x12\x0b\n\x03\x63rc\x18\x03 \x01(\t\x12\x0e\n\x06offset\x18\x0b \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14SegmentCRCInfo.proto\"\\\n\x0eSegmentCRCInfo\x12\x0c\n\x04size\x18\x06 \x01(\r\x12\x0b\n\x03\x63rc\x18\x08 \x01(\t\x12\x0e\n\x06module\x18\x04 \x01(\r\x12\x0f\n\x07retcode\x18\x03 \x01(\x05\x12\x0e\n\x06offset\x18\t \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SegmentCRCInfo_pb2', globals())

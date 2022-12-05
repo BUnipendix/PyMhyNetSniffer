@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14\x44ropHintNotify.proto\x1a\x0cVector.proto\"A\n\x0e\x44ropHintNotify\x12\x19\n\x08position\x18\x07 \x01(\x0b\x32\x07.Vector\x12\x14\n\x0citem_id_list\x18\x0e \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14\x44ropHintNotify.proto\x1a\x0cVector.proto\"A\n\x0e\x44ropHintNotify\x12\x14\n\x0citem_id_list\x18\x0c \x03(\r\x12\x19\n\x08position\x18\t \x01(\x0b\x32\x07.Vectorb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DropHintNotify_pb2', globals())

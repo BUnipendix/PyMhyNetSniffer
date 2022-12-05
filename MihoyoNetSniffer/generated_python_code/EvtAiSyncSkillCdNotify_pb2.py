@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import AiSkillCdInfo_pb2 as AiSkillCdInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x45vtAiSyncSkillCdNotify.proto\x1a\x13\x41iSkillCdInfo.proto\"\x91\x01\n\x16\x45vtAiSyncSkillCdNotify\x12\x37\n\tai_cd_map\x18\x07 \x03(\x0b\x32$.EvtAiSyncSkillCdNotify.AiCdMapEntry\x1a>\n\x0c\x41iCdMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x1d\n\x05value\x18\x02 \x01(\x0b\x32\x0e.AiSkillCdInfo:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x45vtAiSyncSkillCdNotify.proto\x1a\x13\x41iSkillCdInfo.proto\"\x91\x01\n\x16\x45vtAiSyncSkillCdNotify\x12\x37\n\tai_cd_map\x18\x0e \x03(\x0b\x32$.EvtAiSyncSkillCdNotify.AiCdMapEntry\x1a>\n\x0c\x41iCdMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x1d\n\x05value\x18\x02 \x01(\x0b\x32\x0e.AiSkillCdInfo:\x02\x38\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EvtAiSyncSkillCdNotify_pb2', globals())

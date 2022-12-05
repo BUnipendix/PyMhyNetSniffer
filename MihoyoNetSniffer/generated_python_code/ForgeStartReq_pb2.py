@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13\x46orgeStartReq.proto\"I\n\rForgeStartReq\x12\x11\n\tavatar_id\x18\x07 \x01(\r\x12\x10\n\x08\x66orge_id\x18\x04 \x01(\r\x12\x13\n\x0b\x66orge_count\x18\x06 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13\x46orgeStartReq.proto\"I\n\rForgeStartReq\x12\x10\n\x08\x66orge_id\x18\x08 \x01(\r\x12\x11\n\tavatar_id\x18\x01 \x01(\r\x12\x13\n\x0b\x66orge_count\x18\n \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ForgeStartReq_pb2', globals())

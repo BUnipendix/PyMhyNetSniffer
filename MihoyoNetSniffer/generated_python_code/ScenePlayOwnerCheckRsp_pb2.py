@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cScenePlayOwnerCheckRsp.proto\"x\n\x16ScenePlayOwnerCheckRsp\x12\x12\n\nparam_list\x18\x08 \x03(\r\x12\x15\n\ris_skip_match\x18\x01 \x01(\x08\x12\x0f\n\x07play_id\x18\t \x01(\r\x12\x11\n\twrong_uid\x18\x05 \x01(\r\x12\x0f\n\x07retcode\x18\x03 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cScenePlayOwnerCheckRsp.proto\"x\n\x16ScenePlayOwnerCheckRsp\x12\x11\n\twrong_uid\x18\x01 \x01(\r\x12\x12\n\nparam_list\x18\x06 \x03(\r\x12\x0f\n\x07retcode\x18\x07 \x01(\x05\x12\x15\n\ris_skip_match\x18\x0e \x01(\x08\x12\x0f\n\x07play_id\x18\x04 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ScenePlayOwnerCheckRsp_pb2', globals())

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x44\x65leteFriendReq.proto\"%\n\x0f\x44\x65leteFriendReq\x12\x12\n\ntarget_uid\x18\r \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x44\x65leteFriendReq.proto\"%\n\x0f\x44\x65leteFriendReq\x12\x12\n\ntarget_uid\x18\x06 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DeleteFriendReq_pb2', globals())

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import CodexTypeData_pb2 as CodexTypeData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x43odexDataFullNotify.proto\x1a\x13\x43odexTypeData.proto\"\x94\x01\n\x13\x43odexDataFullNotify\x12\x1b\n\x13Unk2700_BPKOLHOOGFO\x18\x04 \x01(\r\x12\x1b\n\x13Unk2700_DFJJHFHHIHF\x18\x02 \x03(\r\x12\x1b\n\x13Unk2700_HJDNBBPMOAP\x18\x03 \x01(\r\x12&\n\x0etype_data_list\x18\x06 \x03(\x0b\x32\x0e.CodexTypeDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x43odexDataFullNotify.proto\x1a\x13\x43odexTypeData.proto\"\x9c\x01\n\x13\x43odexDataFullNotify\x12&\n\x0etype_data_list\x18\x0e \x03(\x0b\x32\x0e.CodexTypeData\x12\x1b\n\x13Unk3300_ODPDLGEKIEM\x18\x04 \x01(\r\x12\x1b\n\x13Unk3300_DCMJLCIFCEH\x18\r \x01(\r\x12#\n\x1brecent_viewed_pushtips_list\x18\x01 \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CodexDataFullNotify_pb2', globals())
@@ -22,5 +22,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _CODEXDATAFULLNOTIFY._serialized_start=51
-  _CODEXDATAFULLNOTIFY._serialized_end=199
+  _CODEXDATAFULLNOTIFY._serialized_end=207
 # @@protoc_insertion_point(module_scope)

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ForwardType_pb2 as ForwardType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x45vtFaceToEntityNotify.proto\x1a\x11\x46orwardType.proto\"f\n\x15\x45vtFaceToEntityNotify\x12\x16\n\x0e\x66\x61\x63\x65_entity_id\x18\x05 \x01(\r\x12\"\n\x0c\x66orward_type\x18\t \x01(\x0e\x32\x0c.ForwardType\x12\x11\n\tentity_id\x18\x01 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x45vtFaceToEntityNotify.proto\x1a\x11\x46orwardType.proto\"f\n\x15\x45vtFaceToEntityNotify\x12\x11\n\tentity_id\x18\n \x01(\r\x12\"\n\x0c\x66orward_type\x18\x08 \x01(\x0e\x32\x0c.ForwardType\x12\x16\n\x0e\x66\x61\x63\x65_entity_id\x18\x04 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EvtFaceToEntityNotify_pb2', globals())

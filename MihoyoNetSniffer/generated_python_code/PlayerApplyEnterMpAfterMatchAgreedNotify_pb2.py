@@ -15,7 +15,7 @@ import MatchType_pb2 as MatchType__pb2
 import OnlinePlayerInfo_pb2 as OnlinePlayerInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n.PlayerApplyEnterMpAfterMatchAgreedNotify.proto\x1a\x0fMatchType.proto\x1a\x16OnlinePlayerInfo.proto\"\x8e\x01\n(PlayerApplyEnterMpAfterMatchAgreedNotify\x12*\n\x0fsrc_player_info\x18\x0b \x01(\x0b\x32\x11.OnlinePlayerInfo\x12\x16\n\x0ematchserver_id\x18\n \x01(\r\x12\x1e\n\nmatch_type\x18\x03 \x01(\x0e\x32\n.MatchTypeb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n.PlayerApplyEnterMpAfterMatchAgreedNotify.proto\x1a\x0fMatchType.proto\x1a\x16OnlinePlayerInfo.proto\"\x8e\x01\n(PlayerApplyEnterMpAfterMatchAgreedNotify\x12\x16\n\x0ematchserver_id\x18\x03 \x01(\r\x12*\n\x0fsrc_player_info\x18\x07 \x01(\x0b\x32\x11.OnlinePlayerInfo\x12\x1e\n\nmatch_type\x18\x05 \x01(\x0e\x32\n.MatchTypeb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerApplyEnterMpAfterMatchAgreedNotify_pb2', globals())

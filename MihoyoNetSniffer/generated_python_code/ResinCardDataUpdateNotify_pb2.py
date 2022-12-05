@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ResinCardData_pb2 as ResinCardData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fResinCardDataUpdateNotify.proto\x1a\x13ResinCardData.proto\"]\n\x19ResinCardDataUpdateNotify\x12\x18\n\x10today_start_time\x18\x06 \x01(\r\x12&\n\x0e\x63\x61rd_data_list\x18\x02 \x03(\x0b\x32\x0e.ResinCardDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fResinCardDataUpdateNotify.proto\x1a\x13ResinCardData.proto\"]\n\x19ResinCardDataUpdateNotify\x12\x18\n\x10today_start_time\x18\x04 \x01(\r\x12&\n\x0e\x63\x61rd_data_list\x18\x0e \x03(\x0b\x32\x0e.ResinCardDatab\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ResinCardDataUpdateNotify_pb2', globals())

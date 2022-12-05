@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dPotionDungeonResultInfo.proto\"\x9f\x01\n\x17PotionDungeonResultInfo\x12\x13\n\x0b\x66inal_score\x18\x08 \x01(\r\x12\x11\n\tleft_time\x18\t \x01(\r\x12\x1b\n\x13Unk2700_FHEHGDABALE\x18\x0e \x01(\r\x12\x1b\n\x13Unk2700_HKFEBBCMBHL\x18\x0b \x01(\r\x12\x10\n\x08level_id\x18\x04 \x01(\r\x12\x10\n\x08stage_id\x18\x02 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dPotionDungeonResultInfo.proto\"\x90\x01\n\x17PotionDungeonResultInfo\x12\x11\n\tleft_time\x18\x07 \x01(\r\x12\x0f\n\x07mode_id\x18\r \x01(\r\x12\x10\n\x08stage_id\x18\x01 \x01(\r\x12\x10\n\x08level_id\x18\x02 \x01(\r\x12\x13\n\x0b\x66inal_score\x18\x0f \x01(\r\x12\x18\n\x10\x64ifficulty_level\x18\x08 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PotionDungeonResultInfo_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _POTIONDUNGEONRESULTINFO._serialized_start=34
-  _POTIONDUNGEONRESULTINFO._serialized_end=193
+  _POTIONDUNGEONRESULTINFO._serialized_end=178
 # @@protoc_insertion_point(module_scope)

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aShortAbilityHashPair.proto\"N\n\x14ShortAbilityHashPair\x12\x1b\n\x13\x61\x62ility_config_hash\x18\x0f \x01(\x0f\x12\x19\n\x11\x61\x62ility_name_hash\x18\x01 \x01(\x0f\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aShortAbilityHashPair.proto\"N\n\x14ShortAbilityHashPair\x12\x19\n\x11\x61\x62ility_name_hash\x18\x06 \x01(\x0f\x12\x1b\n\x13\x61\x62ility_config_hash\x18\x0f \x01(\x0f\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ShortAbilityHashPair_pb2', globals())

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eSceneGalleryProgressInfo.proto\"g\n\x18SceneGalleryProgressInfo\x12\x1b\n\x13progress_stage_list\x18\x08 \x03(\r\x12\x0b\n\x03key\x18\x0b \x01(\t\x12\x10\n\x08progress\x18\x05 \x01(\r\x12\x0f\n\x07ui_form\x18\x0c \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eSceneGalleryProgressInfo.proto\"g\n\x18SceneGalleryProgressInfo\x12\x0b\n\x03key\x18\x03 \x01(\t\x12\x0f\n\x07ui_form\x18\x0c \x01(\r\x12\x1b\n\x13progress_stage_list\x18\x07 \x03(\r\x12\x10\n\x08progress\x18\r \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGalleryProgressInfo_pb2', globals())

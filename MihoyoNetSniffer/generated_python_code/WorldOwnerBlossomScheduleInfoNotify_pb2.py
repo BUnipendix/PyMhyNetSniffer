@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import BlossomScheduleInfo_pb2 as BlossomScheduleInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n)WorldOwnerBlossomScheduleInfoNotify.proto\x1a\x19\x42lossomScheduleInfo.proto\"R\n#WorldOwnerBlossomScheduleInfoNotify\x12+\n\rschedule_info\x18\x03 \x01(\x0b\x32\x14.BlossomScheduleInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n)WorldOwnerBlossomScheduleInfoNotify.proto\x1a\x19\x42lossomScheduleInfo.proto\"R\n#WorldOwnerBlossomScheduleInfoNotify\x12+\n\rschedule_info\x18\n \x01(\x0b\x32\x14.BlossomScheduleInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WorldOwnerBlossomScheduleInfoNotify_pb2', globals())

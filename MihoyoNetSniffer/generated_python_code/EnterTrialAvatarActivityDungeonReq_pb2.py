@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n(EnterTrialAvatarActivityDungeonReq.proto\"p\n\"EnterTrialAvatarActivityDungeonReq\x12\x16\n\x0e\x65nter_point_id\x18\n \x01(\r\x12\x1d\n\x15trial_avatar_index_id\x18\x05 \x01(\r\x12\x13\n\x0b\x61\x63tivity_id\x18\x0e \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n(EnterTrialAvatarActivityDungeonReq.proto\"p\n\"EnterTrialAvatarActivityDungeonReq\x12\x16\n\x0e\x65nter_point_id\x18\x07 \x01(\r\x12\x13\n\x0b\x61\x63tivity_id\x18\x01 \x01(\r\x12\x1d\n\x15trial_avatar_index_id\x18\x05 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EnterTrialAvatarActivityDungeonReq_pb2', globals())

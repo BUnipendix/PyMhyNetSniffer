@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x43hallengeRecord.proto\"s\n\x0f\x43hallengeRecord\x12\x1d\n\x15\x63hallenge_record_type\x18\x0e \x01(\r\x12\x17\n\x0f\x63hallenge_index\x18\x0f \x01(\r\x12\x14\n\x0c\x63hallenge_id\x18\x01 \x01(\r\x12\x12\n\nbest_value\x18\x08 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x43hallengeRecord.proto\"s\n\x0f\x43hallengeRecord\x12\x1d\n\x15\x63hallenge_record_type\x18\x02 \x01(\r\x12\x17\n\x0f\x63hallenge_index\x18\x03 \x01(\r\x12\x14\n\x0c\x63hallenge_id\x18\t \x01(\r\x12\x12\n\nbest_value\x18\x04 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChallengeRecord_pb2', globals())

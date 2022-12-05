@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import BounceConjuringChapterInfo_pb2 as BounceConjuringChapterInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'BounceConjuringActivityDetailInfo.proto\x1a BounceConjuringChapterInfo.proto\"\x92\x01\n!BounceConjuringActivityDetailInfo\x12\x36\n\x11\x63hapter_info_list\x18\x08 \x03(\x0b\x32\x1b.BounceConjuringChapterInfo\x12\x19\n\x11is_content_closed\x18\x0c \x01(\x08\x12\x1a\n\x12\x63ontent_close_time\x18\x07 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'BounceConjuringActivityDetailInfo.proto\x1a BounceConjuringChapterInfo.proto\"\x92\x01\n!BounceConjuringActivityDetailInfo\x12\x19\n\x11is_content_closed\x18\x08 \x01(\x08\x12\x36\n\x11\x63hapter_info_list\x18\x0f \x03(\x0b\x32\x1b.BounceConjuringChapterInfo\x12\x1a\n\x12\x63ontent_close_time\x18\x02 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BounceConjuringActivityDetailInfo_pb2', globals())

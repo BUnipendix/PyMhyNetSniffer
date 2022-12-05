@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"MultistagePlayFinishStageReq.proto\"D\n\x1cMultistagePlayFinishStageReq\x12\x10\n\x08group_id\x18\x0c \x01(\r\x12\x12\n\nplay_index\x18\x0f \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"MultistagePlayFinishStageReq.proto\"D\n\x1cMultistagePlayFinishStageReq\x12\x10\n\x08group_id\x18\x0c \x01(\r\x12\x12\n\nplay_index\x18\x07 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MultistagePlayFinishStageReq_pb2', globals())

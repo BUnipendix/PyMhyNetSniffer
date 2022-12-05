@@ -15,7 +15,7 @@ import ForwardType_pb2 as ForwardType__pb2
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x45vtAvatarExitFocusNotify.proto\x1a\x11\x46orwardType.proto\x1a\x0cVector.proto\"r\n\x18\x45vtAvatarExitFocusNotify\x12\x1f\n\x0e\x66inish_forward\x18\x0c \x01(\x0b\x32\x07.Vector\x12\"\n\x0c\x66orward_type\x18\x0b \x01(\x0e\x32\x0c.ForwardType\x12\x11\n\tentity_id\x18\x0e \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x45vtAvatarExitFocusNotify.proto\x1a\x11\x46orwardType.proto\x1a\x0cVector.proto\"r\n\x18\x45vtAvatarExitFocusNotify\x12\x11\n\tentity_id\x18\x07 \x01(\r\x12\"\n\x0c\x66orward_type\x18\x08 \x01(\x0e\x32\x0c.ForwardType\x12\x1f\n\x0e\x66inish_forward\x18\x02 \x01(\x0b\x32\x07.Vectorb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EvtAvatarExitFocusNotify_pb2', globals())

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fSceneAvatarStaminaStepReq.proto\x1a\x0cVector.proto\"I\n\x19SceneAvatarStaminaStepReq\x12\x16\n\x0euse_client_rot\x18\x0f \x01(\x08\x12\x14\n\x03rot\x18\x07 \x01(\x0b\x32\x07.Vectorb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fSceneAvatarStaminaStepReq.proto\x1a\x0cVector.proto\"I\n\x19SceneAvatarStaminaStepReq\x12\x16\n\x0euse_client_rot\x18\t \x01(\x08\x12\x14\n\x03rot\x18\x0c \x01(\x0b\x32\x07.Vectorb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneAvatarStaminaStepReq_pb2', globals())

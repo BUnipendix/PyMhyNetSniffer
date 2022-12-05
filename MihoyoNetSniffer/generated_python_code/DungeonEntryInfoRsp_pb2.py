@@ -12,16 +12,16 @@ _sym_db = _symbol_database.Default()
 
 
 import DungeonEntryInfo_pb2 as DungeonEntryInfo__pb2
-import Unk2800_MHCFAGCKGIB_pb2 as Unk2800__MHCFAGCKGIB__pb2
+import DungeonEntryPointInfo_pb2 as DungeonEntryPointInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x44ungeonEntryInfoRsp.proto\x1a\x16\x44ungeonEntryInfo.proto\x1a\x19Unk2800_MHCFAGCKGIB.proto\"\xb8\x01\n\x13\x44ungeonEntryInfoRsp\x12-\n\x12\x64ungeon_entry_list\x18\x0c \x03(\x0b\x32\x11.DungeonEntryInfo\x12\x10\n\x08point_id\x18\x0f \x01(\r\x12\x31\n\x13Unk2800_JJFLDCLMEHD\x18\x04 \x03(\x0b\x32\x14.Unk2800_MHCFAGCKGIB\x12\x1c\n\x14recommend_dungeon_id\x18\x0e \x01(\r\x12\x0f\n\x07retcode\x18\x0b \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x44ungeonEntryInfoRsp.proto\x1a\x16\x44ungeonEntryInfo.proto\x1a\x1b\x44ungeonEntryPointInfo.proto\"\xbf\x01\n\x13\x44ungeonEntryInfoRsp\x12-\n\x12\x64ungeon_entry_list\x18\x08 \x03(\x0b\x32\x11.DungeonEntryInfo\x12\x1c\n\x14recommend_dungeon_id\x18\x0f \x01(\r\x12\x38\n\x18\x64ungeon_entry_point_list\x18\n \x03(\x0b\x32\x16.DungeonEntryPointInfo\x12\x0f\n\x07retcode\x18\x0e \x01(\x05\x12\x10\n\x08point_id\x18\x0c \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DungeonEntryInfoRsp_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _DUNGEONENTRYINFORSP._serialized_start=81
-  _DUNGEONENTRYINFORSP._serialized_end=265
+  _DUNGEONENTRYINFORSP._serialized_start=83
+  _DUNGEONENTRYINFORSP._serialized_end=274
 # @@protoc_insertion_point(module_scope)

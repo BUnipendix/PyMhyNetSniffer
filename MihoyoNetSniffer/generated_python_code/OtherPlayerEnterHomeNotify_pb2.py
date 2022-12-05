@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n OtherPlayerEnterHomeNotify.proto\"\xa4\x01\n\x1aOtherPlayerEnterHomeNotify\x12\x10\n\x08nickname\x18\x07 \x01(\t\x12\x32\n\x06reason\x18\x03 \x01(\x0e\x32\".OtherPlayerEnterHomeNotify.Reason\"@\n\x06Reason\x12\x12\n\x0eREASON_INVALID\x10\x00\x12\x10\n\x0cREASON_ENTER\x10\x01\x12\x10\n\x0cREASON_LEAVE\x10\x02\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n OtherPlayerEnterHomeNotify.proto\"\xa4\x01\n\x1aOtherPlayerEnterHomeNotify\x12\x10\n\x08nickname\x18\x05 \x01(\t\x12\x32\n\x06reason\x18\n \x01(\x0e\x32\".OtherPlayerEnterHomeNotify.Reason\"@\n\x06Reason\x12\x12\n\x0eREASON_INVALID\x10\x00\x12\x10\n\x0cREASON_ENTER\x10\x01\x12\x10\n\x0cREASON_LEAVE\x10\x02\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'OtherPlayerEnterHomeNotify_pb2', globals())

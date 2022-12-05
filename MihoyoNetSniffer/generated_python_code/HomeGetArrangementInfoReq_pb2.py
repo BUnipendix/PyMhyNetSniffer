@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fHomeGetArrangementInfoReq.proto\"2\n\x19HomeGetArrangementInfoReq\x12\x15\n\rscene_id_list\x18\r \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fHomeGetArrangementInfoReq.proto\"2\n\x19HomeGetArrangementInfoReq\x12\x15\n\rscene_id_list\x18\x06 \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeGetArrangementInfoReq_pb2', globals())

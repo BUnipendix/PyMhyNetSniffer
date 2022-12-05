@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x43lientHashDebugNotify.proto\"\'\n\x15\x43lientHashDebugNotify\x12\x0e\n\x06job_id\x18\x0c \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x43lientHashDebugNotify.proto\"\'\n\x15\x43lientHashDebugNotify\x12\x0e\n\x06job_id\x18\x0f \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ClientHashDebugNotify_pb2', globals())

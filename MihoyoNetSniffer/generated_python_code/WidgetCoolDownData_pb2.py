@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18WidgetCoolDownData.proto\"L\n\x12WidgetCoolDownData\x12\x12\n\nis_success\x18\x05 \x01(\x08\x12\x16\n\x0e\x63ool_down_time\x18\x04 \x01(\x04\x12\n\n\x02id\x18\x0f \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18WidgetCoolDownData.proto\"L\n\x12WidgetCoolDownData\x12\n\n\x02id\x18\x02 \x01(\r\x12\x12\n\nis_success\x18\r \x01(\x08\x12\x16\n\x0e\x63ool_down_time\x18\x07 \x01(\x04\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'WidgetCoolDownData_pb2', globals())

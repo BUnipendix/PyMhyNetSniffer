@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x45vtCostStaminaNotify.proto\">\n\x14\x45vtCostStaminaNotify\x12\x10\n\x08skill_id\x18\x06 \x01(\r\x12\x14\n\x0c\x63ost_stamina\x18\x0b \x01(\x02\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x45vtCostStaminaNotify.proto\">\n\x14\x45vtCostStaminaNotify\x12\x14\n\x0c\x63ost_stamina\x18\x04 \x01(\x02\x12\x10\n\x08skill_id\x18\x01 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EvtCostStaminaNotify_pb2', globals())

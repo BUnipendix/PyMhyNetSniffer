@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import SalesmanStatusType_pb2 as SalesmanStatusType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n SalesmanActivityDetailInfo.proto\x1a\x18SalesmanStatusType.proto\"\xaf\x03\n\x1aSalesmanActivityDetailInfo\x12!\n\x19special_reward_preview_id\x18\x03 \x01(\r\x12#\n\x06status\x18\x04 \x01(\x0e\x32\x13.SalesmanStatusType\x12\x19\n\x11last_deliver_time\x18\x02 \x01(\r\x12T\n\x16selected_reward_id_map\x18\x05 \x03(\x0b\x32\x34.SalesmanActivityDetailInfo.SelectedRewardIdMapEntry\x12\x15\n\rdeliver_count\x18\x0b \x01(\r\x12#\n\x1bis_has_taken_special_reward\x18\x07 \x01(\x08\x12\x11\n\tday_index\x18\x0c \x01(\r\x12\x16\n\x0e\x63ond_day_count\x18\x06 \x01(\r\x12\x15\n\rday_reward_id\x18\t \x01(\r\x12\x1e\n\x16is_today_has_delivered\x18\r \x01(\x08\x1a:\n\x18SelectedRewardIdMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n SalesmanActivityDetailInfo.proto\x1a\x18SalesmanStatusType.proto\"\xab\x03\n\x1aSalesmanActivityDetailInfo\x12#\n\x06status\x18\x05 \x01(\x0e\x32\x13.SalesmanStatusType\x12T\n\x16selected_reward_id_map\x18\x0c \x03(\x0b\x32\x34.SalesmanActivityDetailInfo.SelectedRewardIdMapEntry\x12\x1b\n\x13Unk3300_DIJFOCBGIAM\x18\x07 \x01(\r\x12\x1b\n\x13Unk3300_DJFCEFKGKPI\x18\x02 \x01(\x08\x12\x11\n\tday_index\x18\t \x01(\r\x12\x1b\n\x13Unk3300_LPABHMOPFCE\x18\x06 \x01(\r\x12\x1b\n\x13Unk3300_KNJCBGFKLFD\x18\n \x01(\r\x12\x1b\n\x13Unk3300_FOFFAEEBBNP\x18\x03 \x01(\r\x12\x1b\n\x13Unk3300_JNALBACFNFN\x18\x0e \x01(\x08\x12\x15\n\rday_reward_id\x18\x0b \x01(\r\x1a:\n\x18SelectedRewardIdMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SalesmanActivityDetailInfo_pb2', globals())
@@ -24,7 +24,7 @@ if _descriptor._USE_C_DESCRIPTORS == False:
   _SALESMANACTIVITYDETAILINFO_SELECTEDREWARDIDMAPENTRY._options = None
   _SALESMANACTIVITYDETAILINFO_SELECTEDREWARDIDMAPENTRY._serialized_options = b'8\001'
   _SALESMANACTIVITYDETAILINFO._serialized_start=63
-  _SALESMANACTIVITYDETAILINFO._serialized_end=494
-  _SALESMANACTIVITYDETAILINFO_SELECTEDREWARDIDMAPENTRY._serialized_start=436
-  _SALESMANACTIVITYDETAILINFO_SELECTEDREWARDIDMAPENTRY._serialized_end=494
+  _SALESMANACTIVITYDETAILINFO._serialized_end=490
+  _SALESMANACTIVITYDETAILINFO_SELECTEDREWARDIDMAPENTRY._serialized_start=432
+  _SALESMANACTIVITYDETAILINFO_SELECTEDREWARDIDMAPENTRY._serialized_end=490
 # @@protoc_insertion_point(module_scope)

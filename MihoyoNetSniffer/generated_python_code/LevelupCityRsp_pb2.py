@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import CityInfo_pb2 as CityInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14LevelupCityRsp.proto\x1a\x0e\x43ityInfo.proto\"b\n\x0eLevelupCityRsp\x12\x0f\n\x07\x61rea_id\x18\t \x01(\r\x12\x0f\n\x07retcode\x18\x03 \x01(\x05\x12\x10\n\x08scene_id\x18\x04 \x01(\r\x12\x1c\n\tcity_info\x18\x06 \x01(\x0b\x32\t.CityInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14LevelupCityRsp.proto\x1a\x0e\x43ityInfo.proto\"b\n\x0eLevelupCityRsp\x12\x0f\n\x07retcode\x18\x07 \x01(\x05\x12\x1c\n\tcity_info\x18\x0e \x01(\x0b\x32\t.CityInfo\x12\x10\n\x08scene_id\x18\x0b \x01(\r\x12\x0f\n\x07\x61rea_id\x18\t \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LevelupCityRsp_pb2', globals())

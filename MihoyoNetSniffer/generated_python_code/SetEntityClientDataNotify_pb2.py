@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import EntityClientData_pb2 as EntityClientData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fSetEntityClientDataNotify.proto\x1a\x16\x45ntityClientData.proto\"]\n\x19SetEntityClientDataNotify\x12\x11\n\tentity_id\x18\x0e \x01(\r\x12-\n\x12\x65ntity_client_data\x18\t \x01(\x0b\x32\x11.EntityClientDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fSetEntityClientDataNotify.proto\x1a\x16\x45ntityClientData.proto\"]\n\x19SetEntityClientDataNotify\x12\x11\n\tentity_id\x18\x0f \x01(\r\x12-\n\x12\x65ntity_client_data\x18\x05 \x01(\x0b\x32\x11.EntityClientDatab\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SetEntityClientDataNotify_pb2', globals())

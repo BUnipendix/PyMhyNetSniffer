@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import GadgetPlayUidInfo_pb2 as GadgetPlayUidInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aGadgetPlayStopNotify.proto\x1a\x17GadgetPlayUidInfo.proto\"\x99\x01\n\x14GadgetPlayStopNotify\x12\x0e\n\x06is_win\x18\x0e \x01(\x08\x12\x11\n\tentity_id\x18\x07 \x01(\r\x12\x11\n\tplay_type\x18\x04 \x01(\r\x12)\n\ruid_info_list\x18\x08 \x03(\x0b\x32\x12.GadgetPlayUidInfo\x12\r\n\x05score\x18\x05 \x01(\r\x12\x11\n\tcost_time\x18\x06 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aGadgetPlayStopNotify.proto\x1a\x17GadgetPlayUidInfo.proto\"\x99\x01\n\x14GadgetPlayStopNotify\x12)\n\ruid_info_list\x18\x01 \x03(\x0b\x32\x12.GadgetPlayUidInfo\x12\x11\n\tplay_type\x18\x03 \x01(\r\x12\x0e\n\x06is_win\x18\x08 \x01(\x08\x12\x11\n\tentity_id\x18\x0f \x01(\r\x12\r\n\x05score\x18\x05 \x01(\r\x12\x11\n\tcost_time\x18\x0e \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GadgetPlayStopNotify_pb2', globals())

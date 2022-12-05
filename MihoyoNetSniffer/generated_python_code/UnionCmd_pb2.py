@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0eUnionCmd.proto\",\n\x08UnionCmd\x12\x0c\n\x04\x62ody\x18\x0e \x01(\x0c\x12\x12\n\nmessage_id\x18\x08 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0eUnionCmd.proto\",\n\x08UnionCmd\x12\x0c\n\x04\x62ody\x18\x03 \x01(\x0c\x12\x12\n\nmessage_id\x18\x04 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'UnionCmd_pb2', globals())

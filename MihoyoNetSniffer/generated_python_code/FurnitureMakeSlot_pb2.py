@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import FurnitureMakeData_pb2 as FurnitureMakeData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x46urnitureMakeSlot.proto\x1a\x17\x46urnitureMakeData.proto\"I\n\x11\x46urnitureMakeSlot\x12\x34\n\x18\x66urniture_make_data_list\x18\x0e \x03(\x0b\x32\x12.FurnitureMakeDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x46urnitureMakeSlot.proto\x1a\x17\x46urnitureMakeData.proto\"I\n\x11\x46urnitureMakeSlot\x12\x34\n\x18\x66urniture_make_data_list\x18\x01 \x03(\x0b\x32\x12.FurnitureMakeDatab\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FurnitureMakeSlot_pb2', globals())

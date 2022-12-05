@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fPlantFlowerGetSeedInfoReq.proto\"0\n\x19PlantFlowerGetSeedInfoReq\x12\x13\n\x0bschedule_id\x18\x06 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fPlantFlowerGetSeedInfoReq.proto\"0\n\x19PlantFlowerGetSeedInfoReq\x12\x13\n\x0bschedule_id\x18\x0e \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlantFlowerGetSeedInfoReq_pb2', globals())

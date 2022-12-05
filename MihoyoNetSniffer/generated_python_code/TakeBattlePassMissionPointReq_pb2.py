@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#TakeBattlePassMissionPointReq.proto\"8\n\x1dTakeBattlePassMissionPointReq\x12\x17\n\x0fmission_id_list\x18\x05 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#TakeBattlePassMissionPointReq.proto\"8\n\x1dTakeBattlePassMissionPointReq\x12\x17\n\x0fmission_id_list\x18\x03 \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TakeBattlePassMissionPointReq_pb2', globals())

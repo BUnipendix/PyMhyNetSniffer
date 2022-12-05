@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x45vtSyncTransform.proto\x1a\x0cVector.proto\"_\n\x10\x45vtSyncTransform\x12\x11\n\tentity_id\x18\x0f \x01(\r\x12\x1b\n\nentity_pos\x18\x06 \x01(\x0b\x32\x07.Vector\x12\x1b\n\nentity_rot\x18\x01 \x01(\x0b\x32\x07.Vectorb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x45vtSyncTransform.proto\x1a\x0cVector.proto\"q\n\x10\x45vtSyncTransform\x12$\n\x13Unk3300_JAMKLNFBBAD\x18\x0f \x01(\x0b\x32\x07.Vector\x12\x11\n\tentity_id\x18\r \x01(\r\x12$\n\x13Unk3300_PMHFLCOPFBC\x18\t \x01(\x0b\x32\x07.Vectorb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EvtSyncTransform_pb2', globals())
@@ -22,5 +22,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _EVTSYNCTRANSFORM._serialized_start=40
-  _EVTSYNCTRANSFORM._serialized_end=135
+  _EVTSYNCTRANSFORM._serialized_end=153
 # @@protoc_insertion_point(module_scope)

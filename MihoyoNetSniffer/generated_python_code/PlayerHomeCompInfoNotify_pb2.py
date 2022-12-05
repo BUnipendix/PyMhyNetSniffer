@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import PlayerHomeCompInfo_pb2 as PlayerHomeCompInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1ePlayerHomeCompInfoNotify.proto\x1a\x18PlayerHomeCompInfo.proto\"B\n\x18PlayerHomeCompInfoNotify\x12&\n\tcomp_info\x18\x04 \x01(\x0b\x32\x13.PlayerHomeCompInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1ePlayerHomeCompInfoNotify.proto\x1a\x18PlayerHomeCompInfo.proto\"B\n\x18PlayerHomeCompInfoNotify\x12&\n\tcomp_info\x18\x02 \x01(\x0b\x32\x13.PlayerHomeCompInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerHomeCompInfoNotify_pb2', globals())

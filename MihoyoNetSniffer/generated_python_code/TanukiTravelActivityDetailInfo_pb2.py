@@ -11,16 +11,16 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import Unk2700_BIFNFOGBPNM_pb2 as Unk2700__BIFNFOGBPNM__pb2
+import TanukiTravelLevelData_pb2 as TanukiTravelLevelData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$TanukiTravelActivityDetailInfo.proto\x1a\x19Unk2700_BIFNFOGBPNM.proto\"\x8b\x01\n\x1eTanukiTravelActivityDetailInfo\x12\x31\n\x13Unk2700_JBPFIDDPGME\x18\x04 \x03(\x0b\x32\x14.Unk2700_BIFNFOGBPNM\x12\x19\n\x11is_content_closed\x18\x0b \x01(\x08\x12\x1b\n\x13Unk2700_BHHCNOLMCJM\x18\n \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$TanukiTravelActivityDetailInfo.proto\x1a\x1bTanukiTravelLevelData.proto\"\x98\x01\n\x1eTanukiTravelActivityDetailInfo\x12=\n\x1dtanuki_travel_level_data_list\x18\x05 \x03(\x0b\x32\x16.TanukiTravelLevelData\x12\x19\n\x11is_content_closed\x18\x0c \x01(\x08\x12\x1c\n\x14\x66inished_level_index\x18\x0f \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TanukiTravelActivityDetailInfo_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _TANUKITRAVELACTIVITYDETAILINFO._serialized_start=68
-  _TANUKITRAVELACTIVITYDETAILINFO._serialized_end=207
+  _TANUKITRAVELACTIVITYDETAILINFO._serialized_start=70
+  _TANUKITRAVELACTIVITYDETAILINFO._serialized_end=222
 # @@protoc_insertion_point(module_scope)

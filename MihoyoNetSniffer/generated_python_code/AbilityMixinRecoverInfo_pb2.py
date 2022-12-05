@@ -11,16 +11,17 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
+import BreakoutSnapShot_pb2 as BreakoutSnapShot__pb2
 import MassivePropSyncInfo_pb2 as MassivePropSyncInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x41\x62ilityMixinRecoverInfo.proto\x1a\x19MassivePropSyncInfo.proto\"\xda\x01\n\x17\x41\x62ilityMixinRecoverInfo\x12\x10\n\x08local_id\x18\x03 \x01(\r\x12\x11\n\tdata_list\x18\x04 \x03(\r\x12\x1e\n\x16is_serverbuff_modifier\x18\x05 \x01(\x08\x12/\n\x11massive_prop_list\x18\x06 \x03(\x0b\x32\x14.MassivePropSyncInfo\x12\x1e\n\x14instanced_ability_id\x18\x01 \x01(\rH\x00\x12\x1f\n\x15instanced_modifier_id\x18\x02 \x01(\rH\x00\x42\x08\n\x06sourceb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x41\x62ilityMixinRecoverInfo.proto\x1a\x16\x42reakoutSnapShot.proto\x1a\x19MassivePropSyncInfo.proto\"\x89\x02\n\x17\x41\x62ilityMixinRecoverInfo\x12\x10\n\x08local_id\x18\x03 \x01(\r\x12\x11\n\tdata_list\x18\x04 \x03(\r\x12\x1e\n\x16is_serverbuff_modifier\x18\x05 \x01(\x08\x12/\n\x11massive_prop_list\x18\x06 \x03(\x0b\x32\x14.MassivePropSyncInfo\x12-\n\x12\x62reakout_snap_shot\x18\x07 \x01(\x0b\x32\x11.BreakoutSnapShot\x12\x1e\n\x14instanced_ability_id\x18\x01 \x01(\rH\x00\x12\x1f\n\x15instanced_modifier_id\x18\x02 \x01(\rH\x00\x42\x08\n\x06sourceb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AbilityMixinRecoverInfo_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _ABILITYMIXINRECOVERINFO._serialized_start=61
-  _ABILITYMIXINRECOVERINFO._serialized_end=279
+  _ABILITYMIXINRECOVERINFO._serialized_start=85
+  _ABILITYMIXINRECOVERINFO._serialized_end=350
 # @@protoc_insertion_point(module_scope)

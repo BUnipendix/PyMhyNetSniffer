@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x44ungeonRestartRsp.proto\"J\n\x11\x44ungeonRestartRsp\x12\x12\n\ndungeon_id\x18\x0f \x01(\r\x12\x0f\n\x07retcode\x18\t \x01(\x05\x12\x10\n\x08point_id\x18\x0e \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x44ungeonRestartRsp.proto\"J\n\x11\x44ungeonRestartRsp\x12\x12\n\ndungeon_id\x18\r \x01(\r\x12\x0f\n\x07retcode\x18\x03 \x01(\x05\x12\x10\n\x08point_id\x18\x0b \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DungeonRestartRsp_pb2', globals())

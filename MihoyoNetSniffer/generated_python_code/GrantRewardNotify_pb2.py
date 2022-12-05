@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Reward_pb2 as Reward__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17GrantRewardNotify.proto\x1a\x0cReward.proto\",\n\x11GrantRewardNotify\x12\x17\n\x06reward\x18\x06 \x01(\x0b\x32\x07.Rewardb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17GrantRewardNotify.proto\x1a\x0cReward.proto\",\n\x11GrantRewardNotify\x12\x17\n\x06reward\x18\x01 \x01(\x0b\x32\x07.Rewardb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GrantRewardNotify_pb2', globals())

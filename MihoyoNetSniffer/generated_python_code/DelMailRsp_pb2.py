@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10\x44\x65lMailRsp.proto\"3\n\nDelMailRsp\x12\x0f\n\x07retcode\x18\x0b \x01(\x05\x12\x14\n\x0cmail_id_list\x18\x05 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10\x44\x65lMailRsp.proto\"3\n\nDelMailRsp\x12\x0f\n\x07retcode\x18\x02 \x01(\x05\x12\x14\n\x0cmail_id_list\x18\x0b \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DelMailRsp_pb2', globals())

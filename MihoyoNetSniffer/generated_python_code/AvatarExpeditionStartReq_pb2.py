@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x41vatarExpeditionStartReq.proto\"R\n\x18\x41vatarExpeditionStartReq\x12\x0e\n\x06\x65xp_id\x18\t \x01(\r\x12\x13\n\x0b\x61vatar_guid\x18\n \x01(\x04\x12\x11\n\thour_time\x18\x02 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x41vatarExpeditionStartReq.proto\"R\n\x18\x41vatarExpeditionStartReq\x12\x11\n\thour_time\x18\x07 \x01(\r\x12\x13\n\x0b\x61vatar_guid\x18\x03 \x01(\x04\x12\x0e\n\x06\x65xp_id\x18\x02 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarExpeditionStartReq_pb2', globals())

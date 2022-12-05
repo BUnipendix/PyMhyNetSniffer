@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$PlayerSetOnlyMPWithPSPlayerReq.proto\"1\n\x1ePlayerSetOnlyMPWithPSPlayerReq\x12\x0f\n\x07is_only\x18\r \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$PlayerSetOnlyMPWithPSPlayerReq.proto\"1\n\x1ePlayerSetOnlyMPWithPSPlayerReq\x12\x0f\n\x07is_only\x18\n \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerSetOnlyMPWithPSPlayerReq_pb2', globals())

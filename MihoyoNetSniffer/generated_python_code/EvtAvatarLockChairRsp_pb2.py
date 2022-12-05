@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x45vtAvatarLockChairRsp.proto\x1a\x0cVector.proto\"h\n\x15\x45vtAvatarLockChairRsp\x12\x10\n\x08\x63hair_id\x18\x0e \x01(\x04\x12\x11\n\tentity_id\x18\x0f \x01(\r\x12\x19\n\x08position\x18\x04 \x01(\x0b\x32\x07.Vector\x12\x0f\n\x07retcode\x18\x0c \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x45vtAvatarLockChairRsp.proto\x1a\x0cVector.proto\"h\n\x15\x45vtAvatarLockChairRsp\x12\x0f\n\x07retcode\x18\x08 \x01(\x05\x12\x10\n\x08\x63hair_id\x18\x0e \x01(\x04\x12\x11\n\tentity_id\x18\t \x01(\r\x12\x19\n\x08position\x18\x0f \x01(\x0b\x32\x07.Vectorb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EvtAvatarLockChairRsp_pb2', globals())

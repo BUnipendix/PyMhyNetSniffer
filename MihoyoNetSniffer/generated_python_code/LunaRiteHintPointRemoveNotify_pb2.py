@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#LunaRiteHintPointRemoveNotify.proto\"9\n\x1dLunaRiteHintPointRemoveNotify\x12\x18\n\x10hint_point_index\x18\x0e \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#LunaRiteHintPointRemoveNotify.proto\"9\n\x1dLunaRiteHintPointRemoveNotify\x12\x18\n\x10hint_point_index\x18\x0c \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LunaRiteHintPointRemoveNotify_pb2', globals())

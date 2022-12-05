@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import BattlePassUnlockStatus_pb2 as BattlePassUnlockStatus__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x42\x61ttlePassRewardTag.proto\x1a\x1c\x42\x61ttlePassUnlockStatus.proto\"g\n\x13\x42\x61ttlePassRewardTag\x12\r\n\x05level\x18\x04 \x01(\r\x12.\n\runlock_status\x18\x02 \x01(\x0e\x32\x17.BattlePassUnlockStatus\x12\x11\n\treward_id\x18\x07 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x42\x61ttlePassRewardTag.proto\x1a\x1c\x42\x61ttlePassUnlockStatus.proto\"g\n\x13\x42\x61ttlePassRewardTag\x12.\n\runlock_status\x18\x0b \x01(\x0e\x32\x17.BattlePassUnlockStatus\x12\x11\n\treward_id\x18\x04 \x01(\r\x12\r\n\x05level\x18\x01 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BattlePassRewardTag_pb2', globals())

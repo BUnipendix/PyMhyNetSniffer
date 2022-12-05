@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import WidgetSlotData_pb2 as WidgetSlotData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16GetWidgetSlotRsp.proto\x1a\x14WidgetSlotData.proto\"G\n\x10GetWidgetSlotRsp\x12\"\n\tslot_list\x18\r \x03(\x0b\x32\x0f.WidgetSlotData\x12\x0f\n\x07retcode\x18\t \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16GetWidgetSlotRsp.proto\x1a\x14WidgetSlotData.proto\"G\n\x10GetWidgetSlotRsp\x12\"\n\tslot_list\x18\x03 \x03(\x0b\x32\x0f.WidgetSlotData\x12\x0f\n\x07retcode\x18\n \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetWidgetSlotRsp_pb2', globals())

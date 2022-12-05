@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x42\x61ttlePassMission.proto\"\xd1\x02\n\x11\x42\x61ttlePassMission\x12\x14\n\x0c\x63ur_progress\x18\r \x01(\r\x12\x38\n\x0emission_status\x18\x0f \x01(\x0e\x32 .BattlePassMission.MissionStatus\x12\x12\n\nmission_id\x18\x0b \x01(\r\x12 \n\x18reward_battle_pass_point\x18\x03 \x01(\r\x12\x14\n\x0cmission_type\x18\x0c \x01(\r\x12\x16\n\x0etotal_progress\x18\x06 \x01(\r\"\x87\x01\n\rMissionStatus\x12\x1a\n\x16MISSION_STATUS_INVALID\x10\x00\x12\x1d\n\x19MISSION_STATUS_UNFINISHED\x10\x01\x12\x1b\n\x17MISSION_STATUS_FINISHED\x10\x02\x12\x1e\n\x1aMISSION_STATUS_POINT_TAKEN\x10\x03\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x42\x61ttlePassMission.proto\"\xd3\x02\n\x11\x42\x61ttlePassMission\x12\x14\n\x0c\x63ur_progress\x18\n \x01(\r\x12\x1b\n\x13Unk3300_MBOMOLFKPPO\x18\t \x01(\r\x12\x1b\n\x13Unk3300_DAHDCJNCALE\x18\x0e \x01(\r\x12\x16\n\x0etotal_progress\x18\x0c \x01(\r\x12\x12\n\nmission_id\x18\x0f \x01(\r\x12\x38\n\x0emission_status\x18\x0b \x01(\x0e\x32 .BattlePassMission.MissionStatus\"\x87\x01\n\rMissionStatus\x12\x1a\n\x16MISSION_STATUS_INVALID\x10\x00\x12\x1d\n\x19MISSION_STATUS_UNFINISHED\x10\x01\x12\x1b\n\x17MISSION_STATUS_FINISHED\x10\x02\x12\x1e\n\x1aMISSION_STATUS_POINT_TAKEN\x10\x03\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BattlePassMission_pb2', globals())
@@ -21,7 +21,7 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _BATTLEPASSMISSION._serialized_start=28
-  _BATTLEPASSMISSION._serialized_end=365
-  _BATTLEPASSMISSION_MISSIONSTATUS._serialized_start=230
-  _BATTLEPASSMISSION_MISSIONSTATUS._serialized_end=365
+  _BATTLEPASSMISSION._serialized_end=367
+  _BATTLEPASSMISSION_MISSIONSTATUS._serialized_start=232
+  _BATTLEPASSMISSION_MISSIONSTATUS._serialized_end=367
 # @@protoc_insertion_point(module_scope)

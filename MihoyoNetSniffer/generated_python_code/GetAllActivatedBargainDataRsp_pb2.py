@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import BargainSnapshot_pb2 as BargainSnapshot__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#GetAllActivatedBargainDataRsp.proto\x1a\x15\x42\x61rgainSnapshot.proto\"Y\n\x1dGetAllActivatedBargainDataRsp\x12\'\n\rsnapshot_list\x18\x05 \x03(\x0b\x32\x10.BargainSnapshot\x12\x0f\n\x07retcode\x18\t \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#GetAllActivatedBargainDataRsp.proto\x1a\x15\x42\x61rgainSnapshot.proto\"Y\n\x1dGetAllActivatedBargainDataRsp\x12\x0f\n\x07retcode\x18\x0c \x01(\x05\x12\'\n\rsnapshot_list\x18\x06 \x03(\x0b\x32\x10.BargainSnapshotb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetAllActivatedBargainDataRsp_pb2', globals())

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$HomeAvtarAllFinishRewardNotify.proto\"7\n\x1eHomeAvtarAllFinishRewardNotify\x12\x15\n\revent_id_list\x18\r \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$HomeAvtarAllFinishRewardNotify.proto\"7\n\x1eHomeAvtarAllFinishRewardNotify\x12\x15\n\revent_id_list\x18\x01 \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeAvtarAllFinishRewardNotify_pb2', globals())

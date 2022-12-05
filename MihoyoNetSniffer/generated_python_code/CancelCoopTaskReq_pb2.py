@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x43\x61ncelCoopTaskReq.proto\"\'\n\x11\x43\x61ncelCoopTaskReq\x12\x12\n\nchapter_id\x18\r \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x43\x61ncelCoopTaskReq.proto\"\'\n\x11\x43\x61ncelCoopTaskReq\x12\x12\n\nchapter_id\x18\x06 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CancelCoopTaskReq_pb2', globals())

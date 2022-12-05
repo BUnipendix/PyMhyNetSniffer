@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import AISnapshotEntitySkillCycle_pb2 as AISnapshotEntitySkillCycle__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x41ISnapshotEntityData.proto\x1a AISnapshotEntitySkillCycle.proto\"\xae\x03\n\x14\x41ISnapshotEntityData\x12\x11\n\ttick_time\x18\x05 \x01(\x02\x12\x0e\n\x06tactic\x18\x02 \x01(\r\x12:\n\x15\x66inished_skill_cycles\x18\t \x03(\x0b\x32\x1b.AISnapshotEntitySkillCycle\x12\x16\n\x0emoved_distance\x18\x04 \x01(\x02\x12\x14\n\x0c\x61i_target_id\x18\r \x01(\r\x12\x18\n\x10threat_target_id\x18\x03 \x01(\r\x12\x18\n\x10threat_list_size\x18\x01 \x01(\r\x12\x11\n\tentity_id\x18\x0f \x01(\r\x12\x42\n\x0fhitting_avatars\x18\x07 \x03(\x0b\x32).AISnapshotEntityData.HittingAvatarsEntry\x12\x1a\n\x12\x64istance_to_player\x18\x0b \x01(\x02\x12\x18\n\x10\x61ttack_target_id\x18\n \x01(\r\x12\x11\n\treal_time\x18\x0e \x01(\x02\x1a\x35\n\x13HittingAvatarsEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x41ISnapshotEntityData.proto\x1a AISnapshotEntitySkillCycle.proto\"\xe2\x03\n\x14\x41ISnapshotEntityData\x12:\n\x15\x66inished_skill_cycles\x18\x0e \x03(\x0b\x32\x1b.AISnapshotEntitySkillCycle\x12\x18\n\x10\x61ttack_target_id\x18\x02 \x01(\r\x12\x11\n\tentity_id\x18\x06 \x01(\r\x12\x1b\n\x13Unk3300_ALBMEMMJEJA\x18\r \x01(\x02\x12\x1b\n\x13Unk3300_IADJCDJOKND\x18\x05 \x01(\r\x12\x1b\n\x13Unk3300_FNCIDLDKANO\x18\x07 \x01(\r\x12\x1b\n\x13Unk3300_GPCFOCIFHCD\x18\x0f \x01(\x02\x12\x1b\n\x13Unk3300_FMBBEIHCCJO\x18\x0c \x01(\x02\x12\x1b\n\x13Unk3300_LIJIDJOLLEB\x18\x0b \x01(\x02\x12\x1b\n\x13Unk3300_GNBOAJHMNJO\x18\t \x01(\r\x12\x42\n\x0fhitting_avatars\x18\x04 \x03(\x0b\x32).AISnapshotEntityData.HittingAvatarsEntry\x12\x1b\n\x13Unk3300_FIKEAEPLOHJ\x18\x03 \x01(\r\x1a\x35\n\x13HittingAvatarsEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AISnapshotEntityData_pb2', globals())
@@ -24,7 +24,7 @@ if _descriptor._USE_C_DESCRIPTORS == False:
   _AISNAPSHOTENTITYDATA_HITTINGAVATARSENTRY._options = None
   _AISNAPSHOTENTITYDATA_HITTINGAVATARSENTRY._serialized_options = b'8\001'
   _AISNAPSHOTENTITYDATA._serialized_start=65
-  _AISNAPSHOTENTITYDATA._serialized_end=495
-  _AISNAPSHOTENTITYDATA_HITTINGAVATARSENTRY._serialized_start=442
-  _AISNAPSHOTENTITYDATA_HITTINGAVATARSENTRY._serialized_end=495
+  _AISNAPSHOTENTITYDATA._serialized_end=547
+  _AISNAPSHOTENTITYDATA_HITTINGAVATARSENTRY._serialized_start=494
+  _AISNAPSHOTENTITYDATA_HITTINGAVATARSENTRY._serialized_end=547
 # @@protoc_insertion_point(module_scope)

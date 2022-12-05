@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import AbilityString_pb2 as AbilityString__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n*AbilityMetaAddOrGetAbilityAndTrigger.proto\x1a\x13\x41\x62ilityString.proto\"\x90\x01\n$AbilityMetaAddOrGetAbilityAndTrigger\x12$\n\x0c\x61\x62ility_name\x18\r \x01(\x0b\x32\x0e.AbilityString\x12\x18\n\x10trigger_argument\x18\x03 \x01(\x02\x12(\n\x10\x61\x62ility_override\x18\x08 \x01(\x0b\x32\x0e.AbilityStringb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n*AbilityMetaAddOrGetAbilityAndTrigger.proto\x1a\x13\x41\x62ilityString.proto\"\x90\x01\n$AbilityMetaAddOrGetAbilityAndTrigger\x12\x18\n\x10trigger_argument\x18\x04 \x01(\x02\x12$\n\x0c\x61\x62ility_name\x18\x0c \x01(\x0b\x32\x0e.AbilityString\x12(\n\x10\x61\x62ility_override\x18\r \x01(\x0b\x32\x0e.AbilityStringb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AbilityMetaAddOrGetAbilityAndTrigger_pb2', globals())

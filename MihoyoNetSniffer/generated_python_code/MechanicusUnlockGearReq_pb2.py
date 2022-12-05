@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dMechanicusUnlockGearReq.proto\"A\n\x17MechanicusUnlockGearReq\x12\x15\n\rmechanicus_id\x18\x07 \x01(\r\x12\x0f\n\x07gear_id\x18\x06 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dMechanicusUnlockGearReq.proto\"A\n\x17MechanicusUnlockGearReq\x12\x0f\n\x07gear_id\x18\x06 \x01(\r\x12\x15\n\rmechanicus_id\x18\n \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MechanicusUnlockGearReq_pb2', globals())

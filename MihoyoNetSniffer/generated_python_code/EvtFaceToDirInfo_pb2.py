@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x45vtFaceToDirInfo.proto\x1a\x0cVector.proto\"@\n\x10\x45vtFaceToDirInfo\x12\x11\n\tentity_id\x18\x0c \x01(\r\x12\x19\n\x08\x66\x61\x63\x65_dir\x18\x0e \x01(\x0b\x32\x07.Vectorb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x45vtFaceToDirInfo.proto\x1a\x0cVector.proto\"@\n\x10\x45vtFaceToDirInfo\x12\x19\n\x08\x66\x61\x63\x65_dir\x18\x02 \x01(\x0b\x32\x07.Vector\x12\x11\n\tentity_id\x18\x05 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EvtFaceToDirInfo_pb2', globals())

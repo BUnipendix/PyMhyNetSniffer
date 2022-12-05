@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%DigActivityChangeGadgetStateRsp.proto\"E\n\x1f\x44igActivityChangeGadgetStateRsp\x12\x11\n\tentity_id\x18\x0f \x01(\r\x12\x0f\n\x07retcode\x18\x06 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%DigActivityChangeGadgetStateRsp.proto\"E\n\x1f\x44igActivityChangeGadgetStateRsp\x12\x0f\n\x07retcode\x18\x0c \x01(\x05\x12\x11\n\tentity_id\x18\x0e \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DigActivityChangeGadgetStateRsp_pb2', globals())

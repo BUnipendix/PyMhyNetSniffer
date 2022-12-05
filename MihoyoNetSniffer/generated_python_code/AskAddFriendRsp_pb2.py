@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x41skAddFriendRsp.proto\"E\n\x0f\x41skAddFriendRsp\x12\r\n\x05param\x18\x08 \x01(\r\x12\x0f\n\x07retcode\x18\x07 \x01(\x05\x12\x12\n\ntarget_uid\x18\x04 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x41skAddFriendRsp.proto\"E\n\x0f\x41skAddFriendRsp\x12\x0f\n\x07retcode\x18\x0b \x01(\x05\x12\x12\n\ntarget_uid\x18\t \x01(\r\x12\r\n\x05param\x18\x0c \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AskAddFriendRsp_pb2', globals())

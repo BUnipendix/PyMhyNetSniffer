@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%StartRogueEliteCellChallengeRsp.proto\"W\n\x1fStartRogueEliteCellChallengeRsp\x12\x12\n\ndungeon_id\x18\x0c \x01(\r\x12\x0f\n\x07\x63\x65ll_id\x18\t \x01(\r\x12\x0f\n\x07retcode\x18\n \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%StartRogueEliteCellChallengeRsp.proto\"W\n\x1fStartRogueEliteCellChallengeRsp\x12\x0f\n\x07retcode\x18\x06 \x01(\x05\x12\x0f\n\x07\x63\x65ll_id\x18\x08 \x01(\r\x12\x12\n\ndungeon_id\x18\x0c \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'StartRogueEliteCellChallengeRsp_pb2', globals())

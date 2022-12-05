@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x43hallengeDataNotify.proto\"R\n\x13\x43hallengeDataNotify\x12\r\n\x05value\x18\x08 \x01(\r\x12\x17\n\x0f\x63hallenge_index\x18\x02 \x01(\r\x12\x13\n\x0bparam_index\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x43hallengeDataNotify.proto\"R\n\x13\x43hallengeDataNotify\x12\x13\n\x0bparam_index\x18\x04 \x01(\r\x12\x17\n\x0f\x63hallenge_index\x18\x02 \x01(\r\x12\r\n\x05value\x18\x03 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChallengeDataNotify_pb2', globals())

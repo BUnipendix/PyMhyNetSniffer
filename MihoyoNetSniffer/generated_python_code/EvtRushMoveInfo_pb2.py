@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x45vtRushMoveInfo.proto\x1a\x0cVector.proto\"\xe5\x01\n\x0f\x45vtRushMoveInfo\x12\x17\n\x0fstate_name_hash\x18\x0b \x01(\x05\x12\x1c\n\x0brush_to_pos\x18\t \x01(\x0b\x32\x07.Vector\x12\'\n\x16rush_attack_target_pos\x18\x08 \x01(\x0b\x32\x07.Vector\x12\x11\n\tentity_id\x18\x04 \x01(\r\x12\x12\n\ntime_range\x18\x0f \x01(\x02\x12\x19\n\x08velocity\x18\x06 \x01(\x0b\x32\x07.Vector\x12\x14\n\x03pos\x18\x02 \x01(\x0b\x32\x07.Vector\x12\x1a\n\x12\x66\x61\x63\x65_angle_compact\x18\n \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x45vtRushMoveInfo.proto\x1a\x0cVector.proto\"\xea\x01\n\x0f\x45vtRushMoveInfo\x12\x19\n\x08velocity\x18\x08 \x01(\x0b\x32\x07.Vector\x12\x17\n\x0fstate_name_hash\x18\x04 \x01(\x05\x12\x11\n\tentity_id\x18\x0c \x01(\r\x12\x14\n\x03pos\x18\x07 \x01(\x0b\x32\x07.Vector\x12\x1a\n\x12\x66\x61\x63\x65_angle_compact\x18\x01 \x01(\x05\x12\x12\n\ntime_range\x18\r \x01(\x02\x12$\n\x13Unk3300_NEBMDDGPBON\x18\x0f \x01(\x0b\x32\x07.Vector\x12$\n\x13Unk3300_FGAPBJIPJFG\x18\x05 \x01(\x0b\x32\x07.Vectorb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EvtRushMoveInfo_pb2', globals())
@@ -22,5 +22,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _EVTRUSHMOVEINFO._serialized_start=40
-  _EVTRUSHMOVEINFO._serialized_end=269
+  _EVTRUSHMOVEINFO._serialized_end=274
 # @@protoc_insertion_point(module_scope)

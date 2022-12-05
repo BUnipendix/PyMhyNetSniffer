@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import PropValue_pb2 as PropValue__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16PlayerDataNotify.proto\x1a\x0fPropValue.proto\"\xd9\x01\n\x10PlayerDataNotify\x12\x13\n\x0bserver_time\x18\x07 \x01(\x04\x12\x11\n\tnick_name\x18\x08 \x01(\t\x12\x1c\n\x14is_first_login_today\x18\x0c \x01(\x08\x12\x11\n\tregion_id\x18\x06 \x01(\r\x12\x30\n\x08prop_map\x18\x0f \x03(\x0b\x32\x1e.PlayerDataNotify.PropMapEntry\x1a:\n\x0cPropMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x19\n\x05value\x18\x02 \x01(\x0b\x32\n.PropValue:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16PlayerDataNotify.proto\x1a\x0fPropValue.proto\"\xd9\x01\n\x10PlayerDataNotify\x12\x1c\n\x14is_first_login_today\x18\x0c \x01(\x08\x12\x11\n\tnick_name\x18\t \x01(\t\x12\x13\n\x0bserver_time\x18\x01 \x01(\x04\x12\x30\n\x08prop_map\x18\x04 \x03(\x0b\x32\x1e.PlayerDataNotify.PropMapEntry\x12\x11\n\tregion_id\x18\x02 \x01(\r\x1a:\n\x0cPropMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x19\n\x05value\x18\x02 \x01(\x0b\x32\n.PropValue:\x02\x38\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerDataNotify_pb2', globals())

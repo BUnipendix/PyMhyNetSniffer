@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import SceneGalleryInfo_pb2 as SceneGalleryInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cSceneGalleryInfoNotify.proto\x1a\x16SceneGalleryInfo.proto\"A\n\x16SceneGalleryInfoNotify\x12\'\n\x0cgallery_info\x18\x04 \x01(\x0b\x32\x11.SceneGalleryInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cSceneGalleryInfoNotify.proto\x1a\x16SceneGalleryInfo.proto\"A\n\x16SceneGalleryInfoNotify\x12\'\n\x0cgallery_info\x18\x0b \x01(\x0b\x32\x11.SceneGalleryInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGalleryInfoNotify_pb2', globals())

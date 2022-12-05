@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n,DragonSpineChapterProgressChangeNotify.proto\"g\n&DragonSpineChapterProgressChangeNotify\x12\x13\n\x0bschedule_id\x18\x07 \x01(\r\x12\x12\n\nchapter_id\x18\x0b \x01(\r\x12\x14\n\x0c\x63ur_progress\x18\x05 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n,DragonSpineChapterProgressChangeNotify.proto\"g\n&DragonSpineChapterProgressChangeNotify\x12\x12\n\nchapter_id\x18\t \x01(\r\x12\x13\n\x0bschedule_id\x18\x03 \x01(\r\x12\x14\n\x0c\x63ur_progress\x18\x0b \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DragonSpineChapterProgressChangeNotify_pb2', globals())

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ItemParam_pb2 as ItemParam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eTakeAchievementRewardRsp.proto\x1a\x0fItemParam.proto\"[\n\x18TakeAchievementRewardRsp\x12\x0f\n\x07id_list\x18\x07 \x03(\r\x12\x1d\n\titem_list\x18\n \x03(\x0b\x32\n.ItemParam\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eTakeAchievementRewardRsp.proto\x1a\x0fItemParam.proto\"[\n\x18TakeAchievementRewardRsp\x12\x1d\n\titem_list\x18\x06 \x03(\x0b\x32\n.ItemParam\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x12\x0f\n\x07id_list\x18\r \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TakeAchievementRewardRsp_pb2', globals())

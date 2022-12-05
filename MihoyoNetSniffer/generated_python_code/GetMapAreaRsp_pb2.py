@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import MapAreaInfo_pb2 as MapAreaInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13GetMapAreaRsp.proto\x1a\x11MapAreaInfo.proto\"J\n\rGetMapAreaRsp\x12\x0f\n\x07retcode\x18\x0e \x01(\x05\x12(\n\x12map_area_info_list\x18\t \x03(\x0b\x32\x0c.MapAreaInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13GetMapAreaRsp.proto\x1a\x11MapAreaInfo.proto\"J\n\rGetMapAreaRsp\x12\x0f\n\x07retcode\x18\x0e \x01(\x05\x12(\n\x12map_area_info_list\x18\x0c \x03(\x0b\x32\x0c.MapAreaInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetMapAreaRsp_pb2', globals())

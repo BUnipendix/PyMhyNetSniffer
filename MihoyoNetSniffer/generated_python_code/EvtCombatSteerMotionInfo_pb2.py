@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x45vtCombatSteerMotionInfo.proto\x1a\x0cVector.proto\"y\n\x18\x45vtCombatSteerMotionInfo\x12\x14\n\x03pos\x18\x0c \x01(\x0b\x32\x07.Vector\x12\x19\n\x08velocity\x18\n \x01(\x0b\x32\x07.Vector\x12\x11\n\tentity_id\x18\x04 \x01(\r\x12\x19\n\x08\x66\x61\x63\x65_dir\x18\x01 \x01(\x0b\x32\x07.Vectorb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x45vtCombatSteerMotionInfo.proto\x1a\x0cVector.proto\"y\n\x18\x45vtCombatSteerMotionInfo\x12\x19\n\x08\x66\x61\x63\x65_dir\x18\x05 \x01(\x0b\x32\x07.Vector\x12\x14\n\x03pos\x18\x01 \x01(\x0b\x32\x07.Vector\x12\x19\n\x08velocity\x18\x08 \x01(\x0b\x32\x07.Vector\x12\x11\n\tentity_id\x18\x0b \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EvtCombatSteerMotionInfo_pb2', globals())

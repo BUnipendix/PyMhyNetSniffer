@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import AiThreatInfo_pb2 as AiThreatInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%EvtAiSyncCombatThreatInfoNotify.proto\x1a\x12\x41iThreatInfo.proto\"\xc7\x01\n\x1f\x45vtAiSyncCombatThreatInfoNotify\x12Y\n\x16\x63ombat_threat_info_map\x18\x08 \x03(\x0b\x32\x39.EvtAiSyncCombatThreatInfoNotify.CombatThreatInfoMapEntry\x1aI\n\x18\x43ombatThreatInfoMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x1c\n\x05value\x18\x02 \x01(\x0b\x32\r.AiThreatInfo:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%EvtAiSyncCombatThreatInfoNotify.proto\x1a\x12\x41iThreatInfo.proto\"\xc7\x01\n\x1f\x45vtAiSyncCombatThreatInfoNotify\x12Y\n\x16\x63ombat_threat_info_map\x18\x0b \x03(\x0b\x32\x39.EvtAiSyncCombatThreatInfoNotify.CombatThreatInfoMapEntry\x1aI\n\x18\x43ombatThreatInfoMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x1c\n\x05value\x18\x02 \x01(\x0b\x32\r.AiThreatInfo:\x02\x38\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EvtAiSyncCombatThreatInfoNotify_pb2', globals())

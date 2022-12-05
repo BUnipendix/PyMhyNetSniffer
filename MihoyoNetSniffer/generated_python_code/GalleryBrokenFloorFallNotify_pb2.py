@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"GalleryBrokenFloorFallNotify.proto\"F\n\x1cGalleryBrokenFloorFallNotify\x12\x12\n\nfall_count\x18\x03 \x01(\r\x12\x12\n\ngallery_id\x18\x05 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"GalleryBrokenFloorFallNotify.proto\"F\n\x1cGalleryBrokenFloorFallNotify\x12\x12\n\nfall_count\x18\n \x01(\r\x12\x12\n\ngallery_id\x18\x07 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GalleryBrokenFloorFallNotify_pb2', globals())

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import CookRecipeData_pb2 as CookRecipeData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x43ookRecipeDataNotify.proto\x1a\x14\x43ookRecipeData.proto\"<\n\x14\x43ookRecipeDataNotify\x12$\n\x0brecipe_data\x18\x04 \x01(\x0b\x32\x0f.CookRecipeDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x43ookRecipeDataNotify.proto\x1a\x14\x43ookRecipeData.proto\"<\n\x14\x43ookRecipeDataNotify\x12$\n\x0brecipe_data\x18\x01 \x01(\x0b\x32\x0f.CookRecipeDatab\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CookRecipeDataNotify_pb2', globals())

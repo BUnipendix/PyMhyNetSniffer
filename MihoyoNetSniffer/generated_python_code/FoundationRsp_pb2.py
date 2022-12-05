@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import FoundationOpType_pb2 as FoundationOpType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13\x46oundationRsp.proto\x1a\x16\x46oundationOpType.proto\"\x8c\x01\n\rFoundationRsp\x12\"\n\x07op_type\x18\r \x01(\x0e\x32\x11.FoundationOpType\x12\x18\n\x10gadget_entity_id\x18\n \x01(\r\x12\x13\n\x0b\x62uilding_id\x18\x0b \x01(\r\x12\x17\n\x0fpoint_config_id\x18\x0c \x01(\r\x12\x0f\n\x07retcode\x18\x07 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13\x46oundationRsp.proto\x1a\x16\x46oundationOpType.proto\"\x8c\x01\n\rFoundationRsp\x12\x0f\n\x07retcode\x18\x0f \x01(\x05\x12\x13\n\x0b\x62uilding_id\x18\n \x01(\r\x12\"\n\x07op_type\x18\x0e \x01(\x0e\x32\x11.FoundationOpType\x12\x18\n\x10gadget_entity_id\x18\x02 \x01(\r\x12\x17\n\x0fpoint_config_id\x18\x06 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FoundationRsp_pb2', globals())

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import LockedPersonallineData_pb2 as LockedPersonallineData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cPersonalLineAllDataRsp.proto\x1a\x1cLockedPersonallineData.proto\"\xf9\x01\n\x16PersonalLineAllDataRsp\x12%\n\x1d\x63ur_finished_daily_task_count\x18\x05 \x01(\r\x12*\n\"can_be_unlocked_personal_line_list\x18\r \x03(\r\x12\x0f\n\x07retcode\x18\x0f \x01(\x05\x12\"\n\x1aongoing_personal_line_list\x18\x08 \x03(\r\x12\x1b\n\x13legendary_key_count\x18\x0b \x01(\r\x12:\n\x19locked_personal_line_list\x18\n \x03(\x0b\x32\x17.LockedPersonallineDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cPersonalLineAllDataRsp.proto\x1a\x1cLockedPersonallineData.proto\"\xe3\x01\n\x16PersonalLineAllDataRsp\x12%\n\x1d\x63ur_finished_daily_task_count\x18\x0c \x01(\r\x12:\n\x19locked_personal_line_list\x18\n \x03(\x0b\x32\x17.LockedPersonallineData\x12\x0f\n\x07retcode\x18\x02 \x01(\x05\x12\x1b\n\x13Unk3300_BHLEGLEICFJ\x18\x01 \x03(\r\x12\x1b\n\x13Unk3300_BGCIGNEGBIN\x18\x06 \x03(\r\x12\x1b\n\x13legendary_key_count\x18\x05 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PersonalLineAllDataRsp_pb2', globals())
@@ -22,5 +22,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _PERSONALLINEALLDATARSP._serialized_start=63
-  _PERSONALLINEALLDATARSP._serialized_end=312
+  _PERSONALLINEALLDATARSP._serialized_end=290
 # @@protoc_insertion_point(module_scope)

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14LevelupCityReq.proto\"E\n\x0eLevelupCityReq\x12\x10\n\x08scene_id\x18\x05 \x01(\r\x12\x0f\n\x07\x61rea_id\x18\x03 \x01(\r\x12\x10\n\x08item_num\x18\x0e \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14LevelupCityReq.proto\"E\n\x0eLevelupCityReq\x12\x10\n\x08scene_id\x18\t \x01(\r\x12\x10\n\x08item_num\x18\r \x01(\r\x12\x0f\n\x07\x61rea_id\x18\x07 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LevelupCityReq_pb2', globals())

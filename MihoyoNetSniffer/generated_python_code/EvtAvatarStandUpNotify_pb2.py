@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x45vtAvatarStandUpNotify.proto\"d\n\x16\x45vtAvatarStandUpNotify\x12\x10\n\x08\x63hair_id\x18\x0b \x01(\x04\x12\x12\n\nperform_id\x18\x06 \x01(\x05\x12\x11\n\tdirection\x18\x01 \x01(\x05\x12\x11\n\tentity_id\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x45vtAvatarStandUpNotify.proto\"w\n\x16\x45vtAvatarStandUpNotify\x12\x1b\n\x13Unk3300_EBPACPNPKKJ\x18\r \x01(\x05\x12\x10\n\x08\x63hair_id\x18\x03 \x01(\x04\x12\x11\n\tentity_id\x18\x05 \x01(\r\x12\x1b\n\x13Unk3300_IMNGNLLMEFJ\x18\x0b \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EvtAvatarStandUpNotify_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _EVTAVATARSTANDUPNOTIFY._serialized_start=32
-  _EVTAVATARSTANDUPNOTIFY._serialized_end=132
+  _EVTAVATARSTANDUPNOTIFY._serialized_end=151
 # @@protoc_insertion_point(module_scope)

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ChannelerSlabAssistInfo_pb2 as ChannelerSlabAssistInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$ChannelerSlabSaveAssistInfoRsp.proto\x1a\x1d\x43hannelerSlabAssistInfo.proto\"e\n\x1e\x43hannelerSlabSaveAssistInfoRsp\x12\x32\n\x10\x61ssist_info_list\x18\x08 \x03(\x0b\x32\x18.ChannelerSlabAssistInfo\x12\x0f\n\x07retcode\x18\x0b \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$ChannelerSlabSaveAssistInfoRsp.proto\x1a\x1d\x43hannelerSlabAssistInfo.proto\"e\n\x1e\x43hannelerSlabSaveAssistInfoRsp\x12\x32\n\x10\x61ssist_info_list\x18\x02 \x03(\x0b\x32\x18.ChannelerSlabAssistInfo\x12\x0f\n\x07retcode\x18\x07 \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChannelerSlabSaveAssistInfoRsp_pb2', globals())

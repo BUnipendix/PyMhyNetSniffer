@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eUseWidgetCreateGadgetReq.proto\x1a\x0cVector.proto\"[\n\x18UseWidgetCreateGadgetReq\x12\x14\n\x03pos\x18\x0f \x01(\x0b\x32\x07.Vector\x12\x14\n\x03rot\x18\x0c \x01(\x0b\x32\x07.Vector\x12\x13\n\x0bmaterial_id\x18\x04 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eUseWidgetCreateGadgetReq.proto\x1a\x0cVector.proto\"[\n\x18UseWidgetCreateGadgetReq\x12\x14\n\x03rot\x18\x0c \x01(\x0b\x32\x07.Vector\x12\x14\n\x03pos\x18\x07 \x01(\x0b\x32\x07.Vector\x12\x13\n\x0bmaterial_id\x18\n \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'UseWidgetCreateGadgetReq_pb2', globals())

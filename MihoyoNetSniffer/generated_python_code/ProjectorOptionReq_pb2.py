@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18ProjectorOptionReq.proto\"\xa4\x01\n\x12ProjectorOptionReq\x12\x0f\n\x07op_type\x18\x07 \x01(\r\x12\x11\n\tentity_id\x18\n \x01(\r\"j\n\x0fProjectorOpType\x12\x1a\n\x16PROJECTOR_OP_TYPE_NONE\x10\x00\x12\x1c\n\x18PROJECTOR_OP_TYPE_CREATE\x10\x01\x12\x1d\n\x19PROJECTOR_OP_TYPE_DESTROY\x10\x02\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18ProjectorOptionReq.proto\"\xa4\x01\n\x12ProjectorOptionReq\x12\x0f\n\x07op_type\x18\x02 \x01(\r\x12\x11\n\tentity_id\x18\x08 \x01(\r\"j\n\x0fProjectorOpType\x12\x1a\n\x16PROJECTOR_OP_TYPE_NONE\x10\x00\x12\x1c\n\x18PROJECTOR_OP_TYPE_CREATE\x10\x01\x12\x1d\n\x19PROJECTOR_OP_TYPE_DESTROY\x10\x02\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ProjectorOptionReq_pb2', globals())

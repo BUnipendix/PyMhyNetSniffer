@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x43hangeAvatarReq.proto\x1a\x0cVector.proto\"]\n\x0f\x43hangeAvatarReq\x12\x19\n\x08move_pos\x18\x0f \x01(\x0b\x32\x07.Vector\x12\x10\n\x08skill_id\x18\x02 \x01(\r\x12\x0c\n\x04guid\x18\x07 \x01(\x04\x12\x0f\n\x07is_move\x18\n \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x43hangeAvatarReq.proto\x1a\x0cVector.proto\"]\n\x0f\x43hangeAvatarReq\x12\x19\n\x08move_pos\x18\t \x01(\x0b\x32\x07.Vector\x12\x0c\n\x04guid\x18\x0e \x01(\x04\x12\x0f\n\x07is_move\x18\x0b \x01(\x08\x12\x10\n\x08skill_id\x18\x04 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChangeAvatarReq_pb2', globals())

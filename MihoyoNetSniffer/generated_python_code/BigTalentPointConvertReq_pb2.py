@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x42igTalentPointConvertReq.proto\"G\n\x18\x42igTalentPointConvertReq\x12\x16\n\x0eitem_guid_list\x18\x06 \x03(\x04\x12\x13\n\x0b\x61vatar_guid\x18\x03 \x01(\x04\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x42igTalentPointConvertReq.proto\"G\n\x18\x42igTalentPointConvertReq\x12\x16\n\x0eitem_guid_list\x18\x0e \x03(\x04\x12\x13\n\x0b\x61vatar_guid\x18\x07 \x01(\x04\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BigTalentPointConvertReq_pb2', globals())

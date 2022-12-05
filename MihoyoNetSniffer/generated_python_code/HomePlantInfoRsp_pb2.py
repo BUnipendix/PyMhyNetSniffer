@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import HomePlantFieldData_pb2 as HomePlantFieldData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16HomePlantInfoRsp.proto\x1a\x18HomePlantFieldData.proto\"L\n\x10HomePlantInfoRsp\x12\x0f\n\x07retcode\x18\x07 \x01(\x05\x12\'\n\nfield_list\x18\x0f \x03(\x0b\x32\x13.HomePlantFieldDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16HomePlantInfoRsp.proto\x1a\x18HomePlantFieldData.proto\"L\n\x10HomePlantInfoRsp\x12\x0f\n\x07retcode\x18\x08 \x01(\x05\x12\'\n\nfield_list\x18\n \x03(\x0b\x32\x13.HomePlantFieldDatab\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomePlantInfoRsp_pb2', globals())

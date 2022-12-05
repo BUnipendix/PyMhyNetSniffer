@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17TakeCoopRewardReq.proto\"-\n\x11TakeCoopRewardReq\x12\x18\n\x10reward_config_id\x18\x06 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17TakeCoopRewardReq.proto\"-\n\x11TakeCoopRewardReq\x12\x18\n\x10reward_config_id\x18\r \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TakeCoopRewardReq_pb2', globals())

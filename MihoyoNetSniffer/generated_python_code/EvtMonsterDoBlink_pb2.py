@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x45vtMonsterDoBlink.proto\x1a\x0cVector.proto\"`\n\x11\x45vtMonsterDoBlink\x12\x1b\n\ntarget_rot\x18\x03 \x01(\x0b\x32\x07.Vector\x12\x1b\n\ntarget_pos\x18\x07 \x01(\x0b\x32\x07.Vector\x12\x11\n\tentity_id\x18\x02 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x45vtMonsterDoBlink.proto\x1a\x0cVector.proto\"`\n\x11\x45vtMonsterDoBlink\x12\x11\n\tentity_id\x18\x0e \x01(\r\x12\x1b\n\ntarget_pos\x18\t \x01(\x0b\x32\x07.Vector\x12\x1b\n\ntarget_rot\x18\x05 \x01(\x0b\x32\x07.Vectorb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EvtMonsterDoBlink_pb2', globals())

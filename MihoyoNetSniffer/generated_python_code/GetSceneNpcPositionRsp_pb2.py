@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import NpcPositionInfo_pb2 as NpcPositionInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cGetSceneNpcPositionRsp.proto\x1a\x15NpcPositionInfo.proto\"d\n\x16GetSceneNpcPositionRsp\x12\x0f\n\x07retcode\x18\n \x01(\x05\x12\'\n\rnpc_info_list\x18\x0e \x03(\x0b\x32\x10.NpcPositionInfo\x12\x10\n\x08scene_id\x18\x04 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cGetSceneNpcPositionRsp.proto\x1a\x15NpcPositionInfo.proto\"d\n\x16GetSceneNpcPositionRsp\x12\x10\n\x08scene_id\x18\x01 \x01(\r\x12\'\n\rnpc_info_list\x18\x02 \x03(\x0b\x32\x10.NpcPositionInfo\x12\x0f\n\x07retcode\x18\x05 \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetSceneNpcPositionRsp_pb2', globals())

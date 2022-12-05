@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$SceneGalleryTreasureSeelieInfo.proto\"O\n\x1eSceneGalleryTreasureSeelieInfo\x12\x10\n\x08progress\x18\x0f \x01(\r\x12\x1b\n\x13Unk3000_MONNEPNGNCA\x18\x0e \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$SceneGalleryTreasureSeelieInfo.proto\"@\n\x1eSceneGalleryTreasureSeelieInfo\x12\x10\n\x08progress\x18\x01 \x01(\r\x12\x0c\n\x04goal\x18\x0e \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGalleryTreasureSeelieInfo_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _SCENEGALLERYTREASURESEELIEINFO._serialized_start=40
-  _SCENEGALLERYTREASURESEELIEINFO._serialized_end=119
+  _SCENEGALLERYTREASURESEELIEINFO._serialized_end=104
 # @@protoc_insertion_point(module_scope)

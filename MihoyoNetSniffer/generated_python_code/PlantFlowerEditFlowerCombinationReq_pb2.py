@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import CustomGadgetTreeInfo_pb2 as CustomGadgetTreeInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n)PlantFlowerEditFlowerCombinationReq.proto\x1a\x1a\x43ustomGadgetTreeInfo.proto\"\x85\x01\n#PlantFlowerEditFlowerCombinationReq\x12\x36\n\x17\x66lower_combination_info\x18\n \x01(\x0b\x32\x15.CustomGadgetTreeInfo\x12\x11\n\tentity_id\x18\x0e \x01(\r\x12\x13\n\x0bschedule_id\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n)PlantFlowerEditFlowerCombinationReq.proto\x1a\x1a\x43ustomGadgetTreeInfo.proto\"\x85\x01\n#PlantFlowerEditFlowerCombinationReq\x12\x11\n\tentity_id\x18\x03 \x01(\r\x12\x36\n\x17\x66lower_combination_info\x18\x08 \x01(\x0b\x32\x15.CustomGadgetTreeInfo\x12\x13\n\x0bschedule_id\x18\x0c \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlantFlowerEditFlowerCombinationReq_pb2', globals())

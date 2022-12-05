@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fSeaLampActivityDetailInfo.proto\"\xbc\x01\n\x19SeaLampActivityDetailInfo\x12\x10\n\x08phase_id\x18\x0e \x01(\r\x12\x1f\n\x17taken_phase_reward_list\x18\x01 \x03(\r\x12&\n\x1etaken_contribution_reward_list\x18\x07 \x03(\r\x12\x10\n\x08progress\x18\x08 \x01(\r\x12\x14\n\x0c\x63ontribution\x18\x0f \x01(\r\x12\x0e\n\x06\x66\x61\x63tor\x18\r \x01(\r\x12\x0c\n\x04\x64\x61ys\x18\x04 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fSeaLampActivityDetailInfo.proto\"\xc1\x01\n\x19SeaLampActivityDetailInfo\x12\x1b\n\x13Unk3300_ODBFFAIIPMB\x18\x02 \x03(\r\x12\x0c\n\x04\x64\x61ys\x18\x06 \x01(\r\x12\x1b\n\x13Unk3300_DGMGNJLHFMB\x18\x08 \x01(\r\x12\x10\n\x08progress\x18\x05 \x01(\r\x12\x1b\n\x13Unk3300_FGHDJJCLNFN\x18\x0e \x03(\r\x12\x1b\n\x13Unk3300_GBCCJMBPBBI\x18\x0b \x01(\r\x12\x10\n\x08phase_id\x18\x03 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SeaLampActivityDetailInfo_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _SEALAMPACTIVITYDETAILINFO._serialized_start=36
-  _SEALAMPACTIVITYDETAILINFO._serialized_end=224
+  _SEALAMPACTIVITYDETAILINFO._serialized_end=229
 # @@protoc_insertion_point(module_scope)

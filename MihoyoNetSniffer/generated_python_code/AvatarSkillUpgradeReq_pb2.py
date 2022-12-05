@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x41vatarSkillUpgradeReq.proto\"X\n\x15\x41vatarSkillUpgradeReq\x12\x13\n\x0b\x61vatar_guid\x18\x07 \x01(\x04\x12\x11\n\told_level\x18\x03 \x01(\r\x12\x17\n\x0f\x61vatar_skill_id\x18\x04 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x41vatarSkillUpgradeReq.proto\"X\n\x15\x41vatarSkillUpgradeReq\x12\x13\n\x0b\x61vatar_guid\x18\x05 \x01(\x04\x12\x17\n\x0f\x61vatar_skill_id\x18\x0c \x01(\r\x12\x11\n\told_level\x18\x08 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarSkillUpgradeReq_pb2', globals())

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11GachaUpInfo.proto\"=\n\x0bGachaUpInfo\x12\x18\n\x10item_parent_type\x18\x07 \x01(\r\x12\x14\n\x0citem_id_list\x18\x0f \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11GachaUpInfo.proto\"=\n\x0bGachaUpInfo\x12\x18\n\x10item_parent_type\x18\x0f \x01(\r\x12\x14\n\x0citem_id_list\x18\x06 \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GachaUpInfo_pb2', globals())

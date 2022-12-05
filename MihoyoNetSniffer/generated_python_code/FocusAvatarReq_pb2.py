@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14\x46ocusAvatarReq.proto\"7\n\x0e\x46ocusAvatarReq\x12\x13\n\x0b\x61vatar_guid\x18\x01 \x01(\x04\x12\x10\n\x08is_focus\x18\x08 \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14\x46ocusAvatarReq.proto\"7\n\x0e\x46ocusAvatarReq\x12\x13\n\x0b\x61vatar_guid\x18\x05 \x01(\x04\x12\x10\n\x08is_focus\x18\x0b \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FocusAvatarReq_pb2', globals())

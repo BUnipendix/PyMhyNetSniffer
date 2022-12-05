@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$LunaRiteTakeSacrificeRewardRsp.proto\"\x90\x01\n\x1eLunaRiteTakeSacrificeRewardRsp\x12\r\n\x05index\x18\x0b \x01(\r\x12\x1d\n\x15sacrifice_reward_list\x18\x02 \x03(\r\x12\x1e\n\x16sacrifice_reward_index\x18\x0e \x01(\r\x12\x0f\n\x07\x61rea_id\x18\x06 \x01(\r\x12\x0f\n\x07retcode\x18\x0c \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n$LunaRiteTakeSacrificeRewardRsp.proto\"\x90\x01\n\x1eLunaRiteTakeSacrificeRewardRsp\x12\x0f\n\x07\x61rea_id\x18\x0e \x01(\r\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x12\x1e\n\x16sacrifice_reward_index\x18\x06 \x01(\r\x12\x1d\n\x15sacrifice_reward_list\x18\t \x03(\r\x12\r\n\x05index\x18\x04 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LunaRiteTakeSacrificeRewardRsp_pb2', globals())

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n(DungeonCandidateTeamReplyInviteRsp.proto\"M\n\"DungeonCandidateTeamReplyInviteRsp\x12\x16\n\x0eis_trans_point\x18\x04 \x01(\x08\x12\x0f\n\x07retcode\x18\x02 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n(DungeonCandidateTeamReplyInviteRsp.proto\"M\n\"DungeonCandidateTeamReplyInviteRsp\x12\x16\n\x0eis_trans_point\x18\x01 \x01(\x08\x12\x0f\n\x07retcode\x18\x05 \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DungeonCandidateTeamReplyInviteRsp_pb2', globals())

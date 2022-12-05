@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x43hangeTeamNameReq.proto\"7\n\x11\x43hangeTeamNameReq\x12\x0f\n\x07team_id\x18\x08 \x01(\x05\x12\x11\n\tteam_name\x18\t \x01(\tb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x43hangeTeamNameReq.proto\"7\n\x11\x43hangeTeamNameReq\x12\x0f\n\x07team_id\x18\x0e \x01(\x05\x12\x11\n\tteam_name\x18\x0f \x01(\tb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChangeTeamNameReq_pb2', globals())

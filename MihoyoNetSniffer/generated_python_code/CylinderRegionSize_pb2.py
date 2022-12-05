@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x43ylinderRegionSize.proto\"4\n\x12\x43ylinderRegionSize\x12\x0e\n\x06radius\x18\x08 \x01(\x02\x12\x0e\n\x06height\x18\x07 \x01(\x02\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x43ylinderRegionSize.proto\"4\n\x12\x43ylinderRegionSize\x12\x0e\n\x06radius\x18\x07 \x01(\x02\x12\x0e\n\x06height\x18\x0f \x01(\x02\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CylinderRegionSize_pb2', globals())

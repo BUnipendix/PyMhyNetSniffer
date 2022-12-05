@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13ScenePlayInfo.proto\"V\n\rScenePlayInfo\x12\x10\n\x08\x65ntry_id\x18\x0f \x01(\r\x12\x0f\n\x07play_id\x18\x0b \x01(\r\x12\x11\n\tplay_type\x18\x03 \x01(\r\x12\x0f\n\x07is_open\x18\t \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13ScenePlayInfo.proto\"V\n\rScenePlayInfo\x12\x0f\n\x07is_open\x18\x0e \x01(\x08\x12\x10\n\x08\x65ntry_id\x18\n \x01(\r\x12\x0f\n\x07play_id\x18\x0f \x01(\r\x12\x11\n\tplay_type\x18\r \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ScenePlayInfo_pb2', globals())

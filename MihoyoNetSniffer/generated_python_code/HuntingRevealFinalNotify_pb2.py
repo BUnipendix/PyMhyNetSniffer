@@ -15,7 +15,7 @@ import HuntingPair_pb2 as HuntingPair__pb2
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eHuntingRevealFinalNotify.proto\x1a\x11HuntingPair.proto\x1a\x0cVector.proto\"z\n\x18HuntingRevealFinalNotify\x12\x19\n\x11\x66inished_group_id\x18\x05 \x01(\r\x12\"\n\x0chunting_pair\x18\x0b \x01(\x0b\x32\x0c.HuntingPair\x12\x1f\n\x0e\x66inal_position\x18\x02 \x01(\x0b\x32\x07.Vectorb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eHuntingRevealFinalNotify.proto\x1a\x11HuntingPair.proto\x1a\x0cVector.proto\"z\n\x18HuntingRevealFinalNotify\x12\x1f\n\x0e\x66inal_position\x18\x03 \x01(\x0b\x32\x07.Vector\x12\"\n\x0chunting_pair\x18\t \x01(\x0b\x32\x0c.HuntingPair\x12\x19\n\x11\x66inished_group_id\x18\x0e \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HuntingRevealFinalNotify_pb2', globals())

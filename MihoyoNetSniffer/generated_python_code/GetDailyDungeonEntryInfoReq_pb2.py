@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!GetDailyDungeonEntryInfoReq.proto\"/\n\x1bGetDailyDungeonEntryInfoReq\x12\x10\n\x08scene_id\x18\x0f \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!GetDailyDungeonEntryInfoReq.proto\"/\n\x1bGetDailyDungeonEntryInfoReq\x12\x10\n\x08scene_id\x18\x08 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetDailyDungeonEntryInfoReq_pb2', globals())

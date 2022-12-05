@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16QuestTransmitReq.proto\"6\n\x10QuestTransmitReq\x12\x10\n\x08point_id\x18\x0f \x01(\r\x12\x10\n\x08quest_id\x18\x05 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16QuestTransmitReq.proto\"6\n\x10QuestTransmitReq\x12\x10\n\x08quest_id\x18\x0c \x01(\r\x12\x10\n\x08point_id\x18\x01 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'QuestTransmitReq_pb2', globals())

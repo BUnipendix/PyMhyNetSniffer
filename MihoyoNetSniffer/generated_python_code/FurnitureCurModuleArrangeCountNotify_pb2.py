@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Uint32Pair_pb2 as Uint32Pair__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n*FurnitureCurModuleArrangeCountNotify.proto\x1a\x10Uint32Pair.proto\"Y\n$FurnitureCurModuleArrangeCountNotify\x12\x31\n\x1c\x66urniture_arrange_count_list\x18\r \x03(\x0b\x32\x0b.Uint32Pairb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n*FurnitureCurModuleArrangeCountNotify.proto\x1a\x10Uint32Pair.proto\"Y\n$FurnitureCurModuleArrangeCountNotify\x12\x31\n\x1c\x66urniture_arrange_count_list\x18\x03 \x03(\x0b\x32\x0b.Uint32Pairb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FurnitureCurModuleArrangeCountNotify_pb2', globals())

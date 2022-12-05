@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x41vatarSkillChangeNotify.proto\"\x98\x01\n\x17\x41vatarSkillChangeNotify\x12\x11\n\tcur_level\x18\x0b \x01(\r\x12\x13\n\x0b\x61vatar_guid\x18\x02 \x01(\x04\x12\x11\n\tentity_id\x18\x07 \x01(\r\x12\x16\n\x0eskill_depot_id\x18\r \x01(\r\x12\x11\n\told_level\x18\x01 \x01(\r\x12\x17\n\x0f\x61vatar_skill_id\x18\x06 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x41vatarSkillChangeNotify.proto\"\x98\x01\n\x17\x41vatarSkillChangeNotify\x12\x13\n\x0b\x61vatar_guid\x18\x04 \x01(\x04\x12\x11\n\told_level\x18\x07 \x01(\r\x12\x11\n\tcur_level\x18\x0f \x01(\r\x12\x16\n\x0eskill_depot_id\x18\x06 \x01(\r\x12\x11\n\tentity_id\x18\x01 \x01(\r\x12\x17\n\x0f\x61vatar_skill_id\x18\x0b \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarSkillChangeNotify_pb2', globals())

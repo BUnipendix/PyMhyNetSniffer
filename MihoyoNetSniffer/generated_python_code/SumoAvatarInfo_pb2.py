@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14SumoAvatarInfo.proto\"5\n\x0eSumoAvatarInfo\x12\x10\n\x08is_trial\x18\x02 \x01(\x08\x12\x11\n\tavatar_id\x18\x01 \x01(\x04\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14SumoAvatarInfo.proto\"5\n\x0eSumoAvatarInfo\x12\x10\n\x08is_trial\x18\t \x01(\x08\x12\x11\n\tavatar_id\x18\r \x01(\x04\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SumoAvatarInfo_pb2', globals())

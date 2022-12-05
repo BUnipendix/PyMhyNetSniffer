@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13SceneFishInfo.proto\x1a\x0cVector.proto\"\x97\x01\n\rSceneFishInfo\x12\x0f\n\x07\x66ish_id\x18\x01 \x01(\r\x12\x1b\n\x13\x66ish_pool_entity_id\x18\x02 \x01(\r\x12\x1e\n\rfish_pool_pos\x18\x03 \x01(\x0b\x32\x07.Vector\x12\x1b\n\x13\x66ish_pool_gadget_id\x18\x04 \x01(\r\x12\x1b\n\x13Unk2700_HIPFHKFMBBE\x18\x05 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13SceneFishInfo.proto\x1a\x0cVector.proto\"\x93\x01\n\rSceneFishInfo\x12\x0f\n\x07\x66ish_id\x18\x01 \x01(\r\x12\x1b\n\x13\x66ish_pool_entity_id\x18\x02 \x01(\r\x12\x1e\n\rfish_pool_pos\x18\x03 \x01(\x0b\x32\x07.Vector\x12\x1b\n\x13\x66ish_pool_gadget_id\x18\x04 \x01(\r\x12\x17\n\x0flast_shock_time\x18\x05 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneFishInfo_pb2', globals())
@@ -22,5 +22,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _SCENEFISHINFO._serialized_start=38
-  _SCENEFISHINFO._serialized_end=189
+  _SCENEFISHINFO._serialized_end=185
 # @@protoc_insertion_point(module_scope)

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import RogueEffectRecord_pb2 as RogueEffectRecord__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fRoguelikeEffectDataNotify.proto\x1a\x17RogueEffectRecord.proto\"j\n\x19RoguelikeEffectDataNotify\x12&\n\ncurse_list\x18\x07 \x03(\x0b\x32\x12.RogueEffectRecord\x12%\n\tcard_list\x18\x04 \x03(\x0b\x32\x12.RogueEffectRecordb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fRoguelikeEffectDataNotify.proto\x1a\x17RogueEffectRecord.proto\"j\n\x19RoguelikeEffectDataNotify\x12%\n\tcard_list\x18\x03 \x03(\x0b\x32\x12.RogueEffectRecord\x12&\n\ncurse_list\x18\x08 \x03(\x0b\x32\x12.RogueEffectRecordb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RoguelikeEffectDataNotify_pb2', globals())

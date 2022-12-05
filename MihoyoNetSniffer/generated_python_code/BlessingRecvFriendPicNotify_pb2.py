@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!BlessingRecvFriendPicNotify.proto\":\n\x1b\x42lessingRecvFriendPicNotify\x12\x0b\n\x03uid\x18\x0f \x01(\r\x12\x0e\n\x06pic_id\x18\x05 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!BlessingRecvFriendPicNotify.proto\":\n\x1b\x42lessingRecvFriendPicNotify\x12\x0e\n\x06pic_id\x18\x04 \x01(\r\x12\x0b\n\x03uid\x18\x0e \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BlessingRecvFriendPicNotify_pb2', globals())

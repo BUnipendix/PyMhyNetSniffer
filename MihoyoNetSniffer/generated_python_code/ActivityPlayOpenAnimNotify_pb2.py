@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n ActivityPlayOpenAnimNotify.proto\"1\n\x1a\x41\x63tivityPlayOpenAnimNotify\x12\x13\n\x0b\x61\x63tivity_id\x18\x08 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n ActivityPlayOpenAnimNotify.proto\"1\n\x1a\x41\x63tivityPlayOpenAnimNotify\x12\x13\n\x0b\x61\x63tivity_id\x18\x01 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ActivityPlayOpenAnimNotify_pb2', globals())

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bHomeModuleComfortInfo.proto\"z\n\x15HomeModuleComfortInfo\x12\x11\n\tmodule_id\x18\r \x01(\r\x12 \n\x18room_scene_comfort_value\x18\t \x01(\r\x12,\n$world_scene_block_comfort_value_list\x18\x03 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bHomeModuleComfortInfo.proto\"z\n\x15HomeModuleComfortInfo\x12 \n\x18room_scene_comfort_value\x18\x05 \x01(\r\x12,\n$world_scene_block_comfort_value_list\x18\n \x03(\r\x12\x11\n\tmodule_id\x18\x0f \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeModuleComfortInfo_pb2', globals())

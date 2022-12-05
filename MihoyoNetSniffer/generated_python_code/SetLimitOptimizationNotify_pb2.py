@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n SetLimitOptimizationNotify.proto\"/\n\x1aSetLimitOptimizationNotify\x12\x11\n\tis_active\x18\x03 \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n SetLimitOptimizationNotify.proto\"/\n\x1aSetLimitOptimizationNotify\x12\x11\n\tis_active\x18\n \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SetLimitOptimizationNotify_pb2', globals())

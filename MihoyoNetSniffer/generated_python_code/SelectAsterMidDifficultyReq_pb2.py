@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!SelectAsterMidDifficultyReq.proto\"c\n\x1bSelectAsterMidDifficultyReq\x12\x18\n\x10gadget_entity_id\x18\r \x01(\r\x12\x13\n\x0bschedule_id\x18\x01 \x01(\r\x12\x15\n\rdifficulty_id\x18\x05 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!SelectAsterMidDifficultyReq.proto\"c\n\x1bSelectAsterMidDifficultyReq\x12\x13\n\x0bschedule_id\x18\x04 \x01(\r\x12\x15\n\rdifficulty_id\x18\x02 \x01(\r\x12\x18\n\x10gadget_entity_id\x18\x0c \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SelectAsterMidDifficultyReq_pb2', globals())

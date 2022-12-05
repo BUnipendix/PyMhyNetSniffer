@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Uint32Pair_pb2 as Uint32Pair__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x44ungeonEntryInfoReq.proto\x1a\x10Uint32Pair.proto\"c\n\x13\x44ungeonEntryInfoReq\x12\x10\n\x08point_id\x18\x02 \x01(\r\x12\x10\n\x08scene_id\x18\t \x01(\r\x12(\n\x13Unk2800_GGAMJDFELPH\x18\x04 \x03(\x0b\x32\x0b.Uint32Pairb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x44ungeonEntryInfoReq.proto\x1a\x10Uint32Pair.proto\"c\n\x13\x44ungeonEntryInfoReq\x12\x10\n\x08scene_id\x18\x02 \x01(\r\x12(\n\x13scene_point_id_list\x18\x03 \x03(\x0b\x32\x0b.Uint32Pair\x12\x10\n\x08point_id\x18\x0e \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DungeonEntryInfoReq_pb2', globals())

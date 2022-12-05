@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18RequestLiveInfoRsp.proto\"`\n\x12RequestLiveInfoRsp\x12\x16\n\x0espare_live_url\x18\x0e \x01(\t\x12\x0f\n\x07retcode\x18\t \x01(\x05\x12\x10\n\x08live_url\x18\x0c \x01(\t\x12\x0f\n\x07live_id\x18\x02 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18RequestLiveInfoRsp.proto\"p\n\x12RequestLiveInfoRsp\x12\x0f\n\x07retcode\x18\r \x01(\x05\x12\x1b\n\x13Unk3300_BDOGCPKPLOK\x18\x0b \x01(\t\x12\x1b\n\x13Unk3300_DNGGIOIKLHC\x18\x06 \x01(\t\x12\x0f\n\x07live_id\x18\n \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RequestLiveInfoRsp_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _REQUESTLIVEINFORSP._serialized_start=28
-  _REQUESTLIVEINFORSP._serialized_end=124
+  _REQUESTLIVEINFORSP._serialized_end=140
 # @@protoc_insertion_point(module_scope)

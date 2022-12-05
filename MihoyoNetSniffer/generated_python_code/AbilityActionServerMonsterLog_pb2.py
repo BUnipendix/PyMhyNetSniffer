@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#AbilityActionServerMonsterLog.proto\"3\n\x1d\x41\x62ilityActionServerMonsterLog\x12\x12\n\nparam_list\x18\x02 \x03(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#AbilityActionServerMonsterLog.proto\"3\n\x1d\x41\x62ilityActionServerMonsterLog\x12\x12\n\nparam_list\x18\x03 \x03(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AbilityActionServerMonsterLog_pb2', globals())

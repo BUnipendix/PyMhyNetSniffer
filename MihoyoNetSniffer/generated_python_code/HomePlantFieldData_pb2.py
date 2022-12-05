@@ -15,7 +15,7 @@ import HomePlantSubFieldData_pb2 as HomePlantSubFieldData__pb2
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18HomePlantFieldData.proto\x1a\x1bHomePlantSubFieldData.proto\x1a\x0cVector.proto\"\x9c\x01\n\x12HomePlantFieldData\x12.\n\x0esub_field_list\x18\r \x03(\x0b\x32\x16.HomePlantSubFieldData\x12\x14\n\x0c\x66urniture_id\x18\t \x01(\r\x12\x10\n\x08scene_id\x18\x01 \x01(\r\x12\x12\n\nfield_guid\x18\n \x01(\r\x12\x1a\n\tspawn_pos\x18\x0c \x01(\x0b\x32\x07.Vectorb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18HomePlantFieldData.proto\x1a\x1bHomePlantSubFieldData.proto\x1a\x0cVector.proto\"\x9c\x01\n\x12HomePlantFieldData\x12\x10\n\x08scene_id\x18\x0f \x01(\r\x12\x12\n\nfield_guid\x18\x05 \x01(\r\x12.\n\x0esub_field_list\x18\x03 \x03(\x0b\x32\x16.HomePlantSubFieldData\x12\x14\n\x0c\x66urniture_id\x18\x01 \x01(\r\x12\x1a\n\tspawn_pos\x18\t \x01(\x0b\x32\x07.Vectorb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomePlantFieldData_pb2', globals())

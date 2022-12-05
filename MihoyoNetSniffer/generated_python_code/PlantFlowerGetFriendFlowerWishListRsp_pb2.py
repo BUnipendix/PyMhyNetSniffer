@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import PlantFlowerFriendFlowerWishData_pb2 as PlantFlowerFriendFlowerWishData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n+PlantFlowerGetFriendFlowerWishListRsp.proto\x1a%PlantFlowerFriendFlowerWishData.proto\"\x90\x01\n%PlantFlowerGetFriendFlowerWishListRsp\x12\x0f\n\x07retcode\x18\x06 \x01(\x05\x12\x13\n\x0bschedule_id\x18\x02 \x01(\r\x12\x41\n\x17\x66riend_flower_wish_list\x18\t \x03(\x0b\x32 .PlantFlowerFriendFlowerWishDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n+PlantFlowerGetFriendFlowerWishListRsp.proto\x1a%PlantFlowerFriendFlowerWishData.proto\"\x90\x01\n%PlantFlowerGetFriendFlowerWishListRsp\x12\x13\n\x0bschedule_id\x18\x0e \x01(\r\x12\x0f\n\x07retcode\x18\x07 \x01(\x05\x12\x41\n\x17\x66riend_flower_wish_list\x18\r \x03(\x0b\x32 .PlantFlowerFriendFlowerWishDatab\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlantFlowerGetFriendFlowerWishListRsp_pb2', globals())

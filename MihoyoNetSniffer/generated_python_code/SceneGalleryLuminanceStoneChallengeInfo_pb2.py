@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n-SceneGalleryLuminanceStoneChallengeInfo.proto\"\x95\x01\n\'SceneGalleryLuminanceStoneChallengeInfo\x12\x1a\n\x12kill_monster_count\x18\x05 \x01(\r\x12\r\n\x05score\x18\x03 \x01(\r\x12\x1b\n\x13Unk2700_OFKHLGLOPCM\x18\x02 \x01(\r\x12\"\n\x1akill_special_monster_count\x18\x06 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n-SceneGalleryLuminanceStoneChallengeInfo.proto\"\x91\x01\n\'SceneGalleryLuminanceStoneChallengeInfo\x12\x17\n\x0f\x63lean_mud_count\x18\x0c \x01(\r\x12\"\n\x1akill_special_monster_count\x18\x03 \x01(\r\x12\r\n\x05score\x18\x04 \x01(\r\x12\x1a\n\x12kill_monster_count\x18\x08 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGalleryLuminanceStoneChallengeInfo_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _SCENEGALLERYLUMINANCESTONECHALLENGEINFO._serialized_start=50
-  _SCENEGALLERYLUMINANCESTONECHALLENGEINFO._serialized_end=199
+  _SCENEGALLERYLUMINANCESTONECHALLENGEINFO._serialized_end=195
 # @@protoc_insertion_point(module_scope)

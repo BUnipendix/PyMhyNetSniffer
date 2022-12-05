@@ -11,16 +11,16 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import ObstacleInfo_pb2 as ObstacleInfo__pb2
+import GMObstacleInfo_pb2 as GMObstacleInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17GMShowObstacleRsp.proto\x1a\x12ObstacleInfo.proto\"F\n\x11GMShowObstacleRsp\x12\x0f\n\x07retcode\x18\x05 \x01(\x05\x12 \n\tobstacles\x18\x06 \x03(\x0b\x32\r.ObstacleInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17GMShowObstacleRsp.proto\x1a\x14GMObstacleInfo.proto\"H\n\x11GMShowObstacleRsp\x12\"\n\tobstacles\x18\x08 \x03(\x0b\x32\x0f.GMObstacleInfo\x12\x0f\n\x07retcode\x18\x0c \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GMShowObstacleRsp_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _GMSHOWOBSTACLERSP._serialized_start=47
-  _GMSHOWOBSTACLERSP._serialized_end=117
+  _GMSHOWOBSTACLERSP._serialized_start=49
+  _GMSHOWOBSTACLERSP._serialized_end=121
 # @@protoc_insertion_point(module_scope)

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x42\x61rgainOfferPriceReq.proto\"9\n\x14\x42\x61rgainOfferPriceReq\x12\x12\n\nbargain_id\x18\x04 \x01(\r\x12\r\n\x05price\x18\x06 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x42\x61rgainOfferPriceReq.proto\"9\n\x14\x42\x61rgainOfferPriceReq\x12\x12\n\nbargain_id\x18\x05 \x01(\r\x12\r\n\x05price\x18\x03 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BargainOfferPriceReq_pb2', globals())

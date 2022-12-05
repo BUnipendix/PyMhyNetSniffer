@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n DungeonWayPointActivateRsp.proto\"C\n\x1a\x44ungeonWayPointActivateRsp\x12\x0f\n\x07retcode\x18\x06 \x01(\x05\x12\x14\n\x0cway_point_id\x18\x07 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n DungeonWayPointActivateRsp.proto\"C\n\x1a\x44ungeonWayPointActivateRsp\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x12\x14\n\x0cway_point_id\x18\n \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DungeonWayPointActivateRsp_pb2', globals())

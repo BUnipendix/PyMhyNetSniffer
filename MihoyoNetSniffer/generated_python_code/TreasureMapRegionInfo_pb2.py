@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bTreasureMapRegionInfo.proto\x1a\x0cVector.proto\"\xec\x01\n\x15TreasureMapRegionInfo\x12\x12\n\nstart_time\x18\x06 \x01(\r\x12\x18\n\x10\x63urrent_progress\x18\x0b \x01(\r\x12\x17\n\x0fis_done_mp_spot\x18\x03 \x01(\x08\x12\x10\n\x08scene_id\x18\x02 \x01(\r\x12\x13\n\x0bgoal_points\x18\x0c \x01(\r\x12\x17\n\x0fis_find_mp_spot\x18\x04 \x01(\x08\x12\x15\n\rregion_radius\x18\x01 \x01(\r\x12\"\n\x11region_center_pos\x18\t \x01(\x0b\x32\x07.Vector\x12\x11\n\tregion_id\x18\x05 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bTreasureMapRegionInfo.proto\x1a\x0cVector.proto\"\xff\x01\n\x15TreasureMapRegionInfo\x12\x15\n\rregion_radius\x18\r \x01(\r\x12\x11\n\tregion_id\x18\n \x01(\r\x12\"\n\x11region_center_pos\x18\x05 \x01(\x0b\x32\x07.Vector\x12\x1b\n\x13Unk3300_HHBHLPHLHIL\x18\x06 \x01(\x08\x12\x12\n\nstart_time\x18\x08 \x01(\r\x12\x1b\n\x13Unk3300_LKEMEDPMIGM\x18\x03 \x01(\r\x12\x1b\n\x13Unk3300_NIBJOAJLCJI\x18\x01 \x01(\x08\x12\x10\n\x08scene_id\x18\x0c \x01(\r\x12\x1b\n\x13Unk3300_MNEKJILFHOA\x18\x02 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TreasureMapRegionInfo_pb2', globals())
@@ -22,5 +22,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _TREASUREMAPREGIONINFO._serialized_start=46
-  _TREASUREMAPREGIONINFO._serialized_end=282
+  _TREASUREMAPREGIONINFO._serialized_end=301
 # @@protoc_insertion_point(module_scope)

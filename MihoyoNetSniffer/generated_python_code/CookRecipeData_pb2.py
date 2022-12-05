@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14\x43ookRecipeData.proto\"8\n\x0e\x43ookRecipeData\x12\x13\n\x0bproficiency\x18\r \x01(\r\x12\x11\n\trecipe_id\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14\x43ookRecipeData.proto\"8\n\x0e\x43ookRecipeData\x12\x13\n\x0bproficiency\x18\x08 \x01(\r\x12\x11\n\trecipe_id\x18\x0e \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CookRecipeData_pb2', globals())

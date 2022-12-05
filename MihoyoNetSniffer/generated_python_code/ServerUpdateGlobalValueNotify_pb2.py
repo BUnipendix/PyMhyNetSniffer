@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#ServerUpdateGlobalValueNotify.proto\"\xf3\x01\n\x1dServerUpdateGlobalValueNotify\x12\x11\n\tentity_id\x18\t \x01(\r\x12>\n\x0bupdate_type\x18\r \x01(\x0e\x32).ServerUpdateGlobalValueNotify.UpdateType\x12\r\n\x05\x64\x65lta\x18\x03 \x01(\x02\x12\x10\n\x08key_hash\x18\n \x01(\r\x12\r\n\x05value\x18\x06 \x01(\x02\"O\n\nUpdateType\x12\x17\n\x13UPDATE_TYPE_INVALUE\x10\x00\x12\x13\n\x0fUPDATE_TYPE_ADD\x10\x01\x12\x13\n\x0fUPDATE_TYPE_SET\x10\x02\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#ServerUpdateGlobalValueNotify.proto\"\xf3\x01\n\x1dServerUpdateGlobalValueNotify\x12\x10\n\x08key_hash\x18\x08 \x01(\r\x12>\n\x0bupdate_type\x18\t \x01(\x0e\x32).ServerUpdateGlobalValueNotify.UpdateType\x12\r\n\x05\x64\x65lta\x18\x06 \x01(\x02\x12\r\n\x05value\x18\x03 \x01(\x02\x12\x11\n\tentity_id\x18\x0f \x01(\r\"O\n\nUpdateType\x12\x17\n\x13UPDATE_TYPE_INVALID\x10\x00\x12\x13\n\x0fUPDATE_TYPE_ADD\x10\x01\x12\x13\n\x0fUPDATE_TYPE_SET\x10\x02\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ServerUpdateGlobalValueNotify_pb2', globals())

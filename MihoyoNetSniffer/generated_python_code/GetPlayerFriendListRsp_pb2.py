@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import FriendBrief_pb2 as FriendBrief__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cGetPlayerFriendListRsp.proto\x1a\x11\x46riendBrief.proto\"s\n\x16GetPlayerFriendListRsp\x12\x0f\n\x07retcode\x18\t \x01(\x05\x12%\n\x0f\x61sk_friend_list\x18\x08 \x03(\x0b\x32\x0c.FriendBrief\x12!\n\x0b\x66riend_list\x18\x0e \x03(\x0b\x32\x0c.FriendBriefb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cGetPlayerFriendListRsp.proto\x1a\x11\x46riendBrief.proto\"s\n\x16GetPlayerFriendListRsp\x12%\n\x0f\x61sk_friend_list\x18\r \x03(\x0b\x32\x0c.FriendBrief\x12\x0f\n\x07retcode\x18\x04 \x01(\x05\x12!\n\x0b\x66riend_list\x18\x0f \x03(\x0b\x32\x0c.FriendBriefb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetPlayerFriendListRsp_pb2', globals())

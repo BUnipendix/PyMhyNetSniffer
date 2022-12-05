@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cScenePointUnlockNotify.proto\"\x8d\x01\n\x16ScenePointUnlockNotify\x12\x12\n\npoint_list\x18\r \x03(\r\x12\x10\n\x08scene_id\x18\x06 \x01(\r\x12\x19\n\x11unhide_point_list\x18\x0c \x03(\r\x12\x17\n\x0fhide_point_list\x18\x01 \x03(\r\x12\x19\n\x11locked_point_list\x18\x08 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cScenePointUnlockNotify.proto\"\x95\x01\n\x16ScenePointUnlockNotify\x12\x1b\n\x13Unk3300_PIGCABAAMMB\x18\n \x03(\r\x12\x1b\n\x13Unk3300_FKANNCGJEFJ\x18\x05 \x03(\r\x12\x10\n\x08scene_id\x18\x0b \x01(\r\x12\x12\n\npoint_list\x18\x06 \x03(\r\x12\x1b\n\x13Unk3300_FGPKDGFLJOF\x18\x01 \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ScenePointUnlockNotify_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _SCENEPOINTUNLOCKNOTIFY._serialized_start=33
-  _SCENEPOINTUNLOCKNOTIFY._serialized_end=174
+  _SCENEPOINTUNLOCKNOTIFY._serialized_end=182
 # @@protoc_insertion_point(module_scope)

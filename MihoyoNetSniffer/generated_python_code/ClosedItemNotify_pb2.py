@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x43losedItemNotify.proto\"(\n\x10\x43losedItemNotify\x12\x14\n\x0citem_id_list\x18\x08 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x43losedItemNotify.proto\"(\n\x10\x43losedItemNotify\x12\x14\n\x0citem_id_list\x18\n \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ClosedItemNotify_pb2', globals())

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n(AbilityMixinFieldEntityCountChange.proto\"@\n\"AbilityMixinFieldEntityCountChange\x12\x1a\n\x12\x66ield_entity_count\x18\x0e \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n(AbilityMixinFieldEntityCountChange.proto\"@\n\"AbilityMixinFieldEntityCountChange\x12\x1a\n\x12\x66ield_entity_count\x18\x08 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AbilityMixinFieldEntityCountChange_pb2', globals())

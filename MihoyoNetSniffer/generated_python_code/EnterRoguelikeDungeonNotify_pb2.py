@@ -15,7 +15,7 @@ import RogueCellInfo_pb2 as RogueCellInfo__pb2
 import RoguelikeRuneRecord_pb2 as RoguelikeRuneRecord__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!EnterRoguelikeDungeonNotify.proto\x1a\x13RogueCellInfo.proto\x1a\x19RoguelikeRuneRecord.proto\"\xd5\x04\n\x1b\x45nterRoguelikeDungeonNotify\x12\x15\n\ris_mist_clear\x18\x0e \x01(\x08\x12 \n\x18\x64ungeon_weight_config_id\x18\x02 \x01(\r\x12.\n\x10rune_record_list\x18\x06 \x03(\x0b\x32\x14.RoguelikeRuneRecord\x12 \n\x18onstage_avatar_guid_list\x18\t \x03(\x04\x12\x17\n\x0eis_first_enter\x18\xcd\x01 \x01(\x08\x12\x1a\n\x12\x65xplored_cell_list\x18\x03 \x03(\r\x12\x44\n\rcell_info_map\x18\x0b \x03(\x0b\x32-.EnterRoguelikeDungeonNotify.CellInfoMapEntry\x12\x12\n\ndungeon_id\x18\x01 \x01(\r\x12 \n\x17refresh_cost_item_count\x18\xcf\x0f \x01(\r\x12\x1b\n\x13\x62onus_resource_prop\x18\r \x01(\x02\x12\x1d\n\x14revise_monster_level\x18\x85\x0c \x01(\r\x12\x10\n\x08stage_id\x18\x0f \x01(\r\x12\"\n\x1a\x62\x61\x63kstage_avatar_guid_list\x18\n \x03(\x04\x12\x13\n\x0b\x63ur_cell_id\x18\x0c \x01(\r\x12\x1c\n\x14refresh_cost_item_id\x18\x07 \x01(\r\x12\x11\n\tcur_level\x18\x08 \x01(\r\x1a\x42\n\x10\x43\x65llInfoMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x1d\n\x05value\x18\x02 \x01(\x0b\x32\x0e.RogueCellInfo:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!EnterRoguelikeDungeonNotify.proto\x1a\x13RogueCellInfo.proto\x1a\x19RoguelikeRuneRecord.proto\"\xde\x04\n\x1b\x45nterRoguelikeDungeonNotify\x12\x1b\n\x13\x62onus_resource_prop\x18\x0b \x01(\x02\x12\x1b\n\x13Unk3300_DBDABNIINEL\x18\x04 \x01(\r\x12.\n\x10rune_record_list\x18\x0c \x03(\x0b\x32\x14.RoguelikeRuneRecord\x12\x11\n\tcur_level\x18\t \x01(\r\x12\x12\n\ndungeon_id\x18\x05 \x01(\r\x12\x1d\n\x14revise_monster_level\x18\xa4\t \x01(\r\x12\x1c\n\x13Unk3300_PKPOKOAAOKF\x18\xbd\x0b \x01(\x08\x12\x1a\n\x12\x65xplored_cell_list\x18\x02 \x03(\r\x12 \n\x18onstage_avatar_guid_list\x18\x0f \x03(\x04\x12\x10\n\x08stage_id\x18\x06 \x01(\r\x12\x1c\n\x13Unk3300_KLFDKOCGAHN\x18\xfe\x0f \x01(\r\x12\x1b\n\x13Unk3300_GBHHLEDAGAM\x18\x03 \x01(\x08\x12\x1b\n\x13Unk3300_IIIJDDNJEBB\x18\x01 \x01(\r\x12\"\n\x1a\x62\x61\x63kstage_avatar_guid_list\x18\x07 \x03(\x04\x12\x1b\n\x13Unk3300_PKDLOJADIPA\x18\n \x01(\r\x12\x44\n\rcell_info_map\x18\x0e \x03(\x0b\x32-.EnterRoguelikeDungeonNotify.CellInfoMapEntry\x1a\x42\n\x10\x43\x65llInfoMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x1d\n\x05value\x18\x02 \x01(\x0b\x32\x0e.RogueCellInfo:\x02\x38\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EnterRoguelikeDungeonNotify_pb2', globals())
@@ -25,7 +25,7 @@ if _descriptor._USE_C_DESCRIPTORS == False:
   _ENTERROGUELIKEDUNGEONNOTIFY_CELLINFOMAPENTRY._options = None
   _ENTERROGUELIKEDUNGEONNOTIFY_CELLINFOMAPENTRY._serialized_options = b'8\001'
   _ENTERROGUELIKEDUNGEONNOTIFY._serialized_start=86
-  _ENTERROGUELIKEDUNGEONNOTIFY._serialized_end=683
-  _ENTERROGUELIKEDUNGEONNOTIFY_CELLINFOMAPENTRY._serialized_start=617
-  _ENTERROGUELIKEDUNGEONNOTIFY_CELLINFOMAPENTRY._serialized_end=683
+  _ENTERROGUELIKEDUNGEONNOTIFY._serialized_end=692
+  _ENTERROGUELIKEDUNGEONNOTIFY_CELLINFOMAPENTRY._serialized_start=626
+  _ENTERROGUELIKEDUNGEONNOTIFY_CELLINFOMAPENTRY._serialized_end=692
 # @@protoc_insertion_point(module_scope)

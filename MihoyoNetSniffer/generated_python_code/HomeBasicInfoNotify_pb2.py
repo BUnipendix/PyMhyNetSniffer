@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import HomeBasicInfo_pb2 as HomeBasicInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19HomeBasicInfoNotify.proto\x1a\x13HomeBasicInfo.proto\"9\n\x13HomeBasicInfoNotify\x12\"\n\nbasic_info\x18\x0f \x01(\x0b\x32\x0e.HomeBasicInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19HomeBasicInfoNotify.proto\x1a\x13HomeBasicInfo.proto\"9\n\x13HomeBasicInfoNotify\x12\"\n\nbasic_info\x18\x03 \x01(\x0b\x32\x0e.HomeBasicInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeBasicInfoNotify_pb2', globals())

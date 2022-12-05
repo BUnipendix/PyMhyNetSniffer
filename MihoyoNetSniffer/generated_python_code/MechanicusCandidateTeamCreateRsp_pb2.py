@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&MechanicusCandidateTeamCreateRsp.proto\"`\n MechanicusCandidateTeamCreateRsp\x12\x12\n\ndungeon_id\x18\x01 \x01(\r\x12\x0f\n\x07retcode\x18\x07 \x01(\x05\x12\x17\n\x0f\x64ifficult_level\x18\n \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&MechanicusCandidateTeamCreateRsp.proto\"`\n MechanicusCandidateTeamCreateRsp\x12\x17\n\x0f\x64ifficult_level\x18\x0b \x01(\r\x12\x12\n\ndungeon_id\x18\x05 \x01(\r\x12\x0f\n\x07retcode\x18\n \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MechanicusCandidateTeamCreateRsp_pb2', globals())

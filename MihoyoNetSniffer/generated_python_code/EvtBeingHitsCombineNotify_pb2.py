@@ -15,7 +15,7 @@ import EvtBeingHitInfo_pb2 as EvtBeingHitInfo__pb2
 import ForwardType_pb2 as ForwardType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x45vtBeingHitsCombineNotify.proto\x1a\x15\x45vtBeingHitInfo.proto\x1a\x11\x46orwardType.proto\"r\n\x19\x45vtBeingHitsCombineNotify\x12\"\n\x0c\x66orward_type\x18\x0b \x01(\x0e\x32\x0c.ForwardType\x12\x31\n\x17\x65vt_being_hit_info_list\x18\x07 \x03(\x0b\x32\x10.EvtBeingHitInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1f\x45vtBeingHitsCombineNotify.proto\x1a\x15\x45vtBeingHitInfo.proto\x1a\x11\x46orwardType.proto\"r\n\x19\x45vtBeingHitsCombineNotify\x12\x31\n\x17\x65vt_being_hit_info_list\x18\t \x03(\x0b\x32\x10.EvtBeingHitInfo\x12\"\n\x0c\x66orward_type\x18\x07 \x01(\x0e\x32\x0c.ForwardTypeb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EvtBeingHitsCombineNotify_pb2', globals())

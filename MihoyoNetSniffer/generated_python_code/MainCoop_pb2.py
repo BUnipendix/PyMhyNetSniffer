@@ -13,27 +13,27 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0eMainCoop.proto\"\xef\x03\n\x08MainCoop\x12\x35\n\x0fseen_ending_map\x18\r \x03(\x0b\x32\x1c.MainCoop.SeenEndingMapEntry\x12\x33\n\x0enormal_var_map\x18\x04 \x03(\x0b\x32\x1b.MainCoop.NormalVarMapEntry\x12\x17\n\x0fself_confidence\x18\x05 \x01(\r\x12\x1a\n\x12save_point_id_list\x18\x01 \x03(\r\x12 \n\x06status\x18\x06 \x01(\x0e\x32\x10.MainCoop.Status\x12/\n\x0ctemp_var_map\x18\x0b \x03(\x0b\x32\x19.MainCoop.TempVarMapEntry\x12\n\n\x02id\x18\t \x01(\r\x1a\x34\n\x12SeenEndingMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x1a\x33\n\x11NormalVarMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\x05:\x02\x38\x01\x1a\x31\n\x0fTempVarMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\x05:\x02\x38\x01\"E\n\x06Status\x12\x12\n\x0eSTATUS_INVALID\x10\x00\x12\x12\n\x0eSTATUS_RUNNING\x10\x01\x12\x13\n\x0fSTATUS_FINISHED\x10\x02\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0eMainCoop.proto\"\x97\x04\n\x08MainCoop\x12 \n\x06status\x18\x06 \x01(\x0e\x32\x10.MainCoop.Status\x12>\n\x13Unk3300_JFPLEDLNJPF\x18\x05 \x03(\x0b\x32!.MainCoop.Unk3300JFPLEDLNJPFEntry\x12>\n\x13Unk3300_OMEEMFJFKBH\x18\x07 \x03(\x0b\x32!.MainCoop.Unk3300OMEEMFJFKBHEntry\x12\x17\n\x0fself_confidence\x18\t \x01(\r\x12\n\n\x02id\x18\x01 \x01(\r\x12\x1a\n\x12save_point_id_list\x18\n \x03(\r\x12\x35\n\x0fseen_ending_map\x18\r \x03(\x0b\x32\x1c.MainCoop.SeenEndingMapEntry\x1a\x39\n\x17Unk3300JFPLEDLNJPFEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\x05:\x02\x38\x01\x1a\x39\n\x17Unk3300OMEEMFJFKBHEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\x05:\x02\x38\x01\x1a\x34\n\x12SeenEndingMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\"E\n\x06Status\x12\x12\n\x0eSTATUS_INVALID\x10\x00\x12\x12\n\x0eSTATUS_RUNNING\x10\x01\x12\x13\n\x0fSTATUS_FINISHED\x10\x02\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MainCoop_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
+  _MAINCOOP_UNK3300JFPLEDLNJPFENTRY._options = None
+  _MAINCOOP_UNK3300JFPLEDLNJPFENTRY._serialized_options = b'8\001'
+  _MAINCOOP_UNK3300OMEEMFJFKBHENTRY._options = None
+  _MAINCOOP_UNK3300OMEEMFJFKBHENTRY._serialized_options = b'8\001'
   _MAINCOOP_SEENENDINGMAPENTRY._options = None
   _MAINCOOP_SEENENDINGMAPENTRY._serialized_options = b'8\001'
-  _MAINCOOP_NORMALVARMAPENTRY._options = None
-  _MAINCOOP_NORMALVARMAPENTRY._serialized_options = b'8\001'
-  _MAINCOOP_TEMPVARMAPENTRY._options = None
-  _MAINCOOP_TEMPVARMAPENTRY._serialized_options = b'8\001'
   _MAINCOOP._serialized_start=19
-  _MAINCOOP._serialized_end=514
-  _MAINCOOP_SEENENDINGMAPENTRY._serialized_start=287
-  _MAINCOOP_SEENENDINGMAPENTRY._serialized_end=339
-  _MAINCOOP_NORMALVARMAPENTRY._serialized_start=341
-  _MAINCOOP_NORMALVARMAPENTRY._serialized_end=392
-  _MAINCOOP_TEMPVARMAPENTRY._serialized_start=394
-  _MAINCOOP_TEMPVARMAPENTRY._serialized_end=443
-  _MAINCOOP_STATUS._serialized_start=445
-  _MAINCOOP_STATUS._serialized_end=514
+  _MAINCOOP._serialized_end=554
+  _MAINCOOP_UNK3300JFPLEDLNJPFENTRY._serialized_start=313
+  _MAINCOOP_UNK3300JFPLEDLNJPFENTRY._serialized_end=370
+  _MAINCOOP_UNK3300OMEEMFJFKBHENTRY._serialized_start=372
+  _MAINCOOP_UNK3300OMEEMFJFKBHENTRY._serialized_end=429
+  _MAINCOOP_SEENENDINGMAPENTRY._serialized_start=431
+  _MAINCOOP_SEENENDINGMAPENTRY._serialized_end=483
+  _MAINCOOP_STATUS._serialized_start=485
+  _MAINCOOP_STATUS._serialized_end=554
 # @@protoc_insertion_point(module_scope)

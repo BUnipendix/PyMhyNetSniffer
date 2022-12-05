@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ReunionMissionInfo_pb2 as ReunionMissionInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eGetReunionMissionInfoRsp.proto\x1a\x18ReunionMissionInfo.proto\"V\n\x18GetReunionMissionInfoRsp\x12\x0f\n\x07retcode\x18\t \x01(\x05\x12)\n\x0cmission_info\x18\x0e \x01(\x0b\x32\x13.ReunionMissionInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eGetReunionMissionInfoRsp.proto\x1a\x18ReunionMissionInfo.proto\"V\n\x18GetReunionMissionInfoRsp\x12\x0f\n\x07retcode\x18\x02 \x01(\x05\x12)\n\x0cmission_info\x18\x04 \x01(\x0b\x32\x13.ReunionMissionInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetReunionMissionInfoRsp_pb2', globals())

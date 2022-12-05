@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import CustomCommonNodeInfo_pb2 as CustomCommonNodeInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dHomeCustomFurnitureInfo.proto\x1a\x1a\x43ustomCommonNodeInfo.proto\"Z\n\x17HomeCustomFurnitureInfo\x12\x31\n\x12sub_furniture_list\x18\x0c \x03(\x0b\x32\x15.CustomCommonNodeInfo\x12\x0c\n\x04guid\x18\x06 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dHomeCustomFurnitureInfo.proto\x1a\x1a\x43ustomCommonNodeInfo.proto\"Z\n\x17HomeCustomFurnitureInfo\x12\x0c\n\x04guid\x18\x07 \x01(\r\x12\x31\n\x12sub_furniture_list\x18\x0b \x03(\x0b\x32\x15.CustomCommonNodeInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeCustomFurnitureInfo_pb2', globals())

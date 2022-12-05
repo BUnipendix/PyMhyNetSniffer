@@ -11,16 +11,16 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import DungeonCandidateTeamDismissReason_pb2 as DungeonCandidateTeamDismissReason__pb2
+import DungeonCandidateTeamPlayerDismissReason_pb2 as DungeonCandidateTeamPlayerDismissReason__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'DungeonCandidateTeamDismissNotify.proto\x1a\'DungeonCandidateTeamDismissReason.proto\"k\n!DungeonCandidateTeamDismissNotify\x12\x32\n\x06reason\x18\t \x01(\x0e\x32\".DungeonCandidateTeamDismissReason\x12\x12\n\nplayer_uid\x18\x0c \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'DungeonCandidateTeamDismissNotify.proto\x1a-DungeonCandidateTeamPlayerDismissReason.proto\"q\n!DungeonCandidateTeamDismissNotify\x12\x38\n\x06reason\x18\x07 \x01(\x0e\x32(.DungeonCandidateTeamPlayerDismissReason\x12\x12\n\nplayer_uid\x18\x01 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DungeonCandidateTeamDismissNotify_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _DUNGEONCANDIDATETEAMDISMISSNOTIFY._serialized_start=84
-  _DUNGEONCANDIDATETEAMDISMISSNOTIFY._serialized_end=191
+  _DUNGEONCANDIDATETEAMDISMISSNOTIFY._serialized_start=90
+  _DUNGEONCANDIDATETEAMDISMISSNOTIFY._serialized_end=203
 # @@protoc_insertion_point(module_scope)

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import DungeonEntryBlockReason_pb2 as DungeonEntryBlockReason__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x44ungeonEntryCond.proto\x1a\x1d\x44ungeonEntryBlockReason.proto\"Q\n\x10\x44ungeonEntryCond\x12-\n\x0b\x63ond_reason\x18\x07 \x01(\x0e\x32\x18.DungeonEntryBlockReason\x12\x0e\n\x06param1\x18\x08 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x44ungeonEntryCond.proto\x1a\x1d\x44ungeonEntryBlockReason.proto\"Q\n\x10\x44ungeonEntryCond\x12-\n\x0b\x63ond_reason\x18\x02 \x01(\x0e\x32\x18.DungeonEntryBlockReason\x12\x0e\n\x06param1\x18\x01 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DungeonEntryCond_pb2', globals())

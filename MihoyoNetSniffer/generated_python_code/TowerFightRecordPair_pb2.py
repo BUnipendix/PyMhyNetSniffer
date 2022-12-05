@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aTowerFightRecordPair.proto\"7\n\x14TowerFightRecordPair\x12\x11\n\tavatar_id\x18\x01 \x01(\r\x12\x0c\n\x04\x64\x61ta\x18\x03 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aTowerFightRecordPair.proto\"7\n\x14TowerFightRecordPair\x12\x11\n\tavatar_id\x18\x0c \x01(\r\x12\x0c\n\x04\x64\x61ta\x18\x01 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TowerFightRecordPair_pb2', globals())

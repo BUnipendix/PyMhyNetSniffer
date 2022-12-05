@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n GetReunionPrivilegeInfoReq.proto\"2\n\x1aGetReunionPrivilegeInfoReq\x12\x14\n\x0cprivilege_id\x18\n \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n GetReunionPrivilegeInfoReq.proto\"2\n\x1aGetReunionPrivilegeInfoReq\x12\x14\n\x0cprivilege_id\x18\x0f \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetReunionPrivilegeInfoReq_pb2', globals())

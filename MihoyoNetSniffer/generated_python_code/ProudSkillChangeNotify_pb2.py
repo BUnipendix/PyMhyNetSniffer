@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cProudSkillChangeNotify.proto\"r\n\x16ProudSkillChangeNotify\x12\x13\n\x0b\x61vatar_guid\x18\x0b \x01(\x04\x12\x11\n\tentity_id\x18\x04 \x01(\r\x12\x16\n\x0eskill_depot_id\x18\x08 \x01(\r\x12\x18\n\x10proud_skill_list\x18\x0c \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cProudSkillChangeNotify.proto\"r\n\x16ProudSkillChangeNotify\x12\x13\n\x0b\x61vatar_guid\x18\r \x01(\x04\x12\x18\n\x10proud_skill_list\x18\x05 \x03(\r\x12\x16\n\x0eskill_depot_id\x18\x0c \x01(\r\x12\x11\n\tentity_id\x18\x03 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ProudSkillChangeNotify_pb2', globals())

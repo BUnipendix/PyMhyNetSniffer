@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#SceneGalleryBuoyantCombatInfo.proto\"n\n\x1dSceneGalleryBuoyantCombatInfo\x12\r\n\x05score\x18\x06 \x01(\r\x12\"\n\x1akill_special_monster_count\x18\x01 \x01(\r\x12\x1a\n\x12kill_monster_count\x18\x0e \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#SceneGalleryBuoyantCombatInfo.proto\"n\n\x1dSceneGalleryBuoyantCombatInfo\x12\r\n\x05score\x18\t \x01(\r\x12\"\n\x1akill_special_monster_count\x18\r \x01(\r\x12\x1a\n\x12kill_monster_count\x18\x0c \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGalleryBuoyantCombatInfo_pb2', globals())

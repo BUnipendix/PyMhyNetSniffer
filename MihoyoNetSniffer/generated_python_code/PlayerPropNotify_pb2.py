@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import PropValue_pb2 as PropValue__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16PlayerPropNotify.proto\x1a\x0fPropValue.proto\"\x80\x01\n\x10PlayerPropNotify\x12\x30\n\x08prop_map\x18\r \x03(\x0b\x32\x1e.PlayerPropNotify.PropMapEntry\x1a:\n\x0cPropMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x19\n\x05value\x18\x02 \x01(\x0b\x32\n.PropValue:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16PlayerPropNotify.proto\x1a\x0fPropValue.proto\"\x80\x01\n\x10PlayerPropNotify\x12\x30\n\x08prop_map\x18\x01 \x03(\x0b\x32\x1e.PlayerPropNotify.PropMapEntry\x1a:\n\x0cPropMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x19\n\x05value\x18\x02 \x01(\x0b\x32\n.PropValue:\x02\x38\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerPropNotify_pb2', globals())

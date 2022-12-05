@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x43ookGradeDataNotify.proto\"$\n\x13\x43ookGradeDataNotify\x12\r\n\x05grade\x18\x0c \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x43ookGradeDataNotify.proto\"$\n\x13\x43ookGradeDataNotify\x12\r\n\x05grade\x18\r \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CookGradeDataNotify_pb2', globals())

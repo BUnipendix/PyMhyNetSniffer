@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x41\x63tivitySaleChangeNotify.proto\"=\n\x18\x41\x63tivitySaleChangeNotify\x12\x0f\n\x07sale_id\x18\x05 \x01(\r\x12\x10\n\x08is_close\x18\x01 \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x41\x63tivitySaleChangeNotify.proto\"=\n\x18\x41\x63tivitySaleChangeNotify\x12\x10\n\x08is_close\x18\x0e \x01(\x08\x12\x0f\n\x07sale_id\x18\x08 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ActivitySaleChangeNotify_pb2', globals())

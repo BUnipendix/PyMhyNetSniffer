@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ItemParam_pb2 as ItemParam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n(TakeCityReputationExploreRewardRsp.proto\x1a\x0fItemParam.proto\"~\n\"TakeCityReputationExploreRewardRsp\x12\x17\n\x0f\x65xplore_id_list\x18\x08 \x03(\r\x12\x1d\n\titem_list\x18\x0c \x03(\x0b\x32\n.ItemParam\x12\x0f\n\x07retcode\x18\x06 \x01(\x05\x12\x0f\n\x07\x63ity_id\x18\r \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n(TakeCityReputationExploreRewardRsp.proto\x1a\x0fItemParam.proto\"~\n\"TakeCityReputationExploreRewardRsp\x12\x0f\n\x07retcode\x18\x05 \x01(\x05\x12\x17\n\x0f\x65xplore_id_list\x18\x0c \x03(\r\x12\x0f\n\x07\x63ity_id\x18\x01 \x01(\r\x12\x1d\n\titem_list\x18\x0e \x03(\x0b\x32\n.ItemParamb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TakeCityReputationExploreRewardRsp_pb2', globals())

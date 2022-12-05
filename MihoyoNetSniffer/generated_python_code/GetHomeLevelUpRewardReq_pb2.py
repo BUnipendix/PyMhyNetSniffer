@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dGetHomeLevelUpRewardReq.proto\"(\n\x17GetHomeLevelUpRewardReq\x12\r\n\x05level\x18\x0f \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dGetHomeLevelUpRewardReq.proto\"(\n\x17GetHomeLevelUpRewardReq\x12\r\n\x05level\x18\x0b \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetHomeLevelUpRewardReq_pb2', globals())

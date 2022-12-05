@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import AnimatorParameterValueInfo_pb2 as AnimatorParameterValueInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x45vtAnimatorParameterInfo.proto\x1a AnimatorParameterValueInfo.proto\"\x83\x01\n\x18\x45vtAnimatorParameterInfo\x12\x11\n\tentity_id\x18\x04 \x01(\r\x12\x17\n\x0fis_server_cache\x18\x05 \x01(\x08\x12*\n\x05value\x18\x07 \x01(\x0b\x32\x1b.AnimatorParameterValueInfo\x12\x0f\n\x07name_id\x18\x0f \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x45vtAnimatorParameterInfo.proto\x1a AnimatorParameterValueInfo.proto\"\x83\x01\n\x18\x45vtAnimatorParameterInfo\x12\x0f\n\x07name_id\x18\n \x01(\x05\x12*\n\x05value\x18\x07 \x01(\x0b\x32\x1b.AnimatorParameterValueInfo\x12\x11\n\tentity_id\x18\x0e \x01(\r\x12\x17\n\x0fis_server_cache\x18\t \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EvtAnimatorParameterInfo_pb2', globals())

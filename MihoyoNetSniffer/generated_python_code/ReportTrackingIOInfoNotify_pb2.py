@@ -13,13 +13,13 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n ReportTrackingIOInfoNotify.proto\"s\n\x1aReportTrackingIOInfoNotify\x12\x14\n\x0crydevicetype\x18\x0c \x01(\t\x12\x10\n\x08\x64\x65viceid\x18\x01 \x01(\t\x12\x11\n\tclient_tz\x18\r \x01(\t\x12\r\n\x05\x61ppid\x18\x0e \x01(\t\x12\x0b\n\x03mac\x18\x0f \x01(\tb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n ReportTrackingIOInfoNotify.proto\"\xad\x01\n\x1aReportTrackingIOInfoNotify\x12\x1b\n\x13Unk3300_KGGPDKGDELG\x18\r \x01(\t\x12\x1b\n\x13Unk3300_DJHKHEFPCDK\x18\n \x01(\t\x12\x1b\n\x13Unk3300_PIBFPDAMJLE\x18\x06 \x01(\t\x12\x1b\n\x13Unk3300_CNPIGDOEJPB\x18\x08 \x01(\t\x12\x1b\n\x13Unk3300_GEJJKDLGFPH\x18\x03 \x01(\tb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ReportTrackingIOInfoNotify_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _REPORTTRACKINGIOINFONOTIFY._serialized_start=36
-  _REPORTTRACKINGIOINFONOTIFY._serialized_end=151
+  _REPORTTRACKINGIOINFONOTIFY._serialized_start=37
+  _REPORTTRACKINGIOINFONOTIFY._serialized_end=210
 # @@protoc_insertion_point(module_scope)

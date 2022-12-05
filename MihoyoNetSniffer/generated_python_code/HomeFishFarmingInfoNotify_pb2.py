@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import HomeFishFarmingInfo_pb2 as HomeFishFarmingInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fHomeFishFarmingInfoNotify.proto\x1a\x19HomeFishFarmingInfo.proto\"Q\n\x19HomeFishFarmingInfoNotify\x12\x34\n\x16\x66ish_farming_info_list\x18\x0f \x03(\x0b\x32\x14.HomeFishFarmingInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fHomeFishFarmingInfoNotify.proto\x1a\x19HomeFishFarmingInfo.proto\"Q\n\x19HomeFishFarmingInfoNotify\x12\x34\n\x16\x66ish_farming_info_list\x18\x08 \x03(\x0b\x32\x14.HomeFishFarmingInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeFishFarmingInfoNotify_pb2', globals())

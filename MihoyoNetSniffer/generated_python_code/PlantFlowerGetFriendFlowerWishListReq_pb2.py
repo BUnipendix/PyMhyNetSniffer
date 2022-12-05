@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n+PlantFlowerGetFriendFlowerWishListReq.proto\"<\n%PlantFlowerGetFriendFlowerWishListReq\x12\x13\n\x0bschedule_id\x18\x07 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n+PlantFlowerGetFriendFlowerWishListReq.proto\"<\n%PlantFlowerGetFriendFlowerWishListReq\x12\x13\n\x0bschedule_id\x18\n \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlantFlowerGetFriendFlowerWishListReq_pb2', globals())

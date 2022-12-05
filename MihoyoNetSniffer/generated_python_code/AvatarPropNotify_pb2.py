@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x41vatarPropNotify.proto\"\x89\x01\n\x10\x41vatarPropNotify\x12\x30\n\x08prop_map\x18\x0e \x03(\x0b\x32\x1e.AvatarPropNotify.PropMapEntry\x12\x13\n\x0b\x61vatar_guid\x18\x0f \x01(\x04\x1a.\n\x0cPropMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\x03:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x41vatarPropNotify.proto\"\x89\x01\n\x10\x41vatarPropNotify\x12\x13\n\x0b\x61vatar_guid\x18\x01 \x01(\x04\x12\x30\n\x08prop_map\x18\x08 \x03(\x0b\x32\x1e.AvatarPropNotify.PropMapEntry\x1a.\n\x0cPropMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\x03:\x02\x38\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarPropNotify_pb2', globals())

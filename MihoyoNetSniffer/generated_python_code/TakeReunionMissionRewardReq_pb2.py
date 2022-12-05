@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!TakeReunionMissionRewardReq.proto\"Z\n\x1bTakeReunionMissionRewardReq\x12\x11\n\treward_id\x18\x07 \x01(\r\x12\x14\n\x0creward_index\x18\x04 \x01(\r\x12\x12\n\nmission_id\x18\x0c \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!TakeReunionMissionRewardReq.proto\"Z\n\x1bTakeReunionMissionRewardReq\x12\x12\n\nmission_id\x18\x03 \x01(\r\x12\x11\n\treward_id\x18\x05 \x01(\r\x12\x14\n\x0creward_index\x18\x06 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TakeReunionMissionRewardReq_pb2', globals())

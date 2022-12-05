@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11RechargeRsp.proto\"O\n\x0bRechargeRsp\x12\x0f\n\x07retcode\x18\x0c \x01(\x05\x12\x1b\n\x13Unk2700_FGENAOBDIEA\x18\x06 \x01(\x08\x12\x12\n\nproduct_id\x18\x02 \x01(\tb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11RechargeRsp.proto\"O\n\x0bRechargeRsp\x12\x12\n\nproduct_id\x18\n \x01(\t\x12\x1b\n\x13is_show_minors_hint\x18\x01 \x01(\x08\x12\x0f\n\x07retcode\x18\t \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RechargeRsp_pb2', globals())

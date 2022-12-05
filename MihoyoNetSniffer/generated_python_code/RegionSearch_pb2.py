@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import RegionSearchState_pb2 as RegionSearchState__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12RegionSearch.proto\x1a\x17RegionSearchState.proto\"q\n\x0cRegionSearch\x12\x12\n\nis_entered\x18\r \x01(\x08\x12\x10\n\x08progress\x18\x05 \x01(\r\x12!\n\x05state\x18\x02 \x01(\x0e\x32\x12.RegionSearchState\x12\x18\n\x10region_search_id\x18\x08 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12RegionSearch.proto\x1a\x17RegionSearchState.proto\"q\n\x0cRegionSearch\x12!\n\x05state\x18\x02 \x01(\x0e\x32\x12.RegionSearchState\x12\x12\n\nis_entered\x18\x06 \x01(\x08\x12\x10\n\x08progress\x18\x05 \x01(\r\x12\x18\n\x10region_search_id\x18\x01 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RegionSearch_pb2', globals())

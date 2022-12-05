@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import PbNavMeshStatsInfo_pb2 as PbNavMeshStatsInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18NavMeshStatsNotify.proto\x1a\x18PbNavMeshStatsInfo.proto\"8\n\x12NavMeshStatsNotify\x12\"\n\x05infos\x18\x04 \x03(\x0b\x32\x13.PbNavMeshStatsInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18NavMeshStatsNotify.proto\x1a\x18PbNavMeshStatsInfo.proto\"8\n\x12NavMeshStatsNotify\x12\"\n\x05infos\x18\x03 \x03(\x0b\x32\x13.PbNavMeshStatsInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'NavMeshStatsNotify_pb2', globals())

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import StoreType_pb2 as StoreType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18StoreItemDelNotify.proto\x1a\x0fStoreType.proto\"G\n\x12StoreItemDelNotify\x12\x11\n\tguid_list\x18\x0c \x03(\x04\x12\x1e\n\nstore_type\x18\x0f \x01(\x0e\x32\n.StoreTypeb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18StoreItemDelNotify.proto\x1a\x0fStoreType.proto\"G\n\x12StoreItemDelNotify\x12\x1e\n\nstore_type\x18\x06 \x01(\x0e\x32\n.StoreType\x12\x11\n\tguid_list\x18\x08 \x03(\x04\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'StoreItemDelNotify_pb2', globals())

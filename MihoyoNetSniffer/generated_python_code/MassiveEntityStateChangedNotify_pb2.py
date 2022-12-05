@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import MassiveEntityState_pb2 as MassiveEntityState__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%MassiveEntityStateChangedNotify.proto\x1a\x18MassiveEntityState.proto\"Y\n\x1fMassiveEntityStateChangedNotify\x12\x36\n\x19massive_entity_state_list\x18\x04 \x03(\x0b\x32\x13.MassiveEntityStateb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%MassiveEntityStateChangedNotify.proto\x1a\x18MassiveEntityState.proto\"Y\n\x1fMassiveEntityStateChangedNotify\x12\x36\n\x19massive_entity_state_list\x18\x0e \x03(\x0b\x32\x13.MassiveEntityStateb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MassiveEntityStateChangedNotify_pb2', globals())

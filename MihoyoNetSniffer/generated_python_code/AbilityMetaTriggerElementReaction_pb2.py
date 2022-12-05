@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'AbilityMetaTriggerElementReaction.proto\"\xab\x01\n!AbilityMetaTriggerElementReaction\x12\x11\n\thit_index\x18\t \x01(\x05\x12\x1b\n\x13\x65lement_source_type\x18\x07 \x01(\r\x12\x1c\n\x14\x65lement_reactor_type\x18\x0c \x01(\r\x12\x19\n\x11trigger_entity_id\x18\x02 \x01(\r\x12\x1d\n\x15\x65lement_reaction_type\x18\x01 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'AbilityMetaTriggerElementReaction.proto\"\xa8\x01\n!AbilityMetaTriggerElementReaction\x12\x11\n\thit_index\x18\x07 \x01(\x05\x12\x19\n\x11trigger_entity_id\x18\x0e \x01(\r\x12\x1b\n\x13Unk3300_PHKFGIHELFG\x18\r \x01(\r\x12\x1b\n\x13Unk3300_OGILJCJPHPB\x18\x0c \x01(\r\x12\x1b\n\x13Unk3300_DGBGNEHDODI\x18\x02 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AbilityMetaTriggerElementReaction_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _ABILITYMETATRIGGERELEMENTREACTION._serialized_start=44
-  _ABILITYMETATRIGGERELEMENTREACTION._serialized_end=215
+  _ABILITYMETATRIGGERELEMENTREACTION._serialized_end=212
 # @@protoc_insertion_point(module_scope)

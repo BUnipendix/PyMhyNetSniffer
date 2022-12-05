@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14\x46\x61llPlayerInfo.proto\"\xd6\x01\n\x0e\x46\x61llPlayerInfo\x12\x11\n\ttime_cost\x18\x0b \x01(\r\x12\x0b\n\x03uid\x18\t \x01(\r\x12\x44\n\x14\x62\x61ll_catch_count_map\x18\x06 \x03(\x0b\x32&.FallPlayerInfo.BallCatchCountMapEntry\x12\x11\n\tcur_score\x18\x07 \x01(\r\x12\x11\n\tis_ground\x18\x0f \x01(\x08\x1a\x38\n\x16\x42\x61llCatchCountMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14\x46\x61llPlayerInfo.proto\"\xd6\x01\n\x0e\x46\x61llPlayerInfo\x12\x11\n\tcur_score\x18\x03 \x01(\r\x12\x11\n\tis_ground\x18\x0b \x01(\x08\x12\x44\n\x14\x62\x61ll_catch_count_map\x18\x01 \x03(\x0b\x32&.FallPlayerInfo.BallCatchCountMapEntry\x12\x0b\n\x03uid\x18\x05 \x01(\r\x12\x11\n\ttime_cost\x18\x08 \x01(\r\x1a\x38\n\x16\x42\x61llCatchCountMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FallPlayerInfo_pb2', globals())

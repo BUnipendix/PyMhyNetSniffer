@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%SetH5ActivityRedDotTimestampReq.proto\"C\n\x1fSetH5ActivityRedDotTimestampReq\x12 \n\x18\x63lient_red_dot_timestamp\x18\r \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%SetH5ActivityRedDotTimestampReq.proto\"C\n\x1fSetH5ActivityRedDotTimestampReq\x12 \n\x18\x63lient_red_dot_timestamp\x18\x02 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SetH5ActivityRedDotTimestampReq_pb2', globals())

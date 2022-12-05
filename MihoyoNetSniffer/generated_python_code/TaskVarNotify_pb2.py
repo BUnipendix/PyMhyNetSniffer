@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import TaskVar_pb2 as TaskVar__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13TaskVarNotify.proto\x1a\rTaskVar.proto\"0\n\rTaskVarNotify\x12\x1f\n\rtask_var_list\x18\x07 \x03(\x0b\x32\x08.TaskVarb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13TaskVarNotify.proto\x1a\rTaskVar.proto\"0\n\rTaskVarNotify\x12\x1f\n\rtask_var_list\x18\r \x03(\x0b\x32\x08.TaskVarb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TaskVarNotify_pb2', globals())

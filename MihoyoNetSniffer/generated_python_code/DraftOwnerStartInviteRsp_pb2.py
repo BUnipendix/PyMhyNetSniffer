@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import DraftInviteFailInfo_pb2 as DraftInviteFailInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x44raftOwnerStartInviteRsp.proto\x1a\x19\x44raftInviteFailInfo.proto\"\x85\x01\n\x18\x44raftOwnerStartInviteRsp\x12\x33\n\x15invite_fail_info_list\x18\x0f \x03(\x0b\x32\x14.DraftInviteFailInfo\x12\x0f\n\x07retcode\x18\t \x01(\x05\x12\x11\n\twrong_uid\x18\x03 \x01(\r\x12\x10\n\x08\x64raft_id\x18\x0e \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x44raftOwnerStartInviteRsp.proto\x1a\x19\x44raftInviteFailInfo.proto\"\x85\x01\n\x18\x44raftOwnerStartInviteRsp\x12\x33\n\x15invite_fail_info_list\x18\x0c \x03(\x0b\x32\x14.DraftInviteFailInfo\x12\x10\n\x08\x64raft_id\x18\x04 \x01(\r\x12\x0f\n\x07retcode\x18\x02 \x01(\x05\x12\x11\n\twrong_uid\x18\x06 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DraftOwnerStartInviteRsp_pb2', globals())

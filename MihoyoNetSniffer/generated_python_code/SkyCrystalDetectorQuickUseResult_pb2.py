@@ -11,16 +11,16 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import Unk2700_CCEOEOHLAPK_pb2 as Unk2700__CCEOEOHLAPK__pb2
+import SkyCrystalDetectorData_pb2 as SkyCrystalDetectorData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&SkyCrystalDetectorQuickUseResult.proto\x1a\x19Unk2700_CCEOEOHLAPK.proto\"f\n SkyCrystalDetectorQuickUseResult\x12\x31\n\x13Unk2700_COIELIGEACL\x18\t \x01(\x0b\x32\x14.Unk2700_CCEOEOHLAPK\x12\x0f\n\x07retcode\x18\x08 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&SkyCrystalDetectorQuickUseResult.proto\x1a\x1cSkyCrystalDetectorData.proto\"o\n SkyCrystalDetectorQuickUseResult\x12\x0f\n\x07retcode\x18\x02 \x01(\x05\x12:\n\x19sky_crystal_detector_data\x18\x04 \x01(\x0b\x32\x17.SkyCrystalDetectorDatab\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SkyCrystalDetectorQuickUseResult_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _SKYCRYSTALDETECTORQUICKUSERESULT._serialized_start=69
-  _SKYCRYSTALDETECTORQUICKUSERESULT._serialized_end=171
+  _SKYCRYSTALDETECTORQUICKUSERESULT._serialized_start=72
+  _SKYCRYSTALDETECTORQUICKUSERESULT._serialized_end=183
 # @@protoc_insertion_point(module_scope)

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10\x41iSyncInfo.proto\"T\n\nAiSyncInfo\x12\x11\n\tentity_id\x18\t \x01(\r\x12\x17\n\x0fis_self_killing\x18\x08 \x01(\x08\x12\x1a\n\x12has_path_to_target\x18\x04 \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10\x41iSyncInfo.proto\"Y\n\nAiSyncInfo\x12\x11\n\tentity_id\x18\x02 \x01(\r\x12\x1b\n\x13Unk3300_NOIPAMJJIDL\x18\x04 \x01(\x08\x12\x1b\n\x13Unk3300_EBICCLLGICG\x18\x0e \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AiSyncInfo_pb2', globals())
@@ -21,5 +21,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _AISYNCINFO._serialized_start=20
-  _AISYNCINFO._serialized_end=104
+  _AISYNCINFO._serialized_end=109
 # @@protoc_insertion_point(module_scope)

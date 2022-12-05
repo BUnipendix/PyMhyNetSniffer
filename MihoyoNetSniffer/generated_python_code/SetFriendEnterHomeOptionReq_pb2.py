@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import FriendEnterHomeOption_pb2 as FriendEnterHomeOption__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!SetFriendEnterHomeOptionReq.proto\x1a\x1b\x46riendEnterHomeOption.proto\"E\n\x1bSetFriendEnterHomeOptionReq\x12&\n\x06option\x18\x07 \x01(\x0e\x32\x16.FriendEnterHomeOptionb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!SetFriendEnterHomeOptionReq.proto\x1a\x1b\x46riendEnterHomeOption.proto\"E\n\x1bSetFriendEnterHomeOptionReq\x12&\n\x06option\x18\x08 \x01(\x0e\x32\x16.FriendEnterHomeOptionb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SetFriendEnterHomeOptionReq_pb2', globals())

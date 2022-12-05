@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import AiSyncInfo_pb2 as AiSyncInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x45ntityAiSyncNotify.proto\x1a\x10\x41iSyncInfo.proto\"_\n\x12\x45ntityAiSyncNotify\x12)\n!local_avatar_alerted_monster_list\x18\x0f \x03(\r\x12\x1e\n\tinfo_list\x18\x01 \x03(\x0b\x32\x0b.AiSyncInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x45ntityAiSyncNotify.proto\x1a\x10\x41iSyncInfo.proto\"_\n\x12\x45ntityAiSyncNotify\x12\x1e\n\tinfo_list\x18\x0e \x03(\x0b\x32\x0b.AiSyncInfo\x12)\n!local_avatar_alerted_monster_list\x18\r \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EntityAiSyncNotify_pb2', globals())

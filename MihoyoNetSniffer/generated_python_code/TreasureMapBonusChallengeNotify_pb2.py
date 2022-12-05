@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import TreasureMapBonusChallengeInfo_pb2 as TreasureMapBonusChallengeInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%TreasureMapBonusChallengeNotify.proto\x1a#TreasureMapBonusChallengeInfo.proto\"O\n\x1fTreasureMapBonusChallengeNotify\x12,\n\x04info\x18\x05 \x01(\x0b\x32\x1e.TreasureMapBonusChallengeInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%TreasureMapBonusChallengeNotify.proto\x1a#TreasureMapBonusChallengeInfo.proto\"O\n\x1fTreasureMapBonusChallengeNotify\x12,\n\x04info\x18\r \x01(\x0b\x32\x1e.TreasureMapBonusChallengeInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TreasureMapBonusChallengeNotify_pb2', globals())

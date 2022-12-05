@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%UpdatePlayerShowNameCardListRsp.proto\"R\n\x1fUpdatePlayerShowNameCardListRsp\x12\x0f\n\x07retcode\x18\r \x01(\x05\x12\x1e\n\x16show_name_card_id_list\x18\x0c \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%UpdatePlayerShowNameCardListRsp.proto\"R\n\x1fUpdatePlayerShowNameCardListRsp\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x12\x1e\n\x16show_name_card_id_list\x18\x02 \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'UpdatePlayerShowNameCardListRsp_pb2', globals())

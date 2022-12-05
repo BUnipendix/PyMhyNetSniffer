@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import HomeSceneArrangementInfo_pb2 as HomeSceneArrangementInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fHomeGetArrangementInfoRsp.proto\x1a\x1eHomeSceneArrangementInfo.proto\"l\n\x19HomeGetArrangementInfoRsp\x12\x0f\n\x07retcode\x18\x06 \x01(\x05\x12>\n\x1bscene_arrangement_info_list\x18\x0e \x03(\x0b\x32\x19.HomeSceneArrangementInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fHomeGetArrangementInfoRsp.proto\x1a\x1eHomeSceneArrangementInfo.proto\"l\n\x19HomeGetArrangementInfoRsp\x12>\n\x1bscene_arrangement_info_list\x18\r \x03(\x0b\x32\x19.HomeSceneArrangementInfo\x12\x0f\n\x07retcode\x18\x0b \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeGetArrangementInfoRsp_pb2', globals())

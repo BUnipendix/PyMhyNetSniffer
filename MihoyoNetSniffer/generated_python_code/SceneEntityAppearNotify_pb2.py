@@ -15,7 +15,7 @@ import SceneEntityInfo_pb2 as SceneEntityInfo__pb2
 import VisionType_pb2 as VisionType__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dSceneEntityAppearNotify.proto\x1a\x15SceneEntityInfo.proto\x1a\x10VisionType.proto\"q\n\x17SceneEntityAppearNotify\x12 \n\x0b\x61ppear_type\x18\x0f \x01(\x0e\x32\x0b.VisionType\x12\r\n\x05param\x18\t \x01(\r\x12%\n\x0b\x65ntity_list\x18\x05 \x03(\x0b\x32\x10.SceneEntityInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dSceneEntityAppearNotify.proto\x1a\x15SceneEntityInfo.proto\x1a\x10VisionType.proto\"q\n\x17SceneEntityAppearNotify\x12%\n\x0b\x65ntity_list\x18\x0f \x03(\x0b\x32\x10.SceneEntityInfo\x12 \n\x0b\x61ppear_type\x18\x01 \x01(\x0e\x32\x0b.VisionType\x12\r\n\x05param\x18\x07 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneEntityAppearNotify_pb2', globals())

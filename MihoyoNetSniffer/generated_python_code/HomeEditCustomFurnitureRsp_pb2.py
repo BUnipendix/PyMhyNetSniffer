@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import HomeCustomFurnitureInfo_pb2 as HomeCustomFurnitureInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n HomeEditCustomFurnitureRsp.proto\x1a\x1dHomeCustomFurnitureInfo.proto\"f\n\x1aHomeEditCustomFurnitureRsp\x12\x37\n\x15\x63ustom_furniture_info\x18\x0b \x01(\x0b\x32\x18.HomeCustomFurnitureInfo\x12\x0f\n\x07retcode\x18\x0e \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n HomeEditCustomFurnitureRsp.proto\x1a\x1dHomeCustomFurnitureInfo.proto\"f\n\x1aHomeEditCustomFurnitureRsp\x12\x0f\n\x07retcode\x18\x01 \x01(\x05\x12\x37\n\x15\x63ustom_furniture_info\x18\x02 \x01(\x0b\x32\x18.HomeCustomFurnitureInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeEditCustomFurnitureRsp_pb2', globals())

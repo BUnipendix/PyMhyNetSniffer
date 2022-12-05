@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15GroupLinkBundle.proto\x1a\x0cVector.proto\"\x92\x01\n\x0fGroupLinkBundle\x12\x17\n\x06\x63\x65nter\x18\x04 \x01(\x0b\x32\x07.Vector\x12\x14\n\x0cis_activated\x18\x0c \x01(\x08\x12\x11\n\tbundle_id\x18\x03 \x01(\r\x12\x1b\n\x13Unk2700_JKDNOPGKJAC\x18\x0e \x01(\x08\x12\x10\n\x08scene_id\x18\x05 \x01(\r\x12\x0e\n\x06radius\x18\x01 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15GroupLinkBundle.proto\x1a\x0cVector.proto\"\x8b\x01\n\x0fGroupLinkBundle\x12\x11\n\tbundle_id\x18\x01 \x01(\r\x12\x17\n\x06\x63\x65nter\x18\x0c \x01(\x0b\x32\x07.Vector\x12\x14\n\x0cis_show_mark\x18\x0b \x01(\x08\x12\x10\n\x08scene_id\x18\x02 \x01(\r\x12\x14\n\x0cis_activated\x18\n \x01(\x08\x12\x0e\n\x06radius\x18\x04 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GroupLinkBundle_pb2', globals())
@@ -22,5 +22,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _GROUPLINKBUNDLE._serialized_start=40
-  _GROUPLINKBUNDLE._serialized_end=186
+  _GROUPLINKBUNDLE._serialized_end=179
 # @@protoc_insertion_point(module_scope)

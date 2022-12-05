@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aProudSkillUpgradeRsp.proto\"T\n\x14ProudSkillUpgradeRsp\x12\x13\n\x0b\x61vatar_guid\x18\x06 \x01(\x04\x12\x16\n\x0eproud_skill_id\x18\n \x01(\r\x12\x0f\n\x07retcode\x18\x0f \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aProudSkillUpgradeRsp.proto\"T\n\x14ProudSkillUpgradeRsp\x12\x13\n\x0b\x61vatar_guid\x18\x03 \x01(\x04\x12\x16\n\x0eproud_skill_id\x18\x0f \x01(\r\x12\x0f\n\x07retcode\x18\r \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ProudSkillUpgradeRsp_pb2', globals())

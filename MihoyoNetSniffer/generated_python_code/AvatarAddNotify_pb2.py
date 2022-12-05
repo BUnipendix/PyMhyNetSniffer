@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import AvatarInfo_pb2 as AvatarInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x41vatarAddNotify.proto\x1a\x10\x41vatarInfo.proto\"B\n\x0f\x41vatarAddNotify\x12\x1b\n\x06\x61vatar\x18\r \x01(\x0b\x32\x0b.AvatarInfo\x12\x12\n\nis_in_team\x18\x0c \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x41vatarAddNotify.proto\x1a\x10\x41vatarInfo.proto\"B\n\x0f\x41vatarAddNotify\x12\x1b\n\x06\x61vatar\x18\x01 \x01(\x0b\x32\x0b.AvatarInfo\x12\x12\n\nis_in_team\x18\x0f \x01(\x08\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarAddNotify_pb2', globals())

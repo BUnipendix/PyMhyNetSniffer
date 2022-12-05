@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n GetBlossomBriefInfoListReq.proto\"2\n\x1aGetBlossomBriefInfoListReq\x12\x14\n\x0c\x63ity_id_list\x18\x04 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n GetBlossomBriefInfoListReq.proto\"2\n\x1aGetBlossomBriefInfoListReq\x12\x14\n\x0c\x63ity_id_list\x18\x07 \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetBlossomBriefInfoListReq_pb2', globals())

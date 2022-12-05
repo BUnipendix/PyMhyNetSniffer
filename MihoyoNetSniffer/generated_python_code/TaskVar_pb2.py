@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\rTaskVar.proto\"*\n\x07TaskVar\x12\x0b\n\x03key\x18\x08 \x01(\r\x12\x12\n\nvalue_list\x18\x06 \x03(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\rTaskVar.proto\"*\n\x07TaskVar\x12\x0b\n\x03key\x18\x02 \x01(\r\x12\x12\n\nvalue_list\x18\x07 \x03(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TaskVar_pb2', globals())

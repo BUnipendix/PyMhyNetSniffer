@@ -15,7 +15,7 @@ import ItemParam_pb2 as ItemParam__pb2
 import PlayerOfferingData_pb2 as PlayerOfferingData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17PlayerOfferingRsp.proto\x1a\x0fItemParam.proto\x1a\x18PlayerOfferingData.proto\"o\n\x11PlayerOfferingRsp\x12\x1d\n\titem_list\x18\x07 \x03(\x0b\x32\n.ItemParam\x12\x0f\n\x07retcode\x18\x04 \x01(\x05\x12*\n\roffering_data\x18\n \x01(\x0b\x32\x13.PlayerOfferingDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17PlayerOfferingRsp.proto\x1a\x0fItemParam.proto\x1a\x18PlayerOfferingData.proto\"o\n\x11PlayerOfferingRsp\x12\x0f\n\x07retcode\x18\x05 \x01(\x05\x12\x1d\n\titem_list\x18\x03 \x03(\x0b\x32\n.ItemParam\x12*\n\roffering_data\x18\n \x01(\x0b\x32\x13.PlayerOfferingDatab\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlayerOfferingRsp_pb2', globals())

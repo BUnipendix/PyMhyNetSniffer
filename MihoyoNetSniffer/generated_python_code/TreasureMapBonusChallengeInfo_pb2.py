@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#TreasureMapBonusChallengeInfo.proto\"\xe6\x01\n\x1dTreasureMapBonusChallengeInfo\x12\x0f\n\x07is_done\x18\x05 \x01(\x08\x12\x11\n\tconfig_id\x18\n \x01(\r\x12\x11\n\tis_active\x18\x01 \x01(\x08\x12\x45\n\x0c\x66ragment_map\x18\x0c \x03(\x0b\x32/.TreasureMapBonusChallengeInfo.FragmentMapEntry\x12\x13\n\x0bsolution_id\x18\x08 \x01(\r\x1a\x32\n\x10\x46ragmentMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\x08:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n#TreasureMapBonusChallengeInfo.proto\"\xe6\x01\n\x1dTreasureMapBonusChallengeInfo\x12\x0f\n\x07is_done\x18\x05 \x01(\x08\x12\x13\n\x0bsolution_id\x18\x0f \x01(\r\x12\x45\n\x0c\x66ragment_map\x18\x0b \x03(\x0b\x32/.TreasureMapBonusChallengeInfo.FragmentMapEntry\x12\x11\n\tis_active\x18\r \x01(\x08\x12\x11\n\tconfig_id\x18\n \x01(\r\x1a\x32\n\x10\x46ragmentMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\x08:\x02\x38\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TreasureMapBonusChallengeInfo_pb2', globals())

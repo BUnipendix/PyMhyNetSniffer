@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import FallPlayerInfo_pb2 as FallPlayerInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aSceneGalleryFallInfo.proto\x1a\x14\x46\x61llPlayerInfo.proto\"\xcf\x01\n\x14SceneGalleryFallInfo\x12U\n\x1ascene_player_fall_info_map\x18\x0c \x03(\x0b\x32\x31.SceneGalleryFallInfo.ScenePlayerFallInfoMapEntry\x12\x10\n\x08\x65nd_time\x18\x02 \x01(\r\x1aN\n\x1bScenePlayerFallInfoMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x1e\n\x05value\x18\x02 \x01(\x0b\x32\x0f.FallPlayerInfo:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aSceneGalleryFallInfo.proto\x1a\x14\x46\x61llPlayerInfo.proto\"\xcf\x01\n\x14SceneGalleryFallInfo\x12\x10\n\x08\x65nd_time\x18\x04 \x01(\r\x12U\n\x1ascene_player_fall_info_map\x18\x03 \x03(\x0b\x32\x31.SceneGalleryFallInfo.ScenePlayerFallInfoMapEntry\x1aN\n\x1bScenePlayerFallInfoMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x1e\n\x05value\x18\x02 \x01(\x0b\x32\x0f.FallPlayerInfo:\x02\x38\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneGalleryFallInfo_pb2', globals())

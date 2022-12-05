@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x41vatarCardChangeReq.proto\"J\n\x13\x41vatarCardChangeReq\x12\x0f\n\x07item_id\x18\x06 \x01(\r\x12\x13\n\x0b\x61vatar_guid\x18\x0e \x01(\x04\x12\r\n\x05\x63ount\x18\x07 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x41vatarCardChangeReq.proto\"J\n\x13\x41vatarCardChangeReq\x12\r\n\x05\x63ount\x18\x0b \x01(\r\x12\x0f\n\x07item_id\x18\x04 \x01(\r\x12\x13\n\x0b\x61vatar_guid\x18\x0e \x01(\x04\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AvatarCardChangeReq_pb2', globals())

@@ -15,7 +15,7 @@ import FishInfo_pb2 as FishInfo__pb2
 import FishingScore_pb2 as FishingScore__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x46ishingGallerySettleInfo.proto\x1a\x0e\x46ishInfo.proto\x1a\x12\x46ishingScore.proto\"\xba\x01\n\x18\x46ishingGallerySettleInfo\x12\x38\n\x08\x66ish_map\x18\x0b \x03(\x0b\x32&.FishingGallerySettleInfo.FishMapEntry\x12)\n\x12\x66ishing_score_list\x18\x0f \x03(\x0b\x32\r.FishingScore\x1a\x39\n\x0c\x46ishMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x18\n\x05value\x18\x02 \x01(\x0b\x32\t.FishInfo:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x46ishingGallerySettleInfo.proto\x1a\x0e\x46ishInfo.proto\x1a\x12\x46ishingScore.proto\"\xba\x01\n\x18\x46ishingGallerySettleInfo\x12)\n\x12\x66ishing_score_list\x18\x0f \x03(\x0b\x32\r.FishingScore\x12\x38\n\x08\x66ish_map\x18\n \x03(\x0b\x32&.FishingGallerySettleInfo.FishMapEntry\x1a\x39\n\x0c\x46ishMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\x18\n\x05value\x18\x02 \x01(\x0b\x32\t.FishInfo:\x02\x38\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FishingGallerySettleInfo_pb2', globals())

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!ActivitySelectAvatarCardRsp.proto\"V\n\x1b\x41\x63tivitySelectAvatarCardRsp\x12\x13\n\x0b\x61\x63tivity_id\x18\x04 \x01(\r\x12\x0f\n\x07retcode\x18\x03 \x01(\x05\x12\x11\n\treward_id\x18\t \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!ActivitySelectAvatarCardRsp.proto\"V\n\x1b\x41\x63tivitySelectAvatarCardRsp\x12\x0f\n\x07retcode\x18\x03 \x01(\x05\x12\x13\n\x0b\x61\x63tivity_id\x18\x0f \x01(\r\x12\x11\n\treward_id\x18\x02 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ActivitySelectAvatarCardRsp_pb2', globals())

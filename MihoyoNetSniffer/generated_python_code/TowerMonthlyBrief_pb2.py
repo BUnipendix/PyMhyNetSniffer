@@ -13,13 +13,13 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17TowerMonthlyBrief.proto\"|\n\x11TowerMonthlyBrief\x12\x19\n\x11tower_schedule_id\x18\x0f \x01(\r\x12\x18\n\x10\x62\x65st_floor_index\x18\x06 \x01(\r\x12\x18\n\x10\x62\x65st_level_index\x18\x03 \x01(\r\x12\x18\n\x10total_star_count\x18\x0c \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17TowerMonthlyBrief.proto\"\x85\x01\n\x11TowerMonthlyBrief\x12\x1b\n\x13Unk3300_AIFHPHDGEIE\x18\x03 \x01(\r\x12\x1b\n\x13Unk3300_CPNOLKAKHEJ\x18\x06 \x01(\r\x12\x1b\n\x13Unk3300_LEMOMFLHBLA\x18\t \x01(\r\x12\x19\n\x11tower_schedule_id\x18\r \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TowerMonthlyBrief_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _TOWERMONTHLYBRIEF._serialized_start=27
-  _TOWERMONTHLYBRIEF._serialized_end=151
+  _TOWERMONTHLYBRIEF._serialized_start=28
+  _TOWERMONTHLYBRIEF._serialized_end=161
 # @@protoc_insertion_point(module_scope)

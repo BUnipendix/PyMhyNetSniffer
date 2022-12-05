@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x45nterSceneReadyRsp.proto\"@\n\x12\x45nterSceneReadyRsp\x12\x19\n\x11\x65nter_scene_token\x18\x01 \x01(\r\x12\x0f\n\x07retcode\x18\x04 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x45nterSceneReadyRsp.proto\"@\n\x12\x45nterSceneReadyRsp\x12\x19\n\x11\x65nter_scene_token\x18\x0b \x01(\r\x12\x0f\n\x07retcode\x18\x08 \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EnterSceneReadyRsp_pb2', globals())

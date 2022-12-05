@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13MarkNewNotify.proto\"7\n\rMarkNewNotify\x12\x0f\n\x07id_list\x18\x07 \x03(\r\x12\x15\n\rmark_new_type\x18\x0b \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13MarkNewNotify.proto\"7\n\rMarkNewNotify\x12\x0f\n\x07id_list\x18\x07 \x03(\r\x12\x15\n\rmark_new_type\x18\x03 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MarkNewNotify_pb2', globals())

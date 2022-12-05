@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import ChessPlayerInfo_pb2 as ChessPlayerInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x43hessPlayerInfoNotify.proto\x1a\x15\x43hessPlayerInfo.proto\">\n\x15\x43hessPlayerInfoNotify\x12%\n\x0bplayer_info\x18\n \x01(\x0b\x32\x10.ChessPlayerInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x43hessPlayerInfoNotify.proto\x1a\x15\x43hessPlayerInfo.proto\">\n\x15\x43hessPlayerInfoNotify\x12%\n\x0bplayer_info\x18\x0c \x01(\x0b\x32\x10.ChessPlayerInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChessPlayerInfoNotify_pb2', globals())

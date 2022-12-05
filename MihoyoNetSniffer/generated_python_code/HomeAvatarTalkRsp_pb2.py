@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import HomeAvatarTalkFinishInfo_pb2 as HomeAvatarTalkFinishInfo__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17HomeAvatarTalkRsp.proto\x1a\x1eHomeAvatarTalkFinishInfo.proto\"Y\n\x11HomeAvatarTalkRsp\x12\x0f\n\x07retcode\x18\x08 \x01(\x05\x12\x33\n\x10\x61vatar_talk_info\x18\x03 \x01(\x0b\x32\x19.HomeAvatarTalkFinishInfob\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17HomeAvatarTalkRsp.proto\x1a\x1eHomeAvatarTalkFinishInfo.proto\"Y\n\x11HomeAvatarTalkRsp\x12\x0f\n\x07retcode\x18\n \x01(\x05\x12\x33\n\x10\x61vatar_talk_info\x18\x04 \x01(\x0b\x32\x19.HomeAvatarTalkFinishInfob\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeAvatarTalkRsp_pb2', globals())

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import QuestVarOp_pb2 as QuestVarOp__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cQuestUpdateQuestVarReq.proto\x1a\x10QuestVarOp.proto\"\x89\x01\n\x16QuestUpdateQuestVarReq\x12\x17\n\x0fparent_quest_id\x18\t \x01(\r\x12&\n\x11quest_var_op_list\x18\x04 \x03(\x0b\x32\x0b.QuestVarOp\x12\x10\n\x08quest_id\x18\x0b \x01(\r\x12\x1c\n\x14parent_quest_var_seq\x18\x01 \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cQuestUpdateQuestVarReq.proto\x1a\x10QuestVarOp.proto\"\x89\x01\n\x16QuestUpdateQuestVarReq\x12\x1c\n\x14parent_quest_var_seq\x18\x07 \x01(\r\x12&\n\x11quest_var_op_list\x18\x0b \x03(\x0b\x32\x0b.QuestVarOp\x12\x10\n\x08quest_id\x18\x05 \x01(\r\x12\x17\n\x0fparent_quest_id\x18\x02 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'QuestUpdateQuestVarReq_pb2', globals())

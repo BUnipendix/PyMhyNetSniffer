@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19VehicleLocationInfo.proto\x1a\x0cVector.proto\"\xac\x01\n\x13VehicleLocationInfo\x12\x14\n\x03rot\x18\x0e \x01(\x0b\x32\x07.Vector\x12\x11\n\tentity_id\x18\x0f \x01(\r\x12\x0e\n\x06\x63ur_hp\x18\x0b \x01(\x02\x12\x11\n\towner_uid\x18\x05 \x01(\r\x12\x14\n\x03pos\x18\x01 \x01(\x0b\x32\x07.Vector\x12\x10\n\x08uid_list\x18\x03 \x03(\r\x12\x11\n\tgadget_id\x18\r \x01(\r\x12\x0e\n\x06max_hp\x18\x06 \x01(\x02\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19VehicleLocationInfo.proto\x1a\x0cVector.proto\"\xc6\x01\n\x13VehicleLocationInfo\x12\x14\n\x03rot\x18\x05 \x01(\x0b\x32\x07.Vector\x12\x11\n\towner_uid\x18\x0b \x01(\r\x12\x10\n\x08uid_list\x18\x04 \x03(\r\x12\x1b\n\x13Unk3300_MLICEAKLOIH\x18\x02 \x01(\x02\x12\x14\n\x03pos\x18\t \x01(\x0b\x32\x07.Vector\x12\x11\n\tgadget_id\x18\x01 \x01(\r\x12\x11\n\tentity_id\x18\x0e \x01(\r\x12\x1b\n\x13Unk3300_MNNMOCIIEAJ\x18\x0f \x01(\x02\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'VehicleLocationInfo_pb2', globals())
@@ -22,5 +22,5 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _VEHICLELOCATIONINFO._serialized_start=44
-  _VEHICLELOCATIONINFO._serialized_end=216
+  _VEHICLELOCATIONINFO._serialized_end=242
 # @@protoc_insertion_point(module_scope)

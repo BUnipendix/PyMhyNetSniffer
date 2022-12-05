@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19HomeBlockDotPattern.proto\"B\n\x13HomeBlockDotPattern\x12\r\n\x05width\x18\x08 \x01(\r\x12\x0e\n\x06height\x18\x0b \x01(\r\x12\x0c\n\x04\x64\x61ta\x18\t \x01(\x0c\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19HomeBlockDotPattern.proto\"B\n\x13HomeBlockDotPattern\x12\r\n\x05width\x18\r \x01(\r\x12\x0c\n\x04\x64\x61ta\x18\x0c \x01(\x0c\x12\x0e\n\x06height\x18\x0b \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HomeBlockDotPattern_pb2', globals())

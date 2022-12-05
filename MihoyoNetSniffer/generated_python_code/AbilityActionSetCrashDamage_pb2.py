@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import Vector_pb2 as Vector__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!AbilityActionSetCrashDamage.proto\x1a\x0cVector.proto\"G\n\x1b\x41\x62ilityActionSetCrashDamage\x12\x18\n\x07hit_pos\x18\x02 \x01(\x0b\x32\x07.Vector\x12\x0e\n\x06\x64\x61mage\x18\x0f \x01(\x02\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!AbilityActionSetCrashDamage.proto\x1a\x0cVector.proto\"G\n\x1b\x41\x62ilityActionSetCrashDamage\x12\x0e\n\x06\x64\x61mage\x18\x02 \x01(\x02\x12\x18\n\x07hit_pos\x18\x08 \x01(\x0b\x32\x07.Vectorb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'AbilityActionSetCrashDamage_pb2', globals())

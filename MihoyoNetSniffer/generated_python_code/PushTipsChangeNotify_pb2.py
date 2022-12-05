@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import PushTipsData_pb2 as PushTipsData__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aPushTipsChangeNotify.proto\x1a\x12PushTipsData.proto\"=\n\x14PushTipsChangeNotify\x12%\n\x0epush_tips_list\x18\t \x03(\x0b\x32\r.PushTipsDatab\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aPushTipsChangeNotify.proto\x1a\x12PushTipsData.proto\"=\n\x14PushTipsChangeNotify\x12%\n\x0epush_tips_list\x18\x05 \x03(\x0b\x32\r.PushTipsDatab\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PushTipsChangeNotify_pb2', globals())

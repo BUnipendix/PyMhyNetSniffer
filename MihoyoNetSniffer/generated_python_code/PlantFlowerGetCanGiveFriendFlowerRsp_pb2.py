@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n*PlantFlowerGetCanGiveFriendFlowerRsp.proto\"\xd2\x01\n$PlantFlowerGetCanGiveFriendFlowerRsp\x12O\n\x0e\x66lower_num_map\x18\x06 \x03(\x0b\x32\x37.PlantFlowerGetCanGiveFriendFlowerRsp.FlowerNumMapEntry\x12\x13\n\x0bschedule_id\x18\x04 \x01(\r\x12\x0f\n\x07retcode\x18\x03 \x01(\x05\x1a\x33\n\x11\x46lowerNumMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n*PlantFlowerGetCanGiveFriendFlowerRsp.proto\"\xd2\x01\n$PlantFlowerGetCanGiveFriendFlowerRsp\x12O\n\x0e\x66lower_num_map\x18\x05 \x03(\x0b\x32\x37.PlantFlowerGetCanGiveFriendFlowerRsp.FlowerNumMapEntry\x12\x0f\n\x07retcode\x18\x03 \x01(\x05\x12\x13\n\x0bschedule_id\x18\r \x01(\r\x1a\x33\n\x11\x46lowerNumMapEntry\x12\x0b\n\x03key\x18\x01 \x01(\r\x12\r\n\x05value\x18\x02 \x01(\r:\x02\x38\x01\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PlantFlowerGetCanGiveFriendFlowerRsp_pb2', globals())

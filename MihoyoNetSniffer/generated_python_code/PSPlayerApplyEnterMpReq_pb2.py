@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dPSPlayerApplyEnterMpReq.proto\"0\n\x17PSPlayerApplyEnterMpReq\x12\x15\n\rtarget_psn_id\x18\x05 \x01(\tb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dPSPlayerApplyEnterMpReq.proto\"0\n\x17PSPlayerApplyEnterMpReq\x12\x15\n\rtarget_psn_id\x18\t \x01(\tb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'PSPlayerApplyEnterMpReq_pb2', globals())

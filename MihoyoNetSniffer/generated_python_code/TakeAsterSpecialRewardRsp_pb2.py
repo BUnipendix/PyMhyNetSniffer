@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fTakeAsterSpecialRewardRsp.proto\"A\n\x19TakeAsterSpecialRewardRsp\x12\x0f\n\x07retcode\x18\x0c \x01(\x05\x12\x13\n\x0bschedule_id\x18\x0e \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fTakeAsterSpecialRewardRsp.proto\"A\n\x19TakeAsterSpecialRewardRsp\x12\x0f\n\x07retcode\x18\x05 \x01(\x05\x12\x13\n\x0bschedule_id\x18\x01 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TakeAsterSpecialRewardRsp_pb2', globals())

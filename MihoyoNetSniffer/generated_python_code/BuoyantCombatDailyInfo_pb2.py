@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x42uoyantCombatDailyInfo.proto\"@\n\x16\x42uoyantCombatDailyInfo\x12\x12\n\nstart_time\x18\x02 \x01(\r\x12\x12\n\nbest_score\x18\r \x01(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x42uoyantCombatDailyInfo.proto\"@\n\x16\x42uoyantCombatDailyInfo\x12\x12\n\nbest_score\x18\x05 \x01(\r\x12\x12\n\nstart_time\x18\n \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BuoyantCombatDailyInfo_pb2', globals())

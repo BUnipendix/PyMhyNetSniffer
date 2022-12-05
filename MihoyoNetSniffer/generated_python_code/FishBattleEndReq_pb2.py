@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import FishBattleResult_pb2 as FishBattleResult__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x46ishBattleEndReq.proto\x1a\x16\x46ishBattleResult.proto\"m\n\x10\x46ishBattleEndReq\x12\x16\n\x0emax_bonus_time\x18\x03 \x01(\r\x12(\n\rbattle_result\x18\n \x01(\x0e\x32\x11.FishBattleResult\x12\x17\n\x0fis_always_bonus\x18\x0b \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x46ishBattleEndReq.proto\x1a\x16\x46ishBattleResult.proto\"m\n\x10\x46ishBattleEndReq\x12(\n\rbattle_result\x18\x0b \x01(\x0e\x32\x11.FishBattleResult\x12\x17\n\x0fis_always_bonus\x18\x03 \x01(\x08\x12\x16\n\x0emax_bonus_time\x18\x02 \x01(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FishBattleEndReq_pb2', globals())

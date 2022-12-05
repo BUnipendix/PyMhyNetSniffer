@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 import EquipParam_pb2 as EquipParam__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14GetMailItemRsp.proto\x1a\x10\x45quipParam.proto\"W\n\x0eGetMailItemRsp\x12\x0f\n\x07retcode\x18\x07 \x01(\x05\x12\x14\n\x0cmail_id_list\x18\x03 \x03(\r\x12\x1e\n\titem_list\x18\x02 \x03(\x0b\x32\x0b.EquipParamb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14GetMailItemRsp.proto\x1a\x10\x45quipParam.proto\"W\n\x0eGetMailItemRsp\x12\x1e\n\titem_list\x18\x06 \x03(\x0b\x32\x0b.EquipParam\x12\x14\n\x0cmail_id_list\x18\x03 \x03(\r\x12\x0f\n\x07retcode\x18\x07 \x01(\x05\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetMailItemRsp_pb2', globals())

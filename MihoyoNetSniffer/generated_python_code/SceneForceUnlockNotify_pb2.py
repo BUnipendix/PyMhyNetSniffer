@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cSceneForceUnlockNotify.proto\"?\n\x16SceneForceUnlockNotify\x12\x0e\n\x06is_add\x18\n \x01(\x08\x12\x15\n\rforce_id_list\x18\x02 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cSceneForceUnlockNotify.proto\"?\n\x16SceneForceUnlockNotify\x12\x0e\n\x06is_add\x18\x0f \x01(\x08\x12\x15\n\rforce_id_list\x18\x0b \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SceneForceUnlockNotify_pb2', globals())
