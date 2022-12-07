@@ -5,8 +5,8 @@ from base64 import b64encode
 def test(uid, packet):
 	try:
 		for i in packet.content.parent_quest_list:
-			if i.Unk2700_KHDDIJNOICK:
-				print(f'{i.parent_quest_id}: {i.Unk2700_KHDDIJNOICK}')
+			if i.video_key:
+				print(f'{i.parent_quest_id}: {i.video_key}')
 	except Exception:
 		pass
 
@@ -18,7 +18,7 @@ def test(uid, packet):
 from time import sleep
 # sleep(10)
 # a.stop()
-a = Sniffer(r"D:\yuanshen2\tmp\3.1.0\Sorapointa-Protos-3.1.0\cmdid.csv")
+a = Sniffer()
 print('完成')
 a.add_handle('FinishedParentQuestNotify', test)
 a.add_handle('FinishedParentQuestUpdateNotify', test)

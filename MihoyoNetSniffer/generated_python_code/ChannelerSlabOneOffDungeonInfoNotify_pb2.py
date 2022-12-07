@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n*ChannelerSlabOneOffDungeonInfoNotify.proto\"C\n$ChannelerSlabOneOffDungeonInfoNotify\x12\x1b\n\x13scheme_buff_id_list\x18\x06 \x03(\rb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n*ChannelerSlabOneOffDungeonInfoNotify.proto\"C\n$ChannelerSlabOneOffDungeonInfoNotify\x12\x1b\n\x13scheme_buff_id_list\x18\x08 \x03(\rb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChannelerSlabOneOffDungeonInfoNotify_pb2', globals())

@@ -1,8 +1,6 @@
+from os import path, sep
 from dataclasses import dataclass
-from os import PathLike
-
 from google.protobuf.message import Message
-
 from .packet import GameNetwork, Thread, Direction
 from .protbuf_parser import ProtobufParser
 
@@ -16,7 +14,8 @@ class ParsedPacket:
 
 
 class Sniffer:
-	def __init__(self, cmdid_path, pipe_name='genshin_packet_pipe', dump_file: str = None):
+	def __init__(self, pipe_name='genshin_packet_pipe', dump_file: str = None):
+		cmdid_path = path.dirname(path.abspath(__file__)) + sep + 'cmdid.csv'
 		self.socket_client = GameNetwork(pipe_name, dump_file)
 		self.protobuf_parser = ProtobufParser(cmdid_path)
 		self.handle = {}

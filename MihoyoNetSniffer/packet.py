@@ -7,6 +7,7 @@ from threading import Thread
 from win32file import ReadFile
 from win32pipe import CreateNamedPipe, ConnectNamedPipe, DisconnectNamedPipe, PIPE_ACCESS_DUPLEX, PIPE_TYPE_BYTE, \
 	PIPE_READMODE_BYTE, PIPE_WAIT
+from pywintypes import error as win32_error
 
 
 class PacketType(IntEnum):
@@ -100,8 +101,9 @@ class GameNetwork:
 					DisconnectNamedPipe(self._pipe)
 					queue.put(-1)
 					return
-			except BaseException as e:
+			except win32_error as e:
 				traceback.print_exc()
+				print(e)
 				self.status_sign = False
 				return
 			queue.put(packet)

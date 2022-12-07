@@ -12,17 +12,17 @@ _sym_db = _symbol_database.Default()
 
 
 import ClientCollectorData_pb2 as ClientCollectorData__pb2
-import OneofGatherPointDetectorData_pb2 as OneofGatherPointDetectorData__pb2
+import OneoffGatherPointDetectorData_pb2 as OneoffGatherPointDetectorData__pb2
 import SkyCrystalDetectorQuickUseResult_pb2 as SkyCrystalDetectorQuickUseResult__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17QuickUseWidgetRsp.proto\x1a\x19\x43lientCollectorData.proto\x1a\"OneofGatherPointDetectorData.proto\x1a&SkyCrystalDetectorQuickUseResult.proto\"\x87\x02\n\x11QuickUseWidgetRsp\x12\x13\n\x0bmaterial_id\x18\x0b \x01(\r\x12\x0f\n\x07retcode\x18\x0c \x01(\x05\x12\x36\n\rdetector_data\x18\x0e \x01(\x0b\x32\x1d.OneofGatherPointDetectorDataH\x00\x12\x35\n\x15\x63lient_collector_data\x18\n \x01(\x0b\x32\x14.ClientCollectorDataH\x00\x12T\n%sky_crystal_detector_quick_use_result\x18\xa2\xc2\n \x01(\x0b\x32!.SkyCrystalDetectorQuickUseResultH\x00\x42\x07\n\x05paramb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17QuickUseWidgetRsp.proto\x1a\x19\x43lientCollectorData.proto\x1a#OneoffGatherPointDetectorData.proto\x1a&SkyCrystalDetectorQuickUseResult.proto\"\x88\x02\n\x11QuickUseWidgetRsp\x12\x13\n\x0bmaterial_id\x18\x0b \x01(\r\x12\x0f\n\x07retcode\x18\x0c \x01(\x05\x12\x37\n\rdetector_data\x18\x0e \x01(\x0b\x32\x1e.OneoffGatherPointDetectorDataH\x00\x12\x35\n\x15\x63lient_collector_data\x18\n \x01(\x0b\x32\x14.ClientCollectorDataH\x00\x12T\n%sky_crystal_detector_quick_use_result\x18\xa2\xc2\n \x01(\x0b\x32!.SkyCrystalDetectorQuickUseResultH\x00\x42\x07\n\x05paramb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'QuickUseWidgetRsp_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _QUICKUSEWIDGETRSP._serialized_start=131
-  _QUICKUSEWIDGETRSP._serialized_end=394
+  _QUICKUSEWIDGETRSP._serialized_start=132
+  _QUICKUSEWIDGETRSP._serialized_end=396
 # @@protoc_insertion_point(module_scope)
