@@ -1,8 +1,8 @@
 from MihoyoNetSniffer.sniffer import Sniffer
-from MihoyoNetSniffer.packet import GameNetwork
-from base64 import b64encode
+from time import sleep
 
-def test(uid, packet):
+
+def test(_, packet):
 	try:
 		for i in packet.content.parent_quest_list:
 			if i.video_key:
@@ -11,22 +11,17 @@ def test(uid, packet):
 		pass
 
 
-
-
-#a = GameNetwork('genshin_packet_pipe')
-#a.start()
-from time import sleep
-# sleep(10)
-# a.stop()
 a = Sniffer()
-print('完成')
+print('initial success')
 a.add_handle('FinishedParentQuestNotify', test)
 a.add_handle('FinishedParentQuestUpdateNotify', test)
 a.start()
 try:
-	a.process_loop.join()
+	sleep(9999)
 except KeyboardInterrupt:
 	pass
 finally:
+	print('Stopping Sniffer...')
 	a.stop()
+	print('Stop success')
 	breakpoint()

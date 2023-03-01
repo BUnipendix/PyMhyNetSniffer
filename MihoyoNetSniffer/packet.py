@@ -71,20 +71,20 @@ class GameNetwork:
 		return self.read(length)
 
 	def _loop(self):
-		def exit_loop(err):
-			print(traceback.print_exc())
-			self.status_sign = False
-
 		queue = self._network_receive_queue
-		print('loopqdwg')
+		print('starting listening...')
 		try:
 			ConnectNamedPipe(self._pipe, None)
-		except BaseException as e:
+		except BaseException:
 			traceback.print_exc()
 			self.status_sign = False
-			return
-		print('连接成功')
+		print('connected')
 		while True:
+			if self.status_sign is False:
+				DisconnectNamedPipe(self._pipe)
+				print('disconnected')
+				queue.put(-1)
+				return
 			try:
 				packet = RawPacket(
 					packet_type=PacketType(int.from_bytes(self.read(4), 'little')),
@@ -96,17 +96,10 @@ class GameNetwork:
 					content=self.get_dynamic_length_data()
 				)
 				# print(packet.message_id)
-				if self.status_sign is False:
-					print('连接断开')
-					DisconnectNamedPipe(self._pipe)
-					queue.put(-1)
-					return
-			except win32_error as e:
+				queue.put(packet)
+			except win32_error:
 				traceback.print_exc()
-				print(e)
 				self.status_sign = False
-				return
-			queue.put(packet)
 
 	def get_packet(self):
 		uid = self._network_receive_queue.get()

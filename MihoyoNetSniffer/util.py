@@ -1,63 +1,51 @@
 import os
-from subprocess import Popen, DEVNULL
+from subprocess import Popen
 
 
 PROTO_COMPILER = r"D:\yuanshen2\ps\protoc-3.20.1-win64\bin\protoc.exe"
 
 
-def generate_code(input_path, output_path):
-	input_path = modify_path(input_path)
-	output_path = modify_path(output_path)
-	tasks = []
-	for i in os.listdir(input_path):
-		if not i.endswith('.proto'):
-			continue
-		tasks.append(
-			Popen((
-				PROTO_COMPILER,
-				'--proto_path=' + input_path,
-				'--python_out', output_path, i),
-				stdin=DEVNULL,  stdout=DEVNULL)
-		)
-	for i in tasks:
-		i.wait()
+def get_main_dir():
+	from os.path import dirname, abspath
+	return dirname(abspath(__file__))
 
 
-def remove_extra_info(input_path, output_path):
-	input_path = modify_path(input_path)
-	output_path = modify_path(output_path)
-	for i in os.listdir(input_path):
-		if not i.endswith('.proto'):
-			continue
-		name = input_path + i
-		tmp_name = output_path + i
-		with open(tmp_name, 'w', encoding='utf-8') as f:
+def generate_one_proto(input_path, output_path):
+	from pathlib import Path
+	with open(output_path, 'w', encoding='utf-8') as output_file:
+		output_file.write('syntax = "proto3";' '\n')
+		input_path = Path(input_path)
+		for i in input_path.iterdir():
+			if not i.name.endswith('.proto') or i.is_dir():
+				continue
 			get_top = False
-			for line in open(name, 'r', encoding='utf-8'):
-				if get_top is False and line.startswith('message'):
+			for line in i.open(encoding='utf-8'):
+				if get_top is False and line.startswith('message') or line.startswith('enum'):
 					get_top = True
-				if (not line.startswith('//')) and (not line.startswith('option') and (len(line) > 1 or get_top)):
-					f.write(line)
+					floor_count = 0
+					floor_start_flag = False
+				if get_top:
+					output_file.write(line)
+					floor_count += line.count('{')
+					if floor_count > 0 and floor_start_flag is False:
+						floor_start_flag = True
+					floor_count += line.count('}')
+					if floor_count <= 0 and floor_start_flag is True:
+						get_top = False
+	output_dir = os.path.dirname(output_path)
+	data = (PROTO_COMPILER, '--proto_path', output_dir, '--python_out', output_dir, output_path)
+	Popen(data)
 
 
-def modify_path(path):
-	if path:
-		path = path.replace('\\', '/')
-		if path[-1] != '/':
-			path = path + '/'
-	return path
+def json2csv(json_path, csv_path):
+	import json
+	with open(json_path, encoding='utf-8') as f:
+		data = json.load(f)
+	with open(csv_path, 'w', encoding='utf-8') as f:
+		for cmdid, field in data.items():
+			f.write(f'{field},{cmdid}\n')
 
 
-def varint(data):
-	num = 0
-	count = 0
-	for i in data:
-		num += i << count
-		if not (num >> 7):
-			break
-		count += 7
-	return num
-
-
-remove_extra_info(r'D:\Android\Sorapointa-Protos\proto', r'D:\Android\Sorapointa-Protos\sproto')
-generate_code(r'D:\Android\Sorapointa-Protos\sproto', r'D:\Android\PyMhyNetSniffer\MihoyoNetSniffer\generated_python_code')
+if __name__ == '__main__':
+	json2csv(r"D:\yuanshen2\3.5.0\deof_proto\packetIds.json", r"D:\yuanshen2\3.5.0\deof_proto\cmdid.csv")
+	generate_one_proto(r'D:\yuanshen2\3.5.0\deof_proto\protos', r'D:\yuanshen2\3.5.0\deof_proto\genshin_proto.proto')

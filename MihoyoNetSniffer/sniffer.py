@@ -1,6 +1,7 @@
-from os import path, sep
 from dataclasses import dataclass
+from time import localtime, strftime
 from google.protobuf.message import Message
+from google.protobuf.text_format import MessageToString
 from .packet import GameNetwork, Thread, Direction
 from .protbuf_parser import ProtobufParser
 
@@ -14,13 +15,25 @@ class ParsedPacket:
 
 
 class Sniffer:
-	def __init__(self, pipe_name='genshin_packet_pipe', dump_file: str = None):
-		cmdid_path = path.dirname(path.abspath(__file__)) + sep + 'cmdid.csv'
+	def __init__(self, pipe_name='genshin_packet_pipe', dump_file: str = None, enable_data_output=True):
+		from .util import get_main_dir
+		from os import sep
+		root = get_main_dir() + sep
+		cmdid_path = root + 'cmdid.csv'
+		if enable_data_output:
+			self._f_output = open('parsed_data.txt', 'w')
+		else:
+			self._f_output = None
 		self.socket_client = GameNetwork(pipe_name, dump_file)
 		self.protobuf_parser = ProtobufParser(cmdid_path)
 		self.handle = {}
 		self.process_loop = Thread(target=self._packet_process_loop)
 		self.packets = []
+
+	def log(self, info):
+		if self._f_output:
+			print(info, file=self._f_output)
+			self._f_output.flush()
 
 	def add_handle(self, packet_name, func):
 		packet_id = self.protobuf_parser.cmd_name_map[packet_name]
@@ -37,6 +50,8 @@ class Sniffer:
 	def stop(self):
 		self.socket_client.stop()
 		self.process_loop.join()
+		if self._f_output:
+			self._f_output.close()
 
 	def load_from_file(self, file_path):
 		def yield_wrapper():
@@ -56,11 +71,15 @@ class Sniffer:
 			raw_packet = get_packet()
 			if raw_packet is None:
 				return
-			# print(f'有消息:{self.protobuf_parser.get_packet_name(raw_packet.message_id)}')
+			time_tmp1 = str(raw_packet.time_stamp)
+			time_int = int(time_tmp1[:-3])
+			time_float = time_tmp1[-3:]
+			self.log(f'\n{strftime("%Y-%m-%d %H:%M:%S" ,localtime(time_int))}.{time_float}  有消息:{self.protobuf_parser.get_packet_name(raw_packet.message_id)}')
 			packet = ParsedPacket(
 				raw_packet.time_stamp, raw_packet.direction,
 				*self.protobuf_parser.parse_raw_packet(raw_packet)
 			)
+			print(MessageToString(packet.content, as_utf8=True, use_short_repeated_primitives=True), file=self._f_output)
 			count = len(self.packets)
 			self.packets.append(packet)
 			handles = self.handle.get(raw_packet.message_id, None)
@@ -69,3 +88,4 @@ class Sniffer:
 				continue
 			for handle in handles:
 				handle(count, packet)  # 到底要不要多线程呢
+
