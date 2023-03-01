@@ -72,8 +72,8 @@ class GameNetwork:
 
 	def _loop(self):
 		queue = self._network_receive_queue
-		print('starting listening...')
 		try:
+			print('start listening...')
 			ConnectNamedPipe(self._pipe, None)
 		except BaseException:
 			traceback.print_exc()

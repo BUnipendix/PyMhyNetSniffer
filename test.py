@@ -11,8 +11,8 @@ def test(_, packet):
 		pass
 
 
-a = Sniffer()
-print('initial success')
+a = Sniffer(cache_packet=False)
+print('Initial success')
 a.add_handle('FinishedParentQuestNotify', test)
 a.add_handle('FinishedParentQuestUpdateNotify', test)
 a.start()
