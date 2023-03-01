@@ -15,6 +15,11 @@ a = Sniffer(cache_packet=False)
 print('Initial success')
 a.add_handle('FinishedParentQuestNotify', test)
 a.add_handle('FinishedParentQuestUpdateNotify', test)
+
+#Example of whitelist and blacklist
+#a.add_to_list('FinishedParentQuestNotify', 'whitelist')
+#a.add_to_list('FinishedParentQuestUpdateNotify', 'blacklist')
+
 a.start()
 try:
 	sleep(9999)

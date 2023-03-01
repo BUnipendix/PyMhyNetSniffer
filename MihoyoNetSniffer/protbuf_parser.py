@@ -1,7 +1,7 @@
 import os.path
 import sys
 from importlib.util import spec_from_file_location, module_from_spec
-from .packet import RawPacket
+from MihoyoNetSniffer.packet import RawPacket
 from dataclasses import dataclass
 
 """parser_code_path = os.path.dirname(os.path.abspath(__file__)) + os.sep + 'generated_python_code'
