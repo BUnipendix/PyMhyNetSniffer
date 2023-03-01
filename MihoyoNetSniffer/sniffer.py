@@ -2,8 +2,8 @@ from dataclasses import dataclass
 from time import localtime, strftime
 from google.protobuf.message import Message
 from google.protobuf.text_format import MessageToString
-from .packet import GameNetwork, Thread, Direction
-from .protbuf_parser import ProtobufParser
+from MihoyoNetSniffer.packet import GameNetwork, Thread, Direction
+from MihoyoNetSniffer.protbuf_parser import ProtobufParser
 
 
 @dataclass
@@ -22,10 +22,9 @@ class Sniffer:
 		:param cache_packet: Enable cache packet in class
 		:param enable_data_output: Enable save readable data
 		"""
-		from .util import get_main_dir
-		from os import sep
+		from os import sep, getcwd
 		self.cache_packet_flag = cache_packet
-		root = get_main_dir() + sep
+		root = getcwd() + sep + 'MihoyoNetSniffer' + sep
 		cmdid_path = root + 'cmdid.csv'
 		if enable_data_output:
 			self._f_output = open('parsed_data.txt', 'w', encoding='utf-8')
@@ -68,7 +67,7 @@ class Sniffer:
 		def yield_wrapper():
 			return next(iter_obj, None)
 
-		from .packet import load_from_dump
+		from MihoyoNetSniffer.packet import load_from_dump
 		with open(file_path, 'rb') as f:
 			iter_obj = load_from_dump(f)
 			self._packet_process_loop(load_from_dump(yield_wrapper))
@@ -103,4 +102,3 @@ class Sniffer:
 				continue
 			for handle in handles:
 				handle(packet_time, packet)  # 到底要不要多线程呢
-
