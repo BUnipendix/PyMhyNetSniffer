@@ -1,4 +1,5 @@
 import traceback
+from logging import getLogger
 from dataclasses import dataclass
 from enum import IntEnum
 from queue import SimpleQueue
@@ -7,6 +8,8 @@ from win32file import ReadFile
 from win32pipe import CreateNamedPipe, ConnectNamedPipe, DisconnectNamedPipe, PIPE_ACCESS_DUPLEX, PIPE_TYPE_BYTE, \
 	PIPE_READMODE_BYTE, PIPE_WAIT
 from pywintypes import error as win32_error
+from .error import PipeError, FileEndError
+logger = getLogger('PipePacket')
 
 
 class PacketType(IntEnum):
@@ -43,6 +46,7 @@ class GameNetwork:
 		self._network_receive_loop = Thread(target=self._loop)
 		self.status_sign = False
 		if dump_file:
+			logger.info(f'Enable dump: {dump_file}')
 			self.dump_file = open(dump_file, 'wb')
 		else:
 			self.dump_file = None
@@ -50,21 +54,26 @@ class GameNetwork:
 	# self.packets = []
 
 	def start(self):
+		logger.debug('启动接收器')
 		self.status_sign = True
 		if self._network_receive_loop.is_alive() is False:
 			self._network_receive_loop.start()
+		logger.debug('启动成功')
 
 	def stop(self):
+		logger.debug('手动关闭接收器')
 		self.status_sign = False
 		if self._network_receive_loop.is_alive():
 			self._network_receive_loop.join()
+		logger.debug('关闭成功')
+
 
 	def read(self, length):
 		ret, data = ReadFile(self._pipe, length)
 		if ret:
-			raise '读取错误：错误码：%s， data：%s' % (ret, data)
+			raise PipeError(ret, data)
 		if len(data) < length:
-			raise f'错误长度：%s，%s' % (ret, data)
+			raise FileEndError(length, len(data), None)
 		if self.dump_file:
 			self.dump_file.write(data)
 		return data
@@ -81,12 +90,12 @@ class GameNetwork:
 		except BaseException:
 			traceback.print_exc()
 			self.status_sign = False
-		print('connected')
+		print('Connected')
 		self._running_event.set()
 		while True:
 			if self.status_sign is False:
 				DisconnectNamedPipe(self._pipe)
-				print('disconnected')
+				print('Disconnected')
 				queue.put(-1)
 				self._running_event.clear()
 				if self.dump_file:
@@ -118,20 +127,17 @@ class GameNetwork:
 		pass
 
 	def __del__(self):
+		logger.debug('回收实例')
 		self.stop()
 		if self.dump_file:
 			self.dump_file.close()
-
-
-class FileEnd(Exception):
-	pass
 
 
 def load_from_dump(file_obj):
 	def read(n):
 		data = file_obj.read(n)
 		if len(data) < n:
-			raise FileEnd()
+			raise FileEndError(n, len(data), file_obj)
 		return data
 
 	def get_dynamic_length_data():
@@ -148,5 +154,5 @@ def load_from_dump(file_obj):
 				get_dynamic_length_data(),
 				get_dynamic_length_data()
 			)
-		except FileEnd:
+		except FileEndError:
 			return

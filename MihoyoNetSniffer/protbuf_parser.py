@@ -1,12 +1,6 @@
-import os.path
-import sys
-from importlib.util import spec_from_file_location, module_from_spec
 from .packet import RawPacket
-from dataclasses import dataclass
-
-"""parser_code_path = os.path.dirname(os.path.abspath(__file__)) + os.sep + 'generated_python_code'
-sys.path.insert(0, parser_code_path)"""
-
+from logging import getLogger
+logger = getLogger('Parser')
 
 """def module_import_helper(cmd_name):
 	from .util import get_main_dir
@@ -29,7 +23,10 @@ def load_parsers(file):
 		cmd_name, cmd_id = line.split(',')
 		cmd_id = int(cmd_id[:-1])
 		cmd_name_map[cmd_name] = cmd_id
-		cmd_id_map[cmd_id] = raw_field_dict.get(cmd_name, None)
+		cmd_parser = raw_field_dict.get(cmd_name, None)
+		if cmd_parser is None:
+			logger.error('找不到protobuf解析器模块：' + cmd_name)
+		cmd_id_map[cmd_id] = cmd_parser
 	head_load = raw_field_dict.get('PacketHead', None)
 	return cmd_id_map, cmd_name_map, head_load
 
