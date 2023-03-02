@@ -1,13 +1,20 @@
 import os
 from subprocess import Popen
-
-
 PROTO_COMPILER = r"D:\yuanshen2\ps\protoc-3.20.1-win64\bin\protoc.exe"
 
 
 def get_main_dir():
 	from os.path import dirname, abspath
 	return dirname(abspath(__file__))
+
+
+def check_filename(filename):
+	new_filename, suffix = os.path.splitext(filename)
+	count = 1
+	while os.path.exists(new_filename + suffix):
+		new_filename = f'{filename}({count})'
+		count += 1
+	return new_filename + suffix
 
 
 def generate_one_proto(input_path, output_path):

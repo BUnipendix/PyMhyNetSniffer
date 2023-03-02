@@ -6,12 +6,12 @@ logger = logging.getLogger('MihoyoNetSniffer')
 logger.setLevel(logging.DEBUG)
 
 console_handler = logging.StreamHandler()
-console_formatter = logging.Formatter('%(asctime)s %(levelname)-8s: %(message)s')
+console_formatter = logging.Formatter('%(asctime)s %(name)s %(levelname)-4s: %(message)s')
 console_handler.setFormatter(console_formatter)
 logger.addHandler(console_handler)
 
 file_handler = logging.FileHandler('MihoyoNetSniffer.log', encoding='utf-8')
-file_formatter = logging.Formatter('%(asctime)s %(funcName)s %(levelname)-8s: %(message)s')
+file_formatter = logging.Formatter('%(asctime)s %(name)s %(levelname)-4s: %(message)s')
 file_handler.setFormatter(file_formatter)
 logger.addHandler(file_handler)
 

@@ -1,7 +1,7 @@
 from .packet import RawPacket
 from logging import getLogger
-logger = getLogger('Parser')
-
+from dataclasses import dataclass
+logger = getLogger('MihoyoNetSniffer.ProtobufParser')
 """def module_import_helper(cmd_name):
 	from .util import get_main_dir
 	if cmd_name + '_pb2' in sys.modules:
@@ -14,6 +14,12 @@ logger = getLogger('Parser')
 	return module.__dict__"""
 
 
+@dataclass
+class UnknownPacket:
+	message_id: int
+	content: bytes
+
+
 def load_parsers(file):
 	from importlib import import_module
 	cmd_id_map = {}
@@ -22,7 +28,7 @@ def load_parsers(file):
 	for line in file.readlines():
 		cmd_name, cmd_id = line.split(',')
 		cmd_id = int(cmd_id[:-1])
-		cmd_name_map[cmd_name] = cmd_id
+		cmd_name_map[cmd_name.lower()] = cmd_id
 		cmd_parser = raw_field_dict.get(cmd_name, None)
 		if cmd_parser is None:
 			logger.error('找不到protobuf解析器模块：' + cmd_name)
@@ -34,15 +40,19 @@ def load_parsers(file):
 class ProtobufParser:
 	def __init__(self, cmdid_path):
 		with open(cmdid_path, 'r') as f:
-			self.cmd_id_map, self.cmd_name_map, self.packet_header = load_parsers(f)
+			self._cmd_id_map, self._cmd_name_map, self.packet_header = load_parsers(f)
 
 	def parse_raw_packet(self, raw_packet: RawPacket):
 		header = self._parse_core(raw_packet.header, self.packet_header)
-		packet = self._parse_core(raw_packet.content, self.cmd_id_map[raw_packet.message_id])
+		parser = self._cmd_id_map.get(raw_packet.message_id, None)
+		if parser is None:
+			packet = UnknownPacket(raw_packet.message_id, raw_packet.content)
+		else:
+			packet = self._parse_core(raw_packet.content, parser)
 		return header, packet
 
 	def get_packet_name(self, packet_id: int):
-		return self.cmd_id_map[packet_id].DESCRIPTOR.name
+		return self._cmd_id_map[packet_id].DESCRIPTOR.name
 
 	@staticmethod
 	def _parse_core(raw_data: bytes, parser):
@@ -53,7 +63,12 @@ class ProtobufParser:
 		return parser
 
 	def __getitem__(self, item: int or str):
-		if isinstance(item, int):
-			return self.cmd_id_map[item]
-		if isinstance(item, str):
-			return self.cmd_id_map[self.cmd_name_map[item]]
+		try:
+			if isinstance(item, int):
+				return self._cmd_id_map[item]
+			if isinstance(item, str):
+				return self._cmd_id_map[self._cmd_name_map[item.lower()]]
+		except KeyError:
+			return None
+
+

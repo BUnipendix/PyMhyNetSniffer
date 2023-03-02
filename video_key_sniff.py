@@ -11,7 +11,7 @@ def test(_, packet):
 		pass
 
 
-a = Sniffer(cache_packet=False)
+a = Sniffer(dump_path=r'D:\yuanshen2\3.5.0\sniffer_log', cache_packet=False, enable_data_output=True)
 print('Initial success')
 a.add_handle('FinishedParentQuestNotify', test)
 a.add_handle('FinishedParentQuestUpdateNotify', test)

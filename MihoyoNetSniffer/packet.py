@@ -9,7 +9,8 @@ from win32pipe import CreateNamedPipe, ConnectNamedPipe, DisconnectNamedPipe, PI
 	PIPE_READMODE_BYTE, PIPE_WAIT
 from pywintypes import error as win32_error
 from .error import PipeError, FileEndError
-logger = getLogger('PipePacket')
+logger = getLogger('MihoyoNetSniffer.Packet')
+STOP_SIGNAL = -1
 
 
 class PacketType(IntEnum):
@@ -43,11 +44,11 @@ class GameNetwork:
 		self._network_receive_queue = SimpleQueue()
 		self._running_event = Event()
 		self.wait_for_connected = self._running_event.wait
-		self._network_receive_loop = Thread(target=self._loop)
+		self._network_receive_loop = Thread(target=self._loop, daemon=True)
 		self.status_sign = False
 		if dump_file:
 			logger.info(f'Enable dump: {dump_file}')
-			self.dump_file = open(dump_file, 'wb')
+			self.dump_file = open(dump_file, 'wb', buffering=1048576)
 		else:
 			self.dump_file = None
 
@@ -61,11 +62,14 @@ class GameNetwork:
 		logger.debug('启动成功')
 
 	def stop(self):
-		logger.debug('手动关闭接收器')
+		logger.debug('关闭接收器')
 		self.status_sign = False
 		if self._network_receive_loop.is_alive():
-			self._network_receive_loop.join()
+			self._network_receive_loop.join(timeout=10)
 		logger.debug('关闭成功')
+		running_flag = self._network_receive_loop.is_alive()
+		if running_flag:
+			self._network_receive_queue.put(STOP_SIGNAL)
 
 
 	def read(self, length):
@@ -85,18 +89,18 @@ class GameNetwork:
 	def _loop(self):
 		queue = self._network_receive_queue
 		try:
-			print('start listening...')
+			logger.info(f'开始监听pipe...')
 			ConnectNamedPipe(self._pipe, None)
 		except BaseException:
 			traceback.print_exc()
 			self.status_sign = False
-		print('Connected')
+		logger.info('连接成功')
 		self._running_event.set()
 		while True:
 			if self.status_sign is False:
 				DisconnectNamedPipe(self._pipe)
-				print('Disconnected')
-				queue.put(-1)
+				logger.info('断开连接')
+				queue.put(STOP_SIGNAL)
 				self._running_event.clear()
 				if self.dump_file:
 					self.dump_file.flush()
@@ -119,7 +123,7 @@ class GameNetwork:
 
 	def get_packet(self):
 		uid = self._network_receive_queue.get()
-		if uid != -1:
+		if uid != STOP_SIGNAL:
 			return uid
 
 	def send_packet(self, raw_packet):
@@ -127,8 +131,9 @@ class GameNetwork:
 		pass
 
 	def __del__(self):
-		logger.debug('回收实例')
-		self.stop()
+		if self._network_receive_loop.is_alive():
+			self.status_sign = False
+			self._network_receive_loop.join(timeout=5)
 		if self.dump_file:
 			self.dump_file.close()
 
