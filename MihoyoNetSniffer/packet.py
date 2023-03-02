@@ -2,8 +2,7 @@ import traceback
 from dataclasses import dataclass
 from enum import IntEnum
 from queue import SimpleQueue
-from threading import Thread
-
+from threading import Thread, Event
 from win32file import ReadFile
 from win32pipe import CreateNamedPipe, ConnectNamedPipe, DisconnectNamedPipe, PIPE_ACCESS_DUPLEX, PIPE_TYPE_BYTE, \
 	PIPE_READMODE_BYTE, PIPE_WAIT
@@ -39,6 +38,8 @@ class GameNetwork:
 			PIPE_ACCESS_DUPLEX, PIPE_TYPE_BYTE | PIPE_READMODE_BYTE | PIPE_WAIT,
 			1, 256 * 1024, 256 * 1024, 0xFFFF, None)
 		self._network_receive_queue = SimpleQueue()
+		self._running_event = Event()
+		self.wait_for_connected = self._running_event.wait
 		self._network_receive_loop = Thread(target=self._loop)
 		self.status_sign = False
 		if dump_file:
@@ -50,11 +51,13 @@ class GameNetwork:
 
 	def start(self):
 		self.status_sign = True
-		self._network_receive_loop.start()
+		if self._network_receive_loop.is_alive() is False:
+			self._network_receive_loop.start()
 
 	def stop(self):
 		self.status_sign = False
-		self._network_receive_loop.join()
+		if self._network_receive_loop.is_alive():
+			self._network_receive_loop.join()
 
 	def read(self, length):
 		ret, data = ReadFile(self._pipe, length)
@@ -79,11 +82,15 @@ class GameNetwork:
 			traceback.print_exc()
 			self.status_sign = False
 		print('connected')
+		self._running_event.set()
 		while True:
 			if self.status_sign is False:
 				DisconnectNamedPipe(self._pipe)
 				print('disconnected')
 				queue.put(-1)
+				self._running_event.clear()
+				if self.dump_file:
+					self.dump_file.flush()
 				return
 			try:
 				packet = RawPacket(
@@ -116,15 +123,30 @@ class GameNetwork:
 			self.dump_file.close()
 
 
+class FileEnd(Exception):
+	pass
+
+
 def load_from_dump(file_obj):
+	def read(n):
+		data = file_obj.read(n)
+		if len(data) < n:
+			raise FileEnd()
+		return data
+
+	def get_dynamic_length_data():
+		length = int.from_bytes(read(8), 'little')
+		return read(length)
+
 	from struct import Struct
-	header = Struct('IQ?IH')
+	header = Struct('<IQ?IH')
 	while True:
-		data = file_obj.read(header.size)
-		if not data:
+		try:
+			tmp1 = header.unpack(read(header.size))
+			yield RawPacket(
+				*tmp1,
+				get_dynamic_length_data(),
+				get_dynamic_length_data()
+			)
+		except FileEnd:
 			return
-		yield RawPacket(
-			*header.unpack(data),
-			GameNetwork.get_dynamic_length_data(file_obj),
-			GameNetwork.get_dynamic_length_data(file_obj)
-		)

@@ -1,5 +1,6 @@
 from dataclasses import dataclass
 from time import localtime, strftime
+from sortedcontainers.sorteddict import SortedDict
 from google.protobuf.message import Message
 from google.protobuf.text_format import MessageToString
 from .packet import GameNetwork, Thread, Direction
@@ -32,11 +33,11 @@ class Sniffer:
 		else:
 			self._f_output = None
 		self.socket_client = GameNetwork(pipe_name, dump_file)
+		self.wait_for_connected = self.socket_client.wait_for_connected
 		self.protobuf_parser = ProtobufParser(cmdid_path)
 		self.handle = {}
-		self.packet_time_index = {}
-		self.process_loop = Thread(target=self._packet_process_loop)
-		self.packets = []
+		self._process_loop = Thread(target=self._packet_process_loop)
+		self.packets = SortedDict()
 
 	def log(self, info):
 		if self._f_output:
@@ -53,25 +54,33 @@ class Sniffer:
 
 	def start(self):
 		self.socket_client.start()
-		self.process_loop.start()
+		if self._process_loop.is_alive() is False:
+			self._process_loop.start()
 
 	def stop(self):
 		self.socket_client.stop()
-		self.process_loop.join()
-		if self._f_output:
-			self._f_output.close()
+		if self._process_loop.is_alive():
+			self._process_loop.join()
+
+	def look_for_packets_in_range_time(self, min_time: int, max_time: int, inclusive=(True,True)):
+		for time in self.packets.irange(min_time, max_time, inclusive):
+			yield time, self.packets[time]
+
+	def add_packet(self, packet: ParsedPacket):
+		self.packets[packet.time_stamp] = packet
 
 	def load_from_file(self, file_path):
 		"""
 		Load dump data from file and saved in file
 		"""
-		def yield_wrapper():
-			return next(iter_obj, None)
-
 		from .packet import load_from_dump
 		with open(file_path, 'rb') as f:
-			iter_obj = load_from_dump(f)
-			self._packet_process_loop(load_from_dump(yield_wrapper))
+			for raw_packet in load_from_dump(f):
+				packet = ParsedPacket(
+					raw_packet.time_stamp, raw_packet.direction,
+					*self.protobuf_parser.parse_raw_packet(raw_packet)
+				)
+				self.add_packet(packet)
 
 	def _packet_process_loop(self, override_func=None):
 		if override_func:
@@ -82,25 +91,31 @@ class Sniffer:
 			raw_packet = get_packet()
 			if raw_packet is None:
 				return
-			packet_time = raw_packet.time_stamp
-			time_int, time_float = divmod(packet_time, 1000)
-			self.log(f'\n{strftime("%Y-%m-%d %H:%M:%S" ,localtime(time_int))}.{time_float}  有消息:{self.protobuf_parser.get_packet_name(raw_packet.message_id)}')
+			message_id = raw_packet.message_id
 			packet = ParsedPacket(
 				raw_packet.time_stamp, raw_packet.direction,
 				*self.protobuf_parser.parse_raw_packet(raw_packet)
 			)
-			if isinstance(packet.content, Message):
-				print_data = MessageToString(packet.content, as_utf8=True, use_short_repeated_primitives=True)
-			else:
-				print_data = packet.content
-			self.log(print_data)
-			if self.cache_packet_flag:
-				self.packet_time_index[packet_time] = len(self.packets)
-				self.packets.append(packet)
-			handles = self.handle.get(raw_packet.message_id, None)
 			del raw_packet
+			# print packet info
+			if self._f_output:
+				time_int, time_float = divmod(packet.time_stamp, 1000)
+				self.log(f'\n{strftime("%Y-%m-%d %H:%M:%S" ,localtime(time_int))}.{time_float}  有消息:{self.protobuf_parser.get_packet_name(message_id)}')
+				if isinstance(packet.content, Message):
+					print_data = MessageToString(packet.content, as_utf8=True, use_short_repeated_primitives=True)
+				else:
+					print_data = packet.content
+				self.log(print_data)
+			if self.cache_packet_flag:
+				self.add_packet(packet)
+			handles = self.handle.get(message_id, None)
 			if not handles:
 				continue
 			for handle in handles:
-				handle(packet_time, packet)  # 到底要不要多线程呢
+				handle(packet.time_stamp, packet)  # 到底要不要多线程呢
+
+	def __del__(self):
+		self.stop()
+		if self._f_output:
+			self._f_output.close()
 

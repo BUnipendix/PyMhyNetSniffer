@@ -134,3 +134,4 @@ dmypy.json
 
 # costom
 *data.txt
+*.bin
