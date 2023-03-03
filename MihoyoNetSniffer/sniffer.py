@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 from dataclasses import dataclass
 from time import localtime, strftime
 from logging import getLogger
@@ -7,7 +8,7 @@ from sortedcontainers.sorteddict import SortedDict
 from collections import defaultdict
 from google.protobuf.message import Message
 from google.protobuf.text_format import MessageToString
-from .packet import GameNetwork, Thread, Direction
+from .packet import PipePacketStream, Thread, Direction
 from .protbuf_parser import ProtobufParser, UnknownPacket
 from .util import check_filename
 logger = getLogger('MihoyoNetSniffer.Sniffer')
@@ -20,43 +21,48 @@ class ParsedPacket:
 	content: Message or UnknownPacket
 
 
+@dataclass
+class WrappedCommand:
+	cmd_list: list[str]
+
+
 class Sniffer:
 	def __init__(
 			self,
 			pipe_name='genshin_packet_pipe',
 			dump_path: str = None,
-			white_list_mode=False,
+			whitelist_mode=False,
 			cache_packet=True,
 			enable_data_output=False):
 		"""
 		:param pipe_name: Cheat output pipe name
 		:param dump_path: Dump file path
-		:param white_list_mode: not enable is blacklist mode
+		:param whitelist_mode: not enable is blacklist mode
 		use add_to_list/remove_from_list to change the blacklist/whitelist
 		:param cache_packet: Enable cache packet in class
 		:param enable_data_output: Enable save readable data
 		"""
 		from .util import get_main_dir
-		from os import sep
 		self.cache_packet_flag = cache_packet
-		root = get_main_dir() + sep
-		cmdid_path = root + 'cmdid.csv'
+		root = Path(get_main_dir())
+		cmdid_path = root / 'cmdid.csv'
 		if enable_data_output:
 			logger.info('Enable parsed data output')
 			self._data_output = open(check_filename('parsed_data.txt'), 'w', encoding='utf-8')
 		else:
 			self._data_output = None
 		if dump_path:
-			dump_filename = dump_path + os.sep + strftime("GenshinKCP-%Y-%m-%d-%H-%M-%S.dump", localtime())
+			dump_path = Path(dump_path)
+			dump_filename = dump_path / strftime("GenshinKCP-%Y-%m-%d-%H-%M-%S.dump", localtime())
 		else:
 			dump_filename = None
-		self.socket_client = GameNetwork(pipe_name, dump_filename)
+		self.socket_client = PipePacketStream(pipe_name, dump_filename)
 		self.wait_for_connected = self.socket_client.wait_for_connected
 		self.protobuf_parser = ProtobufParser(cmdid_path)
 		self.handles = defaultdict(list)
 		self._process_loop = Thread(target=self._packet_process_loop)
 		self.packets = SortedDict()
-		self.white_list_mode = white_list_mode
+		self._whitelist_mode = whitelist_mode
 		self._filter_list = set()  # black or white list
 
 	def _data_log(self, info):
@@ -112,7 +118,7 @@ class Sniffer:
 
 	def add_packet(self, packet: ParsedPacket):
 		message_id = self.protobuf_parser[packet.__class__.__name__]
-		if (message_id in self._filter_list) ^ self.white_list_mode:
+		if (message_id in self._filter_list) ^ self._whitelist_mode:
 			self._add_packet(packet)
 
 	def load_from_file(self, file_path):
@@ -155,7 +161,7 @@ class Sniffer:
 				return
 			message_id = raw_packet.message_id
 
-			if (message_id in self._filter_list) ^ self.white_list_mode:
+			if (message_id in self._filter_list) ^ self._whitelist_mode:
 				continue
 
 			packet = ParsedPacket(

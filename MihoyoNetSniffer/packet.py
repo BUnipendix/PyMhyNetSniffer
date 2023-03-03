@@ -1,4 +1,5 @@
 import traceback
+from pathlib import Path
 from logging import getLogger
 from dataclasses import dataclass
 from enum import IntEnum
@@ -35,24 +36,37 @@ class RawPacket:
 	content: bytes = b''
 
 
-class GameNetwork:
-	def __init__(self, name, dump_file: str = None):
+class PipePacketStream:
+	def __init__(
+			self,
+			pipe_name='genshin_packet_pipe',
+			dump_file: str or Path = None,
+			dump_only_mode=False):
+
+		# output pipe
 		self._pipe = CreateNamedPipe(
-			'\\\\.\\pipe\\' + name,
+			'\\\\.\\pipe\\' + pipe_name,
 			PIPE_ACCESS_DUPLEX, PIPE_TYPE_BYTE | PIPE_READMODE_BYTE | PIPE_WAIT,
 			1, 256 * 1024, 256 * 1024, 0xFFFF, None)
-		self._network_receive_queue = SimpleQueue()
+
+		if dump_file and dump_only_mode:
+			self._network_receive_loop = None
+		else:
+			self._network_receive_queue = SimpleQueue()
+
+		# thread
 		self._running_event = Event()
 		self.wait_for_connected = self._running_event.wait
 		self._network_receive_loop = Thread(target=self._loop, daemon=True)
 		self.status_sign = False
+
+		# dump
 		if dump_file:
-			logger.info(f'Enable dump: {dump_file}')
-			self.dump_file = open(dump_file, 'wb', buffering=1048576)
+			dump_file = Path(dump_file)
+			logger.info(f'Enable dump: {dump_file.name}')
+			self.dump_file = dump_file.open('wb', buffering=1048576)
 		else:
 			self.dump_file = None
-
-	# self.packets = []
 
 	def start(self):
 		logger.debug('启动接收器')
