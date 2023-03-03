@@ -1,6 +1,7 @@
 from .packet import RawPacket
 from logging import getLogger
 from dataclasses import dataclass
+from google.protobuf import json_format
 logger = getLogger('MihoyoNetSniffer.ProtobufParser')
 """def module_import_helper(cmd_name):
 	from .util import get_main_dir
@@ -40,22 +41,24 @@ def load_parsers(file):
 class ProtobufParser:
 	def __init__(self, cmdid_path):
 		with open(cmdid_path, 'r') as f:
-			self._cmd_id_map, self._cmd_name_map, self.packet_header = load_parsers(f)
+			self._cmd_id_map, self._cmd_name_map, self.packet_header_parser = load_parsers(f)
 
-	def parse_raw_packet(self, raw_packet: RawPacket):
-		header = self._parse_core(raw_packet.header, self.packet_header)
-		parser = self._cmd_id_map.get(raw_packet.message_id, None)
+	def parse_packet(self, message_id, content):
+		parser = self.get_packet_parser(message_id)
 		if parser is None:
-			packet = UnknownPacket(raw_packet.message_id, raw_packet.content)
+			packet = UnknownPacket(message_id, content)
 		else:
-			packet = self._parse_core(raw_packet.content, parser)
-		return header, packet
+			packet = self.parse_core(content, parser)
+		return packet
 
-	def get_packet_name(self, packet_id: int):
-		return self._cmd_id_map[packet_id].DESCRIPTOR.name
+	def parse_header(self, header):
+		return self.parse_core(header, self.packet_header_parser)
+
+	def get_packet_parser(self, packet_id: int):
+		return self._cmd_id_map.get(packet_id, None)
 
 	@staticmethod
-	def _parse_core(raw_data: bytes, parser):
+	def parse_core(raw_data: bytes, parser):
 		if parser is None:
 			return raw_data
 		parser = parser()
@@ -65,10 +68,17 @@ class ProtobufParser:
 	def __getitem__(self, item: int or str):
 		try:
 			if isinstance(item, int):
-				return self._cmd_id_map[item]
+				return self._cmd_id_map[item].DESCRIPTOR.name
 			if isinstance(item, str):
-				return self._cmd_id_map[self._cmd_name_map[item.lower()]]
+				return self._cmd_name_map[item.lower()]
 		except KeyError:
 			return None
 
 
+def json2pb(data, parser):
+	message = parser()
+	return json_format.ParseDict(data, message)
+
+
+def pb2json(message):
+	return json_format.MessageToDict(message)

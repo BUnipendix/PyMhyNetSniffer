@@ -1,4 +1,3 @@
-import os
 from pathlib import Path
 from dataclasses import dataclass
 from time import localtime, strftime
@@ -7,11 +6,11 @@ from traceback import format_exc
 from sortedcontainers.sorteddict import SortedDict
 from collections import defaultdict
 from google.protobuf.message import Message
-from google.protobuf.text_format import MessageToString
-from .packet import PipePacketStream, Thread, Direction
+from .packet import PipePacketStream, Thread, Direction, RawPacket
 from .protbuf_parser import ProtobufParser, UnknownPacket
 from .util import check_filename
 logger = getLogger('MihoyoNetSniffer.Sniffer')
+
 
 @dataclass
 class ParsedPacket:
@@ -21,9 +20,10 @@ class ParsedPacket:
 	content: Message or UnknownPacket
 
 
-@dataclass
-class WrappedCommand:
-	cmd_list: list[str]
+class MessageList(list):
+	def __str__(self):
+		cmd_str = "\n".join((i.DESCRIPTOR.name + ':\n' + str(i) for i in self))
+		return f'cmd_list [\n{cmd_str}]'
 
 
 class Sniffer:
@@ -44,31 +44,44 @@ class Sniffer:
 		"""
 		from .util import get_main_dir
 		self.cache_packet_flag = cache_packet
+		self._whitelist_mode = whitelist_mode
+		self._process_loop = Thread(target=self._packet_process_loop)
 		root = Path(get_main_dir())
 		cmdid_path = root / 'cmdid.csv'
+
 		if enable_data_output:
 			logger.info('Enable parsed data output')
 			self._data_output = open(check_filename('parsed_data.txt'), 'w', encoding='utf-8')
 		else:
 			self._data_output = None
+
 		if dump_path:
 			dump_path = Path(dump_path)
 			dump_filename = dump_path / strftime("GenshinKCP-%Y-%m-%d-%H-%M-%S.dump", localtime())
 		else:
 			dump_filename = None
+
 		self.socket_client = PipePacketStream(pipe_name, dump_filename)
 		self.wait_for_connected = self.socket_client.wait_for_connected
 		self.protobuf_parser = ProtobufParser(cmdid_path)
+		self._union_cmd_notify_id = self.protobuf_parser['UnionCmdNotify']
+
 		self.handles = defaultdict(list)
-		self._process_loop = Thread(target=self._packet_process_loop)
 		self.packets = SortedDict()
-		self._whitelist_mode = whitelist_mode
 		self._filter_list = set()  # black or white list
 
-	def _data_log(self, info):
-		if self._data_output:
-			print(info, file=self._data_output)
-			self._data_output.flush()
+	def start(self):
+		logger.debug('启动抓包器')
+		self.socket_client.start()
+		if self._process_loop.is_alive() is False:
+			self._process_loop.start()
+
+	def stop(self):
+		logger.debug('关闭抓包器')
+		self.socket_client.stop()
+		if self._process_loop.is_alive():
+			self._process_loop.join()
+		logger.debug('关闭成功')
 
 	def add_to_list(self, *packet_name):
 		"""
@@ -95,57 +108,70 @@ class Sniffer:
 		packet_id = self.protobuf_parser[packet_name]
 		self.handles[packet_id].append(func)
 
-	def start(self):
-		logger.debug('启动抓包器')
-		self.socket_client.start()
-		if self._process_loop.is_alive() is False:
-			self._process_loop.start()
-
-	def stop(self):
-		logger.debug('关闭抓包器')
-		self.socket_client.stop()
-		if self._process_loop.is_alive():
-			self._process_loop.join()
-		logger.debug('关闭成功')
-
 	def look_for_packets_in_range_time(self, min_time: int, max_time: int, inclusive=(True,True)):
 		for time in self.packets.irange(min_time, max_time, inclusive):
 			yield time, self.packets[time]
 
-	def _add_packet(self, packet: ParsedPacket):
-		logger.debug(f'添加包{packet.content.__class__.__name__}')
-		self.packets[packet.time_stamp] = packet
-
-	def add_packet(self, packet: ParsedPacket):
-		message_id = self.protobuf_parser[packet.__class__.__name__]
-		if (message_id in self._filter_list) ^ self._whitelist_mode:
-			self._add_packet(packet)
-
-	def load_from_file(self, file_path):
+	def load_from_file(self, file_path, call_handle=False):
 		"""
 		Load dump data from file and saved in file
 		"""
 		from .packet import load_from_dump
 		with open(file_path, 'rb') as f:
 			for raw_packet in load_from_dump(f):
-				packet = ParsedPacket(
-					raw_packet.time_stamp, raw_packet.direction,
-					*self.protobuf_parser.parse_raw_packet(raw_packet)
-				)
-				self._add_packet(packet)
+				packet = self.parse_raw_packet(raw_packet, call_handle)
+				if packet:
+					self._add_packet(packet)
 
-	@staticmethod
-	def generate_printed_packet(packet: ParsedPacket):
-		time_int, time_float = divmod(packet.time_stamp, 1000)
-		if isinstance(packet.content, Message):
-			print_data = MessageToString(packet.content, as_utf8=True, use_short_repeated_primitives=True)
-			packet_name = packet.content.__class__.__name__
+	def parse_raw_packet(self, raw_packet: RawPacket, call_handle):
+		message = self._message_global_process(
+			raw_packet.message_id, raw_packet.content,
+			call_handle, raw_packet.time_stamp
+		)
+		if not message:
+			return
+		header = self.protobuf_parser.parse_header(raw_packet.header)
+		return ParsedPacket(
+			raw_packet.time_stamp, raw_packet.direction,
+			header, message
+		)
+
+	def _add_packet(self, packet: ParsedPacket):
+		self.packets[packet.time_stamp] = packet
+
+	def _message_global_process(
+			self,
+			message_id: int,
+			body: bytes or bytearray,
+			need_handle_callback,
+			time_stamp=0):
+		"""使用了递归不断解析UnionCmdNotify"""
+		message = self.protobuf_parser.parse_packet(message_id, body)
+
+		if message_id == self._union_cmd_notify_id:
+			# 处理messageList
+			new_list = []
+			for i in message.cmd_list:
+				# 套娃
+				sub_message = self._message_global_process(i.message_id, i.body, need_handle_callback, time_stamp)
+				if sub_message:
+					new_list.append(sub_message)
+			return MessageList(new_list)
+
 		else:
-			packet_name, print_data = packet.content
-			logger.debug(f'检测到未录入的包：{packet_name}，内容：{print_data}')
-		return f'\n{strftime("%Y-%m-%d %H:%M:%S", localtime(time_int))}.{time_float}  有消息:{packet_name}\n{print_data}'
+			# 处理普通message
+			if (message_id not in self._filter_list) ^ self._whitelist_mode:
+				if need_handle_callback and isinstance(message, bytes) is False:
+					handles = self.handles.get(message_id, None)
+					if handles:
+						for handle in handles:
+							ret = handle(time_stamp, message)  # 到底要不要多线程呢
+							if ret:
+								message = ret
+				return message
 
 	def _packet_process_loop(self, override_func=None):
+		from .util import generate_printed_packet
 		# prepare
 		if override_func:
 			get_packet = override_func
@@ -159,28 +185,21 @@ class Sniffer:
 			raw_packet = get_packet()
 			if raw_packet is None:
 				return
-			message_id = raw_packet.message_id
 
-			if (message_id in self._filter_list) ^ self._whitelist_mode:
+			packet = self.parse_raw_packet(raw_packet, True)
+			if packet is None:
 				continue
-
-			packet = ParsedPacket(
-				raw_packet.time_stamp, raw_packet.direction,
-				*self.protobuf_parser.parse_raw_packet(raw_packet)
-			)
-			del raw_packet
 
 			# process packet
 			if self._data_output:
-				self._data_log(self.generate_printed_packet(packet))
+				self._data_log(generate_printed_packet(packet))
 			if self.cache_packet_flag:
 				self._add_packet(packet)
-			if isinstance(packet.content, Message):
-				handles = self.handles.get(message_id, None)
-				if not handles:
-					continue
-				for handle in handles:
-					handle(packet.time_stamp, packet)  # 到底要不要多线程呢
+
+	def _data_log(self, info):
+		if self._data_output:
+			print(info, file=self._data_output)
+			self._data_output.flush()
 
 	def __del__(self):
 		self.socket_client.__del__()
@@ -189,4 +208,3 @@ class Sniffer:
 			self._process_loop.join()
 		if self._data_output:
 			self._data_output.close()
-

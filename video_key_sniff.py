@@ -13,14 +13,6 @@ def test(_, packet):
 
 a = Sniffer(dump_path=r'D:\yuanshen2\3.5.0\sniffer_log', cache_packet=False, enable_data_output=True)
 print('Initial success')
-a.add_to_list(
-	'PlayerGameTimeNotify',
-	'WorldPlayerRTTNotify',
-	'PlayerSetPauseRsp',
-	'PlayerSetPauseReq',
-	'PingReq',
-	'PingRsp',
-)
 a.add_handle('FinishedParentQuestNotify', test)
 a.add_handle('FinishedParentQuestUpdateNotify', test)
 a.start()

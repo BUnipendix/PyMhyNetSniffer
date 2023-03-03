@@ -85,7 +85,6 @@ class PipePacketStream:
 		if running_flag:
 			self._network_receive_queue.put(STOP_SIGNAL)
 
-
 	def read(self, length):
 		ret, data = ReadFile(self._pipe, length)
 		if ret:
