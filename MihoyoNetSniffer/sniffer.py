@@ -5,7 +5,7 @@ from traceback import format_exc
 from sortedcontainers.sorteddict import SortedDict
 from collections import defaultdict
 from .packet import PipePacketStream, Thread
-from data_type import ParsedPacket, MessageList, RawPacket
+from .data_type import ParsedPacket, MessageList, RawPacket
 from .protbuf_parser import ProtobufParser
 from .util import check_filename, get_direction_name
 logger = getLogger('MihoyoNetSniffer.Sniffer')
