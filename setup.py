@@ -8,5 +8,5 @@ setup(
 	license='',
 	author='unipendix',
 	author_email='',
-	description='Akebi-Sniffer的替代品'
+	description='KCP packet sniffer of a certain animal game used with Akebi or other versions.'
 )

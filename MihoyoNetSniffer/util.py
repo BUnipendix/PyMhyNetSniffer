@@ -1,4 +1,10 @@
 from logging import getLogger
+from .data_type import Direction
+from google.protobuf.json_format import ParseDict, MessageToDict
+from .data_type import MessageList
+from google.protobuf.message import Message
+from google.protobuf.text_format import MessageToString
+from time import localtime, strftime
 logger = getLogger('MihoyoNetSniffer.Util')
 COMMON_UNIMPORTENT_PACKETS = (
 	'PlayerGameTimeNotify',
@@ -8,6 +14,21 @@ COMMON_UNIMPORTENT_PACKETS = (
 	'PlayerSetPauseReq',
 	'PingReq',
 	'PingRsp',
+	'AbilityInvocationsNotify',
+	'CombatInvocationsNotify',
+	'SceneTimeNotify',
+	'ScenePlayerLocationNotify',
+	'ServerTimeNotify',
+	'WorldPlayerLocationNotify',
+	'ScenePlayerInfoNotify',
+	'PlayerPropNotify',
+	'AvatarFightPropUpdateNotify',
+	'EvtAiSyncSkillCdNotify',
+	'EvtDoSkillSuccNotify',
+	'EntityFightPropUpdateNotify',
+	'EntityFightPropChangeReasonNotify',
+	'ClientAbilityInitFinishNotify',
+	'ClientAbilityChangeNotify',
 )
 
 
@@ -26,11 +47,20 @@ def check_filename(filename):
 	return new_filename + suffix
 
 
+def json2pb(data, parser):
+	message = parser()
+	return ParseDict(data, message)
+
+
+def pb2json(message):
+	return MessageToDict(message)
+
+
+def get_direction_name(direction: Direction):
+	return '接收' if direction == Direction.Receive else '发出'
+
+
 def generate_printed_packet(packet):
-	from .sniffer import MessageList
-	from google.protobuf.message import Message
-	from google.protobuf.text_format import MessageToString
-	from time import localtime, strftime
 	time_int, time_float = divmod(packet.time_stamp, 1000)
 	format_time = f'{strftime("%Y-%m-%d %H:%M:%S", localtime(time_int))}.{time_float}'
 	if isinstance(packet.content, Message):
@@ -42,4 +72,4 @@ def generate_printed_packet(packet):
 	else:
 		packet_name, print_data = packet.content
 		logger.debug(f'检测到未解析的包：{packet_name}，内容：{print_data}')
-	return f'\n{format_time}  有消息:{packet_name}\n{print_data}\n'
+	return f'\n{format_time}	有{direction}的消息:{packet_name}\n{print_data}\n'

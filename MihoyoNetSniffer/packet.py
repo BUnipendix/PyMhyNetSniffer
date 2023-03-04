@@ -1,8 +1,6 @@
 import traceback
 from pathlib import Path
 from logging import getLogger
-from dataclasses import dataclass
-from enum import IntEnum
 from queue import SimpleQueue
 from threading import Thread, Event
 from win32file import ReadFile
@@ -10,30 +8,9 @@ from win32pipe import CreateNamedPipe, ConnectNamedPipe, DisconnectNamedPipe, PI
 	PIPE_READMODE_BYTE, PIPE_WAIT
 from pywintypes import error as win32_error
 from .error import PipeError, FileEndError
+
 logger = getLogger('MihoyoNetSniffer.Packet')
 STOP_SIGNAL = -1
-
-
-class PacketType(IntEnum):
-	Null = 0
-	PacketData = 1
-	ModifyData = 2
-
-
-class Direction(IntEnum):
-	Send = 0
-	Receive = 1
-
-
-@dataclass
-class RawPacket:
-	packet_type: PacketType
-	time_stamp: int
-	manipulation_enabled: bool
-	direction: Direction
-	message_id: int
-	header: bytes = b''
-	content: bytes = b''
 
 
 class PipePacketStream:

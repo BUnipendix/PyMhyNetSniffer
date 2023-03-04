@@ -1,7 +1,5 @@
-from .packet import RawPacket
+from .data_type import UnknownPacket
 from logging import getLogger
-from dataclasses import dataclass
-from google.protobuf import json_format
 logger = getLogger('MihoyoNetSniffer.ProtobufParser')
 """def module_import_helper(cmd_name):
 	from .util import get_main_dir
@@ -13,12 +11,6 @@ logger = getLogger('MihoyoNetSniffer.ProtobufParser')
 		module = module_from_spec(spec)
 		spec.loader.exec_module(module)
 	return module.__dict__"""
-
-
-@dataclass
-class UnknownPacket:
-	message_id: int
-	content: bytes
 
 
 def load_parsers(file):
@@ -40,10 +32,12 @@ def load_parsers(file):
 
 class ProtobufParser:
 	def __init__(self, cmdid_path):
-		with open(cmdid_path, 'r') as f:
+		from pathlib import Path
+		cmdid_path = Path(cmdid_path)
+		with cmdid_path.open() as f:
 			self._cmd_id_map, self._cmd_name_map, self.packet_header_parser = load_parsers(f)
 
-	def parse_packet(self, message_id, content):
+	def parse_packet(self, message_id: int, content: bytes):
 		parser = self.get_packet_parser(message_id)
 		if parser is None:
 			packet = UnknownPacket(message_id, content)
@@ -51,7 +45,7 @@ class ProtobufParser:
 			packet = self.parse_core(content, parser)
 		return packet
 
-	def parse_header(self, header):
+	def parse_header(self, header: bytes):
 		return self.parse_core(header, self.packet_header_parser)
 
 	def get_packet_parser(self, packet_id: int):
@@ -75,10 +69,4 @@ class ProtobufParser:
 			return None
 
 
-def json2pb(data, parser):
-	message = parser()
-	return json_format.ParseDict(data, message)
 
-
-def pb2json(message):
-	return json_format.MessageToDict(message)

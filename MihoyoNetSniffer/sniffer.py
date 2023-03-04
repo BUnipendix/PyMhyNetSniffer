@@ -1,29 +1,14 @@
 from pathlib import Path
-from dataclasses import dataclass
 from time import localtime, strftime
 from logging import getLogger
 from traceback import format_exc
 from sortedcontainers.sorteddict import SortedDict
 from collections import defaultdict
-from google.protobuf.message import Message
-from .packet import PipePacketStream, Thread, Direction, RawPacket
-from .protbuf_parser import ProtobufParser, UnknownPacket
-from .util import check_filename
+from .packet import PipePacketStream, Thread
+from data_type import ParsedPacket, MessageList, RawPacket
+from .protbuf_parser import ProtobufParser
+from .util import check_filename, get_direction_name
 logger = getLogger('MihoyoNetSniffer.Sniffer')
-
-
-@dataclass
-class ParsedPacket:
-	time_stamp: int
-	direction: Direction
-	header: Message
-	content: Message or UnknownPacket
-
-
-class MessageList(list):
-	def __str__(self):
-		cmd_str = "\n".join((i.DESCRIPTOR.name + ':\n' + str(i) for i in self))
-		return f'cmd_list [\n{cmd_str}]'
 
 
 class Sniffer:
@@ -123,7 +108,13 @@ class Sniffer:
 				if packet:
 					self._add_packet(packet)
 
-	def parse_raw_packet(self, raw_packet: RawPacket, call_handle):
+	def parse_raw_packet(self, raw_packet: RawPacket, call_handle=False):
+		"""
+		集黑白名单，UnionCmdNotify递归解析，handle回调处理为一体的原始包解析函数
+		:param raw_packet: 从Pipe传出来的原始包
+		:param call_handle: 是否启用回调
+		:return: 解析完成的包，可以直接添加
+		"""
 		message = self._message_global_process(
 			raw_packet.message_id, raw_packet.content,
 			call_handle, raw_packet.time_stamp
@@ -137,6 +128,7 @@ class Sniffer:
 		)
 
 	def _add_packet(self, packet: ParsedPacket):
+		logger.debug(f'添加{get_direction_name(packet.direction)}包：{packet.content}')
 		self.packets[packet.time_stamp] = packet
 
 	def _message_global_process(
