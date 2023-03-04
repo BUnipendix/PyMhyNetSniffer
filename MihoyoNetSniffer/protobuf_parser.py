@@ -30,6 +30,8 @@ class ProtobufParser:
 
 		# import parsers
 		spec = spec_from_file_location(proto_name, bp_path.__str__())
+		if spec is None:
+			raise ImportError('找不到proto')
 		module = module_from_spec(spec)
 		spec.loader.exec_module(module)
 
