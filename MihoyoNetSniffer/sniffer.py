@@ -6,8 +6,8 @@ from sortedcontainers.sorteddict import SortedDict
 from collections import defaultdict
 from .packet import PipePacketStream, Thread
 from .data_type import ParsedPacket, MessageList, RawPacket
-from .protbuf_parser import ProtobufParser
-from .util import check_filename, get_direction_name
+from .protobuf_parser import ProtobufParser
+from .util import check_filename, get_direction_name, generate_printed_packet_name, main_dir
 logger = getLogger('MihoyoNetSniffer.Sniffer')
 
 
@@ -15,6 +15,7 @@ class Sniffer:
 	def __init__(
 			self,
 			pipe_name='genshin_packet_pipe',
+			proto_path = main_dir,
 			dump_path: str = None,
 			whitelist_mode=False,
 			cache_packet=True,
@@ -27,12 +28,10 @@ class Sniffer:
 		:param cache_packet: Enable cache packet in class
 		:param enable_data_output: Enable save readable data
 		"""
-		from .util import get_main_dir
 		self.cache_packet_flag = cache_packet
 		self._whitelist_mode = whitelist_mode
 		self._process_loop = Thread(target=self._packet_process_loop)
-		root = Path(get_main_dir())
-		cmdid_path = root / 'cmdid.csv'
+		root = Path()
 
 		if enable_data_output:
 			logger.info('Enable parsed data output')
@@ -48,7 +47,7 @@ class Sniffer:
 
 		self.socket_client = PipePacketStream(pipe_name, dump_filename)
 		self.wait_for_connected = self.socket_client.wait_for_connected
-		self.protobuf_parser = ProtobufParser(cmdid_path)
+		self.protobuf_parser = ProtobufParser(proto_path)
 		self._union_cmd_notify_id = self.protobuf_parser['UnionCmdNotify']
 
 		self.handles = defaultdict(list)
@@ -106,6 +105,7 @@ class Sniffer:
 			for raw_packet in load_from_dump(f):
 				packet = self.parse_raw_packet(raw_packet, call_handle)
 				if packet:
+					logger.debug(f'添加{get_direction_name(packet.direction)}包：{generate_printed_packet_name(packet.content)}')
 					self._add_packet(packet)
 
 	def parse_raw_packet(self, raw_packet: RawPacket, call_handle=False):
@@ -128,7 +128,6 @@ class Sniffer:
 		)
 
 	def _add_packet(self, packet: ParsedPacket):
-		logger.debug(f'添加{get_direction_name(packet.direction)}包：{packet.content}')
 		self.packets[packet.time_stamp] = packet
 
 	def _message_global_process(
@@ -183,6 +182,7 @@ class Sniffer:
 				continue
 
 			# process packet
+			logger.debug(f'{get_direction_name(packet.direction)}包：{generate_printed_packet_name(packet.content)}')
 			if self._data_output:
 				self._data_log(generate_printed_packet(packet))
 			if self.cache_packet_flag:

@@ -10,5 +10,4 @@ KCP packet sniffer of a certain animal game used with Akebi or other versions(bk
 - [x] GUI
 - [x] More complete API
 - [x] Modify packet
-- [x] Manual send packet
 - [x] Inner common packet process handles

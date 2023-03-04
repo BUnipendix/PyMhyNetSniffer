@@ -1,4 +1,6 @@
 from .data_type import UnknownPacket
+from .constant import PROTO_NAME
+from .util import main_dir
 from logging import getLogger
 logger = getLogger('MihoyoNetSniffer.ProtobufParser')
 """def module_import_helper(cmd_name):
@@ -13,29 +15,34 @@ logger = getLogger('MihoyoNetSniffer.ProtobufParser')
 	return module.__dict__"""
 
 
-def load_parsers(file):
-	from importlib import import_module
-	cmd_id_map = {}
-	cmd_name_map = {}
-	raw_field_dict = import_module('.genshin_proto_pb2', __package__).__dict__
-	for line in file.readlines():
-		cmd_name, cmd_id = line.split(',')
-		cmd_id = int(cmd_id[:-1])
-		cmd_name_map[cmd_name.lower()] = cmd_id
-		cmd_parser = raw_field_dict.get(cmd_name, None)
-		if cmd_parser is None:
-			logger.error('找不到protobuf解析器模块：' + cmd_name)
-		cmd_id_map[cmd_id] = cmd_parser
-	head_load = raw_field_dict.get('PacketHead', None)
-	return cmd_id_map, cmd_name_map, head_load
-
-
 class ProtobufParser:
-	def __init__(self, cmdid_path):
+	def __init__(self, proto_path=main_dir, proto_name=PROTO_NAME):
+		print(__name__)
+		print(__file__)
 		from pathlib import Path
-		cmdid_path = Path(cmdid_path)
-		with cmdid_path.open() as f:
-			self._cmd_id_map, self._cmd_name_map, self.packet_header_parser = load_parsers(f)
+		from importlib.util import spec_from_file_location, module_from_spec
+
+		proto_path = Path(proto_path)
+		cmdid_path = proto_path / 'cmdid.csv'
+		bp_path = proto_path / (proto_name + '_pb2.py')
+		self._cmd_id_map = {}
+		self._cmd_name_map = {}
+
+		# import parsers
+		spec = spec_from_file_location(proto_name, bp_path.__str__())
+		module = module_from_spec(spec)
+		spec.loader.exec_module(module)
+
+		raw_field_dict = module.__dict__
+		for line in cmdid_path.open(encoding='utf-8'):
+			cmd_name, cmd_id = line.split(',')
+			cmd_id = int(cmd_id[:-1])
+			self._cmd_name_map[cmd_name.lower()] = cmd_id
+			cmd_parser = raw_field_dict.get(cmd_name, None)
+			if cmd_parser is None:
+				logger.error('找不到protobuf解析器模块：' + cmd_name)
+			self._cmd_id_map[cmd_id] = cmd_parser
+		self.packet_header_parser = raw_field_dict.get('PacketHead', None)
 
 	def parse_packet(self, message_id: int, content: bytes):
 		parser = self.get_packet_parser(message_id)
@@ -67,6 +74,3 @@ class ProtobufParser:
 				return self._cmd_name_map[item.lower()]
 		except KeyError:
 			return None
-
-
-

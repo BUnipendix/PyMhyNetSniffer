@@ -1,4 +1,3 @@
-from .sniffer import Sniffer
 import logging
 
 # Log Inital

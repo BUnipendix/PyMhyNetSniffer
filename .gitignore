@@ -133,5 +133,6 @@ dmypy.json
 
 
 # costom
-*data.txt
+*.txt
 *.bin
+.vscode/*

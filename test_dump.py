@@ -1,4 +1,4 @@
-from MihoyoNetSniffer import Sniffer
+from MihoyoNetSniffer.sniffer import Sniffer
 from time import sleep
 
 
