@@ -8,6 +8,7 @@ from win32pipe import CreateNamedPipe, ConnectNamedPipe, DisconnectNamedPipe, PI
 	PIPE_READMODE_BYTE, PIPE_WAIT
 from pywintypes import error as win32_error
 from .error import PipeError, FileEndError
+from .data_type import RawPacket, PacketType, Direction
 
 logger = getLogger('MihoyoNetSniffer.Packet')
 STOP_SIGNAL = -1
