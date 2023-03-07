@@ -152,13 +152,11 @@ class Sniffer:
 		else:
 			# 处理普通message
 			if (message_id not in self._filter_list) ^ self._whitelist_mode:
-				if need_handle_callback and isinstance(message, bytes) is False:
+				if need_handle_callback and (isinstance(message, bytes) is False):
 					handles = self.handles.get(message_id, None)
 					if handles:
 						for handle in handles:
-							ret = handle(time_stamp, message)  # 到底要不要多线程呢
-							if ret:
-								message = ret
+							handle(time_stamp, message)  # 到底要不要多线程呢
 				return message
 
 	def _packet_process_loop(self, override_func=None):
