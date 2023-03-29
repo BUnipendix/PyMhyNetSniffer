@@ -7,7 +7,7 @@ KCP packet sniffer of a certain animal game used with Akebi or other versions(bk
 - [x] Packet process handle
 - [x] Packet filter
 - [x] UnionCmdNotify parse
-- [*] GUI
+- [ ] GUI
 - [ ] More complete API
 - [ ] Modify packet
 - [ ] Inner common packet process handles

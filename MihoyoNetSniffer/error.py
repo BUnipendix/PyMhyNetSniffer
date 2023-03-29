@@ -20,6 +20,11 @@ class FileEndError(LogException):
 		return result + '请求读取%s字节的数据结果读取了%s个字节' % (req_size, real_size)
 
 
-class PipeError(LogException):
+class PipeReadError(LogException):
 	def __str__(self):
-		return '读取错误：错误码：%s， 数据：%s' % self.value
+		return '读取错误（%s），数据：%s' % self.value
+
+
+class PipeWriteError(LogException):
+	def __str__(self):
+		return '写入错误（%s）,写入（%s）个字节的文件' % self.value
