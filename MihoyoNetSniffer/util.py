@@ -39,7 +39,7 @@ def generate_printed_packet_name(packet: Message):
 	elif isinstance(packet, MessageList):
 		return f'[{",".join(generate_printed_packet_name(i) for i in packet)}]'
 	else:
-		return packet
+		return packet[0]
 
 
 def generate_printed_packet(packet: ParsedPacket):
@@ -55,3 +55,10 @@ def generate_printed_packet(packet: ParsedPacket):
 		packet_name, print_data = packet.content
 		logger.debug(f'检测到未解析的包：{packet_name}，内容：{print_data}')
 	return f'\n{format_time}	有{get_direction_name(packet.direction)}的消息:{packet_name}\n{print_data}\n'
+
+
+def make_a_thread(func, is_daemon, *args, **kwargs):
+	from threading import Thread
+	thread = Thread(target=func, args=args, kwargs=kwargs, daemon=is_daemon)
+	thread.start()
+	return thread

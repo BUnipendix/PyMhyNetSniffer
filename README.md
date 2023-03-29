@@ -4,10 +4,14 @@ KCP packet sniffer of a certain animal game used with Akebi or other versions(bk
 
 ## TODO
 
-- [ ] Packet process handle
-- [ ] Packet filter
-- [ ] UnionCmdNotify parse
-- [x] GUI
-- [x] More complete API
-- [x] Modify packet
-- [x] Inner common packet process handles
+- [x] Packet process handle
+- [x] Packet filter
+- [x] UnionCmdNotify parse
+- [*] GUI
+- [ ] More complete API
+- [ ] Modify packet
+- [ ] Inner common packet process handles
+
+
+这是一个正在重构源代码的分支，将支持包修改
+This is a branch that is refactoring the code and will support package modification

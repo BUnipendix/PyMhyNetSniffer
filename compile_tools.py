@@ -48,7 +48,7 @@ def generate_one_proto(work_path, proto_paths, gen_proto_name=None, python_outpu
 			gen_core(new_cmd_set)
 
 	from pathlib import Path
-	cmd_set = set()
+	cmd_set = {'HeaderPacket.proto'}
 	fail_to_find = set()
 	search_path_list = []
 
